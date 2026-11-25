@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `22-training-plan/` | **Giai đoạn:** Xây Động Cơ Bền Bỉ & Tìm Điểm Ngọt Tempo | **Dryland:** Sức mạnh Cơ Xô & Core Chống Xoay
 
-## Overview
-
+## Tổng Quan (Overview)
 Bạn đã có kỹ thuật sạch (Block 1) và lực bám nước EVF chắc (Block 2). **Block 3 (Tuần 09–12)** là giai đoạn **xây dựng "bình xăng" hiếu khí khổng lồ** để bạn có thể duy trì kỹ thuật hoàn hảo đó không chỉ trong `100m`, mà xuyên suốt `1.000m–2.500m` mà không bị rơi nhịp hay sụp khuỷu. Song song đó, Block 3 giúp bạn làm chủ **2-Beat / 4-Beat Kick tiết kiệm năng lượng**, tìm ra **Điểm ngọt Tempo (SPM)** qua **Ramp Test** và hoàn thiện **Flip Turn**.
 
 - **Mục tiêu cốt lõi:** Nâng dần khối lượng hiếu khí Zone 2–3 lên mức cao nhất một cách êm ái, thành thạo chuyển số chân `2 → 4 → 6-beat`, và xác định chính xác trần SPM qua **Ramp Test (Tuần 12)**.
@@ -12,21 +11,18 @@ Bạn đã có kỹ thuật sạch (Block 1) và lực bám nước EVF chắc (
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Trong sinh lý học thể thao (Jan Olbrecht — *The Science of Winning*), **dung tích hiếu khí (*Aerobic Capacity*)** là nền móng quyết định bạn có thể hấp thụ được các bài tập tốc độ cao ở Block 4–5 hay không:
 - Cự ly mỗi hiệp trong Main Set được kéo dài từ `100m` (Block 1–2) lên **`200m, 300m và 400m`** với thời gian nghỉ ngắn (`15–25 giây`).
 - Tích hợp **2-Beat Kick** cho toàn bộ cự ly Zone 2 để bảo toàn oxy, và **4-Beat Kick** cho các đoạn giữ pace CSS.
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 Bơi bền bỉ ở Zone 2–3 với **Even Split** (tốc độ đều tăm tắp từng 50m) tối ưu hóa sự phát triển mật độ mao mạch quanh sợi cơ loại I (*Slow-Twitch*) ở cơ lưng rộng và cơ vai, giúp tốc độ đào thải axit lactic tăng lên `20–30%` — tiền đề sinh học trực tiếp để giữ pace `< 1:30/100m` ở Block 4–6!
 
-### Biomechanics — Phân Bổ Tải Block 3 (Nhịp 3:1)
+### Cơ Sinh Học (Biomechanics) — Phân Bổ Tải Block 3 (Nhịp 3:1)
 
 | Tuần | Đặc điểm tải | Lịch 3 buổi (`S1–S3`) | Lịch 4 buổi (`+S4`) | Lịch 5 buổi (`+S5`) | Lịch 6 buổi (`+S6`) |
 | :---: | :--- | :---: | :---: | :---: | :---: |
@@ -37,20 +33,18 @@ Bơi bền bỉ ở Zone 2–3 với **Even Split** (tốc độ đều tăm t�
 
 ```mermaid
 flowchart LR
-    A["Tuần 09\nKéo dài hiệp 200m–300m\n(Nền Hiếu Khí Z2 + 2-Beat)"] --> B["Tuần 10\nChuyển số chân 2→4→6\n+ Flip Turn thực chiến"]
-    B --> C["Tuần 11 (Đỉnh Aerobic)\nBài Red Mist 400m–1000m\nGiữ nguyên DPS khi mệt"]
-    C --> D["Tuần 12 (Deload)\nRamp Test 8×50m tìm Điểm Ngọt SPM\n+ 400m Even Split Check"]
+    A["Tuần 09<br/>Kéo dài hiệp 200m–300m<br/>(Nền Hiếu Khí Z2 + 2-Beat)"] --> B["Tuần 10<br/>Chuyển số chân 2→4→6<br/>+ Flip Turn thực chiến"]
+    B --> C["Tuần 11 (Đỉnh Aerobic)<br/>Bài Red Mist 400m–1000m<br/>Giữ nguyên DPS khi mệt"]
+    C --> D["Tuần 12 (Deload)<br/>Ramp Test 8×50m tìm Điểm Ngọt SPM<br/>+ 400m Even Split Check"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Block 3 trang bị cho bạn **hai năng lực cốt tử**: (1) **Độ bền kỹ thuật** (không vỡ dáng EVF sau 1.000m) và (2) **Làm chủ nhịp chân & nhịp tay** (biết chính xác `SPM` ngọt của bản thân từ Ramp Test để bước vào giai đoạn tăng tốc Block 4).
 
-### Step-by-Step Execution — Chi Tiết Giáo Án 6 Buổi/Tuần (Tuần 09–12)
+### Hướng Dẫn Từng Bước (Step-by-Step) — Chi Tiết Giáo Án 6 Buổi/Tuần (Tuần 09–12)
 
 #### Buổi S1 — Lõi 1: Kỹ Thuật Giữ DPS & Chuyển Số Chân (`~2.000–2.400m`)
 - **Warm-up (400m):** `200m` Z1 + `4 × 50m` (`25m Scull + 25m Swim`).
@@ -99,12 +93,12 @@ Block 3 trang bị cho bạn **hai năng lực cốt tử**: (1) **Độ bền k
 ![Biểu đồ tiến trình khối lượng hiếu khí và bài tập CSS Pyramid trong Block 3](../images/22-block3-aerobic-base.png)
 <!-- IMAGE_PROMPT: Clean sports training chart for Block 3 (Weeks 9-12) showing CSS Pyramid intervals (100-200-300-400-300-200-100m), 2-Beat/4-Beat heart rate stability zone, and Week 12 Ramp Test SPM Sweet Spot discovery. -->
 
-### Advanced Tips (Dryland & Mobility Đi Kèm Block 3)
+### Mẹo Nâng Cao (Advanced Tips — Dryland & Mobility Đi Kèm Block 3)
 - **Dryland (`2–3 buổi/tuần × 40p`)**: Đỉnh giai đoạn **Sức mạnh Cơ Xô & Chân** (Pull-Up 4×6–10, Single-Arm Row, Pallof Press, Bulgarian Split Squat, Face Pull).
 
 ---
 
-## Drills (Trọng Tâm Block 3)
+## Bài Tập Thực Hành (Drills — Trọng Tâm Block 3)
 
 | Tên Drill | Tần suất/Tuần | Mục tiêu Block 3 |
 | :--- | :---: | :--- |
@@ -114,14 +108,12 @@ Block 3 trang bị cho bạn **hai năng lực cốt tử**: (1) **Độ bền k
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Phân tích dữ liệu đồng hồ bơi (Tuần 11–12):** Kiểm tra **Pace Drift** và **DPS Drop-off** trong bài `400m` và `1.000m` liên tục — mục tiêu chênh lệch giữa nửa đầu và nửa sau `< 5%`.
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Bơi quá nhanh ở buổi đường dài S3/S6** | Mỏi rã vai vào buổi CSS hôm sau | Biến Zone 2 thành Zone 3–4 | Kỷ luật giữ đúng `CSS + 6–8s`, thở êm ái, tay nhẹ |
@@ -130,8 +122,7 @@ Block 3 trang bị cho bạn **hai năng lực cốt tử**: (1) **Độ bền k
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi có thể bơi liên tục **`1.000–1.500m`** ở Zone 2 với 2-beat kick mà không bị hụt hơi hay mỏi vai.
 - [ ] Tôi đã thực hiện **Flip Turn** thành thạo trong hầu hết các buổi tập bể 25m.
 - [ ] Tôi đã hoàn thành **Ramp Test (Tuần 12)** và biết chính xác **Điểm Ngọt SPM** của bản thân.
@@ -139,7 +130,7 @@ Block 3 trang bị cho bạn **hai năng lực cốt tử**: (1) **Độ bền k
 
 ---
 
-## KPI (Hết Tuần 12)
+## Chỉ Số Đo Lường (KPI — Hết Tuần 12)
 
 | Chỉ số (Metric) | Đạt chuẩn Block 3 | Xuất sắc |
 | :--- | :---: | :---: |
@@ -149,8 +140,7 @@ Block 3 trang bị cho bạn **hai năng lực cốt tử**: (1) **Độ bền k
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Trong Block 3 tôi thấy khối lượng khá lớn, nếu thấy quá mệt thì điều chỉnh thế nào?**
 Luôn lắng nghe cơ thể: nếu nhịp tim nghỉ buổi sáng tăng `> 5–7 bpm` hoặc vai mỏi kéo dài 2 ngày liên tiếp, hãy **cắt bỏ 1 buổi mở rộng (`S5` hoặc `S6`)** trong tuần đó và ngủ thêm 1 giờ/đêm.
 
@@ -159,8 +149,7 @@ Tuyệt vời! Buổi S6 (Hiếu khí đường dài) là buổi lý tưởng nh
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - **Block 3 (Tuần 09–12)** mở rộng "bình xăng" hiếu khí (`200m–1.500m`), hoàn thiện **Flip Turn thực chiến**, thành thạo **2-Beat/4-Beat Kick** và chốt **Điểm Ngọt SPM** qua Ramp Test.
 
 **Liên kết chéo:**
@@ -170,8 +159,7 @@ Tuyệt vời! Buổi S6 (Hiếu khí đường dài) là buổi lý tưởng nh
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Olbrecht, J. (2000). *The Science of Winning*. F&G Partners.
 2. Newsome, P., & Young, A. (2012). *Swim Smooth*. Wiley.
 3. Maglischo, E. W. (2003). *Swimming Fastest*. Human Kinetics.

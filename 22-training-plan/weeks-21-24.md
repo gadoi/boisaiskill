@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `22-training-plan/` | **Giai đoạn:** Siêu Bù Trừ Đỉnh Phong (*Peak & Taper*) | **Dryland:** Giảm tải & Dừng tạ trước ngày Test 7 ngày
 
-## Overview
-
+## Tổng Quan (Overview)
 Bạn đã đi qua 20 tuần kỷ luật xây dựng tư thế, EVF, nền hiếu khí, ngưỡng CSS và tốc độ VO2max. **Block 6 (Tuần 21–24)** là giai đoạn **thu hoạch thành quả**: tinh chỉnh chiến thuật thi đấu ở Tuần 21–22, rồi bước vào **2 tuần Taper khoa học (Tuần 23–24)** — **giảm sâu khối lượng (`-40 đến -60%`) nhưng giữ nguyên độ sắc bén của cường độ Race-Pace** để cơ thể giải phóng toàn bộ mệt mỏi tích lũy, đạt trạng thái **Siêu bù trừ (*Supercompensation*)** và chinh phục ngoạn mục cột mốc **`< 1:30/100m`**!
 
 - **Mục tiêu cốt lõi:** Tinh chỉnh chi tiết nhỏ (Start, Flip Turn, Split 50m/50m), thực hiện Taper đúng chuẩn khoa học (Mujika, 2009) và hoàn thành **FINAL TEST Tuần 24 (`100m TT` / `400m TT` / `CSS Test #4`)**.
@@ -12,8 +11,7 @@ Bạn đã đi qua 20 tuần kỷ luật xây dựng tư thế, EVF, nền hiế
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Khoa học về **Taper (Giảm tải đỉnh phong)** của Iñigo Mujika & Sabino Padilla (nghiên cứu trên hàng trăm VĐV bơi Olympic) chứng minh công thức vàng cho **hiệu suất tăng thêm `+2% đến +4%`**:
 1. **Giảm Khối Lượng theo hàm mũ (*Exponential Volume Reduction*)**: Giảm `-20%` ở Tuần 22 → `-40%` ở Tuần 23 → `-55–60%` ở Tuần 24.
 2. **GIỮ NGUYÊN Cường Độ (*Maintain Intensity*)**: Vẫn giữ các đoạn ngắn `25m–50m` ở đúng tốc độ Race-Pace (`< 1:30/100m`) với thời gian nghỉ thật dài để hệ thần kinh và sợi cơ nhanh không bị "ngủ quên".
@@ -21,16 +19,14 @@ Khoa học về **Taper (Giảm tải đỉnh phong)** của Iñigo Mujika & Sab
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 Trong 14 ngày Taper:
 - Dự trữ **Glycogen trong cơ lưng rộng (Lat) và cơ đùi** tăng lên mức bão hòa tối đa (`+20–30%`).
 - Các tổn thương vi mô trong sợi cơ lành hoàn toàn, tốc độ phát lực (*Rate of Force Development*) của sợi cơ nhanh loại IIa tăng vọt `+10–15%`.
 - Kết quả: Tại cùng một nhịp tim và cảm giác nỗ lực, **lực bám nước EVF và độ bật của Flip Turn tăng rõ rệt**, giúp bạn vượt qua vạch `100m` nhanh hơn `2–4 giây` so với Tuần 20!
 
-### Biomechanics — Phân Bổ Tải Block 6 (Đường Cong Taper Chuẩn)
+### Cơ Sinh Học (Biomechanics) — Phân Bổ Tải Block 6 (Đường Cong Taper Chuẩn)
 
 | Tuần | Đặc điểm tải | Lịch 3 buổi (`S1–S3`) | Lịch 4 buổi (`+S4`) | Lịch 5 buổi (`+S5`) | Lịch 6 buổi (`+S6`) |
 | :---: | :--- | :---: | :---: | :---: | :---: |
@@ -41,20 +37,18 @@ Trong 14 ngày Taper:
 
 ```mermaid
 flowchart LR
-    A["Tuần 21–22 (Sharpening)\nKhóa chiến thuật Split 50/50\n& Giảm dần 20% khối lượng"] --> B["Tuần 23 (Taper -40%)\nNgừng tạ nặng (Dryland)\nGiữ các đoạn 25–50m siêu sắc"]
-    B --> C["Tuần 24 (Peak Week)\nBuổi ngắn 1.0–1.2km cực nhẹ\nNgủ ≥ 8h + Nạp Carb nhẹ"]
-    C --> D["NGÀY FINAL TEST\n100m TT (< 1:30/100m)\n& CSS Test #4"]
+    A["Tuần 21–22 (Sharpening)<br/>Khóa chiến thuật Split 50/50<br/>& Giảm dần 20% khối lượng"] --> B["Tuần 23 (Taper -40%)<br/>Ngừng tạ nặng (Dryland)<br/>Giữ các đoạn 25–50m siêu sắc"]
+    B --> C["Tuần 24 (Peak Week)<br/>Buổi ngắn 1.0–1.2km cực nhẹ<br/>Ngủ ≥ 8h + Nạp Carb nhẹ"]
+    C --> D["NGÀY FINAL TEST<br/>100m TT (< 1:30/100m)<br/>& CSS Test #4"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Rất nhiều người bơi tập rất chăm chỉ nhưng chưa bao giờ được trải nghiệm cảm giác **"bơi trong trạng thái đã Taper 100%"** — khi mà mọi mệt mỏi biến mất nhưng toàn bộ kỹ thuật EVF, Streamline, Flip Turn và sức mạnh cơ xô đang ở đỉnh cao nhất cuộc đời!
 
-### Step-by-Step Execution — Lịch Chi Tiết Block 6
+### Hướng Dẫn Từng Bước (Step-by-Step) — Lịch Chi Tiết Block 6
 
 #### Tuần 21–22: Tinh Chỉnh Chiến Thuật (*Race Sharpening*)
 - **Buổi S1 (Lõi 1 — Race-Pace Precision, `~1.700–1.900m`)**:
@@ -94,12 +88,12 @@ Rất nhiều người bơi tập rất chăm chỉ nhưng chưa bao giờ đư�
 ![Đường cong Taper 4 tuần và kịch bản phân phối tốc độ Split 4×25m cho mốc dưới 1:30/100m](../images/22-block6-taper-race-plan.png)
 <!-- IMAGE_PROMPT: Clean race-strategy & taper graphic: Left shows 4-week exponential volume drop (-20% -> -40% -> -55%) paired with rising freshness/performance supercompensation curve; Right shows a 100m Pool Pacing Blueprint (4 x 25m splits: 21.0s -> 22.0s -> 22.5s -> 22.5s = 1:28.0) with turn, breathing, and 6-beat kick callouts. -->
 
-### Advanced Tips (Tâm Lý Trong Tuần Taper)
+### Mẹo Nâng Cao (Advanced Tips — Tâm Lý Trong Tuần Taper)
 - **Hội chứng "Taper Tantrums" (Cảm giác nặng người giả vào đầu Tuần 23)**: Rất nhiều VĐV cảm thấy người hơi ì ạch, mất ngủ nhẹ hoặc lo lắng "mình đang mất thể lực" vào giữa tuần Taper đầu tiên. Đó là dấu hiệu **sinh lý hoàn toàn bình thường** khi cơ bắp đang tích nước cùng Glycogen! Hãy tin tưởng vào quy trình — sang đầu Tuần 24 cảm giác nhẹ bẫng sẽ ập tới.
 
 ---
 
-## Drills (Trọng Tâm Tuần Taper)
+## Bài Tập Thực Hành (Drills — Trọng Tâm Tuần Taper)
 
 | Tên Bài Tập | Mục tiêu Block 6 | Cự ly / Nghỉ | Cảm giác đúng (Cue) |
 | :--- | :--- | :--- | :--- |
@@ -108,14 +102,12 @@ Rất nhiều người bơi tập rất chăm chỉ nhưng chưa bao giờ đư�
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Báo Cáo Tổng Kết 24 Tuần (Tuần 01 vs Tuần 24):** So sánh trực tiếp 6 chỉ số cốt lõi trên bảng điều khiển KPI: `100m TT`, `Pace CSS`, `SWOLF (25m)`, `DPS`, `Góc EVF` và `5m Turn Time`.
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Bơi "thử sức 100m" 3 ngày trước ngày Test** | Ngày Test chính thức bị đuối ở 25m cuối | Lo lắng muốn kiểm tra sớm, đốt sạch glycogen & hệ thần kinh | Tuyệt đối tin tưởng giáo án; chỉ bơi tối đa `25–50m` sắc trong Tuần 24 |
@@ -124,8 +116,7 @@ Rất nhiều người bơi tập rất chăm chỉ nhưng chưa bao giờ đư�
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi đã giảm khối lượng đúng theo đường cong Taper Tuần 22–24 và ngừng tập tạ nặng trước ngày Test tối thiểu `7 ngày`.
 - [ ] Tôi đã thuộc lòng kịch bản Split `4 × 25m` (hoặc `2 × 50m`) cho ngày **FINAL TEST**.
 - [ ] Tôi ngủ đủ `≥ 8 giờ/đêm` và bù đủ nước–điện giải trong 3 ngày trước ngày kiểm tra.
@@ -133,7 +124,7 @@ Rất nhiều người bơi tập rất chăm chỉ nhưng chưa bao giờ đư�
 
 ---
 
-## KPI (Đánh Giá Hoàn Thành Hành Trình 24 Tuần)
+## Chỉ Số Đo Lường (KPI — Đánh Giá Hoàn Thành Hành Trình 24 Tuần)
 
 | Chỉ số (Metric) | Tuần 01 (Ví dụ nền) | Đạt Chuẩn Tuần 24 | Vượt Mục Tiêu |
 | :--- | :---: | :---: | :---: |
@@ -144,8 +135,7 @@ Rất nhiều người bơi tập rất chăm chỉ nhưng chưa bao giờ đư�
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Sau khi hoàn thành 24 tuần và chinh phục `< 1:30/100m`, tôi nên làm gì tiếp theo?**
 Hãy dành **1–2 tuần nghỉ ngơi chủ động** (bơi nhẹ Z1 tự do không nhìn đồng hồ, chơi thể thao khác) để cơ thể và tâm trí tái tạo hoàn toàn. Sau đó, bạn có thể bắt đầu chu kỳ mới từ **Block 2 hoặc Block 3** với **Pace CSS mới** để chinh phục cột mốc tiếp theo (`< 1:20/100m` hoặc cự ly `1.500m / 1.9km / 3.8km Open Water`)!
 
@@ -154,8 +144,7 @@ Xin chúc mừng vì bạn đã tiến bộ vượt bậc! Hãy nghỉ hồi ph�
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - **Block 6 (Tuần 21–24)** hoàn tất hành trình 24 tuần bằng **Sharpening (Tuần 21–22)** và **Taper khoa học (Tuần 23–24: giảm 40–60% khối lượng, giữ sắc cường độ, giữ tần suất)**.
 - Kỷ luật phân phối tốc độ **Controlled 50m đầu + 6-Beat Fast Finish 50m sau + Không thở 10m cuối** là chìa khóa vàng mở cánh cửa **`< 1:30/100m`**!
 
@@ -167,8 +156,7 @@ Xin chúc mừng vì bạn đã tiến bộ vượt bậc! Hãy nghỉ hồi ph�
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Mujika, I., & Padilla, S. (2003). *Scientific bases for precompetition tapering strategies*. Medicine & Science in Sports & Exercise, 35(7), 1182–1187.
 2. Mujika, I. (2009). *Tapering and Peaking for Optimal Performance*. Human Kinetics.
 3. Newsome, P., & Young, A. (2012). *Swim Smooth*. Wiley.

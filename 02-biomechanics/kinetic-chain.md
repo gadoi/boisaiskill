@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `02-biomechanics/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~12 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 Bí quyết để bơi tốc độ cao mà **tay vẫn nhẹ như không** nằm ở một nguyên lý cơ sinh học duy nhất: **bạn không tạo lực bằng cánh tay — bạn truyền lực từ thân (Hông + Core) qua cánh tay xuống nước**. Giống như cú đấm của võ sĩ boxing hay cú giao bóng tennis, sức mạnh bắt nguồn từ trục xoay trung tâm, còn bàn tay và cẳng tay chỉ đóng vai trò điểm kết nối (*anchor*) chắc chắn vào khối nước.
 
 - **Mục tiêu cốt lõi:** Xây dựng chuỗi truyền lực khép kín `Chân → Hông → Core → Vai → Tay → Nước` không bị "rò rỉ" năng lượng ở thắt lưng hay khớp vai.
@@ -12,8 +11,7 @@ Bí quyết để bơi tốc độ cao mà **tay vẫn nhẹ như không** nằm
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Trong cơ sinh học thể thao, **Chuỗi truyền lực (Kinetic Chain)** mô tả cách các phân đoạn cơ thể liên kết nối tiếp nhau để cộng dồn mô-men xoắn (*Torque*) và vận tốc góc từ các nhóm cơ lớn ở trung tâm (hông, mông, core, lưng rộng) ra các chi xa (cánh tay, bàn tay).
 
 Trong bơi sải, chuỗi truyền lực hoạt động theo cơ chế **xoay quanh trục dọc (Longitudinal Axis Rotation)**:
@@ -25,10 +23,8 @@ Trong bơi sải, chuỗi truyền lực hoạt động theo cơ chế **xoay qu
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 Khi thân người xoay từ góc $+40°$ về $0°$ rồi sang $-40°$, mô-men động lượng của thân được truyền vào pha kéo tay:
 
 $$\tau_{\text{total}} = I_{\text{trunk}} \cdot \alpha_{\text{roll}} + \tau_{\text{lat}}$$
@@ -37,34 +33,30 @@ $$\tau_{\text{total}} = I_{\text{trunk}} \cdot \alpha_{\text{roll}} + \tau_{\tex
 - Khi kích hoạt xoay trục đồng bộ ($\alpha_{\text{roll}} > 0$), **35–50% năng lượng pha kéo** được đóng góp trực tiếp từ khối cơ thân lớn (có sức bền hiếu khí vượt trội so với cơ tay).
 - Đồng thời, xoay thân nghiêng `30–45°` giúp giảm diện tích tiếp xúc với mặt nước ở pha lướt, giảm **Wave Drag** đáng kể.
 
-### Biomechanics
-
+### Cơ Sinh Học (Biomechanics)
 Sự truyền lực mượt mà phụ thuộc vào **dải cơ chéo trước – sau (Anterior & Posterior Oblique Slings)**:
 - **Dải chéo sau (*Posterior Oblique Sling*)**: Nối **cơ lưng rộng (Lat) bên kéo** chéo qua cân ngực–thắt lưng (*Thoracolumbar Fascia*) xuống **cơ mông lớn (Gluteus Maximus) bên đối diện**. Đây là lý do tại sao **tay phải kéo nước** luôn đồng bộ hoàn hảo với **chân trái đập xuống**!
 - Nếu Core bị mềm (không giữ áp lực ổ bụng nhẹ), dải cơ chéo bị chùng, gây hiện tượng **"rò rỉ năng lượng" (*Energy Leak*)**: hông xoay một đường, vai đi một nẻo, chân lắc ngang (*fishtailing*).
 
 ```mermaid
 flowchart LR
-    A["Chân Trái Đập Xuống\n(Cơ mông & Đùi tạo điểm tựa)"] --> B["Hông Xoay 30–45°\n(Phát sinh Mô-men xoắn)"]
-    B --> C["Core & Cân Ngực-Thắt Lưng\n(Khóa trục, chống Energy Leak)"]
-    C --> D["Cơ Lưng Rộng Phải (Lat)\n(Co rút theo dải chéo sau)"]
-    D --> E["Cẳng Tay Phải Dựng EVF\n(Neo chắc vào khối nước)"]
-    E --> F["Thân Người Lao Thẳng Về Trước\n(Tay nhẹ, vai không quá tải)"]
+    A["Chân Trái Đập Xuống<br/>(Cơ mông & Đùi tạo điểm tựa)"] --> B["Hông Xoay 30–45°<br/>(Phát sinh Mô-men xoắn)"]
+    B --> C["Core & Cân Ngực-Thắt Lưng<br/>(Khóa trục, chống Energy Leak)"]
+    C --> D["Cơ Lưng Rộng Phải (Lat)<br/>(Co rút theo dải chéo sau)"]
+    D --> E["Cẳng Tay Phải Dựng EVF<br/>(Neo chắc vào khối nước)"]
+    E --> F["Thân Người Lao Thẳng Về Trước<br/>(Tay nhẹ, vai không quá tải)"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Cơ lưng rộng (Lat) và nhóm cơ lõi–hông có tiết diện cơ lớn gấp **3–4 lần** nhóm cơ chóp xoay và cơ delta vai. Khi chuỗi truyền lực thông suốt:
 - Cơ vai không bị quá tải cục bộ (tránh hội chứng đau vai *Swimmer's Shoulder*).
 - Mạch đập tim ổn định hơn vì tải trọng được phân bổ đều lên toàn thân thay vì dồn hết vào hai cánh tay.
 - Tốc độ ở 50m cuối cùng của cự ly 400m–1500m vẫn giữ vững do "động cơ trung tâm" rất lâu mỏi.
 
-### Step-by-Step Execution & Water Cues
-
+### Hướng Dẫn Từng Bước & Cảm Giác Nước (Step-by-Step & Water Cues)
 1. **Khởi động từ hông, không từ bàn tay**: Khi tay phải vừa thiết lập điểm tì EVF phía trước, hãy nghĩ tới việc **"xoay hông phải về phía đáy hồ"** cùng lúc với cú đập nhẹ của chân trái.
 2. **Giữ kết nối vai–hông như một khúc gỗ (*Log Roll*)**: Không vặn xoắn thắt lưng; hông và lồng ngực xoay cùng một nhịp, cùng một góc (`30–45°`).
 3. **Biến tay thành "mỏ neo bất động"**: Tưởng tượng bàn tay và cẳng tay phải đang bám chặt vào một bậc thang dưới nước, còn cú xoay của hông–core kéo cả thân người vượt qua bậc thang đó.
@@ -73,16 +65,14 @@ Cơ lưng rộng (Lat) và nhóm cơ lõi–hông có tiết diện cơ lớn g�
 ![Sơ đồ dải cơ chéo sau kết nối cơ xô bên kéo với cơ mông bên đối diện trong bơi sải](../images/02-kinetic-chain-sling.png)
 <!-- IMAGE_PROMPT: Biomechanical dorsal view illustration of a freestyle swimmer underwater highlighting the Posterior Oblique Sling: glowing muscular connection running diagonally from the right Latissimus Dorsi through the Thoracolumbar Fascia to the left Gluteus Maximus, with rotational arrows around the longitudinal spine axis. -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **Phân biệt "Hip-Driven" vs "Shoulder-Driven"**:
   - Bơi đường dài / Triathlon (`400m–3.8km`): Ưu tiên **Hip-Driven** (xoay hông sâu `40–45°`, nhịp 2-beat kick, DPS cực dài, tiết kiệm năng lượng tối đa).
   - Bơi nước rút (`50m–100m`): Chuyển sang **Shoulder-Driven / Hybrid** (góc xoay hông gọn hơn `25–35°`, nhịp tay cao, 6-beat kick giữ trục hông phẳng và cứng để phát công suất tối đa).
 
 ---
 
-## Drills
-
+## Bài Tập Thực Hành (Drills)
 | Tên Drill | Mục tiêu chuỗi truyền lực | Cự ly / Số hiệp | Cảm giác đúng (Cue) |
 | :--- | :--- | :--- | :--- |
 | **6-Kick Switch** | Tập xoay hông dứt khoát đồng bộ với pha đổi tay | `6 × 25m` (nghỉ 15s) | 6 nhịp chân nghiêng 45° → 1 cú xoay hông "bật" sang bên kia kéo theo sải tay |
@@ -94,8 +84,7 @@ Cơ lưng rộng (Lat) và nhóm cơ lõi–hông có tiết diện cơ lớn g�
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Trước mặt dưới nước (Underwater Front View) để đo góc xoay vai (`θ_shoulder`) và góc xoay hông (`θ_hip`), kết hợp góc nhìn từ trên cao (Overhead View) phát hiện lắc ngang (*fishtailing*).
 - **Keypoints cần trích xuất:** `left_shoulder`, `right_shoulder`, `left_hip`, `right_hip`, `left_ankle`, `right_ankle`.
 - **Ngưỡng phát hiện lỗi tự động:**
@@ -104,8 +93,7 @@ Cơ lưng rộng (Lat) và nhóm cơ lõi–hông có tiết diện cơ lớn g�
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Bơi thân phẳng (Flat Swimming)** | Vai và hông nằm ngang gần như suốt chu kỳ, vai rất nhanh mỏi | Không xoay hông, cố kéo hoàn toàn bằng cơ vai | Tập 6-Kick Switch để hình thành phản xạ xoay 35–45° |
@@ -115,8 +103,7 @@ Cơ lưng rộng (Lat) và nhóm cơ lõi–hông có tiết diện cơ lớn g�
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi cảm nhận rõ cơ lưng rộng (Lat) và cơ bụng chéo tham gia lực kéo, thay vì chỉ mỏi ở đỉnh vai.
 - [ ] Khi tay phải vào nước, hông phải của tôi tự nhiên xoay xuống ~35–45° mà không làm lắc chân sang ngang.
 - [ ] Đường bơi của tôi đi thẳng tắp dọc theo vạch đáy hồ, không bị ngoằn ngoèo hình chữ S.
@@ -125,8 +112,7 @@ Cơ lưng rộng (Lat) và nhóm cơ lõi–hông có tiết diện cơ lớn g�
 
 ---
 
-## KPI
-
+## Chỉ Số Đo Lường (KPI)
 | Chỉ số (Metric) | Người mới | Trung cấp | Nâng cao (`< 1:30/100m`) |
 | :--- | :---: | :---: | :---: |
 | **Góc xoay vai / hông trung bình** | `< 20°` hoặc `> 60°` | `25–35°` | `30–45°` (đồng đều 2 bên) |
@@ -136,8 +122,7 @@ Cơ lưng rộng (Lat) và nhóm cơ lõi–hông có tiết diện cơ lớn g�
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Xoay hông nhiều có làm giảm tốc độ khi bơi nước rút (Sprint) không?**
 Ở cự ly Sprint 50m, xoay hông quá sâu (`> 45°`) sẽ tốn thêm thời gian chuyển pha và làm giảm tần suất sải tay (SPM). Do đó VĐV Sprint giữ góc xoay hông gọn (`25–35°`) nhưng tốc độ xoay góc ($\alpha_{\text{roll}}$) cực nhanh và sắc.
 
@@ -149,8 +134,7 @@ Không. Gồng cứng 100% sẽ cản trở hô hấp và làm cứng nhịp xoa
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - Sức mạnh bơi sải thực sự đến từ chuỗi truyền lực `Chân → Hông → Core → Vai → Tay → Nước`, hoạt động nhờ **dải cơ chéo sau** nối cơ xô với cơ mông đối bên.
 - Xoay trục đồng bộ `30–45°` đóng góp 35–50% lực đẩy và bảo vệ khớp vai khỏi quá tải.
 - Khóa Core nhẹ (20–30% lực) ngăn rò rỉ năng lượng và loại bỏ lỗi lắc hông (*fishtailing*).
@@ -163,8 +147,7 @@ Không. Gồng cứng 100% sẽ cản trở hô hấp và làm cứng nhịp xoa
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Yanai, T. (2003). *Stroke frequency in front crawl: its mechanical link to the fluid forces required in non-propulsive directions*. Journal of Biomechanics, 36(1), 53–62.
 2. Psycharakis, S. G., & Sanders, R. H. (2010). *Body roll in swimming: A review*. Journal of Sports Sciences, 28(3), 229–236.
 3. McLeod, I. (2010). *Swimming Anatomy*. Human Kinetics.

@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `11-recovery/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 Pha rút tay trên không (**Recovery**) không tạo ra bất kỳ lực đẩy nào về phía trước — nhưng nó quyết định trực tiếp việc bạn có giữ được **tay nhẹ và vai không mỏi suốt 1.500–3.800m** hay không. Đây là "kỳ nghỉ ngắn" quý giá (`~0.4–0.5 giây`) trong mỗi chu kỳ sải để cơ cẳng tay, bàn tay và cơ vai được xả hoàn toàn áp lực máu và axit lactic trước khi bước vào pha Catch tiếp theo.
 
 - **Mục tiêu cốt lõi:** Đưa tay từ hông về trước qua không khí trong trạng thái **thả lỏng hoàn toàn cẳng tay & bàn tay**, sử dụng **xoay thân `35–45°`** làm bệ nâng vai thay vì gồng cơ vai nhấc tay lên.
@@ -12,8 +11,7 @@ Pha rút tay trên không (**Recovery**) không tạo ra bất kỳ lực đẩy
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Mặc dù diễn ra trên không khí (không chịu lực cản nước trực tiếp), pha Recovery lại tuân theo **Định luật bảo toàn mô-men động lượng (Conservation of Angular Momentum)** trong nước:
 - Mọi chuyển động vung ngang rộng của cánh tay nặng `~3–4 kg` trên mặt nước sẽ lập tức sinh ra một **phản lực văng ngang ngược chiều** đẩy hông và hai chân dưới nước vẫy sang bên đối diện (*Fishtailing*), làm tăng mạnh Form Drag!
 - Do đó, quỹ đạo Recovery càng **gọn sát đường trục vai** và càng **ít gồng cơ**, thân dưới nước càng đi thẳng băng và tiết kiệm năng lượng tối đa.
@@ -29,39 +27,33 @@ Mặc dù diễn ra trên không khí (không chịu lực cản nước trực 
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 So sánh mô-men quán tính ($I = m \cdot r^2$) quanh khớp vai khi rút tay:
 - Khi gập khuỷu tự nhiên (**High-Elbow Recovery**), khoảng cách từ tâm khối lượng cánh tay đến khớp vai ($r$) giảm khoảng **35–40%** so với vung rộng ngang.
 - Do $I \propto r^2$, năng lượng cơ bắp cần để đưa cánh tay về trước giảm tới **`~55–60%`**, đồng thời mô-men văng ngang gây lắc hông giảm xuống gần như bằng 0!
 
-### Biomechanics
-
+### Cơ Sinh Học (Biomechanics)
 Tại sao nhiều người bị mỏi vai dữ dội ở pha Recovery?
 - **Bơi thân phẳng (không xoay vai)**: Khi vai không xoay nổi lên khỏi mặt nước, cơ delta giữa (*Middle Deltoid*) và cơ thang trên (*Upper Trapezius*) phải gồng cực mạnh để nhấc cánh tay thoát khỏi mặt nước.
 - **Xoay thân chuẩn `35–45°`**: Vai bên rút tay được nâng cao tự nhiên trên mặt nước `10–15 cm`. Khuỷu tay chỉ cần nhấc nhẹ lên theo quán tính cuối pha Push, trọng lực tự làm nốt phần thả lỏng cẳng tay và bàn tay rơi nhẹ về trước!
 
 ```mermaid
 flowchart LR
-    A["Kết thúc Push ngang đùi\n(Vai xoay nổi cao 35–45°)"] --> B["Khuỷu tay dẫn đường lên cao\n(Cơ cẳng tay & bàn tay thả lỏng 100%)"]
+    A["Kết thúc Push ngang đùi<br/>(Vai xoay nổi cao 35–45°)"] --> B["Khuỷu tay dẫn đường lên cao<br/>(Cơ cẳng tay & bàn tay thả lỏng 100%)"]
     B --> C{"Phong cách phù hợp?"}
-    C -->|"Đường dài / CSS (< 1:30/100m)\nƯu tiên tay nhẹ, bền vai"| D["High-Elbow Recovery\n(Cẳng tay rũ gọn sát sườn)"]
-    C -->|"Sprint 50m / Sóng lớn\n(Vai dẻo + 6-Beat mạnh)"| E["Straight-Arm Recovery\n(Vung thẳng sát mặt phẳng đứng)"]
-    D & E --> F["Tiến vào điểm 'xỏ kim' 11h / 1h\n(Không văng ngang, không lắc hông)"]
+    C -->|"Đường dài / CSS (< 1:30/100m)<br/>Ưu tiên tay nhẹ, bền vai"| D["High-Elbow Recovery<br/>(Cẳng tay rũ gọn sát sườn)"]
+    C -->|"Sprint 50m / Sóng lớn<br/>(Vai dẻo + 6-Beat mạnh)"| E["Straight-Arm Recovery<br/>(Vung thẳng sát mặt phẳng đứng)"]
+    D & E --> F["Tiến vào điểm 'xỏ kim' 11h / 1h<br/>(Không văng ngang, không lắc hông)"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Cơ bắp chỉ có thể bơm máu giàu oxy vào nuôi tế bào khi nó được **thả lỏng giữa hai nhịp co**. Trong một cự ly `1.500m` (~1.200 sải tay), mỗi `0.45 giây` thả lỏng hoàn toàn ở pha Recovery cộng dồn thành **hơn 4.5 phút nghỉ ngơi thực sự cho mỗi cánh tay ngay trong khi đang bơi!** Đó là bí mật sinh lý giúp các VĐV bơi đường dài giữ được cảm giác tay nhẹ tênh đến tận mét cuối cùng.
 
-### Step-by-Step Execution & Water Cues
-
+### Hướng Dẫn Từng Bước & Cảm Giác Nước (Step-by-Step & Water Cues)
 1. **Nhấc từ khuỷu, không từ bàn tay (*Lead with the Elbow*)**: Tưởng tượng có một sợi dây rối buộc vào **khuỷu tay** kéo nhẹ nó lên trời ngay khi ngón cái vừa lướt qua đùi.
 2. **Thả lỏng bàn tay & cổ tay như "sợi mì ướt"**: Trong suốt quá trình tay di chuyển từ hông lên ngang vai, bàn tay buông rũ mềm mại dưới khuỷu, đầu ngón tay gần như lướt sát mặt nước.
 3. **Vung gọn sát sườn (*Narrow Recovery*)**: Không vung cánh tay dang ngang rộng như cánh chim; giữ khuỷu tay và bàn tay đi gọn trong hành lang ngay sát thân mình.
@@ -70,15 +62,13 @@ Cơ bắp chỉ có thể bơm máu giàu oxy vào nuôi tế bào khi nó đư�
 ![Minh họa pha rút tay khuỷu cao thả lỏng (High-Elbow Recovery) so với lỗi vung rộng ngang](../images/11-recovery-high-elbow.png)
 <!-- IMAGE_PROMPT: Clean sports biomechanics illustration showing an above-water side and front view of High-Elbow Relaxed Recovery: shoulder lifted by 40-degree body roll, elbow pointing upward like a marionette string, forearm and hand dangling completely relaxed near the water surface (fingertip drag), compared with a red inset showing wide stiff-arm swinging causing hip fishtailing. -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **Đừng cố nâng khuỷu tay cao quá mức tự nhiên (Over-Exaggerated High Elbow)**: Nếu khớp vai bạn không quá dẻo mà bạn cố gồng nâng khuỷu cao chót vót như trong sách cũ, bạn sẽ lại làm chèn ép gân chóp xoay vai! Hãy giữ **khuỷu cao tự nhiên và thoải mái** nhờ độ xoay của vai `35–45°` — nếu cảm thấy cấn khớp vai, hãy mở góc khuỷu ra ngoài thêm một chút (*Slightly Wider Relaxed Recovery*).
 - **Kiểm tra độ thả lỏng bằng "lắc cổ tay"**: Trong bài tập khởi động, thử lắc nhẹ bàn tay khi đang rút trên không; nếu không thể lắc nhẹ được nghĩa là cẳng tay bạn đang bị gồng cứng.
 
 ---
 
-## Drills
-
+## Bài Tập Thực Hành (Drills)
 | Tên Drill | Mục tiêu pha Recovery | Cự ly / Số hiệp | Cảm giác đúng (Cue) |
 | :--- | :--- | :--- | :--- |
 | **Fingertip Drag (Lê đầu ngón tay)** | Ép khuỷu tay dẫn hướng lên cao & thả lỏng hoàn toàn cẳng tay | `4 × 25m` (nghỉ 15s) | Đầu ngón tay vẽ một vệt mảnh êm ái trên mặt nước từ hông lên tận điểm vào nước |
@@ -90,8 +80,7 @@ Cơ bắp chỉ có thể bơm máu giàu oxy vào nuôi tế bào khi nó đư�
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Trên mặt nước góc ngang (Above-Water Side View) và Trên cao (Overhead View).
 - **Keypoints cần trích xuất:** `recovery_shoulder`, `recovery_elbow`, `recovery_wrist`, `hip_center`.
 - **Ngưỡng phát hiện lỗi tự động:**
@@ -100,8 +89,7 @@ Cơ bắp chỉ có thể bơm máu giàu oxy vào nuôi tế bào khi nó đư�
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Vung tay rộng ngang (Wide Swinging)** | Hông và chân vẫy ngược sang bên kia mỗi lần rút tay | Không xoay vai đủ `35–45°` nên phải vung ngang vòng qua mặt nước | Xoay vai cao hơn + tập Zipper Drill và Fingertip Drag |
@@ -111,8 +99,7 @@ Cơ bắp chỉ có thể bơm máu giàu oxy vào nuôi tế bào khi nó đư�
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi cảm nhận rõ cẳng tay và bàn tay mình hoàn toàn thả lỏng (như được nghỉ ngơi) trong suốt pha Recovery.
 - [ ] Khuỷu tay của tôi dẫn đường lên trước và cao hơn bàn tay trong pha rút tay.
 - [ ] Quỹ đạo rút tay đi gọn sát thân, không làm lắc hông hay văng chân dưới nước.
@@ -121,8 +108,7 @@ Cơ bắp chỉ có thể bơm máu giàu oxy vào nuôi tế bào khi nó đư�
 
 ---
 
-## KPI
-
+## Chỉ Số Đo Lường (KPI)
 | Chỉ số (Metric) | Người mới | Trung cấp | Nâng cao (`< 1:30/100m`) |
 | :--- | :---: | :---: | :---: |
 | **Độ vung ngang tối đa của bàn tay (High-Elbow)** | `> 55 cm` | `30–45 cm` | `< 28 cm` (gọn sát trục vai) |
@@ -132,8 +118,7 @@ Cơ bắp chỉ có thể bơm máu giàu oxy vào nuôi tế bào khi nó đư�
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Tôi thấy nhiều VĐV Olympic bơi 1500m (như Katie Ledecky hay Sun Yang) đôi khi dùng tay rút gần thẳng — tôi có nên bắt chước không?**
 Họ sở hữu **độ linh hoạt khớp vai và cột sống ngực bẩm sinh cực lớn** cùng sức mạnh Core phi thường để triệt tiêu phản lực văng ngang. Với 90% người bơi phong trào, Masters và Triathlete, **High-Elbow Relaxed Recovery** an toàn hơn hẳn cho khớp vai và tiết kiệm năng lượng hơn rõ rệt.
 
@@ -145,8 +130,7 @@ Rút tay **gọn và có nhịp điệu** theo tốc độ bơi — không lê t
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - Pha **Recovery** là khoảng nghỉ sinh lý quý giá giúp xả mỏi cơ tay và bảo vệ khớp vai trong suốt cự ly dài.
 - 3 nguyên tắc vàng: **Xoay vai `35–45°` làm bệ nâng + Khuỷu tay dẫn hướng lên cao + Cẳng tay & bàn tay thả lỏng hoàn toàn gọn sát sườn**.
 - Bộ 3 Drill kinh điển: **Fingertip Drag**, **Zipper Drill** và **Shark Fin Drill**.
@@ -159,8 +143,7 @@ Rút tay **gọn và có nhịp điệu** theo tốc độ bơi — không lê t
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Newsome, P., & Young, A. (2012). *Swim Smooth*. Wiley.
 2. Maglischo, E. W. (2003). *Swimming Fastest*. Human Kinetics.
 3. Yanai, T., & Hay, J. G. (2000). *Shoulder impingement in front-crawl swimming: II. Analysis of stroking technique*. Medicine & Science in Sports & Exercise, 32(1), 30–40.

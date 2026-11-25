@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `08-kicking/` | **Trình độ:** Trung cấp → Nâng cao | **Thời gian đọc:** ~11 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 Khi tốc độ bơi vượt ngưỡng `1:20/100m` hoặc trong các cự ly nước rút `50m–200m`, **6-Beat Kick** (3 cú đạp liên tục cho mỗi 1 sải tay) trở thành **động cơ ổn định và tăng tốc không thể thay thế**. Khác với suy nghĩ sai lầm rằng 6-beat là "đạp chân thật to và mạnh bắn bọt tung tóe", một cú 6-beat đẳng cấp Olympic phải **nhanh, gọn, liên tục như chân vịt tàu cao tốc**, giữ hông nổi ngang mặt nước và biến mọi lực kéo tay thành tốc độ tối đa.
 
 - **Mục tiêu cốt lõi:** Thực hiện 6 cú đạp đều đặn, gọn nhẹ trong mỗi chu kỳ tay (3 nhịp/sải) với **cả pha đạp xuống (Downbeat) và pha kéo lên (Upbeat)** đều tạo lực ổn định.
@@ -12,8 +11,7 @@ Khi tốc độ bơi vượt ngưỡng `1:20/100m` hoặc trong các cự ly nư
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Trong **6-Beat Kick**, có **6 cú đạp xuống cho mỗi chu kỳ 2 sải tay** (tức **3 cú đạp trên 1 sải tay**):
 - **Nhịp 1 (Đạp mạnh nhất — Accent Beat)**: Trùng khớp với khoảnh khắc tay đối bên vào nước và xoay hông xuống.
 - **Nhịp 2 & Nhịp 3**: Hai cú đạp nhanh kế tiếp duy trì vận tốc nền cao, giữ hông phẳng và nâng đỡ thân người suốt pha Pull–Push.
@@ -22,37 +20,31 @@ Nghiên cứu cơ sinh học trên các VĐV Sprint 50m–100m (như Caeleb Dres
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 - **Hiệu ứng Lướt Mặt Nước (*Hydroplaning*)**: Khi vận tốc bơi vượt `1.4–1.6 m/s` kết hợp với lực nâng liên tục từ 6-beat kick, phần thân trên và hông nổi cao hơn `3–5 cm`, làm giảm diện tích bề mặt ướt (*Wetted Surface Area*) và giảm mạnh cả Form Drag lẫn Friction Drag.
 - **Vai trò của pha Đá Lên (*Upbeat*)**: Rất nhiều người chỉ tập trung vào cú đạp xuống (*Downbeat* — cơ đùi trước & gập hông) mà bỏ quên pha đá lên (*Upbeat* — cơ mông & gân kheo). Giữ chân thẳng kéo lên sát mặt nước trong pha Upbeat không chỉ chuẩn bị cho cú quất xuống tiếp theo mà còn **ngăn hông chìm xuống** giữa các nhịp.
 - **Chi phí năng lượng**: Ở 6-beat kick cường độ cao, các nhóm cơ lớn ở chân tiêu thụ lượng oxy và glycogen rất nhanh — vì vậy 6-beat đòi hỏi nền thể lực kỵ khí/hiếu khí tốt và chỉ nên triển khai ở cường độ phù hợp cự ly.
 
-### Biomechanics
-
+### Cơ Sinh Học (Biomechanics)
 - **Truyền sóng kiểu Roi Da (*Whip-Like Action*)**: Chuyển động bắt đầu từ **khớp hông** (cơ thắt lưng chậu *Iliopsoas* và cơ mông lớn *Gluteus Maximus*), truyền qua đùi, gối hơi gập thụ động `~150–160°` do áp lực nước, và kết thúc bằng cú **quất dứt khoát của mu bàn chân** với cổ chân duỗi mềm tối đa (*Plantar Flexion*).
 - **Xoay nhẹ mũi chân vào trong (*Slight Pigeon-Toed*)**: Hơi xoay trong khớp hông và cổ chân (`5–10°`) giúp diện tích mặt phẳng mu bàn chân hướng tối đa về phía sau–dưới thay vì chém chéo sang hai bên, tăng lực đẩy thêm `10–15%`.
 
 ```mermaid
 flowchart LR
-    A["Khớp Hông dẫn động\n(Iliopsoas & Glutes)"] --> B["Đùi đánh gọn 25–35 cm\n(Gối mềm thụ động 150–160°)"]
-    B --> C["Cổ chân dẻo quất như roi\n(Mũi chân hơi xoay vào 5–10°)"]
-    C --> D["3 nhịp liên tục / 1 sải tay\n(Nhịp 1 khóa xoay + Nhịp 2,3 giữ tốc)"]
-    D --> E["Nước sủi sôi gọn (Boiling)\nHông nổi cao Hydroplaning"]
+    A["Khớp Hông dẫn động<br/>(Iliopsoas & Glutes)"] --> B["Đùi đánh gọn 25–35 cm<br/>(Gối mềm thụ động 150–160°)"]
+    B --> C["Cổ chân dẻo quất như roi<br/>(Mũi chân hơi xoay vào 5–10°)"]
+    C --> D["3 nhịp liên tục / 1 sải tay<br/>(Nhịp 1 khóa xoay + Nhịp 2,3 giữ tốc)"]
+    D --> E["Nước sủi sôi gọn (Boiling)<br/>Hông nổi cao Hydroplaning"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Nếu bạn từng thắc mắc tại sao ở `50m` cuối cùng của một bài test `100m`, người bơi 6-beat kick tốt có thể "bật công tắc" lao vút đi dù tay đã hơi mỏi: đó là vì **6-beat kick giữ cho vận tốc thân không bị rơi giữa các sải tay** (*Minimal IVV*). Hông được khóa cứng phẳng ở độ cao lý tưởng, cho phép từng cú tì nước EVF phát huy 100% lực đẩy mà không bị mất đà.
 
-### Step-by-Step Execution & Water Cues
-
+### Hướng Dẫn Từng Bước & Cảm Giác Nước (Step-by-Step & Water Cues)
 1. **Tín hiệu "Sôi nước, không bắn nước" (*Boil, Don't Splash*)**: Gót chân và đầu ngón chân cái chỉ vừa phá nhẹ mặt nước tạo dải nước sủi trắng mịn phía sau — nếu nguyên cả bàn chân văng lên khỏi mặt nước là bạn đang lãng phí lực vào không khí!
 2. **Tín hiệu "Quẹt hai ngón chân cái" (*Brush Big Toes*)**: Khi hai chân lướt qua nhau ở biên độ gọn, hai ngón chân cái thỉnh thoảng chạm nhẹ nhau (giúp mũi chân hơi xoay trong tự nhiên và tránh mở rộng chân).
 3. **Đồng bộ nhịp "1-2-3, 1-2-3"**: Mỗi khi 1 tay vào nước, đếm nhanh `1-2-3` theo nhịp chân rồi chuyển sang tay kia `1-2-3`.
@@ -61,15 +53,13 @@ Nếu bạn từng thắc mắc tại sao ở `50m` cuối cùng của một bà
 ![Sơ đồ biên độ roi da của 6-Beat Kick với mặt nước sủi gọn Boiling Water](../images/08-six-beat-kick-whip.png)
 <!-- IMAGE_PROMPT: Technical underwater side profile of a competitive sprinter performing a crisp 6-Beat Kick: showing hip-driven whip motion, 155-degree soft knee bend, hyper-extended plantar-flexed ankles, narrow 30cm vertical kick envelope inside the body shadow, and clean "boiling" water turbulence at the surface without excessive splashing. -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **Đừng tập 6-Beat Kick bằng ván nổi (Kickboard) quá nhiều nếu hay bị đau lưng**: Cầm ván nổi ngẩng đầu dễ làm võng thắt lưng và tạo thói quen gập gối sâu. Hãy tập **60–70% bài tập chân ở tư thế Streamline không ván (có ống thở Snorkel)** hoặc **Side-Kick** — vừa đúng tư thế thân ngang thực tế, vừa phát triển độ sắc bén của 6-beat nhanh gấp đôi!
 - **Bài tập "Vertical Kick" (Đạp chân đứng nước sâu)**: Đạp chân sải ở tư thế thẳng đứng tại khu vực nước sâu (hai tay khoanh trước ngực hoặc giơ lên trời `20–30 giây`). Đây là bài tập "không thể gian lận": nếu bạn đạp bằng gối hoặc cổ chân cứng, bạn sẽ chìm ngay lập tức!
 
 ---
 
-## Drills
-
+## Bài Tập Thực Hành (Drills)
 | Tên Drill | Mục tiêu 6-Beat Kick | Cự ly / Số hiệp | Cảm giác đúng (Cue) |
 | :--- | :--- | :--- | :--- |
 | **Streamline Snorkel Kick** | Xây sức bền 6-beat ở đúng tư thế thân ngang không võng lưng | `6 × 25m` (nghỉ 15s) | Hai tay kẹp Streamline, nước sủi đều sau gót, thân đi thẳng tắp |
@@ -81,8 +71,7 @@ Nếu bạn từng thắc mắc tại sao ở `50m` cuối cùng của một bà
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang dưới nước (Underwater Side View, 120 fps) và Phía sau dưới nước (Rear View).
 - **Keypoints cần trích xuất:** `hip`, `knee`, `ankle`, `toe_tip`, `left_wrist`, `right_wrist`.
 - **Ngưỡng phát hiện lỗi tự động:**
@@ -91,8 +80,7 @@ Nếu bạn từng thắc mắc tại sao ở `50m` cuối cùng của một bà
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Đạp bằng gối (Knee-Driven / Bicycle Kick)** | Đùi trên gần như đứng yên, cẳng chân gập sâu, bơi rất nặng | Thiếu cảm giác dẫn động từ khớp hông và cơ mông | Tập Vertical Kick + Streamline Kick, giữ cảm giác "đùi đánh trước, bàn chân quất sau" |
@@ -102,8 +90,7 @@ Nếu bạn từng thắc mắc tại sao ở `50m` cuối cùng của một bà
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi có thể đạp `25m` Streamline Kick (không ván, không chân vịt) dưới `25 giây` với tư thế phẳng.
 - [ ] Tôi giữ được `20 giây` Vertical Kick ở khu vực nước sâu với hai tay khoanh trước ngực.
 - [ ] Mặt nước sau chân tôi khi bơi 6-beat chỉ "sôi" gọn, không bắn tung tóe lên cao.
@@ -112,8 +99,7 @@ Nếu bạn từng thắc mắc tại sao ở `50m` cuối cùng của một bà
 
 ---
 
-## KPI
-
+## Chỉ Số Đo Lường (KPI)
 | Chỉ số (Metric) | Người mới | Trung cấp | Nâng cao (`< 1:30/100m`) |
 | :--- | :---: | :---: | :---: |
 | **Thời gian 25m Streamline Kick (không chân vịt)** | `> 35 giây` | `25–32 giây` | `< 22 giây` |
@@ -123,8 +109,7 @@ Nếu bạn từng thắc mắc tại sao ở `50m` cuối cùng của một bà
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Tại sao tôi đạp chân với ván nổi 25m mất tận 45 giây — có phải tôi không hợp 6-beat kick không?**
 Không hẳn! 90% trường hợp đạp chân cực chậm đến từ **cổ chân cứng (dựng góc 90°)** và **gập gối sâu**. Chỉ cần cải thiện độ dẻo cổ chân thêm 15° và sửa lỗi đạp từ hông trong 4–6 tuần, tốc độ 25m Kick của bạn có thể rút ngay từ 45 giây xuống dưới 28 giây!
 
@@ -136,8 +121,7 @@ Chân vịt ngắn (*Short Fins*) là công cụ tuyệt vời để **ép cổ 
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - **6-Beat Kick** (3 nhịp/sải) là động cơ tối ưu cho **Sprint (`50m–200m`)**, tạo độ nổi *Hydroplaning* và tăng hiệu suất pha kéo tay.
 - Kỹ thuật chuẩn: **Dẫn động từ hông + Gối mềm `150–160°` + Cổ chân dẻo quất như roi + Mũi chân hơi xoay vào trong + Nước sủi gọn (*Boil, don't splash*)**.
 - Xây sức mạnh 6-beat chuẩn xác nhất qua **Streamline Snorkel Kick**, **Vertical Kick** và **Fast-Kick / Slow-Arms**.
@@ -150,8 +134,7 @@ Chân vịt ngắn (*Short Fins*) là công cụ tuyệt vời để **ép cổ 
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Maglischo, E. W. (2003). *Swimming Fastest*. Human Kinetics.
 2. Gourgoulis, V., et al. (2014). *Effect of the kick on the kinematics and kinetics of front crawl swimming*. Journal of Sports Sciences.
 3. USA Swimming — *Six-Beat Kick Mechanics & Vertical Kicking Protocols*.

@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `08-kicking/` | **Trình độ:** Trung cấp → Nâng cao | **Thời gian đọc:** ~10 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 Nếu **2-Beat Kick** là số 2 tiết kiệm nhiên liệu và **6-Beat Kick** là số 6 tăng tốc hết ga, thì **4-Beat Kick** chính là **hộp số trung gian linh hoạt nhất** của bơi sải hiện đại. Rất nhiều VĐV bơi `200m–800m` (kể cả những nhà vô địch Olympic như Ian Thorpe hay Katie Ledecky ở nhịp Gallop) sử dụng biến thể 4-beat kick để vừa **tăng thêm lực ổn định & tốc độ**, vừa **không bị kiệt sức cơ đùi** như 6-beat liên tục.
 
 - **Mục tiêu cốt lõi:** Hiểu cấu trúc bất đối xứng tự nhiên của 4-beat kick (thường là `3 nhịp bên kéo/thở + 1 nhịp bên trượt` hoặc `2 nhịp đều mỗi sải`) và biết cách chuyển số mượt từ `2 → 4 → 6-beat`.
@@ -12,8 +11,7 @@ Nếu **2-Beat Kick** là số 2 tiết kiệm nhiên liệu và **6-Beat Kick**
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Trong 1 chu kỳ tay đầy đủ (1 sải trái + 1 sải phải), **4-Beat Kick** thực hiện tổng cộng **4 cú đạp xuống**. Trên thực tế cơ sinh học, 4-beat kick tồn tại dưới **2 biến thể chính**:
 
 1. **4-Beat Bất Đối Xứng (*Asymmetric / Gallop 4-Beat — 3+1*)**:
@@ -25,39 +23,33 @@ Trong 1 chu kỳ tay đầy đủ (1 sải trái + 1 sải phải), **4-Beat Kic
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 Tại sao **4-Beat Kick (3+1)** lại cực kỳ hiệu quả ở ngưỡng tốc độ `1:25–1:35/100m`?
 - **Lấp đầy "hố sụt tốc độ" khi thở**: Trong bơi sải, khoảnh khắc xoay đầu lấy hơi thường là lúc vận tốc tiến tới giảm nhẹ (`-5–8%`). Cú đạp 3 nhịp nhanh đúng vào sải thở giúp **bù đắp trực tiếp phần vận tốc bị sụt**, giữ cho biểu đồ vận tốc trong chu kỳ (*IVV*) phẳng hơn hẳn so với 2-beat kick.
 - **Tối ưu hóa tỷ số Lực đẩy / Tiêu hao Oxy**:
   - Tiêu hao oxy của 4-beat nằm chính giữa 2-beat và 6-beat (tiết kiệm ~15% oxy so với 6-beat).
   - Đồng thời tăng thêm ~3–5% lực ổn định và đẩy tiến so với 2-beat khi bạn cần giữ tốc độ `< 1:30/100m` qua cự ly `400m–800m`.
 
-### Biomechanics
-
+### Cơ Sinh Học (Biomechanics)
 Sự luân phiên giữa **pha đạp nhanh (3 nhịp)** và **pha nghỉ ngắn (1 nhịp)** trong 4-beat bất đối xứng tạo ra chu kỳ **Co – Xả vi mô (*Micro-Recovery*)** cho cơ tứ đầu đùi (*Quadriceps*) và cơ thắt lưng chậu (*Iliopsoas*):
 - Máu được bơm lưu thông qua cơ đùi ngay trong nhịp nghỉ 1-beat, làm chậm đáng kể quá trình tích tụ axit lactic (*Lactate Accumulation*) so với 6-beat liên tục.
 - **Cảnh báo kỹ thuật**: Vì 4-beat (3+1) có tính bất đối xứng, người bơi nên định kỳ đổi bên thở (ví dụ chiều đi thở phải, chiều về thở trái) để tránh lệch cơ hông–vai lâu dài.
 
 ```mermaid
 flowchart LR
-    A["Chu kỳ 4-Beat (Biến thể 3+1)"] --> B["Sải 1 (Sải Thở)\n3 cú đạp nhanh gọn\n(Giữ hông nổi & bù tốc độ)"]
-    B --> C["Sải 2 (Sải Không Thở)\n1 cú đạp khóa xoay hông\n(Cơ đùi nghỉ vi mô 0.4s)"]
-    C --> D["Cân bằng Vàng\nTốc độ cao (< 1:30/100m)\n& Không mỏi rã đùi"]
+    A["Chu kỳ 4-Beat (Biến thể 3+1)"] --> B["Sải 1 (Sải Thở)<br/>3 cú đạp nhanh gọn<br/>(Giữ hông nổi & bù tốc độ)"]
+    B --> C["Sải 2 (Sải Không Thở)<br/>1 cú đạp khóa xoay hông<br/>(Cơ đùi nghỉ vi mô 0.4s)"]
+    C --> D["Cân bằng Vàng<br/>Tốc độ cao (< 1:30/100m)<br/>& Không mỏi rã đùi"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Bạn **không cần ép não đếm "1-2-3-4"**! 4-beat kick là nhịp điệu tự nhiên hình thành khi bạn biết cách **điều tốc nhịp chân theo nhu cầu của từng pha**. Với nhiều người bơi phong trào đang chuyển từ `1:45/100m` xuống `< 1:30/100m`, 4-beat kick là bước đệm hoàn hảo: nó giúp hông không bị chìm ở tốc độ cao mà vẫn không khiến bạn hụt hơi sau 100m đầu tiên.
 
-### Step-by-Step Execution & Water Cues
-
+### Hướng Dẫn Từng Bước & Cảm Giác Nước (Step-by-Step & Water Cues)
 1. **Tập chuyển số (*Gear Shifting*) từ 2-Beat lên 4-Beat**: Bắt đầu bơi 25m với 2-beat kick êm ái. Ở 25m tiếp theo, tăng tốc độ tay nhẹ và **thêm 2 cú đạp nhỏ** ngay trong sải thở — bạn sẽ thấy cơ thể lướt bật lên rõ rệt.
 2. **Giữ biên độ nhỏ và sắc**: Cả 4 nhịp đều phải nằm gọn trong biên độ `20–30 cm`, cổ chân mềm, không mở gối rộng.
 3. **Cảm nhận "nhịp trống" (*Drumbeat Rhythm*)**: Với biến thể 3+1, nhịp chân nghe trong đầu giống tiếng trống: *"Tùm-tách-tách... TÙM... Tùm-tách-tách... TÙM..."*.
@@ -66,8 +58,7 @@ Bạn **không cần ép não đếm "1-2-3-4"**! 4-beat kick là nhịp điệu
 ![Biểu đồ so sánh nhịp chân 2-Beat, 4-Beat (3+1) và 6-Beat trong 1 chu kỳ tay](../images/08-four-beat-kick-rhythm.png)
 <!-- IMAGE_PROMPT: Clean sports science timeline chart comparing 2-Beat, 4-Beat (3+1 asymmetric), and 6-Beat kick pulses aligned against one complete freestyle arm cycle (Left Entry -> Left Pull -> Right Entry -> Right Pull), highlighting the micro-recovery window and breathing stability zone in the 4-Beat rhythm. -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **Chiến thuật "Chuyển số trong thi đấu 400m–800m"**:
   - 100m đầu (tạo nhịp): **2-beat kick** giữ nhịp tim thấp.
   - 200m–600m giữa (giữ pace CSS): **4-beat kick** duy trì tốc độ `< 1:30/100m` ổn định.
@@ -76,8 +67,7 @@ Bạn **không cần ép não đếm "1-2-3-4"**! 4-beat kick là nhịp điệu
 
 ---
 
-## Drills
-
+## Bài Tập Thực Hành (Drills)
 | Tên Drill | Mục tiêu 4-Beat Kick | Cự ly / Số hiệp | Cảm giác đúng (Cue) |
 | :--- | :--- | :--- | :--- |
 | **Kick Gear-Shift (2 → 4 → 6)** | Kiểm soát chủ động việc tăng/giảm nhịp chân không phá dáng tay | `4 × 75m` (25m 2-beat + 25m 4-beat + 25m 6-beat) | Tay giữ nguyên độ dài DPS, chỉ cảm nhận "động cơ phía sau" tăng dần số vòng tua |
@@ -92,8 +82,7 @@ Bạn **không cần ép não đếm "1-2-3-4"**! 4-beat kick là nhịp điệu
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang dưới nước (Underwater Side View, 120 fps) ghi hình tối thiểu 4 chu kỳ tay liên tiếp để phân tích chu kỳ lặp lại.
 - **Keypoints cần trích xuất:** `left_ankle`, `right_ankle`, `left_wrist`, `right_wrist`, `hip`.
 - **Ngưỡng phát hiện lỗi tự động:**
@@ -102,8 +91,7 @@ Bạn **không cần ép não đếm "1-2-3-4"**! 4-beat kick là nhịp điệu
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Đá kéo 1 nhịp lớn ở bên thở** | Trông giống 4-beat nhưng 1 nhịp mở toang hai chân làm phanh nước | Dùng chân làm đối trọng sai cách khi xoay thở | Giữ hai đùi luôn lướt sát trong "đường ống" bề rộng vai |
@@ -113,8 +101,7 @@ Bạn **không cần ép não đếm "1-2-3-4"**! 4-beat kick là nhịp điệu
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi có thể chủ động chuyển mượt từ 2-beat sang 4-beat rồi lên 6-beat ngay trong một lần bơi 75m.
 - [ ] Khi tăng nhịp chân lên 4-beat, số sải tay (Stroke Count) của tôi giữ ổn định và không bị sụp khuỷu EVF.
 - [ ] Phần hông của tôi giữ độ cao ổn định ngay cả ở pha xoay đầu thở trong tốc độ CSS.
@@ -123,8 +110,7 @@ Bạn **không cần ép não đếm "1-2-3-4"**! 4-beat kick là nhịp điệu
 
 ---
 
-## KPI
-
+## Chỉ Số Đo Lường (KPI)
 | Chỉ số (Metric) | Người mới | Trung cấp | Nâng cao (`< 1:30/100m`) |
 | :--- | :---: | :---: | :---: |
 | **Khả năng chuyển số (2 → 4 → 6 beat)** | Chưa phân biệt được | Chuyển được 2 ↔ 6 | Chuyển mượt 3 cấp độ giữ nguyên DPS |
@@ -134,8 +120,7 @@ Bạn **không cần ép não đếm "1-2-3-4"**! 4-beat kick là nhịp điệu
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. 4-Beat Kick có phải là lỗi kỹ thuật không?**
 Tuyệt đối không! Trước đây nhiều sách cũ chỉ dạy 2-beat hoặc 6-beat, nhưng phân tích video tốc độ cao trên hàng trăm VĐV Olympic 200m–1500m cho thấy **4-beat (đặc biệt là biến thể 3+1)** là một trong những nhịp chân hiệu quả nhất thế giới ở cự ly trung bình và dài.
 
@@ -147,8 +132,7 @@ Quay một đoạn video 15 giây ngang dưới nước rồi phát chậm 0.25x
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - **4-Beat Kick** (gồm biến thể `3+1` bất đối xứng và `2+2` đối xứng) là cầu nối tối ưu giữa tiết kiệm oxy của 2-beat và lực ổn định/tốc độ của 6-beat.
 - Cực kỳ hiệu quả cho cự ly **`200m–800m`** và các bài tập tốc độ ngưỡng CSS (`1:25–1:35/100m`).
 - Rèn luyện khả năng **chuyển số chủ động (2 → 4 → 6)** bằng bài `Kick Gear-Shift` giúp bạn làm chủ hoàn toàn chiến thuật phân phối sức.
@@ -161,8 +145,7 @@ Quay một đoạn video 15 giây ngang dưới nước rồi phát chậm 0.25x
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Maglischo, E. W. (2003). *Swimming Fastest*. Human Kinetics.
 2. Chollet, D., et al. (2000). *Index of coordination and kicking patterns in front crawl*. International Journal of Sports Medicine.
 3. SwimSmooth Technical Library — *2-Beat vs 4-Beat vs 6-Beat Kicking*.

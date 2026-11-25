@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `18-strength/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 Sức mạnh cạn (Dryland) là con dao hai lưỡi: nếu sắp xếp đúng chu kỳ và đúng thời điểm, nó **khuếch đại tốc độ bơi và bảo vệ khớp vai tuyệt đối**; nhưng nếu tập quá nặng sai ngày (ví dụ tập lưng–vai kiệt sức ngay trước buổi bơi ngưỡng CSS), nó sẽ gây **hiệu ứng giao thoa (*Interference Effect*)**, làm hỏng cảm giác nước và trì trệ tiến bộ. Chương này cung cấp **kiến trúc lịch tập cạn phân kỳ theo 24 tuần** và 3 giáo án thực chiến (Tại nhà không tạ / Tại phòng Gym / Khởi động 10 phút trên bờ hồ).
 
 - **Mục tiêu cốt lõi:** Phối hợp nhịp nhàng **2–3 buổi Dryland/tuần** với lịch bơi 3–6 buổi/tuần, tối ưu hóa khả năng phục hồi và chuyển hóa lực xuống nước.
@@ -12,8 +11,7 @@ Sức mạnh cạn (Dryland) là con dao hai lưỡi: nếu sắp xếp đúng c
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Trong khoa học huấn luyện thể thao hiện đại (*Periodization*), chương trình Dryland cho bơi sải phải **đồng bộ theo 4 giai đoạn** khớp với [Giáo Án Bơi 24 Tuần](../22-training-plan/overview-and-css-testing.md):
 
 | Giai đoạn | Tuần | Mục tiêu Dryland chính | Tần suất | Cường độ / Dải lặp |
@@ -25,38 +23,32 @@ Trong khoa học huấn luyện thể thao hiện đại (*Periodization*), chư
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 - **Hiệu ứng Kích hoạt Sau Co cơ (*Post-Activation Potentiation — PAP*)**: Một chuỗi khởi động cạn động học dài **`8–10 phút`** ngay trên bờ hồ (xoay khớp động + kéo dây kháng lực EVF nhẹ + kích hoạt Core) giúp nâng nhiệt độ cơ lên `+1–1.5°C`, giảm độ nhớt nội cơ và **tăng công suất lực kéo ngay từ 100m đầu tiên** — thay vì mất 600m bơi lờ đờ mới "nóng máy".
 - **Quản trị Giao thoa (*Concurrent Training Management*)**: Giữ khoảng cách tối thiểu **`6–8 giờ`** (hoặc tập Dryland **ngay sau** buổi bơi chính, không tập **trước** buổi bơi kỹ thuật/CSS) giúp ngăn chặn tình trạng mỏi hệ thần kinh trung ương làm sụp khuỷu EVF dưới nước.
 
-### Biomechanics
-
+### Cơ Sinh Học (Biomechanics)
 **Nguyên tắc "Hard Days Hard, Easy Days Easy" (Ngày nặng tập nặng, ngày nhẹ nghỉ trọn):**
 - Đặt buổi tập tạ / sức mạnh nặng vào **cùng ngày với buổi bơi CSS hoặc Sprint** (bơi trước → ăn nhẹ nạp protein/carb → tập Dryland sau 4–6 giờ, hoặc tập ngay sau bơi).
 - Nhờ vậy, ngày hôm sau sẽ là **ngày hồi phục hoàn toàn** (bơi nhẹ Zone 1–2 hoặc nghỉ hẳn) giúp cơ bắp và hệ thần kinh siêu bù trừ tối đa!
 
 ```mermaid
 flowchart LR
-    A["Phân Kỳ Dryland 24 Tuần"] --> B["Tuần 01–06\nMobility + Core + Form"]
-    B --> C["Tuần 07–14\nSức Mạnh Cơ Xô & Chân"]
-    C --> D["Tuần 15–20\nCông Suất Bùng Nổ (Power)"]
-    D --> E["Tuần 21–24\nTaper & Duy Trì Thần Kinh"]
-    E --> F["Đỉnh Phong < 1:30/100m\nVai Khỏe – Tay Nhẹ"]
+    A["Phân Kỳ Dryland 24 Tuần"] --> B["Tuần 01–06<br/>Mobility + Core + Form"]
+    B --> C["Tuần 07–14<br/>Sức Mạnh Cơ Xô & Chân"]
+    C --> D["Tuần 15–20<br/>Công Suất Bùng Nổ (Power)"]
+    D --> E["Tuần 21–24<br/>Taper & Duy Trì Thần Kinh"]
+    E --> F["Đỉnh Phong < 1:30/100m<br/>Vai Khỏe – Tay Nhẹ"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Thay vì tập theo cảm hứng mỗi ngày một kiểu, việc có sẵn **3 kịch bản Dryland đóng gói sẵn** (10 phút trên bờ hồ, 30 phút tại nhà, 40 phút phòng gym) giúp bạn duy trì kỷ luật suốt 24 tuần dù lịch làm việc bận rộn đến đâu.
 
-### Step-by-Step Execution & Water Cues
-
+### Hướng Dẫn Từng Bước & Cảm Giác Nước (Step-by-Step & Water Cues)
 #### Kịch bản A — Khởi Động 10 Phút Trên Bờ Hồ (Bắt Buộc Trước Mọi Buổi Bơi!)
 1. **Mở khớp động (3 phút)**: Xoay vai tiến–lùi biên độ tăng dần, mở ngực *Arm Swings*, xoay cột sống ngực *Thoracic Windmills*, xoay cổ chân.
 2. **Kích hoạt Chóp Xoay & EVF với dây nhẹ (4 phút)**:
@@ -82,8 +74,7 @@ Thay vì tập theo cảm hứng mỗi ngày một kiểu, việc có sẵn **3 
 ![Lịch mẫu phối hợp giữa buổi bơi và buổi tập cạn Dryland trong 1 tuần](../images/18-dryland-weekly-schedule.png)
 <!-- IMAGE_PROMPT: Clean weekly training calendar infographic for swimmers showing optimal pairing of 4 swim sessions (Tech/Endurance, CSS Threshold, Drills/Recovery, Speed/VO2max) with 2 Dryland strength sessions, daily 10-min poolside pre-swim activation, and 1 full rest day following the "Hard Days Hard, Easy Days Easy" principle. -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **Lịch mẫu ghép 4 buổi bơi + 2 buổi Dryland/tuần**:
   - **Thứ 2**: Bơi Kỹ thuật + Hiếu khí (Z1–Z2) | *Nghỉ Dryland (chỉ Mobility 10p)*
   - **Thứ 3 (Ngày Nặng 1)**: Bơi Ngưỡng CSS (Z3) + **Dryland Buổi 1** (sau bơi hoặc cách 6 giờ)
@@ -95,7 +86,7 @@ Thay vì tập theo cảm hứng mỗi ngày một kiểu, việc có sẵn **3 
 
 ---
 
-## Drills (Kiểm Soát Chuyển Giao Dryland → Water)
+## Bài Tập Thực Hành (Drills — Kiểm Soát Chuyển Giao Dryland → Water)
 
 | Mục Tiêu Kiểm Tra | Cách Thực Hiện | Tiêu Chí Đạt |
 | :--- | :--- | :--- |
@@ -105,8 +96,7 @@ Thay vì tập theo cảm hứng mỗi ngày một kiểu, việc có sẵn **3 
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Theo dõi tải tập luyện (*Acute:Chronic Workload Ratio — ACWR*):** Ghi nhận tổng điểm tải `sRPE = Thời gian (phút) × Độ mệt (1–10)` của cả buổi bơi lẫn buổi Dryland.
 - **Ngưỡng cảnh báo quá tải:**
   - **An toàn tối ưu:** Tỷ lệ tải tuần hiện tại / trung bình 4 tuần trước (`ACWR`) nằm trong **`0.8–1.3`**.
@@ -114,8 +104,7 @@ Thay vì tập theo cảm hứng mỗi ngày một kiểu, việc có sẵn **3 
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Nhảy thẳng xuống hồ không khởi động cạn** | 500m đầu bơi cứng, dễ đau nhói khớp vai | Bỏ qua bước làm ấm khớp và kích hoạt cơ chóp xoay | Dành cố định **8–10 phút Kịch bản A** trên bờ trước mọi buổi bơi |
@@ -125,8 +114,7 @@ Thay vì tập theo cảm hứng mỗi ngày một kiểu, việc có sẵn **3 
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi thực hiện chuỗi khởi động cạn **8–10 phút (Kịch bản A)** trước ít nhất 90% số buổi bơi.
 - [ ] Tôi duy trì đều đặn **2 buổi Dryland chuyên biệt/tuần** không gây đau nhức cơ nặng làm hỏng buổi bơi.
 - [ ] Tôi luôn sắp xếp buổi bơi kỹ thuật/tốc độ diễn ra **trước** buổi tập sức mạnh cạn (hoặc cách ≥ 6 giờ).
@@ -135,8 +123,7 @@ Thay vì tập theo cảm hứng mỗi ngày một kiểu, việc có sẵn **3 
 
 ---
 
-## KPI
-
+## Chỉ Số Đo Lường (KPI)
 | Chỉ số (Metric) | Người mới | Trung cấp | Nâng cao (`< 1:30/100m`) |
 | :--- | :---: | :---: | :--- |
 | **Tần suất Dryland chuyên biệt / tuần** | `2 buổi` (20–25p) | `2 buổi` (30–40p) | `2–3 buổi` (35–45p) theo chu kỳ |
@@ -145,8 +132,7 @@ Thay vì tập theo cảm hứng mỗi ngày một kiểu, việc có sẵn **3 
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Tôi đang tập Triathlon (bơi + đạp + chạy), vậy sắp xếp Dryland bơi thế nào để không quá tải?**
 Với Triathlete, bạn chỉ cần **2 buổi × 25 phút/tuần** tập trung vào **Core (4 trụ cột) + Cơ xô (Pull-Up / Swim Cords) + Bảo vệ khớp vai (Face Pull / External Rotation)** — bỏ qua các bài tập chân nặng vì đạp xe và chạy bộ đã tải rất nhiều lên phần thân dưới!
 
@@ -158,8 +144,7 @@ Nạp khoảng `20–30g Protein + 30–50g Carbohydrate` trong vòng `60 phút`
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - Dryland hiệu quả là Dryland **được phân kỳ thông minh theo 4 giai đoạn** (Nền tảng → Sức mạnh → Công suất → Taper) và tuân thủ nguyên tắc **Bơi trước – Dryland sau**.
 - Chỉ cần **`10 phút` khởi động trên bờ trước mỗi buổi bơi** + **`2 buổi` Dryland 30–40 phút/tuần** là đủ để tối đa hóa sức mạnh cơ xô, Core và bảo vệ khớp vai tuyệt đối.
 
@@ -171,8 +156,7 @@ Nạp khoảng `20–30g Protein + 30–50g Carbohydrate` trong vòng `60 phút`
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Olbrecht, J. (2000). *The Science of Winning*. F&G Partners.
 2. Bompa, T. O., & Buzzichelli, C. (2018). *Periodization: Theory and Methodology of Training*. Human Kinetics.
 3. USA Swimming — *Dryland Periodization & Pre-Pool Activation Protocols*.

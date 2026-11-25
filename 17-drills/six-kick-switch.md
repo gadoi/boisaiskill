@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `17-drills/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 Nếu chỉ được giữ lại **một bài tập duy nhất** để xây dựng triết lý **"bơi bằng thân (Core + Hông), tay nhẹ như không"**, bài tập đó chính là **6-Kick Switch** (kết hợp nền tảng **Side Kick**). Đây là bài Drill xương sống của cả 3 trường phái (Total Immersion, SwimSmooth và Olympic): nó rèn đồng thời **cân bằng nghiêng `45°`, giữ đầu bất động, kích hoạt Core, xoay hông dứt khoát và đồng bộ chuỗi truyền lực** vào mỗi sải kéo.
 
 - **Mục tiêu cốt lõi:** Thành thạo tư thế lướt nghiêng **Side Kick (`45°`)**, sau đó dùng một cú **bật xoay hông dứt khoát sau đúng 6 nhịp chân** để kéo sải tay và khóa tư thế nghiêng sang bên đối diện.
@@ -12,8 +11,7 @@ Nếu chỉ được giữ lại **một bài tập duy nhất** để xây dự
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Hệ thống tiến trình từ **Side Kick → 6-Kick Switch → 3-Kick Switch → Full Swim** là lộ trình học vận động kinh điển giúp não bộ cài đặt tự động cơ chế **Hip-Driven Swimming**:
 
 1. **Bước 1 — Side Kick (Đạp nghiêng 25m cố định 1 bên)**: Cô lập hoàn toàn tư thế cân bằng nghiêng `45°`, trục đầu–hông thẳng và nhịp thở *One-Goggle Rule*.
@@ -22,15 +20,12 @@ Hệ thống tiến trình từ **Side Kick → 6-Kick Switch → 3-Kick Switch 
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 - **Cảm nhận trực tiếp giảm Wave Drag**: Trong tư thế **Side Kick (`45°`)** với 1 tay vươn dài phía trước `10–15 cm` và 1 tay áp sát đùi, bề ngang chắn nước của bạn thu nhỏ đáng kể so với nằm sấp. Bạn sẽ cảm nhận cơ thể cắt nước nhẹ nhàng hơn hẳn chỉ với một nhịp đạp chân rất êm.
 - **Bùng nổ động năng xoay (*Rotational Impulse*)**: Ở nhịp chân thứ 6 của **6-Kick Switch**, cú đạp chân đối bên kết hợp xoay hông từ `+45°` sang `-45°` (tổng biên độ `90°`) phóng thích toàn bộ thế năng của dải cơ chéo sau (*Posterior Oblique Sling*), đẩy thân người đi xa hơn **20–30%** so với một sải tay kéo phẳng!
 
-### Biomechanics
-
+### Cơ Sinh Học (Biomechanics)
 Sự phân công nhiệm vụ chuẩn xác ở khoảnh khắc **"Switch" (nhịp chân thứ 6)**:
 - **Đầu**: Giữ **bất động tuyệt đối**, mắt dán chặt vào đường gạch đen đáy hồ (trừ khi thực hiện nhịp thở gọn).
 - **Hông & Core**: Hông đang ở trên xoay mạnh xuống dưới `45°`, kéo theo khung sườn xoay đồng trục.
@@ -39,26 +34,23 @@ Sự phân công nhiệm vụ chuẩn xác ở khoảnh khắc **"Switch" (nhị
 
 ```mermaid
 flowchart LR
-    A["Tư thế Nghiêng Trái 45°\n(Tay Trái vươn trước, Tay Phải sát đùi)\nMắt nhìn đáy — Đếm 6 nhịp chân"] --> B["Nhịp chân thứ 6:\nHÔNG PHẢI BẬT XOAY XUỐNG 45°"]
-    B --> C["Tay Trái kéo EVF → Push về đùi\nTay Phải rút thả lỏng → Xỏ kim vươn trước"]
-    C --> D["Khóa gọn Tư thế Nghiêng Phải 45°\n(Đầu bất động) — Đếm 6 nhịp chân"]
-    D --> E["Nâng cấp: 3-Kick Switch\n→ Chuyển giao ngay 25m Bơi Thường"]
+    A["Tư thế Nghiêng Trái 45°<br/>(Tay Trái vươn trước, Tay Phải sát đùi)<br/>Mắt nhìn đáy — Đếm 6 nhịp chân"] --> B["Nhịp chân thứ 6:<br/>HÔNG PHẢI BẬT XOAY XUỐNG 45°"]
+    B --> C["Tay Trái kéo EVF → Push về đùi<br/>Tay Phải rút thả lỏng → Xỏ kim vươn trước"]
+    C --> D["Khóa gọn Tư thế Nghiêng Phải 45°<br/>(Đầu bất động) — Đếm 6 nhịp chân"]
+    D --> E["Nâng cấp: 3-Kick Switch<br/>→ Chuyển giao ngay 25m Bơi Thường"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 **6-Kick Switch** chữa dứt điểm cùng lúc **4 căn bệnh lớn nhất của người bơi phong trào**:
 1. **Bơi thân phẳng (Flat Swimming)**: Ép cơ thể làm quen và yêu thích cảm giác xoay `40–45°`.
 2. **Đau vai do kéo bằng tay**: Dạy não phát lực từ cú bật xoay của hông trước khi tay kéo.
 3. **Mất cân bằng hai bên**: Buộc cả bên thuận lẫn bên nghịch phải giữ nghiêng đúng 6 nhịp như nhau.
 4. **Hông chìm khi thở**: Tập thở ngay trong tư thế Side Kick mà không cần nâng đầu hay ấn tay trước.
 
-### Step-by-Step Execution & Water Cues
-
+### Hướng Dẫn Từng Bước & Cảm Giác Nước (Step-by-Step & Water Cues)
 1. **Thiết lập Side Kick chuẩn (`45°`, KHÔNG phải `90°`)**:
    - Tay trái vươn thẳng trước vai trái sâu `10–15 cm`, tay phải đặt thoải mái dọc mép đùi phải.
    - Xoay cả vai và hông nghiêng **`45°`** (rốn hướng chéo xuống góc tường–đáy hồ, không chổng thẳng ngang tường `90°`).
@@ -70,8 +62,7 @@ flowchart LR
 ![Minh họa chuỗi 3 bước bài tập 6-Kick Switch từ nghiêng trái 45 độ bật xoay sang nghiêng phải](../images/17-drill-6-kick-switch.png)
 <!-- IMAGE_PROMPT: Technical 3-frame underwater front-quarter sequence diagram of 6-Kick Switch Drill: Frame 1 Balanced 45-deg left side glide (left arm extended 15cm deep, right arm at thigh, head looking down, 6 crisp kicks); Frame 2 Dynamic hip-driven Switch rotation transferring torque to EVF pull; Frame 3 Locked 45-deg right side glide with straight spine alignment. -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **Đừng dừng hẳn tay trượt trước khi xoay — hãy kết hợp Snorkel trong tuần đầu**: Đeo ống thở Snorkel + chân vịt ngắn giúp bạn giữ đầu đứng yên như tượng và cảm nhận rõ cú "bật" của hông mạnh mẽ đến mức nào!
 - **Chuyển từ 6-Kick Switch → 3-Kick Switch → Full Swim (`75m` hoặc `100m`)**:
   - `25m` 6-Kick Switch (xoay sâu `45°`)
@@ -80,8 +71,7 @@ flowchart LR
 
 ---
 
-## Drills
-
+## Bài Tập Thực Hành (Drills)
 | Biến thể | Mục tiêu cụ thể | Cự ly / Số hiệp | Cảm giác đúng (Cue) |
 | :--- | :--- | :--- | :--- |
 | **Side Kick (Cố định 1 bên)** | Làm chủ góc nghiêng `45°`, cân bằng nổi & thở 1 mắt kính | `4 × 25m` (2 trái, 2 phải, kèm Short Fins) | Thân thẳng tắp, tay dưới không tụt khi xoay cằm thở |
@@ -90,8 +80,7 @@ flowchart LR
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Chính diện dưới nước (Underwater Front View) và Ngang dưới nước (Side View).
 - **Keypoints cần trích xuất:** `shoulder_line`, `hip_line`, `nose`, `lead_wrist`, `ankle`.
 - **Ngưỡng phát hiện lỗi tự động:**
@@ -100,8 +89,7 @@ flowchart LR
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Xoay quá sâu (80–90°)** | Gần như nằm ngửa nhìn trần nhà, rất khó đổi bên | Hiểu nhầm "nghiêng người" là nằm nghiêng hẳn 90° | Giới hạn góc nghiêng ở **`45°`** (rốn chiếu xuống góc giữa đáy và tường bên) |
@@ -111,8 +99,7 @@ flowchart LR
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi có thể thực hiện `25m Side Kick` mỗi bên ở đúng góc `45°` (không lật `90°`) với mắt nhìn thẳng đáy hồ.
 - [ ] Trong **6-Kick Switch**, đầu tôi giữ bất động hoàn toàn khi xoay vai và hông chuyển bên.
 - [ ] Tôi cảm nhận rõ cú xoay hông ở nhịp chân thứ 6 là nguồn lực chính đẩy tay kéo đi nhẹ nhàng.
@@ -121,8 +108,7 @@ flowchart LR
 
 ---
 
-## KPI
-
+## Chỉ Số Đo Lường (KPI)
 | Chỉ số (Metric) | Người mới | Trung cấp | Nâng cao (`< 1:30/100m`) |
 | :--- | :---: | :---: | :---: |
 | **Góc nghiêng thân trong 6 nhịp giữ** | `< 25°` hoặc `> 75°` | `35–55°` | `40–48°` ổn định 2 bên |
@@ -131,8 +117,7 @@ flowchart LR
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Nên đếm 6 nhịp chân bằng 1 chân hay tổng cả 2 chân?**
 Đếm **tổng cả 2 chân**: `1 (trái) - 2 (phải) - 3 (trái) - 4 (phải) - 5 (trái) - 6 (phải) → SWITCH!`. Một nhịp 6 lần chuẩn chỉ mất khoảng `2–2.5 giây`.
 
@@ -144,8 +129,7 @@ Hoàn toàn được! Hãy dùng chân vịt ngắn ở 2 tuần đầu để l�
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - **Side Kick → 6-Kick Switch → 3-Kick Switch** là lộ trình vàng để cài đặt thói quen **bơi bằng thân (Hip-Driven)** và xoay trục dọc `40–45°`.
 - 3 điểm khóa thành công: **Góc nghiêng `45°` (không `90°`) + Đầu nhìn đáy bất động + Hông chủ động bật xoay trước khi tay kéo**.
 
@@ -157,8 +141,7 @@ Hoàn toàn được! Hãy dùng chân vịt ngắn ở 2 tuần đầu để l�
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Laughlin, T. (2004). *Total Immersion*. Fireside.
 2. Newsome, P., & Young, A. (2012). *Swim Smooth*. Wiley.
 3. USA Swimming — *6-Kick Switch & Rotational Mechanics Curriculum*.

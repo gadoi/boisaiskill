@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `22-training-plan/` | **Giai đoạn:** Xây Móng Thủy Động Lực Học | **Dryland:** Giai đoạn 1 (Mobility + Core nền)
 
-## Overview
-
+## Tổng Quan (Overview)
 **Block 1 (Tuần 01–04)** là giai đoạn quan trọng nhất toàn bộ hành trình 24 tuần. Ở 4 tuần đầu tiên này, **tốc độ tuyệt đối chưa phải mục tiêu** — mục tiêu số 1 là **cắt giảm 30–50% lực cản Form Drag** bằng cách thiết lập tư thế thân ngang `< 5°`, khóa chặt Streamline ở mọi thành bể, xóa bỏ lỗi nín hơi khi thở và xây dựng "cảm giác nước" (*Feel for the Water*) qua Sculling.
 
 - **Mục tiêu cốt lõi:** Hoàn thành **CSS Test #1**, làm chủ *Press the T*, *One-Goggle Breathing*, *Streamline 5m+* và kéo giảm SWOLF ban đầu `2–4 điểm`.
@@ -12,8 +11,7 @@
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Theo quy luật học vận động (*Motor Skill Acquisition*), não bộ chỉ có thể ghi đè thói quen bơi sai cũ khi tốc độ bơi đủ chậm (Zone 1–2) để hệ thần kinh kịp cảm nhận và hiệu chỉnh từng khớp. Do đó, trong Block 1:
 - **70% khối lượng** diễn ra ở **Zone 1–2** (Drill, kỹ thuật, hiếu khí nhẹ).
 - **20% khối lượng** ở **Zone 3 (CSS nhẹ)** để làm quen cảm giác giữ dáng ở tốc độ trung bình.
@@ -21,13 +19,11 @@ Theo quy luật học vận động (*Motor Skill Acquisition*), não bộ chỉ
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 Khi bạn hạ góc nghiêng thân từ `15°` xuống `< 6°` và xóa lỗi *Scissor Kick* trong 4 tuần đầu, diện tích mặt cắt cản $A$ giảm `~35%`. Theo $P = \frac{1}{2}\rho C_d A v^3$, điều này tương đương bạn vừa nhận được **+15% tốc độ miễn phí** mà không cần tốn thêm 1% thể lực!
 
-### Biomechanics — Phân Bổ Tải Block 1 (Nhịp 3:1)
+### Cơ Sinh Học (Biomechanics) — Phân Bổ Tải Block 1 (Nhịp 3:1)
 
 | Tuần | Đặc điểm tải | Lịch 3 buổi (`S1–S3`) | Lịch 4 buổi (`+S4`) | Lịch 5 buổi (`+S5`) | Lịch 6 buổi (`+S6`) |
 | :---: | :--- | :---: | :---: | :---: | :---: |
@@ -38,20 +34,18 @@ Khi bạn hạ góc nghiêng thân từ `15°` xuống `< 6°` và xóa lỗi *S
 
 ```mermaid
 flowchart LR
-    A["Tuần 01\nCSS Test #1 + Video Nền\n(100% tập trung Tư thế)"] --> B["Tuần 02\nPress the T + Thở Bọt\n+ Side-Glide Kick"]
-    B --> C["Tuần 03\nStreamline 5m+ + Sculling\n+ Giữ trục thân ở Z2"]
-    C --> D["Tuần 04 (Deload)\nGiảm 25% khối lượng\nKiểm tra SWOLF & Glide"]
+    A["Tuần 01<br/>CSS Test #1 + Video Nền<br/>(100% tập trung Tư thế)"] --> B["Tuần 02<br/>Press the T + Thở Bọt<br/>+ Side-Glide Kick"]
+    B --> C["Tuần 03<br/>Streamline 5m+ + Sculling<br/>+ Giữ trục thân ở Z2"]
+    C --> D["Tuần 04 (Deload)<br/>Giảm 25% khối lượng<br/>Kiểm tra SWOLF & Glide"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Các buổi tập được chia rõ **3 Buổi Lõi (`S1, S2, S3`)** và **3 Buổi Mở Rộng (`S4, S5, S6`)**. Mọi buổi đều bắt đầu bằng **8–10 phút Khởi động cạn (Kịch bản A)** và kết thúc bằng **5 phút giãn cổ chân & vai**.
 
-### Step-by-Step Execution — Chi Tiết Giáo Án 6 Buổi/Tuần (Tuần 01–04)
+### Hướng Dẫn Từng Bước (Step-by-Step) — Chi Tiết Giáo Án 6 Buổi/Tuần (Tuần 01–04)
 
 *(Tăng thêm `+10–15%` số hiệp ở Main Set vào Tuần 2–3, và giảm `-25%` số hiệp vào Tuần 4 Deload).*
 
@@ -100,13 +94,13 @@ Các buổi tập được chia rõ **3 Buổi Lõi (`S1, S2, S3`)** và **3 Bu�
 ![Biểu đồ phân bổ khối lượng 4 tuần Block 1 theo nhịp 3:1](../images/22-block1-volume-wave.png)
 <!-- IMAGE_PROMPT: Clean bar chart showing Block 1 (Weeks 1-4) weekly swim volume progression across 3, 4, 5, and 6 session plans with the Week 4 Deload drop clearly highlighted, paired with key focus badges: Head-Down Alignment, Streamline 5m+, One-Goggle Breathing, and Sculling. -->
 
-### Advanced Tips (Dryland & Mobility Đi Kèm Block 1)
+### Mẹo Nâng Cao (Advanced Tips — Dryland & Mobility Đi Kèm Block 1)
 - **Dryland (`2 buổi/tuần × 25p`)**: Tập Kịch bản B nhẹ (Dead Bug, Hollow Body Hold, Band EVF nhẹ, Seated Heel-Sit).
 - **Mobility (`10p/ngày`)**: Ưu tiên mở Cột sống ngực (*Thoracic Foam Roll*), *Lat Prayer Stretch* và *Seated Heel-Sit*.
 
 ---
 
-## Drills (Trọng Tâm Block 1)
+## Bài Tập Thực Hành (Drills — Trọng Tâm Block 1)
 
 | Tên Drill | Tần suất/Tuần | Mục tiêu sửa lỗi Block 1 |
 | :--- | :---: | :--- |
@@ -117,15 +111,13 @@ Các buổi tập được chia rõ **3 Buổi Lõi (`S1, S2, S3`)** và **3 Bu�
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Quay Video Nền (Tuần 01) & Kiểm Tra Lại (Tuần 04):** So sánh góc nghiêng trục thân ($\theta$) và độ tụt tay trượt khi thở giữa Tuần 1 và Tuần 4.
 - **Chỉ số mục tiêu hết Tuần 04:** Góc nghiêng thân giảm tối thiểu `3–5°`; độ mở gối Scissor Kick giảm xuống `< 30 cm`.
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Cố bơi nhanh trong bài tập Drill** | Thở dốc, không cảm nhận được độ nổi hông | Sợ cảm giác "tập quá nhẹ" | Nhắc bản thân: Block 1 là **cắt giảm 50% lực cản** — nền móng cho mọi tốc độ sau này |
@@ -134,8 +126,7 @@ Các buổi tập được chia rõ **3 Buổi Lõi (`S1, S2, S3`)** và **3 Bu�
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi đã hoàn thành **CSS Test #1** và quay được video nền ban đầu.
 - [ ] Hết Tuần 4, tôi cảm thấy hông mình nổi cao hơn rõ rệt và cổ gáy hoàn toàn thả lỏng.
 - [ ] Tôi thở ra liên tục dưới nước (không nín hơi) và không còn bị hụt hơi sau 200m bơi Z2.
@@ -144,7 +135,7 @@ Các buổi tập được chia rõ **3 Buổi Lõi (`S1, S2, S3`)** và **3 Bu�
 
 ---
 
-## KPI (Hết Tuần 04)
+## Chỉ Số Đo Lường (KPI — Hết Tuần 04)
 
 | Chỉ số (Metric) | Đạt chuẩn Block 1 | Xuất sắc |
 | :--- | :---: | :---: |
@@ -154,8 +145,7 @@ Các buổi tập được chia rõ **3 Buổi Lõi (`S1, S2, S3`)** và **3 Bu�
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Tuần 1–4 thấy tổng cự ly hơi ít so với thói quen bơi 3km/buổi cũ của tôi thì sao?**
 Chất lượng kỹ thuật trong Block 1 quan trọng hơn khối lượng! Nếu bạn đã có nền thể lực rất tốt, hãy chọn **Lịch 5 hoặc 6 buổi/tuần** nhưng vẫn **giữ trọn vẹn phần Drill và bơi Z2 chuẩn form**, không biến nó thành *Junk Miles*.
 
@@ -164,8 +154,7 @@ Rất bình thường! Hãy dùng bài tương phản `25m Pull Buoy + 25m Khôn
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - **Block 1 (Tuần 01–04)** đặt viên gạch nền móng: **CSS Test #1 + Tư thế thân ngang `< 6°` + Streamline 6m+ + Thở bọt liên tục + Sculling**.
 - Luôn tuân thủ cấu trúc **3 buổi lõi (`S1–S3`) + mở rộng (`S4–S6`)** và tuần giảm tải Deload ở Tuần 4.
 
@@ -176,8 +165,7 @@ Rất bình thường! Hãy dùng bài tương phản `25m Pull Buoy + 25m Khôn
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Newsome, P., & Young, A. (2012). *Swim Smooth*. Wiley.
 2. Laughlin, T. (2004). *Total Immersion*. Fireside.
 3. USA Swimming — *Foundational Technical Block Programming*.

@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `videos/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~10 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 Học bơi sải nhanh gấp 3 lần khi bạn kết hợp **đọc nguyên lý khoa học** với **quan sát hình ảnh chuyển động quay chậm (Slow-Motion 0.25x)** của các VĐV chuẩn mực và so sánh song song với chính video của mình. Tài liệu này đóng vai trò **thư viện tra cứu danh mục video chuẩn (Catalog)** — hướng dẫn chính xác *cần tìm xem video nào*, *dừng ở giây nào* và *soi đúng chi tiết cơ sinh học nào* cho từng chủ đề của bộ sách.
 
 - **Mục tiêu cốt lõi:** Xây dựng thói quen "xem video có chủ đích" (*Deliberate Visual Learning*) — mỗi lần xem đều có danh sách 3 điểm cần quan sát rõ ràng.
@@ -12,8 +11,7 @@ Học bơi sải nhanh gấp 3 lần khi bạn kết hợp **đọc nguyên lý 
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Trong khoa học thần kinh vận động, hệ thống **Nơ-ron Gương (*Mirror Neuron System*)** kích hoạt chính các vùng vỏ não vận động khi bạn **quan sát kỹ lưỡng một chuyển động chuẩn ở tốc độ chậm (`0.25x–0.5x`)** ngay trước khi xuống hồ tập luyện!
 Để tối đa hóa hiệu ứng Nơ-ron Gương, danh mục video được phân thành **4 nhóm chuẩn**:
 1. **Nhóm A — Video Kỹ Thuật Dưới Nước (Underwater Technical Clips)**: Soi từng pha tư thế, EVF, Push, Recovery, Kicking.
@@ -23,16 +21,14 @@ Trong khoa học thần kinh vận động, hệ thống **Nơ-ron Gương (*Mir
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 Khi xem video quay chậm dưới nước (`0.25x`), hãy tập trung theo dõi **dòng bọt khí làm chất chỉ thị dòng chảy (*Flow Visualization*)**:
 - Dải bọt mảnh, khép gọn dọc thân và tan nhanh → **Lực cản thấp ($C_d$ nhỏ)**.
 - Chùm bọt lớn bao kín bàn tay và cẳng tay lúc bắt nước → **Đập tay khi Entry làm mất bám nước**.
 - Vòng xoáy tròn sắc nét tách ra ngang đùi ở cuối pha Push → **Vortex Shedding tạo xung lượng đẩy tối đa**.
 
-### Biomechanics — Danh Mục Video Tham Khảo Chuẩn Theo Chủ Đề
+### Cơ Sinh Học (Biomechanics) — Danh Mục Video Tham Khảo Chuẩn Theo Chủ Đề
 
 | Mã | Chủ đề | Từ khóa tìm kiếm chuẩn (YouTube / World Aquatics / SwimSmooth) | Góc quay cần xem | 3 Điểm Vàng Cần Soi Khi Dừng Khung Hình |
 | :-: | :--- | :--- | :--- | :--- |
@@ -48,20 +44,18 @@ Khi xem video quay chậm dưới nước (`0.25x`), hãy tập trung theo dõi 
 
 ```mermaid
 flowchart LR
-    A["Chọn 1 Chủ Đề Cần Sửa\n(Ví dụ: V02 — EVF Catch)"] --> B["Xem Video Chuẩn ở 0.25x\n(Tập trung 3 Điểm Vàng)"]
-    B --> C["Đặt Song Song (Split-Screen)\nvới Video Tự Quay Của Bạn"]
-    C --> D["Ghi Chú Đúng 1 Chênh Lệch Lớn Nhất\n→ Xuống Hồ Tập Drill Ngay"]
+    A["Chọn 1 Chủ Đề Cần Sửa<br/>(Ví dụ: V02 — EVF Catch)"] --> B["Xem Video Chuẩn ở 0.25x<br/>(Tập trung 3 Điểm Vàng)"]
+    B --> C["Đặt Song Song (Split-Screen)<br/>với Video Tự Quay Của Bạn"]
+    C --> D["Ghi Chú Đúng 1 Chênh Lệch Lớn Nhất<br/>→ Xuống Hồ Tập Drill Ngay"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Chỉ cần dành **`3 phút` xem lại đúng 1 đoạn video mẫu `V01–V09`** trên điện thoại **ngay trước khi xuống hồ bơi** (trong lúc làm nóng cạn), hình ảnh vận động chuẩn sẽ ở trạng thái "tươi mới nhất" trong vỏ não — giúp bạn mô phỏng góc khuỷu và nhịp xoay chính xác hơn rõ rệt ngay từ chiều bể đầu tiên!
 
-### Step-by-Step Execution — Quy Ước Lưu Trữ Thư Viện Cá Nhân (`videos/my-progress/`)
+### Hướng Dẫn Từng Bước (Step-by-Step) — Quy Ước Lưu Trữ Thư Viện Cá Nhân (`videos/my-progress/`)
 
 Tạo thư mục lưu trữ cục bộ (không đẩy file `.mp4` nặng lên Git, chỉ lưu ghi chú Markdown hoặc link đám mây) theo quy ước:
 - `W01_Baseline/` — 4 góc quay đầu vào Tuần 01.
@@ -73,8 +67,7 @@ Tạo thư mục lưu trữ cục bộ (không đẩy file `.mp4` nặng lên Gi
 ![Minh họa giao diện so sánh video song song Split-Screen giữa mẫu chuẩn và người tập](../images/21-video-split-screen-compare.png)
 <!-- IMAGE_PROMPT: Clean sports video analysis software UI mockup showing a side-by-side Split-Screen underwater comparison: Left panel "Reference Pro (EVF 110 deg, Body Tilt 3 deg)"; Right panel "Swimmer Progress W01 vs W16" with angle overlay arcs, timeline scrubber, and synchronized keyframe markers. -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **Các kênh phân tích kỹ thuật bơi uy tín nhất toàn cầu nên theo dõi**:
   1. **The Race Club (Gary Hall Sr.)** — Phân tích cơ sinh học Olympic cực kỳ chi tiết.
   2. **Swim Smooth** — Thực chiến nhất cho người bơi phong trào, Triathlete & Open Water.
@@ -83,7 +76,7 @@ Tạo thư mục lưu trữ cục bộ (không đẩy file `.mp4` nặng lên Gi
 
 ---
 
-## Drills (Bài Tập Quan Sát Chủ Động)
+## Bài Tập Thực Hành (Drills — Bài Tập Quan Sát Chủ Động)
 
 | Bài Tập | Thời lượng | Quy trình |
 | :--- | :---: | :--- |
@@ -92,14 +85,12 @@ Tạo thư mục lưu trữ cục bộ (không đẩy file `.mp4` nặng lên Gi
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Chuẩn gắn thẻ tìm kiếm tự động (Video Tagging):** Mỗi video trong catalog cá nhân nên gắn thẻ `[week, angle, pace_zone, target_skill, key_error]` để dễ dàng truy xuất lại toàn bộ lịch sử tiến bộ 6 tháng.
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Xem quá nhiều video lý thuyết trái ngược nhau** | Bị rối loạn không biết nên kéo thẳng hay cong, thở 1:2 hay 1:3 | Xem lan man không theo hệ thống nhất quán | Bám sát đúng **1 lộ trình chuẩn** của `swim-book` & chỉ xem video khớp Block hiện tại |
@@ -107,16 +98,14 @@ Tạo thư mục lưu trữ cục bộ (không đẩy file `.mp4` nặng lên Gi
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi biết cách bấm dừng từng khung hình và xem video dưới nước ở tốc độ `0.25x`.
 - [ ] Tôi thực hành thói quen xem nhanh `2–3 phút` video mẫu đúng trọng tâm kỹ thuật trước khi xuống hồ.
 - [ ] Tôi đã tạo thư mục lưu trữ video tiến bộ cá nhân theo mốc `W01 → W08 → W16 → W24`.
 
 ---
 
-## KPI
-
+## Chỉ Số Đo Lường (KPI)
 | Chỉ số áp dụng Video Learning | Mục tiêu |
 | :--- | :---: |
 | **Số đợt quay & đối chiếu Split-Screen trong 24 tuần** | `4–5 đợt` (Tuần 1, 8, 16, 20, 24) |
@@ -124,8 +113,7 @@ Tạo thư mục lưu trữ cục bộ (không đẩy file `.mp4` nặng lên Gi
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Phím tắt xem từng khung hình trên YouTube khi phân tích kỹ thuật bơi là gì?**
 Khi video đang tạm dừng (*Pause*), bấm phím **`.` (dấu chấm)** để tiến tới đúng **1 khung hình**, và phím **`,` (dấu phẩy)** để lùi lại đúng **1 khung hình**! Đây là mẹo cực kỳ hữu ích để soi chính xác thời điểm *Hand Entry* và *EVF*.
 
@@ -134,8 +122,7 @@ Vì file video HD/4K nặng hàng trăm MB sẽ làm phình kho Git. Giải phá
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - Danh mục `V01–V09` chuẩn hóa những video cần xem và **3 điểm vàng cần soi** ở tốc độ `0.25x` cho từng kỹ năng bơi sải.
 - Kết hợp **xem nhanh 3 phút trước buổi bơi** với **đối chiếu Split-Screen mỗi 4–8 tuần** giúp tăng tốc độ sửa lỗi gấp nhiều lần.
 
@@ -146,8 +133,7 @@ Vì file video HD/4K nặng hàng trăm MB sẽ làm phình kho Git. Giải phá
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Rizzolatti, G., & Craighero, L. (2004). *The mirror-neuron system*. Annual Review of Neuroscience.
 2. Swim Smooth, The Race Club & Effortless Swimming Official Technical Libraries.
 3. World Aquatics Underwater Race Analysis Archives.

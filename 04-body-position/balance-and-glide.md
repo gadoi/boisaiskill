@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `04-body-position/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 Sự khác biệt dễ nhận ra nhất giữa người bơi "vất vả" và người bơi "lướt đi nhẹ tênh" nằm ở **khả năng cân bằng ở tư thế nghiêng và kiểm soát pha trượt (*Glide*)**. Trượt không có nghĩa là dừng hẳn lại mất tốc độ — mà là khoảnh khắc **kéo dài thân tàu (`10–15 cm` dưới mặt nước)** để tận dụng tối đa quán tính từ sải kéo của tay đối diện trước khi bắt đầu tì nước EVF.
 
 - **Mục tiêu cốt lõi:** Làm chủ độ sâu trượt `10–15 cm`, duy trì cân bằng ổn định ở góc nghiêng `30–45°` và căn đúng thời lượng trượt theo từng tốc độ bơi.
@@ -12,8 +11,7 @@ Sự khác biệt dễ nhận ra nhất giữa người bơi "vất vả" và ng
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Trong bơi sải, pha **Glide (Trượt)** là cầu nối giữa pha vào nước (*Hand Entry*) và pha bắt nước (*Catch / EVF*). Nó đảm nhiệm đồng thời 3 chức năng thủy động và cơ sinh học:
 1. **Dịch chuyển Trọng tâm (COG) về phía trước**: Giữ một cánh tay vươn dài phía trước giúp hông tự nổi ngang mặt nước (xem [COG & COB](../01-foundation/center-of-gravity-and-buoyancy.md)).
 2. **Tăng chiều dài thân tàu hiệu dụng ($L$)**: Giảm lực cản sóng (*Wave Drag*) ngay trong khoảnh khắc tay đối diện đang thực hiện pha đẩy mạnh nhất (*Push*).
@@ -21,10 +19,8 @@ Trong bơi sải, pha **Glide (Trượt)** là cầu nối giữa pha vào nư�
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 Thời lượng pha Glide phải tỷ lệ nghịch với vận tốc bơi để tránh **sụt giảm vận tốc trong chu kỳ (*Intra-cyclic Velocity Variation — IVV*)**:
 - Khi bơi đường dài / kỹ thuật (`1:45–2:00/100m`, `SPM 55–65`): Pha trượt kéo dài khoảng **`0.25–0.40 giây`** giúp tối ưu hóa DPS và tiết kiệm năng lượng tối đa.
 - Khi bơi tốc độ ngưỡng CSS (`1:25–1:35/100m`, `SPM 68–76`): Pha trượt rút gọn còn **`0.10–0.20 giây`** — vừa đủ để duỗi thẳng tay hoàn toàn, lấy vị trí đặt nước ổn định rồi chuyển mượt sang EVF ngay trước khi vận tốc kịp giảm.
@@ -35,31 +31,27 @@ Thời lượng pha Glide phải tỷ lệ nghịch với vận tốc bơi để
 - Nếu trượt **quá sâu (`> 25–30 cm`)**: Tạo lực nâng giả ở vai làm chìm hông, đồng thời buộc vai phải vươn ở góc bất lợi khi dựng cẳng tay EVF.
 - Vùng ngọt (**Sweet Spot**): **`10–15 cm` dưới mặt nước**, song song hoàn toàn với mặt hồ (ngón tay chỉ thẳng về trước, không chúc sâu xuống đáy).
 
-### Biomechanics
-
+### Cơ Sinh Học (Biomechanics)
 Khi tay phải trượt ở phía trước trong tư thế nghiêng thân `35–45°`:
 - Khớp vai được vươn dài nhờ **xoay lồng ngực** (cơ răng trước *Serratus Anterior* kích hoạt giữ bả vai ổn định), không phải nhờ nhún vai sát tai.
 - Bàn tay và cẳng tay hoàn toàn thả lỏng ở trạng thái chờ (*Patient Lead Arm*), tiết kiệm năng lượng cho khoảnh khắc dựng EVF.
 
 ```mermaid
 flowchart LR
-    A["Tay vào nước 'xỏ kim'\n(Trước vai, không vắt chéo)"] --> B["Trượt 10–15 cm dưới mặt nước\n(Giữ thân dài, giảm Wave Drag)"]
+    A["Tay vào nước 'xỏ kim'<br/>(Trước vai, không vắt chéo)"] --> B["Trượt 10–15 cm dưới mặt nước<br/>(Giữ thân dài, giảm Wave Drag)"]
     B --> C{"Tốc độ bơi hiện tại?"}
-    C -->|"Đường dài / Kỹ thuật\n(SPM 55–65)"| D["Trượt 0.25–0.40s\nTối đa DPS & Tiết kiệm sức"]
-    C -->|"Ngưỡng CSS (< 1:30/100m)\n(SPM 68–76)"| E["Trượt gọn 0.10–0.20s\nChuyển mượt sang EVF, không Dead Spot"]
-    C -->|"Sprint (SPM 85+)"| F["Vươn nhanh → Bắt nước ngay\nGiữ tần suất đẩy liên tục"]
+    C -->|"Đường dài / Kỹ thuật<br/>(SPM 55–65)"| D["Trượt 0.25–0.40s<br/>Tối đa DPS & Tiết kiệm sức"]
+    C -->|"Ngưỡng CSS (< 1:30/100m)<br/>(SPM 68–76)"| E["Trượt gọn 0.10–0.20s<br/>Chuyển mượt sang EVF, không Dead Spot"]
+    C -->|"Sprint (SPM 85+)"| F["Vươn nhanh → Bắt nước ngay<br/>Giữ tần suất đẩy liên tục"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Một pha trượt kiểm soát tốt ở độ sâu `10–15 cm` giúp bạn tận dụng trọn vẹn động năng sinh ra từ pha đẩy (*Push*) của tay đối diện. Thay vì vội vàng kéo tay trước xuống khi tay sau vẫn đang đẩy (gây trùng pha và tăng lực cản), bạn để cơ thể **lướt trọn vẹn trên lực đẩy vừa tạo ra**, nhờ đó mỗi sải đi xa hơn mà số lần quạt tay ít đi.
 
-### Step-by-Step Execution & Water Cues
-
+### Hướng Dẫn Từng Bước & Cảm Giác Nước (Step-by-Step & Water Cues)
 1. **Vươn thẳng qua "ô cửa nhỏ"**: Tưởng tượng có một ô cửa nhỏ nằm dưới mặt nước `10–15 cm` ngay trước vai bạn; đưa bàn tay và cẳng tay chui ngọt qua đúng ô cửa đó.
 2. **Giữ tay trượt kiên nhẫn khi xoay thở**: Khi bạn xoay đầu sang phải lấy hơi, tay trái ở phía trước phải **giữ nguyên độ sâu `10–15 cm`** như đang đặt trên một mặt bàn vô hình — tuyệt đối không ấn tay trái xuống đáy để "chống người lên thở"!
 3. **Cảm giác "lướt trên đường ray"**: Đầu ngón tay hướng thẳng về phía tường đích, lòng bàn tay hơi úp xuống đáy, toàn bộ cánh tay duỗi tự nhiên nhưng không khóa gồng khuỷu tay cứng đờ.
@@ -68,15 +60,13 @@ Một pha trượt kiểm soát tốt ở độ sâu `10–15 cm` giúp bạn t�
 ![Minh họa vùng ngọt độ sâu trượt 10–15 cm và tư thế cân bằng nghiêng](../images/04-balance-glide-depth.png)
 <!-- IMAGE_PROMPT: Technical underwater side view of a freestyle swimmer in 40-degree body roll showing the lead arm gliding horizontally in the green 10-15cm depth Sweet Spot zone parallel to the surface, contrasted with red dashed arrows indicating common errors of shallow surface slapping and deep downward pressing. -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **Nhận diện "Dead Spot" (Điểm chết tốc độ)**: Nếu bạn cảm thấy cơ thể gần như dừng lại rồi mới phải rướn sức kéo lại từ đầu ở mỗi sải, bạn đang trượt quá lâu (*Over-gliding*). Hãy đẩy thời điểm bắt đầu Catch lên sớm hơn khoảng `0.1 giây` (chuyển từ *Full Catch-Up* sang *3/4 Catch-Up / Front-Quadrant*).
 - **Kiểm tra cân bằng nghiêng bằng tai**: Trong pha trượt nghiêng, giữ mặt bên của đầu tựa êm lên nước như đang nằm gối đầu lên cánh tay dưới; không nhấc tai rời khỏi nước.
 
 ---
 
-## Drills
-
+## Bài Tập Thực Hành (Drills)
 | Tên Drill | Mục tiêu cân bằng & trượt | Cự ly / Số hiệp | Cảm giác đúng (Cue) |
 | :--- | :--- | :--- | :--- |
 | **Side-Glide Kick (Trượt nghiêng 45°)** | Xây dựng sự ổn định tuyệt đối của tay trượt và trục hông | `6 × 25m` (đổi bên mỗi 25m) | Tay dưới vươn dài `10–15 cm` dưới nước, hông nổi cao, xoay nhẹ cằm lên là thở được ngay |
@@ -88,8 +78,7 @@ Một pha trượt kiểm soát tốt ở độ sâu `10–15 cm` giúp bạn t�
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang dưới nước (Underwater Side View) để đo độ sâu trượt (`lead_wrist_depth_cm`) và thời lượng pha Glide (`t_glide_sec`).
 - **Keypoints cần trích xuất:** `lead_shoulder`, `lead_elbow`, `lead_wrist`, `waterline_y`, `recovery_elbow`.
 - **Ngưỡng phát hiện lỗi tự động:**
@@ -98,8 +87,7 @@ Một pha trượt kiểm soát tốt ở độ sâu `10–15 cm` giúp bạn t�
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Ấn tay trượt xuống sâu khi thở** | Đầu nhô cao, hông tụt xuống, mất hoàn toàn pha EVF bên đó | Thiếu cân bằng nghiêng, dùng tay trượt làm "phao chống" | Tập Side-Glide Kick với chân vịt ngắn, giữ tay trước bất động trên "mặt bàn nước" |
@@ -109,8 +97,7 @@ Một pha trượt kiểm soát tốt ở độ sâu `10–15 cm` giúp bạn t�
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi có thể nằm nghiêng 45° (Side-Glide Kick) suốt 25m mỗi bên mà không bị chìm hông hay mất thăng bằng.
 - [ ] Tay trượt phía trước của tôi duy trì ổn định độ sâu `10–15 cm` dưới mặt nước, ngay cả khi tôi xoay đầu thở.
 - [ ] Cổ tay và bàn tay tôi thẳng hàng, thả lỏng (không bẻ ngược lên gây phanh nước) trong pha trượt.
@@ -119,8 +106,7 @@ Một pha trượt kiểm soát tốt ở độ sâu `10–15 cm` giúp bạn t�
 
 ---
 
-## KPI
-
+## Chỉ Số Đo Lường (KPI)
 | Chỉ số (Metric) | Người mới | Trung cấp | Nâng cao (`< 1:30/100m`) |
 | :--- | :---: | :---: | :---: |
 | **Độ sâu trượt của tay trước** | `0–5 cm` hoặc `> 30 cm` | `15–22 cm` | `10–15 cm` ổn định |
@@ -130,8 +116,7 @@ Một pha trượt kiểm soát tốt ở độ sâu `10–15 cm` giúp bạn t�
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Tổng thời gian trượt nên dài hay ngắn nếu tôi muốn bơi `< 1:30/100m`?**
 Ngắn và sắc (`0.10–0.20 giây`). Mục tiêu ở tốc độ `< 1:30/100m` là **duỗi hết tầm tay để đạt chiều dài thân tàu tối đa rồi lập tức dựng cẳng tay EVF**, không nằm chờ cho vận tốc giảm xuống.
 
@@ -143,8 +128,7 @@ Duỗi dài tự nhiên khoảng `95%` (mềm khớp khuỷu, không khóa khớ
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - Pha **Glide** đúng chuẩn diễn ra ở độ sâu **`10–15 cm` dưới mặt nước**, giúp kéo dài thân tàu ($L$), dịch COG về trước và giảm Wave Drag.
 - Giữ tay trượt ổn định như "đặt trên mặt bàn vô hình" trong lúc xoay thở — tuyệt đối không ấn tay trượt xuống đáy.
 - Điều chỉnh thời lượng Glide linh hoạt theo tốc độ: dài hơn (`0.25–0.40s`) khi bơi đường dài và gọn sắc (`0.10–0.20s`) khi hướng tới `< 1:30/100m`.
@@ -157,8 +141,7 @@ Duỗi dài tự nhiên khoảng `95%` (mềm khớp khuỷu, không khóa khớ
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Laughlin, T. (2004). *Total Immersion*. Fireside.
 2. Newsome, P., & Young, A. (2012). *Swim Smooth*. Wiley.
 3. Chollet, D., Chalies, S., & Chatard, J. C. (2000). *A new index of coordination for the crawl: description and usefulness*. International Journal of Sports Medicine, 21(1), 54–59.

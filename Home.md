@@ -41,3 +41,4 @@ Vault này đã được cấu hình sẵn màu sắc trong **Graph View** (`.ob
 2. Chọn **Open folder as vault** → trỏ tới thư mục chứa repo này (`swim-book` hoặc thư mục bạn clone `boisaiskill`).
 3. Bật **Graph View** (`Ctrl + G`) để xem toàn bộ mạng lưới liên kết chéo không có link gãy giữa 80+ tài liệu!
 4. Dùng **Obsidian Sync** (hoặc plugin **Obsidian Git** đồng bộ trực tiếp với `https://github.com/gadoi/boisaiskill.git`) để xem lại bài tập và hình minh họa ngay trên điện thoại tại hồ bơi.
+

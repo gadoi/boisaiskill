@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `23-checklists/` | **Đối tượng:** Huấn luyện viên (Coach) & Đánh giá chuyên sâu | **Thời lượng đánh giá:** ~20 phút/học viên
 
-## Overview
-
+## Tổng Quan (Overview)
 Một Huấn luyện viên xuất sắc không bao giờ đổ lên đầu học viên 10 lời phê bình cùng lúc trên bờ hồ. Tài liệu này chuẩn hóa **quy trình quan sát 4 bước trên bờ hồ**, **bảng chấm điểm 10 phân hệ cơ sinh học (Thang 1–5)** và **mẫu Phiếu Kê Đơn Kỹ Thuật (*Coaching Prescription Card*)** giúp HLV chẩn đoán nhanh nguyên nhân gốc (*Root Cause*) và chọn chính xác tối đa 2 điểm sửa mang lại hiệu quả lớn nhất cho học viên.
 
 ---
@@ -12,9 +11,9 @@ Một Huấn luyện viên xuất sắc không bao giờ đổ lên đầu học
 
 ```mermaid
 flowchart LR
-    A["Bước 1: Quan sát tự do 100m\n(Không nhắc gì — nhận diện Swim Type)"] --> B["Bước 2: Bấm thông số nền\n(Pace 50m, Stroke Count, SPM, SWOLF)"]
-    B --> C["Bước 3: Chấm 10 phân hệ\n(Thang 1–5 theo Cây 4 Tầng)"]
-    C --> D["Bước 4: Kê Đơn 1–2 Lỗi Gốc\n+ 1 Cue ngắn + 2 Drill áp dụng ngay"]
+    A["Bước 1: Quan sát tự do 100m<br/>(Không nhắc gì — nhận diện Swim Type)"] --> B["Bước 2: Bấm thông số nền<br/>(Pace 50m, Stroke Count, SPM, SWOLF)"]
+    B --> C["Bước 3: Chấm 10 phân hệ<br/>(Thang 1–5 theo Cây 4 Tầng)"]
+    C --> D["Bước 4: Kê Đơn 1–2 Lỗi Gốc<br/>+ 1 Cue ngắn + 2 Drill áp dụng ngay"]
 ```
 
 ---
@@ -75,8 +74,7 @@ flowchart LR
 
 ---
 
-## Summary & References
-
+## Tóm Tắt & Tài Liệu Tham Khảo (Summary & References)
 - Sử dụng bảng chấm 10 phân hệ + Phiếu Kê Đơn mỗi 4–6 tuần để biến quá trình huấn luyện thành chu trình khoa học đo lường được.
 - **Liên kết chéo:** [Self Evaluation](self-evaluation.md) · [Video Evaluation](video-evaluation.md) · [Coach Field Notes](../coach-notes/field-notes.md) · [Glossary](../24-appendix/glossary.md)
 

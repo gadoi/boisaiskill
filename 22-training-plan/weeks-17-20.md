@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `22-training-plan/` | **Giai đoạn:** Kéo Trần Tốc Độ Vượt Mốc `< 1:30/100m` | **Dryland:** Công Suất Bùng Nổ (*Power Phase*)
 
-## Overview
-
+## Tổng Quan (Overview)
 **Block 5 (Tuần 17–20)** là giai đoạn **đẩy trần tốc độ tối đa và sức bền tốc độ (VO2max — Zone 4 & Sprint — Zone 5)** lên cao hơn mục tiêu `< 1:30/100m` khoảng **`3–5 giây/100m`**. Khi hệ tim mạch và cơ xô của bạn đã quen vận hành mượt mà ở pace `1:24–1:28/100m` trong các bài lặp `50m–100m`, việc duy trì `< 1:30/100m` trong ngày kiểm tra sẽ trở nên chủ động, tự tin và nhẹ tay hơn rất nhiều!
 
 - **Mục tiêu cốt lõi:** Phát triển công suất **VO2max** (`50m–100m @ CSS - 4s`), độ sắc của **6-Beat Kick**, tốc độ **Flip Turn & Breakout 8m+**, và hoàn thành **Bài Test 100m Mô Phỏng** ở cuối Tuần 20.
@@ -12,24 +11,21 @@
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Để phá vỡ một cột mốc tốc độ mới, bạn phải tác động đồng thời vào **2 giới hạn sinh lý đỉnh**:
 1. **VO2max / Aerobic Power (Zone 4 — `CSS - 3 đến -5s/100m`)**: Các bài lặp `50m–100m` nghỉ vừa (`20–30s`) ép tim bơm lưu lượng máu tối đa và dạy cơ bắp chịu đựng + tái sử dụng axit lactic ở tốc độ đua thực tế (*Race Pace*).
 2. **Anaerobic Speed & Neuromuscular Power (Zone 5 — `95–100%`)**: Các đoạn `25m–50m` nghỉ dài (`45–60s`) tuyển dụng tối đa sợi cơ nhanh loại II (*Type II Fibers*), tăng tốc độ xoay hông, độ sắc của pha Push và tần suất 6-Beat Kick mà không làm suy giảm kỹ thuật EVF.
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 Ở tốc độ mục tiêu **`< 1:30/100m`** (và các đoạn Race Pace `1:22–1:28/100m`, tức $v \approx 1.15–1.22\text{ m/s}$), công suất cơ học $P \propto v^3$ tăng rất nhanh. Block 5 tối ưu hóa **3 lợi thế vật lý tốc độ cao**:
 - Chuyển pha linh hoạt sang **Opposition / Superposition nhẹ (`IdC: 0% đến +4%`)**.
 - Bật **6-Beat Kick gọn sắc** tạo hiệu ứng nâng thân giảm diện tích ướt.
 - Tối ưu **10m Turn Time (`5m-In / 5m-Out ≤ 6.5s`)** để mỗi chiều bể 25m chỉ cần bơi mặt nước thực tế `~17–18 m`.
 
-### Biomechanics — Phân Bổ Tải Block 5 (Nhịp 3:1)
+### Cơ Sinh Học (Biomechanics) — Phân Bổ Tải Block 5 (Nhịp 3:1)
 
 *(Lưu ý: Khối lượng tổng giảm nhẹ ~5–10% so với đỉnh Block 3–4 để dồn toàn bộ chất lượng vào cường độ tốc độ Zone 4–5!)*
 
@@ -42,20 +38,18 @@
 
 ```mermaid
 flowchart LR
-    A["Tuần 17\nRace-Pace 50s (< 44s)\n+ VO2max 8×100m"] --> B["Tuần 18\nĐỉnh VO2max (Z4)\n+ 6-Beat Sprint (Z5)"]
-    B --> C["Tuần 19\nBroken 100s & 200s @ Race Pace\n(Mô phỏng tốc độ < 1:30/100m)"]
-    C --> D["Tuần 20 (Deload)\nTest 100m Mô Phỏng\n& Kiểm tra 5m Turn Time"]
+    A["Tuần 17<br/>Race-Pace 50s (< 44s)<br/>+ VO2max 8×100m"] --> B["Tuần 18<br/>Đỉnh VO2max (Z4)<br/>+ 6-Beat Sprint (Z5)"]
+    B --> C["Tuần 19<br/>Broken 100s & 200s @ Race Pace<br/>(Mô phỏng tốc độ < 1:30/100m)"]
+    C --> D["Tuần 20 (Deload)<br/>Test 100m Mô Phỏng<br/>& Kiểm tra 5m Turn Time"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Cấu trúc **"Race-Pace Training" (USRPT — Ultra-Short Race-Pace Training điều chỉnh)** ở buổi `S2` và `S4` giúp hệ thần kinh của bạn thuộc lòng chính xác từng giây của tốc độ mục tiêu `< 1:30/100m` (`≤ 22.0s/25m` hoặc `≤ 44.0s/50m`), đồng thời giữ đủ quãng nghỉ để **không bao giờ phải tập bơi trong trạng thái vỡ form**!
 
-### Step-by-Step Execution — Chi Tiết Giáo Án 6 Buổi/Tuần (Tuần 17–20)
+### Hướng Dẫn Từng Bước (Step-by-Step) — Chi Tiết Giáo Án 6 Buổi/Tuần (Tuần 17–20)
 
 #### Buổi S1 — Lõi 1: Kỹ Thuật Sắc Bén & Race-Pace 50s (`~1.900–2.200m`)
 - **Warm-up (400m):** `200m` Z1 + `4 × 50m` (`25m Mid Scull + 25m Swim`).
@@ -103,12 +97,12 @@ Cấu trúc **"Race-Pace Training" (USRPT — Ultra-Short Race-Pace Training đi
 ![Biểu đồ cấu trúc bài tập VO2max, Race-Pace 50s và Sprint Zone 5 trong Block 5](../images/22-block5-vo2max-speed.png)
 <!-- IMAGE_PROMPT: Clean sports science intensity chart for Block 5 (Weeks 17-20) showing reduced total volume paired with sharp Zone 4 (VO2max 100s) and Zone 5 (25m Sprint & Broken 100s) peaks, emphasizing full recovery cool-downs and Week 20 100m Race Simulation Test. -->
 
-### Advanced Tips (Dryland & Mobility Đi Kèm Block 5)
+### Mẹo Nâng Cao (Advanced Tips — Dryland & Mobility Đi Kèm Block 5)
 - **Dryland (`2 buổi/tuần × 30p`)**: **Power Phase** — `3 × 5–6` Explosive Pull-Up / Band Pull tốc độ cao + `3 × 6` Box Jump (bật đạp tường) + `3 × 8/bên` Medball Rotational Throw + Face Pull. Tuyệt đối **không tập tới mệt cơ**, giữ hệ thần kinh sắc bén!
 
 ---
 
-## Drills (Trọng Tâm Block 5)
+## Bài Tập Thực Hành (Drills — Trọng Tâm Block 5)
 
 | Tên Drill | Tần suất/Tuần | Mục tiêu Block 5 |
 | :--- | :---: | :--- |
@@ -118,16 +112,14 @@ Cấu trúc **"Race-Pace Training" (USRPT — Ultra-Short Race-Pace Training đi
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Phân tích Video Test 100m Mô Phỏng (Tuần 20):**
   - Đo chính xác **Split 25m #1, #2, #3, #4** (mục tiêu độ chênh 50m đầu vs 50m sau `≤ 2.5 giây`).
   - Đo **10m Turn Time (`5m-In / 5m-Out`)** và kiểm tra góc EVF ở `25m` cuối cùng (có bị sụp khuỷu khi lactate cao không).
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Bỏ qua 300–400m Cool-down Z1 sau buổi VO2max** | Hôm sau cơ vai & đùi cứng nặng như chì | Không xả axit lactic khỏi cơ bắp sau cường độ Z4–Z5 | Luôn dành ít nhất `10 phút` (`300–400m`) bơi cực chậm sau buổi S2 & S4 |
@@ -136,8 +128,7 @@ Cấu trúc **"Race-Pace Training" (USRPT — Ultra-Short Race-Pace Training đi
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi có thể hoàn thành bài lặp **`12 × 50m`** ở pace `≤ 44 giây/50m` (tốc độ `< 1:30/100m`) với form EVF nguyên vẹn.
 - [ ] Tôi luôn thực hiện `300–400m` Cool-down thả lỏng sau mỗi buổi VO2max/Sprint.
 - [ ] Tôi hoàn thành **Test 100m Mô Phỏng (Tuần 20)** đạt sát hoặc phá luôn mốc `1:30/100m` (dù cơ thể vẫn đang trong giai đoạn tích tải chưa Taper!).
@@ -145,7 +136,7 @@ Cấu trúc **"Race-Pace Training" (USRPT — Ultra-Short Race-Pace Training đi
 
 ---
 
-## KPI (Hết Tuần 20)
+## Chỉ Số Đo Lường (KPI — Hết Tuần 20)
 
 | Chỉ số (Metric) | Đạt chuẩn Block 5 | Xuất sắc |
 | :--- | :---: | :---: |
@@ -155,8 +146,7 @@ Cấu trúc **"Race-Pace Training" (USRPT — Ultra-Short Race-Pace Training đi
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Ở Tuần 20 tôi test 100m mô phỏng đạt `1:32` — liệu sang Block 6 (Taper) tôi có phá được `< 1:30` không?**
 **Rất cao!** Ở Tuần 20, cơ thể bạn vẫn đang mang mệt mỏi tích lũy từ 19 tuần tập liên tục. Quá trình **Taper chuẩn khoa học ở Tuần 21–24** thường mang lại mức tăng hiệu suất **`2–4%`** (tương đương **`2–3.5 giây` trên `100m`**) — đưa bạn vượt qua mốc `< 1:30/100m` cực kỳ ngoạn mục!
 
@@ -165,8 +155,7 @@ Có! Nâng trần **VO2max (Zone 4)** giống như "nâng trần nhà lên cao h
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - **Block 5 (Tuần 17–20)** kéo trần tốc độ vượt ngưỡng mục tiêu qua **Race-Pace 50s**, **VO2max 100s**, **Broken 100s** và **25m Sprint Z5**.
 - Luôn đi kèm **Cool-down 300–400m**, **nghỉ đủ ở Sprint** và **Dryland Power** không mỏi cơ để sẵn sàng bước vào Block 6 Taper bùng nổ!
 
@@ -177,8 +166,7 @@ Có! Nâng trần **VO2max (Zone 4)** giống như "nâng trần nhà lên cao h
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Mujika, I. (2009). *Tapering and Peaking for Optimal Performance*. Human Kinetics.
 2. Rushall, B. S. (2013). *Ultra-Short Race-Pace Training (USRPT) in Swimming*. Swimming Science Bulletin.
 3. Olbrecht, J. (2000). *The Science of Winning*. F&G Partners.

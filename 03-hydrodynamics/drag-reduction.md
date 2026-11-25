@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `03-hydrodynamics/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~12 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 Trong bơi lội, **lực cản là kẻ thù số 1 của tốc độ**. Khác với xe đạp hay chạy bộ trong không khí, cơ thể người bơi di chuyển ngay tại ranh giới giữa hai môi trường nước và không khí, nơi mọi sai lệch tư thế dù chỉ vài centimet đều làm lực cản tăng vọt. Chương này phân tách 3 thành phần của lực cản thủy động học và chỉ ra chính xác yếu tố nào mang lại lợi nhuận tốc độ lớn nhất khi tối ưu.
 
 - **Mục tiêu cốt lõi:** Phân biệt và triệt tiêu theo thứ tự ưu tiên **Form Drag (Lực cản hình học)**, **Wave Drag (Lực cản sóng)** và **Friction Drag (Lực cản ma sát)**.
@@ -12,8 +11,7 @@ Trong bơi lội, **lực cản là kẻ thù số 1 của tốc độ**. Khác 
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Tổng lực cản thủy động ($F_{\text{total}}$) tác động lên người bơi là tổng hợp của **3 thành phần độc lập**:
 
 $$F_{\text{total}} = F_{\text{form}} + F_{\text{wave}} + F_{\text{friction}}$$
@@ -29,10 +27,8 @@ $$F_{\text{total}} = F_{\text{form}} + F_{\text{wave}} + F_{\text{friction}}$$
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 #### 1. Tốc độ giới hạn thân tàu (*Hull Speed*)
 Trong thủy động lực học tàu thủy, một vật thể dài $L$ di chuyển trên mặt nước có tốc độ tới hạn tỷ lệ với $\sqrt{L}$:
 
@@ -44,8 +40,7 @@ $$v_{\text{hull}} \approx 1.25 \sqrt{L}$$
 #### 2. Hiệu ứng Độ sâu dưới nước (Tại sao bơi ngầm nhanh nhất?)
 Ở độ sâu `≥ 0.6–0.8 m` dưới mặt nước (giai đoạn đạp tường Streamline & Dolphin Kick), **Wave Drag giảm xuống gần bằng 0**. Đó là lý do World Aquatics phải giới hạn cự ly bơi ngầm sau xuất phát và lộn vòng ở mức tối đa `15 m`.
 
-### Biomechanics
-
+### Cơ Sinh Học (Biomechanics)
 Các hành vi cơ sinh học làm tăng đột biến lực cản trong bể bơi:
 - **Hội chứng "Đạp phanh bằng chân" (Scissor Kick)**: Khi xoay đầu thở quá mạnh, hai chân dang rộng ra để giữ thăng bằng. Hai đùi mở góc 45° hoạt động y hệt hai tấm phanh gió làm vận tốc giảm tức thời 30–50%.
 - **Vỗ mặt nước (Slapping Entry)**: Đập cánh tay xuống mặt nước tạo ra bọt khí và sóng nhiễu loạn ngay trước đầu, phá vỡ dòng chảy tầng (*Laminar Flow*).
@@ -53,31 +48,28 @@ Các hành vi cơ sinh học làm tăng đột biến lực cản trong bể bơ
 
 ```mermaid
 flowchart TD
-    A["Tổng Lực Cản Thủy Động\n(F_total = F_form + F_wave + F_friction)"] --> B["Form Drag (60–75%)\nƯu tiên xử lý SỐ 1"]
-    A --> C["Wave Drag (15–30%)\nƯu tiên xử lý SỐ 2"]
-    A --> D["Friction Drag (5–10%)\nƯu tiên xử lý SỐ 3"]
+    A["Tổng Lực Cản Thủy Động<br/>(F_total = F_form + F_wave + F_friction)"] --> B["Form Drag (60–75%)<br/>Ưu tiên xử lý SỐ 1"]
+    A --> C["Wave Drag (15–30%)<br/>Ưu tiên xử lý SỐ 2"]
+    A --> D["Friction Drag (5–10%)<br/>Ưu tiên xử lý SỐ 3"]
 
-    B --> B1["Nâng hông ngang mặt nước\n(Góc thân < 5°)"]
-    B --> B2["Loại bỏ Scissor Kick\n& Fishtailing"]
+    B --> B1["Nâng hông ngang mặt nước<br/>(Góc thân < 5°)"]
+    B --> B2["Loại bỏ Scissor Kick<br/>& Fishtailing"]
 
-    C --> C1["Tăng chiều dài thân tàu L\n(Front-Quadrant & Glide)"]
-    C --> C2["Bơi ngầm Streamline sâu 0.6m\n(Tận dụng 0 Wave Drag)"]
+    C --> C1["Tăng chiều dài thân tàu L<br/>(Front-Quadrant & Glide)"]
+    C --> C2["Bơi ngầm Streamline sâu 0.6m<br/>(Tận dụng 0 Wave Drag)"]
 
-    D --> D1["Mũ bơi gọn, đồ bơi ôm sát\n(Tránh quần short rộng thùng thình)"]
+    D --> D1["Mũ bơi gọn, đồ bơi ôm sát<br/>(Tránh quần short rộng thùng thình)"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Áp dụng nguyên tắc **Pareto (80/20)** trong giảm lực cản:
 - Chỉ cần sửa 3 lỗi Form Drag + Wave Drag (hạ đầu giữ hông nổi, bỏ đá kéo khi thở, duy trì 1 tay trượt dài phía trước), một người bơi `2:00/100m` có thể rút xuống `1:40/100m` chỉ trong 4–8 tuần mà không cần tăng thêm 1% sức mạnh cơ bắp.
 - Mặc quần bơi ống rộng (*board shorts*) có thể làm tăng lực cản tới `15–20%` (tương đương mất `8–12 giây/100m`).
 
-### Step-by-Step Execution & Water Cues
-
+### Hướng Dẫn Từng Bước & Cảm Giác Nước (Step-by-Step & Water Cues)
 1. **Lướt qua một "đường ống hẹp" (*Swimming Through a Pipe*)**: Tưởng tượng bạn đang bơi xuyên qua một ống nước đường kính chỉ vừa bằng bề rộng vai — không để khuỷu tay, đầu gối hay bàn chân vung ra khỏi thành ống.
 2. **Giữ "người dài" mọi lúc**: Giữ tay trượt dài phía trước thêm một phần nhỏ của giây (*patience in front*) trước khi bắt đầu kéo, tăng chiều dài thân tàu $L$.
 3. **Bơi êm không tiếng động (*Quiet Swimming*)**: Giảm tối đa tiếng đập nước của tay và chân; ít tiếng ồn đồng nghĩa ít năng lượng bị thất thoát thành sóng và bọt.
@@ -86,15 +78,13 @@ flowchart TD
 ![So sánh diện tích mặt cắt cản Form Drag và chiều dài thân tàu Wave Drag](../images/03-hydrodynamics-drag-types.png)
 <!-- IMAGE_PROMPT: Clean hydrodynamic engineering diagram showing a side-by-side comparison of Frontal Cross-Sectional Area (A) for a horizontal streamlined swimmer vs a dropped-hip swimmer with scissor kick, plus water surface wave profiles illustrating reduced Wave Drag when extending effective hull length (L) with Front-Quadrant glide. -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **Kiểm tra độ "sạch" của dòng nước sau chân**: Nhờ bạn quay video từ phía sau hoặc trên cao; nếu luồng nước phía sau bạn tạo thành một dải gọn, hẹp và ít bọt trắng, hệ số $C_d$ của bạn đang ở mức xuất sắc.
 - **Định luật tốc độ tối ưu sau lộn vòng**: Rất nhiều người vội vàng ngoi lên quạt tay ngay ở mét thứ 3 sau khi đạp tường khi vận tốc trượt vẫn đang là `1.8–2.0 m/s` — hành động quạt tay lúc này thực chất lại **tạo thêm lực cản** làm chậm người lại!
 
 ---
 
-## Drills
-
+## Bài Tập Thực Hành (Drills)
 | Tên Drill | Mục tiêu giảm lực cản | Cự ly / Số hiệp | Cảm giác đúng (Cue) |
 | :--- | :--- | :--- | :--- |
 | **Silent Swimming (Bơi không tiếng động)** | Triệt tiêu Wave Drag do đập tay và vỗ chân | `4 × 50m` (nghỉ 20s) | Tai hầu như không nghe thấy tiếng "bõm" khi tay vào nước hay chân đạp |
@@ -106,8 +96,7 @@ flowchart TD
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Trước mặt dưới nước (đo diện tích mặt cắt chiếu *Frontal Projected Area $A$*), Ngang dưới nước (đo góc thân & độ sâu), và Trên cao (đo biên độ sóng & độ rộng dải bọt).
 - **Keypoints cần trích xuất:** Khung bao cơ thể (*Bounding Box / Silhouette Mask*) từ góc trước mặt; tọa độ `knee`, `ankle`, `hip`, `shoulder`.
 - **Ngưỡng phát hiện lỗi tự động:**
@@ -116,8 +105,7 @@ flowchart TD
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Đá kéo khi thở (Scissor Kick)** | Cơ thể khựng lại rõ rệt sau mỗi nhịp lấy hơi | Mất thăng bằng ngang khi xoay đầu quá cao | Giữ 1 mắt kính chạm mặt nước khi thở + tập kẹp Pull Buoy giữ hai đùi gọn |
@@ -127,8 +115,7 @@ flowchart TD
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi mặc đồ bơi ôm gọn và đội mũ bơi chuẩn trong mọi buổi tập kỹ thuật.
 - [ ] Khi bơi tốc độ trung bình, âm thanh tay vào nước và chân đập rất êm, ít bọt trắng.
 - [ ] Hai chân tôi luôn nằm gọn trong "đường ống" bề rộng của vai, không mở rộng cắt kéo khi thở.
@@ -137,8 +124,7 @@ flowchart TD
 
 ---
 
-## KPI
-
+## Chỉ Số Đo Lường (KPI)
 | Chỉ số (Metric) | Người mới | Trung cấp | Nâng cao (`< 1:30/100m`) |
 | :--- | :---: | :---: | :---: |
 | **Cự ly bơi ngầm Streamline sau tường** | `3–4 m` | `5–6 m` | `7–10 m` |
@@ -148,8 +134,7 @@ flowchart TD
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Bơi nhanh hơn thì lực cản sóng có quan trọng hơn lực cản hình học không?**
 Có. Ở tốc độ chậm (`> 2:00/100m`), Form Drag chiếm ưu thế tuyệt đối. Khi tiến gần và vượt mốc `< 1:30/100m` ($v > 1.15\text{ m/s}$), **Wave Drag** tăng rất nhanh theo hàm mũ — lúc này việc giữ thân dài (Front-Quadrant) và khai thác tối đa giai đoạn bơi ngầm sau tường tạo ra khác biệt quyết định.
 
@@ -161,8 +146,7 @@ Chân vịt ngắn tạo vận tốc cao hơn bình thường, khiến mọi l�
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - Tổng lực cản gồm **Form Drag (60–75%)**, **Wave Drag (15–30%)** và **Friction Drag (5–10%)** — luôn xử lý theo đúng thứ tự ưu tiên này.
 - Giữ thân ngang trong "đường ống hẹp", xóa bỏ Scissor Kick, duy trì chiều dài thân tàu $L$ (Front-Quadrant) và tận dụng vùng **0 Wave Drag** ở độ sâu `0.6m` sau tường.
 - Bơi êm, ít bọt và ít tiếng động là chỉ báo trực tiếp nhất của một hệ số lực cản $C_d$ thấp.
@@ -175,8 +159,7 @@ Chân vịt ngắn tạo vận tốc cao hơn bình thường, khiến mọi l�
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Vennell, R., Pease, D., & Wilson, B. (2006). *Wave drag on human swimmers*. Journal of Biomechanics, 39(4), 664–671.
 2. Bixler, B., Pease, D., & Fairhurst, F. (2007). *The accuracy of computational fluid dynamics analysis of the passive drag of a male swimmer*. Sports Biomechanics, 6(1), 81–98.
 3. Toussaint, H. M., et al. (2002). *Effect of a Fast-skin 'body' suit on drag during front crawl swimming*. Sports Biomechanics, 1(1), 1–10.

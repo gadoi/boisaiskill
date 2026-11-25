@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `23-checklists/` | **Công cụ khuyến nghị:** Kinovea / OnForm / AI Pose Pipeline | **Tốc độ xem:** `0.25x` & Khung hình đơn
 
-## Overview
-
+## Tổng Quan (Overview)
 Bảng kiểm này được thiết kế để sử dụng **trực tiếp trong lúc mở video quay chậm 4 góc** (theo quy trình [Filming & Annotation Workflow](../21-video-analysis/filming-and-annotation-workflow.md)). Chỉ cần dừng đúng **6 Khung Hình Chốt (*Keyframes*)** và đánh dấu các ô kiểm tra bên dưới, bạn sẽ phát hiện chính xác 100% lỗi ẩn mà mắt thường trên bờ không thể thấy!
 
 ---
@@ -70,8 +69,7 @@ Bảng kiểm này được thiết kế để sử dụng **trực tiếp trong
 
 ---
 
-## Summary & References
-
+## Tóm Tắt & Tài Liệu Tham Khảo (Summary & References)
 - Dừng đúng **6 Keyframes** giúp bạn chuyển đổi video thành bảng thông số kỹ thuật sắc nét trong vòng 15 phút.
 - **Liên kết chéo:** [Filming & Annotation Workflow](../21-video-analysis/filming-and-annotation-workflow.md) · [Pose & Joint Angle](../20-ai-analysis/pose-and-joint-angle.md) · [Dataset Schema](../datasets/dataset-schema.md) · [Glossary](../24-appendix/glossary.md)
 

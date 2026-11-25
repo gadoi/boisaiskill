@@ -10,11 +10,11 @@
 
 ```mermaid
 flowchart LR
-    A["Chân\n(Ổn định & Nhịp)"] --> B["Hông\n(Xoay 30–45°)"]
-    B --> C["Core\n(Truyền mô-men)"]
-    C --> D["Vai & Cơ Xô\n(Lat)"]
-    D --> E["Tay\n(Neo nước EVF)"]
-    E --> F["Nước\n(Lực đẩy tiến)"]
+    A["Chân<br/>(Ổn định & Nhịp)"] --> B["Hông<br/>(Xoay 30–45°)"]
+    B --> C["Core<br/>(Truyền mô-men)"]
+    C --> D["Vai & Cơ Xô<br/>(Lat)"]
+    D --> E["Tay<br/>(Neo nước EVF)"]
+    E --> F["Nước<br/>(Lực đẩy tiến)"]
 ```
 
 ---

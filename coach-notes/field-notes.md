@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `coach-notes/` | **Mục đích:** Kinh nghiệm sửa lỗi nhanh tại hồ, tâm lý vận động & cá nhân hóa giáo án
 
-## Overview
-
+## Tổng Quan (Overview)
 Sách giáo khoa dạy bạn nguyên lý hoàn hảo trong điều kiện lý tưởng, nhưng **kinh nghiệm thực chiến trên bờ hồ** mới giúp bạn xử lý những tình huống "ngoài sách vở": học viên biết rõ lý thuyết EVF nhưng xuống nước vẫn sụp khuỷu, người bơi bị chững tốc độ suốt 3 tháng ở `1:38/100m`, hay người bơi Masters bị đau vai mỗi khi tăng khối lượng. Tập hợp ghi chú dưới đây đúc kết những bài học thực tế đắt giá nhất của các HLV bơi sải hiện đại.
 
 ---
@@ -56,10 +55,10 @@ Trong thực tế huấn luyện, **80% lỗi nhìn thấy ở cánh tay và bà
 
 ```mermaid
 flowchart TD
-    A["Kiểm Tra Buổi Sáng\n(Nhịp tim nghỉ, Giấc ngủ, Độ mỏi vai)"] --> B{"Trạng thái cơ thể?"}
-    B -->|"Tươi tỉnh (RPE sẵn sàng ≥ 8/10)"| C["Thực hiện đúng 100%\nbài chính CSS / VO2max"]
-    B -->|"Hơi mệt / Ngủ < 6 tiếng"| D["Giảm 20% số hiệp Main Set\nGiữ nguyên chất lượng kỹ thuật"]
-    B -->|"Vai đau nhói / Nhịp tim nghỉ +8 bpm"| E["Đổi sang buổi Hồi phục Z1\n(Sculling, Kick, Bơi Ngửa)\nhoặc Nghỉ hoàn toàn 1 ngày"]
+    A["Kiểm Tra Buổi Sáng<br/>(Nhịp tim nghỉ, Giấc ngủ, Độ mỏi vai)"] --> B{"Trạng thái cơ thể?"}
+    B -->|"Tươi tỉnh (RPE sẵn sàng ≥ 8/10)"| C["Thực hiện đúng 100%<br/>bài chính CSS / VO2max"]
+    B -->|"Hơi mệt / Ngủ < 6 tiếng"| D["Giảm 20% số hiệp Main Set<br/>Giữ nguyên chất lượng kỹ thuật"]
+    B -->|"Vai đau nhói / Nhịp tim nghỉ +8 bpm"| E["Đổi sang buổi Hồi phục Z1<br/>(Sculling, Kick, Bơi Ngửa)<br/>hoặc Nghỉ hoàn toàn 1 ngày"]
 ```
 
 ---
@@ -73,8 +72,7 @@ Khi mệt ở 200m cuối, não bộ không đọc nổi cả đoạn văn lý t
 
 ---
 
-## Summary & References
-
+## Tóm Tắt & Tài Liệu Tham Khảo (Summary & References)
 - Luôn xử lý **Lỗi Gốc (Đầu/Thở → Tư thế → Xoay/Entry)** trước khi chỉnh sửa chi tiết ngọn ở pha kéo.
 - Linh hoạt điều chỉnh tải tập theo tín hiệu phục hồi (giấc ngủ, độ mỏi vai, nhịp tim nghỉ) để duy trì chuỗi tập luyện 24 tuần không gián đoạn.
 - **Liên kết chéo:** [Coach Evaluation](../23-checklists/coach-evaluation.md) · [Self Evaluation](../23-checklists/self-evaluation.md) · [Glossary](../24-appendix/glossary.md)

@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `02-biomechanics/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~12 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 Nếu bạn cảm thấy mỏi rã mặt trước vai hoặc đau âm ỉ khớp vai sau 500–1000m bơi sải, đó là tín hiệu cơ sinh học rõ ràng nhất cho thấy **khớp vai đang làm thay việc của cơ lưng rộng (Latissimus Dorsi)**. Hiểu giải phẫu khớp vai và cách "khóa" cánh tay vào cơ xô qua kỹ thuật **Early Vertical Forearm (EVF)** là chìa khóa để bơi nhanh hơn, tay nhẹ hơn và phòng tránh tuyệt đối chấn thương *Swimmer's Shoulder*.
 
 - **Mục tiêu cốt lõi:** Chuyển tải trọng lực kéo từ nhóm cơ vai nhỏ (Deltoid / Supraspinatus) sang động cơ chính là **cơ lưng rộng (Lat)** và **cơ ngực lớn (Pectoralis Major)**.
@@ -12,8 +11,7 @@ Nếu bạn cảm thấy mỏi rã mặt trước vai hoặc đau âm ỉ khớp
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Khớp ổ chảo – cánh tay (*Glenohumeral Joint*) là khớp có biên độ vận động lớn nhất cơ thể nhưng đổi lại có **độ ổn định cấu trúc thấp nhất**. Trong một buổi bơi `3.000m`, mỗi khớp vai thực hiện khoảng `1.200–1.500` vòng xoay dưới tải trọng của nước.
 
 Để khớp vai vận hành an toàn và phát công suất tối đa, cần phối hợp đồng bộ 3 hệ cơ:
@@ -23,16 +21,13 @@ Khớp ổ chảo – cánh tay (*Glenohumeral Joint*) là khớp có biên đ�
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 Xét cánh tay như một đòn bẩy quay quanh khớp vai:
 - **Khi kéo thẳng tay hoặc sụp khuỷu (*Straight-Arm / Dropped Elbow*)**: Khoảng cách từ tâm lực nước ở bàn tay tới khớp vai ($r$) rất lớn, tạo ra mô-men uốn cực lớn lên gân cơ chóp xoay ($\tau_{\text{stress}} = F_{\text{water}} \cdot r$). Đồng thời, ở nửa đầu pha kéo, véc-tơ lực lại hướng **xuống đáy hồ** (nâng thân người lên xuống lãng phí) thay vì hướng thẳng về sau.
 - **Khi dựng cẳng tay sớm (EVF, góc khuỷu `100–120°`)**: Cánh tay trên xoay trong có kiểm soát (*Controlled Internal Rotation*) kết hợp xoay thân `35–45°`, đưa bề mặt cẳng tay + bàn tay vuông góc với hướng tiến ngay từ đầu pha kéo. Toàn bộ véc-tơ lực hướng thẳng về sau ($F_x \to \max$), đồng thời rút ngắn cánh tay đòn gây áp lực lên khớp vai.
 
-### Biomechanics
-
+### Cơ Sinh Học (Biomechanics)
 Nghiên cứu điện cơ đồ (EMG) trên VĐV bơi sải đỉnh cao chỉ ra sự phân bổ kích hoạt cơ theo từng pha:
 
 | Pha sải tay | Nhóm cơ hoạt động chủ đạo | Mục tiêu bảo vệ khớp |
@@ -44,26 +39,23 @@ Nghiên cứu điện cơ đồ (EMG) trên VĐV bơi sải đỉnh cao chỉ ra
 
 ```mermaid
 flowchart TD
-    A["Pha vào nước trước vai\n(Không vắt chéo trục giữa)"] --> B["Xương bả vai ổn định\n(Serratus Anterior kích hoạt)"]
+    A["Pha vào nước trước vai<br/>(Không vắt chéo trục giữa)"] --> B["Xương bả vai ổn định<br/>(Serratus Anterior kích hoạt)"]
     B --> C{"Góc khuỷu khi Catch?"}
-    C -->|"Khuỷu cao EVF\n(Góc khuỷu 100–120°)"| D["Kích hoạt tối đa Cơ Xô (Lat)\n& Cơ Ngực Lớn"]
-    D --> E["Véc-tơ lực hướng thẳng về sau\nKhớp vai an toàn, tay nhẹ"]
-    C -->|"Sụp khuỷu / Vắt chéo\n(Dropped Elbow / Crossover)"| F["Chèn ép gân Supraspinatus\n(Shoulder Impingement)"]
-    F --> G["Lực trượt xuống đáy\nĐau vai & Mỏi sớm"]
+    C -->|"Khuỷu cao EVF<br/>(Góc khuỷu 100–120°)"| D["Kích hoạt tối đa Cơ Xô (Lat)<br/>& Cơ Ngực Lớn"]
+    D --> E["Véc-tơ lực hướng thẳng về sau<br/>Khớp vai an toàn, tay nhẹ"]
+    C -->|"Sụp khuỷu / Vắt chéo<br/>(Dropped Elbow / Crossover)"| F["Chèn ép gân Supraspinatus<br/>(Shoulder Impingement)"]
+    F --> G["Lực trượt xuống đáy<br/>Đau vai & Mỏi sớm"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Khi bạn vào nước đúng đường thẳng trước vai (không vắt chéo) và dựng cẳng tay EVF trong khi thân đang nghiêng `35–45°`, xương cánh tay nằm trên mặt phẳng xương bả vai (*Scapular Plane* — góc tối ưu sinh học của khớp vai). Nhờ đó:
 - Không gian dưới mỏm cùng vai rộng tối đa, **triệt tiêu chèn ép gân chóp xoay**.
 - Cơ xô (Lat) được đặt ở chiều dài kéo căng tối ưu trước khi co rút, phát lực mạnh gấp nhiều lần cơ vai mà tiêu thụ ít năng lượng cục bộ hơn.
 
-### Step-by-Step Execution & Water Cues
-
+### Hướng Dẫn Từng Bước & Cảm Giác Nước (Step-by-Step & Water Cues)
 1. **Vào nước theo "đường ray đôi" (*Railroad Tracks*)**: Tay trái vào nước trước vai trái (vị trí 11 giờ), tay phải vào nước trước vai phải (vị trí 1 giờ). Tuyệt đối không để ngón cái cắm sâu vào trước mặt gây xoay trong vai quá mức.
 2. **Mở rộng khung sườn khi vươn (*Reach from the Ribs*)**: Vươn dài tay nhờ độ xoay của lồng ngực chứ không rụt vai lên che kín tai.
 3. **Khóa "kẹp nách" khi bắt đầu kéo**: Khi dựng cẳng tay EVF, hãy có cảm giác như bạn đang dùng cơ xô dưới nách kẹp nhẹ một quả bóng nhỏ rồi kéo toàn bộ thân người lướt qua nó.
@@ -72,15 +64,13 @@ Khi bạn vào nước đúng đường thẳng trước vai (không vắt chéo
 ![Giải phẫu khớp vai, xương bả vai và cơ lưng rộng trong pha kéo EVF](../images/02-shoulder-lat-evf.png)
 <!-- IMAGE_PROMPT: Medical-grade sports biomechanics illustration showing an underwater front-quarter view of a swimmer executing an Early Vertical Forearm (EVF) catch at 110 degrees elbow flexion, highlighting the engaged Latissimus Dorsi and Serratus Anterior in blue, with a clean green arrow showing safe subacromial clearance vs a red inset warning for thumb-first crossover impingement. -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **Vào nước phẳng ngón giữa/ngón trỏ trước (Flat-Hand Entry)**: Tránh thói quen cũ "ngón cái vào nước trước" (*Thumb-First Entry*) — kỹ thuật cũ này ép khớp vai xoay trong tối đa ở vị trí giơ cao trên đầu, là nguyên nhân số 1 gây viêm gân chóp xoay.
 - **Kiểm tra độ linh hoạt cột sống ngực (T-Spine)**: Nếu vai bị đau khi vươn tay, 60% trường hợp gốc rễ lại nằm ở cột sống ngực bị cứng (do ngồi máy tính nhiều), buộc khớp vai phải gánh thêm biên độ xoay.
 
 ---
 
-## Drills
-
+## Bài Tập Thực Hành (Drills)
 | Tên Drill | Mục tiêu cơ sinh học | Cự ly / Số hiệp | Cảm giác đúng (Cue) |
 | :--- | :--- | :--- | :--- |
 | **Front Sculling (Vẫy nước trước)** | Kích hoạt cơ xô & cảm giác neo nước không gồng vai | `4 × 25m` (kèm Pull Buoy + Snorkel) | Khuỷu cao cố định, chỉ cẳng tay & bàn tay lắc hình số 8 tạo lực kéo tiến |
@@ -92,8 +82,7 @@ Khi bạn vào nước đúng đường thẳng trước vai (không vắt chéo
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Trước mặt dưới nước (Underwater Front View) & Ngang dưới nước (Underwater Side View).
 - **Keypoints cần trích xuất:** `shoulder`, `elbow`, `wrist`, `hip`, đường trục giữa thân (`midline`).
 - **Ngưỡng phát hiện lỗi tự động:**
@@ -102,8 +91,7 @@ Khi bạn vào nước đúng đường thẳng trước vai (không vắt chéo
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Vào nước ngón cái trước (Thumb-First)** | Đau nhói mặt trước/ngoài vai sau khi bơi | Xoay trong cánh tay tối đa khi giơ cao gây chèn ép gân *Supraspinatus* | Vào nước bằng đầu ngón giữa/ngón trỏ với lòng bàn tay hơi úp phẳng xuống đáy |
@@ -113,8 +101,7 @@ Khi bạn vào nước đúng đường thẳng trước vai (không vắt chéo
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi vào nước đúng 2 đường ray trước vai (11 giờ và 1 giờ), không vắt chéo qua trước đầu.
 - [ ] Lòng bàn tay tôi hướng xuống đáy (không xoay ngón cái cắm xuống trước) khi chạm nước.
 - [ ] Trong pha kéo, tôi cảm nhận cơ lưng dưới nách (Lat) làm việc rõ hơn cơ đỉnh vai.
@@ -123,8 +110,7 @@ Khi bạn vào nước đúng đường thẳng trước vai (không vắt chéo
 
 ---
 
-## KPI
-
+## Chỉ Số Đo Lường (KPI)
 | Chỉ số (Metric) | Người mới | Trung cấp | Nâng cao (`< 1:30/100m`) |
 | :--- | :---: | :---: | :---: |
 | **Góc khuỷu tại điểm Catch (EVF)** | `150–175°` (thẳng/sụp) | `120–140°` | `100–120°` |
@@ -134,8 +120,7 @@ Khi bạn vào nước đúng đường thẳng trước vai (không vắt chéo
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Tại sao dùng bàn quạt tay (Hand Paddles) cỡ lớn dễ làm đau vai?**
 Bàn quạt lớn làm tăng đột ngột diện tích cản nước và mô-men tải lên khớp vai. Nếu kỹ thuật EVF chưa vững (còn sụp khuỷu hoặc vắt chéo), Hand Paddles sẽ khuếch đại chấn thương cực nhanh. Chỉ nên dùng **Finger Paddles** (quạt ngón tay) hoặc quạt cỡ nhỏ khi kỹ thuật EVF đã ổn định.
 
@@ -147,8 +132,7 @@ Các bài tối ưu nhất là **Pull-Up / Lat Pulldown** (tập trung cảm nh�
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - Bảo vệ khớp vai và tạo lực kéo mạnh phụ thuộc vào việc **chuyển tải trọng từ cơ vai sang cơ lưng rộng (Lat)** thông qua tư thế **EVF (`100–120°`)**.
 - Loại bỏ tuyệt đối 2 tác nhân gây chấn thương *Swimmer's Shoulder*: **vào nước ngón cái trước** và **vắt chéo trục giữa (Crossover)**.
 - Kết hợp khởi động dây kháng lực EVF + mở cột sống ngực giúp tay nhẹ và vai bền vững suốt cả lộ trình 24 tuần.
@@ -161,8 +145,7 @@ Các bài tối ưu nhất là **Pull-Up / Lat Pulldown** (tập trung cảm nh�
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Pink, M., Perry, J., Browne, A., Scovazzo, M. L., & Kerrigan, J. (1991). *The normal shoulder during freestyle swimming: An electromyographic and cinematographic analysis of twelve muscles*. American Journal of Sports Medicine, 19(6), 569–576.
 2. Rodeo, S. A. (1999). *Knee and shoulder injuries in swimmers*. Clinics in Sports Medicine.
 3. Wanivenhaus, F., Fox, A. J., Chaudhury, S., & Rodeo, S. A. (2012). *Epidemiology of injuries and prevention strategies in competitive swimmers*. Sports Health, 4(3), 246–251.

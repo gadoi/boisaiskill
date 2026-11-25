@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `20-ai-analysis/` | **Trình độ:** Trung cấp → Nâng cao | **Thời gian đọc:** ~12 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 Mắt thường trên bờ hồ chỉ bắt được khoảng 20–30% sai lệch cơ sinh học vì cơ thể người bơi di chuyển nhanh và bị khúc xạ bởi mặt nước. **Computer Vision Pose Estimation (Nhận diện khung xương AI)** biến một chiếc điện thoại thông thường hoặc Action Cam (`60–120 fps`) thành một **phòng thí nghiệm cơ sinh học di động**: tự động trích xuất tọa độ các khớp vai, khuỷu, cổ tay, hông, gối, cổ chân trên từng khung hình và tính chính xác từng độ của góc **EVF**, góc **nghiêng thân**, góc **xoay trục** và góc **duỗi cổ chân**.
 
 - **Mục tiêu cốt lõi:** Hiểu kiến trúc pipeline AI phân tích bơi sải (`Video → Keypoints 2D/3D → Lọc nhiễu → Tính góc khớp → Cảnh báo lỗi`), biết chọn mô hình phù hợp môi trường nước và ngưỡng góc chuẩn quốc tế.
@@ -12,8 +11,7 @@ Mắt thường trên bờ hồ chỉ bắt được khoảng 20–30% sai lệc
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Một hệ thống **Swimming Pose & Joint Angle Pipeline** chuẩn công nghiệp gồm 5 tầng xử lý tuần tự:
 
 1. **Tầng 1 — Tiền xử lý hình ảnh dưới nước (*Underwater Preprocessing*)**: Khử nhiễu xanh lam (*Color Balance / CLAHE*), cân bằng tương phản để tách rõ đường viền cơ thể khỏi nền gạch bể và dải bọt khí.
@@ -25,15 +23,13 @@ Một hệ thống **Swimming Pose & Joint Angle Pipeline** chuẩn công nghi�
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 Thách thức vật lý đặc thù của **Thị giác máy tính dưới nước**:
 - **Khúc xạ ánh sáng (*Snell's Law*, $n_{\text{water}} \approx 1.333$)**: Khi camera đặt trên bờ nhìn xuyên qua mặt nước, hình ảnh dưới nước bị bẻ cong và nông giả ~25% → **sai lệch hoàn toàn góc khớp!** Do đó, **bắt buộc phải đặt ống kính chìm hoàn toàn dưới nước** (qua vỏ chống nước) để đo chính xác góc EVF, góc thân và góc cổ chân.
 - **Hiện tượng che khuất bọt khí (*Bubble Occlusion*)**: Bọt khí ở pha Entry và Kick làm tụt điểm tin cậy (*Confidence Score*) của cổ tay và cổ chân. Giải pháp: nội suy tuyến tính/spline (*Cubic Spline Interpolation*) qua các khung hình có `confidence < 0.4`.
 
-### Biomechanics — 6 Góc Khớp Cốt Lõi Cần Trích Xuất
+### Cơ Sinh Học (Biomechanics) — 6 Góc Khớp Cốt Lõi Cần Trích Xuất
 
 | Chỉ số Góc Khớp | 3 Điểm Keypoints | Góc Quay Yêu Cầu | Ngưỡng Đạt Chuẩn (`< 1:30/100m`) | Cảnh Báo Lỗi |
 | :--- | :--- | :---: | :---: | :--- |
@@ -46,23 +42,20 @@ Thách thức vật lý đặc thù của **Thị giác máy tính dưới nư�
 
 ```mermaid
 flowchart LR
-    A["Video 60–120 fps\n(Camera chìm dưới nước)"] --> B["CLAHE Color Balance\n(Khử xanh & tăng tương phản)"]
-    B --> C["Pose Model\n(RTMPose / YOLOv8-Pose\n17–33 Keypoints)"]
-    C --> D["Butterworth Filter\n+ Nội suy khung bị bọt che"]
-    D --> E["Tính 6 Góc Khớp\n(EVF, Body, Roll, Neck,\nKnee, Ankle)"]
-    E --> F["Rule Engine → Báo cáo Lỗi\n& Tự động kê đơn Drill"]
+    A["Video 60–120 fps<br/>(Camera chìm dưới nước)"] --> B["CLAHE Color Balance<br/>(Khử xanh & tăng tương phản)"]
+    B --> C["Pose Model<br/>(RTMPose / YOLOv8-Pose<br/>17–33 Keypoints)"]
+    C --> D["Butterworth Filter<br/>+ Nội suy khung bị bọt che"]
+    D --> E["Tính 6 Góc Khớp<br/>(EVF, Body, Roll, Neck,<br/>Knee, Ankle)"]
+    E --> F["Rule Engine → Báo cáo Lỗi<br/>& Tự động kê đơn Drill"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Thay vì phải thuê phòng lab trị giá hàng chục nghìn USD, ngày nay bất kỳ người bơi hoặc HLV nào cũng có thể chạy pipeline Pose Estimation bằng **Python (MediaPipe / Ultralytics YOLOv8-Pose)** hoặc các ứng dụng chuyên dụng (như *SwimSmooth Guru, OnForm, Kinovea*) để theo dõi tiến bộ từng tháng bằng đồ thị góc khớp trực quan!
 
-### Step-by-Step Execution & Water Cues
-
+### Hướng Dẫn Từng Bước & Cảm Giác Nước (Step-by-Step & Water Cues)
 1. **Bước 1 — Quay đúng góc vuông góc `90°` với làn bơi**: Camera di chuyển song song dọc làn bơi (hoặc đặt cố định giữa bể quay đoạn `5–15 m`) để tránh sai số phối cảnh.
 2. **Bước 2 — Đảm bảo độ sáng và trang phục tương phản**: Mặc đồ bơi màu tối (đen/xanh đậm) trên nền gạch bể sáng để mô hình AI nhận diện chính xác khớp hông, vai và khuỷu với `confidence > 0.85`.
 3. **Bước 3 — Chạy trích xuất khung xương & xuất đồ thị góc theo thời gian**: Vẽ đồ thị góc $\theta_{\text{EVF}}(t)$ và $\theta_{\text{body}}(t)$ qua 3 chu kỳ sải liên tiếp để lấy giá trị trung bình ổn định.
@@ -71,8 +64,7 @@ Thay vì phải thuê phòng lab trị giá hàng chục nghìn USD, ngày nay b
 ![Minh họa khung xương AI Pose Detection 17 keypoints đo góc khuỷu EVF và góc trục thân dưới nước](../images/20-ai-pose-keypoints.png)
 <!-- IMAGE_PROMPT: Technical computer vision overlay diagram on a clean underwater side view of a freestyle swimmer showing glowing cyan skeleton keypoints (ear, shoulder, elbow, wrist, hip, knee, ankle, toe), with crisp geometric angle arcs labeled "EVF: 112 deg", "Body Tilt: 3.5 deg", "Knee: 158 deg", "Ankle: 174 deg" and a sleek minimal telemetry HUD bar. -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **Ví dụ cấu trúc tính góc khớp nhanh (Pseudocode Python chuẩn xác):**
   ```python
   import numpy as np
@@ -87,7 +79,7 @@ Thay vì phải thuê phòng lab trị giá hàng chục nghìn USD, ngày nay b
 
 ---
 
-## Drills (Quy Trình Tự Kiểm Tra Bằng AI Tại Hồ)
+## Bài Tập Thực Hành (Drills — Quy Trình Tự Kiểm Tra Bằng AI Tại Hồ)
 
 | Quy Trình | Tần suất | Góc quay cần lấy | Đầu ra mong đợi |
 | :--- | :---: | :--- | :--- |
@@ -97,15 +89,13 @@ Thay vì phải thuê phòng lab trị giá hàng chục nghìn USD, ngày nay b
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Độ chính xác tiêu chuẩn (*PCK@0.2*):** Mô hình fine-tuned trên tập dữ liệu bơi dưới nước đạt `PCK ≥ 90%` cho vai/hông/gối và `≥ 82%` cho cổ tay/cổ chân (vùng nhiều bọt khí nhất).
 - **Khuyến nghị phần cứng tối thiểu:** Quay `1080p @ 60fps` (tối ưu `120fps` cho Sprint) với tốc độ màn trập nhanh (`Shutter Speed ≥ 1/500s`) để không bị nhòe chuyển động (*Motion Blur*) ở bàn tay pha Push.
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Quay từ trên bờ nhìn chéo xuống nước** | AI báo góc khuỷu và góc hông sai lệch `15–25°` | Khúc xạ mặt nước và méo phối cảnh 3D → 2D | Bắt buộc nhúng camera chìm dưới nước, quay vuông góc `90°` với làn bơi |
@@ -115,8 +105,7 @@ Thay vì phải thuê phòng lab trị giá hàng chục nghìn USD, ngày nay b
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi hiểu rõ 5 tầng của một pipeline AI Pose Estimation cho bơi sải.
 - [ ] Tôi nắm thuộc lòng ngưỡng chuẩn của **6 góc khớp vàng** (EVF `100–120°`, Body `< 5°`, Roll `30–45°`, Neck `170–180°`, Knee `150–165°`, Ankle `165–185°`).
 - [ ] Khi quay video tự phân tích, tôi luôn đặt camera chìm dưới nước, vuông góc làn bơi ở `≥ 60 fps`.
@@ -124,8 +113,7 @@ Thay vì phải thuê phòng lab trị giá hàng chục nghìn USD, ngày nay b
 
 ---
 
-## KPI
-
+## Chỉ Số Đo Lường (KPI)
 | Chỉ số hệ thống AI | Mức Cơ bản (Phone + App) | Mức Chuyên nghiệp (Fine-tuned CV) |
 | :--- | :---: | :---: |
 | **Tốc độ khung hình đầu vào** | `60 fps` (1080p) | `120–240 fps` (Sync 2–3 góc) |
@@ -134,8 +122,7 @@ Thay vì phải thuê phòng lab trị giá hàng chục nghìn USD, ngày nay b
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Người bơi phong trào không biết lập trình thì dùng công cụ nào để phân tích Pose AI ngay?**
 Bạn có thể dùng các ứng dụng di động có sẵn vẽ góc khớp và AI Pose như **OnForm**, **Kinovea** (miễn phí trên Windows, cực kỳ chính xác để đo góc thủ công/bán tự động), **Dartfish**, hoặc gửi video theo chuẩn góc quay ở chương `21-video-analysis` cho HLV phân tích.
 
@@ -144,8 +131,7 @@ Vì dữ liệu huấn luyện gốc (COCO) 99% là người đứng thẳng tr�
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - **Pose Detection & Joint Angle Tracking** lượng hóa toàn bộ kỹ thuật bơi sải thành **6 góc khớp cốt lõi** không cảm tính.
 - Luôn bảo đảm **camera chìm dưới nước `≥ 60 fps`**, **khử nhiễu Butterworth**, và **tính trung bình trên 3–5 chu kỳ** để ra quyết định sửa lỗi chính xác tuyệt đối.
 
@@ -156,8 +142,7 @@ Vì dữ liệu huấn luyện gốc (COCO) 99% là người đứng thẳng tr�
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Cao, Z., et al. (2019). *OpenPose / Realtime Multi-Person 2D Pose Estimation*. IEEE TPAMI.
 2. Einfalt, M., Zecha, D., & Lienhart, R. (2018). *Activity-conditioned continuous human pose estimation for performance analysis of athletes using the example of swimming*. IEEE WACV.
 3. Mooney, R., et al. (2016). *Analysis of swimming performance: perceptions and practices of US-based swimming coaches*. Journal of Sports Sciences.

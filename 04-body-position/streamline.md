@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `04-body-position/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 **Streamline** không chỉ là động tác đạp tường ở đầu mỗi chiều bể — đó là **tư thế nhanh nhất mà cơ thể con người có thể đạt được trong nước** (thường vượt `2.0–2.5 m/s`), đồng thời là "khuôn mẫu chuẩn" định hình lại trục thân thuôn dài của bạn trước mỗi 25m hay 50m bơi. Làm chủ Streamline có thể giúp bạn rút ngay **3–6 giây mỗi 100m** trong bể 25m mà gần như không tốn thêm oxy.
 
 - **Mục tiêu cốt lõi:** Tạo hình dáng cơ thể giống một **ngư lôi (Torpedo)** sắc gọn, ép chặt diện tích mặt cắt ngang $A$ xuống mức thấp nhất có thể.
@@ -12,18 +11,15 @@
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Trong một cự ly `100m` bể `25m`, bạn có **1 lần xuất phát + 3 lần đạp tường lộn vòng = 4 pha Streamline**.
 - Nếu mỗi pha Streamline của bạn đi xa thêm được `2 m` với vận tốc cao hơn tốc độ bơi mặt nước `0.4 m/s`, bạn vừa đạt được `8 m` (gần 1/10 quãng đường thi đấu!) với mức tiêu thụ oxy gần như bằng 0.
 - Quan trọng hơn, Streamline thiết lập **tín hiệu cảm thụ bản thể (Proprioceptive Reset)**: mỗi lần đạp tường trong tư thế hoàn hảo là một lần bạn "cài đặt lại" trục thẳng cột sống trước khi bước vào sải tay đầu tiên.
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 Khi đạp tường với vận tốc ban đầu $v_0 \approx 2.2\text{ m/s}$, cơ thể giảm tốc theo phương trình cản thủy động:
 
 $$m \frac{dv}{dt} = -\frac{1}{2} \rho C_d A v^2 \implies v(t) = \frac{v_0}{1 + \frac{\rho C_d A v_0}{2m} t}$$
@@ -33,8 +29,7 @@ Hệ số giảm tốc tỷ lệ trực tiếp với $C_d \cdot A$:
 - **Streamline lỏng (Loose V-Shape)**: Hai tay mở rộng bằng vai và đầu nhô lên khỏi cánh tay → $C_d \cdot A$ tăng **35–55%**, vận tốc rơi tự do chỉ sau `2–3 m`!
 - **Độ sâu tối ưu**: Theo nghiên cứu của Vennell et al. (2006), ở độ sâu **`≥ 0.6 m`** (khoảng 2.5 lần chiều dày thân người), lực cản sóng (*Wave Drag*) gần như triệt tiêu hoàn toàn (`< 5%`).
 
-### Biomechanics
-
+### Cơ Sinh Học (Biomechanics)
 Khóa Streamline chuẩn đòi hỏi sự kết hợp của **3 khớp then chốt**:
 1. **Gập vai tối đa (*Shoulder Flexion ≥ 180°*) & Duỗi cột sống ngực (*T-Spine Extension*)**: Cho phép đưa hai bắp tay ra **phía sau tai** mà không phải ưỡn võng lưng dưới.
 2. **Khóa khung sườn – xương chậu (*Rib-to-Pelvis Lock*)**: Siết nhẹ cơ bụng thẳng và cơ bụng ngang để giữ lưng phẳng, tránh tạo "bụng thuyền" chắn nước.
@@ -42,22 +37,19 @@ Khóa Streamline chuẩn đòi hỏi sự kết hợp của **3 khớp then ch�
 
 ```mermaid
 flowchart LR
-    A["Bàn tay chồng khít\n(Ngón cái khóa mép tay dưới)"] --> B["Bắp tay kẹp chặt SAU TAI\n(Giấu gọn đỉnh đầu)"]
-    B --> C["Xương sườn thu gọn\n(Siết Core, không võng lưng)"]
-    C --> D["Chân khép sát & Duỗi mũi chân\n(Tối thiểu tiết diện A)"]
-    D --> E["Đạp tường ở độ sâu 0.6 m\n(Wave Drag ≈ 0, tốc độ MAX)"]
+    A["Bàn tay chồng khít<br/>(Ngón cái khóa mép tay dưới)"] --> B["Bắp tay kẹp chặt SAU TAI<br/>(Giấu gọn đỉnh đầu)"]
+    B --> C["Xương sườn thu gọn<br/>(Siết Core, không võng lưng)"]
+    C --> D["Chân khép sát & Duỗi mũi chân<br/>(Tối thiểu tiết diện A)"]
+    D --> E["Đạp tường ở độ sâu 0.6 m<br/>(Wave Drag ≈ 0, tốc độ MAX)"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Cấu trúc "mũi nhọn hai bàn tay chồng lên nhau" đóng vai trò như **mũi tên tách dòng nước (*Laminar Flow Splitter*)**, dẫn dòng nước trượt mượt qua đỉnh đầu, vai và hông mà không tạo ra xoáy áp suất âm ở vùng cổ và nách. Nhờ đó, bạn giữ được quán tính cực lớn từ cú đạp tường và bước vào sải tay đầu tiên (*Breakout*) với vận tốc nền cao sẵn.
 
-### Step-by-Step Execution & Water Cues
-
+### Hướng Dẫn Từng Bước & Cảm Giác Nước (Step-by-Step & Water Cues)
 1. **Khóa hai bàn tay**: Đặt bàn tay phải chồng khít lên mu bàn tay trái (hoặc ngược lại), ngón cái tay trên móc chặt vào cạnh ngoài của bàn tay dưới để hai tay không bị lực nước tách rời.
 2. **Giấu đầu sau hai bắp tay**: Kẹp sát hai bắp tay vào **phía sau tai** (không phải trước trán), mặt nhìn thẳng xuống đáy hồ, cổ thẳng hàng cột sống.
 3. **Đạp tường dứt khoát theo phương ngang sâu `0.5–0.7 m`**: Hướng mũi tay thẳng song song đáy hồ (tránh đạp chéo lên mặt nước quá sớm).
@@ -66,15 +58,13 @@ Cấu trúc "mũi nhọn hai bàn tay chồng lên nhau" đóng vai trò như **
 ![Giải phẫu tư thế Streamline chuẩn so với lỗi mở tay chữ V và võng lưng](../images/04-streamline-tight-vs-loose.png)
 <!-- IMAGE_PROMPT: Clean hydrodynamic comparison diagram: Top shows tight torpedo Streamline underwater at 0.6m depth with hands stacked, biceps behind ears, flat lower back, pointed toes, and smooth laminar streamlines; Bottom shows loose V-arms, lifted head, arched back, and red turbulent wake vortices. -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **Đừng thở ở sải tay đầu tiên sau Streamline (*No Breath on First Stroke*)**: Lấy hơi ngay ở sải đầu tiên sau Breakout làm đánh rơi toàn bộ quán tính quý giá vừa tích lũy được. Hãy luyện thói quen **bơi ít nhất 1–2 sải đầu không thở** sau mỗi lần đạp tường.
 - **Kiểm tra độ mở vai trên cạn**: Nếu bạn đứng dựa lưng vào tường mà không thể đưa hai cánh tay kẹp sau tai mà không bị võng thắt lưng, hãy bổ sung bài tập mở vai và cột sống ngực ở chương [Mobility](../19-mobility/shoulder-thoracic-ankle-mobility.md).
 
 ---
 
-## Drills
-
+## Bài Tập Thực Hành (Drills)
 | Tên Drill | Mục tiêu Streamline | Cự ly / Số hiệp | Cảm giác đúng (Cue) |
 | :--- | :--- | :--- | :--- |
 | **Max-Distance Wall Push** | Tối ưu độ chặt Streamline và độ sâu `0.6 m` | `6 × 15m` (đo vạch đáy hồ) | Không đạp chân, chỉ điều chỉnh độ chặt tay–vai–core để trượt xa hơn mỗi lần |
@@ -86,8 +76,7 @@ Cấu trúc "mũi nhọn hai bàn tay chồng lên nhau" đóng vai trò như **
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang dưới nước (Underwater Side View) tại đoạn `0–10 m` tính từ thành bể.
 - **Keypoints cần trích xuất:** `wrist`, `elbow`, `ear`, `shoulder`, `hip`, `ankle`.
 - **Ngưỡng phát hiện lỗi tự động:**
@@ -96,8 +85,7 @@ Cấu trúc "mũi nhọn hai bàn tay chồng lên nhau" đóng vai trò như **
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Hai tay mở chữ V hoặc không chồng khít** | Trượt dừng lại rất nhanh chỉ sau 3–4m | Không khóa ngón cái hoặc khớp vai cứng không ép được sau tai | Chồng khít 2 bàn tay, móc ngón cái cố định + giãn cơ xô/ngực hàng ngày |
@@ -107,8 +95,7 @@ Cấu trúc "mũi nhọn hai bàn tay chồng lên nhau" đóng vai trò như **
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi thực hiện Streamline chặt ở **100% các lần đạp tường** (kể cả lúc bơi thả lỏng khởi động).
 - [ ] Hai bàn tay tôi luôn chồng khít và có móc ngón cái cố định, bắp tay kẹp sau tai.
 - [ ] Tôi đạp tường ở độ sâu khoảng `0.5–0.7 m` song song đáy hồ.
@@ -117,8 +104,7 @@ Cấu trúc "mũi nhọn hai bàn tay chồng lên nhau" đóng vai trò như **
 
 ---
 
-## KPI
-
+## Chỉ Số Đo Lường (KPI)
 | Chỉ số (Metric) | Người mới | Trung cấp | Nâng cao (`< 1:30/100m`) |
 | :--- | :---: | :---: | :---: |
 | **Cự ly trượt Streamline (không đạp chân)** | `4–5 m` | `6–8 m` | `8–11+ m` |
@@ -128,8 +114,7 @@ Cấu trúc "mũi nhọn hai bàn tay chồng lên nhau" đóng vai trò như **
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Trong bơi nước mở (Open Water) không có tường thì tập Streamline để làm gì?**
 Streamline rèn luyện **trục thẳng cột sống, độ mở khớp vai và cảm giác cắt nước tối thiểu lực cản** — những thứ bạn áp dụng trực tiếp vào mỗi pha vươn tay trượt (*Glide*) của từng sải bơi ngoài biển/hồ.
 
@@ -141,8 +126,7 @@ Dolphin Kick tạo lực đẩy mạnh hơn và giữ thân thuôn gọn hơn kh
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - Streamline là **tư thế nhanh nhất trong bơi lội** và là thao tác cài đặt lại trục thân ở đầu mỗi chiều bể.
 - 4 nguyên tắc vàng: **Tay chồng khóa ngón cái + Bắp tay kẹp sau tai + Core phẳng không võng lưng + Lướt sâu `0.5–0.7 m`**.
 - Không bao giờ lấy hơi ở sải Breakout đầu tiên để bảo toàn trọn vẹn vận tốc từ thành bể.
@@ -155,8 +139,7 @@ Dolphin Kick tạo lực đẩy mạnh hơn và giữ thân thuôn gọn hơn kh
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Vennell, R., Pease, D., & Wilson, B. (2006). *Wave drag on human swimmers*. Journal of Biomechanics, 39(4), 664–671.
 2. Lyttle, A., Blanksby, B., Elliott, B., & Lloyd, D. (1998). *The effect of depth and velocity on drag during the streamlined glide*. Journal of Swimming Research, 13, 15–22.
 3. USA Swimming — *Underwater Streamline & Breakout Technical Guidelines*.

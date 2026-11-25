@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `17-drills/` | **Trình độ:** Trung cấp → Nâng cao | **Thời gian đọc:** ~10 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 **Shark Fin Drill** (bài tập Vây Cá Mập) là bài kiểm tra sự thật tàn nhẫn nhưng cực kỳ hiệu quả về **cân bằng thân nghiêng (`40–45°`)** và **độ thả lỏng pha rút tay trên không**. Khi bạn dừng tay rút lại ở giữa không trung trong `2–3 giây` với khuỷu tay chỉ lên trời như chiếc vây cá mập còn bàn tay thả lỏng ngay sát nách, trọng lượng cánh tay trên mặt nước sẽ ngay lập tức "tố cáo" mọi điểm yếu về Core, tay trượt phía trước hay tư thế đầu của bạn!
 
 - **Mục tiêu cốt lõi:** Giữ thân nghiêng `40–45°` vững chắc khi có tải trọng cánh tay trên mặt nước, củng cố tư thế **High-Elbow Relaxed Recovery** và loại bỏ hoàn toàn thói quen ấn tay trượt xuống đáy.
@@ -12,49 +11,42 @@
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Trong bơi sải bình thường, khi một cánh tay nặng `~3.5 kg` rời khỏi mặt nước (pha Recovery), nó mất đi lực đẩy Ác-si-mét và trở thành một **tải trọng lệch tâm đè lên mặt trên cơ thể**:
 - Nếu cân bằng nghiêng kém và Core lỏng, tải trọng `3.5 kg` này lập tức làm thân bạn bị lật sấp xuống hoặc làm tay trượt phía trước bị ấn tụt xuống đáy để chống đỡ.
 - **Shark Fin Drill** cố tình kéo dài khoảnh khắc chịu tải này thành `2–3 giây` (3–6 nhịp chân) để buộc hệ thần kinh phải học cách **giữ thân nghiêng ổn định bằng Core, đầu nhìn đáy và độ vươn dài của tay dưới** mà không cần gồng cánh tay trên!
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 - **Cân bằng mô-men khi có tải trên không**: Khi vai trên xoay nổi khỏi mặt nước `45°`, trọng tâm của cánh tay "Vây cá mập" (với khuỷu gập gọn sát nách) nằm **ngay phía trên đường trục dọc của cột sống** (cánh tay đòn ngang $d \approx 0$).
 - Nhờ cánh tay đòn $d \approx 0$, tải trọng cánh tay không tạo ra mô-men lật ngang — thân người vẫn đi thẳng tắp như lưỡi dao! Ngược lại, nếu bạn để cẳng tay văng rộng ra ngoài thân, mô-men lật sẽ đánh úp hông bạn ngay lập tức.
 
-### Biomechanics
-
+### Cơ Sinh Học (Biomechanics)
 - **Tư thế khớp vai an toàn**: Góc nghiêng thân `45°` kết hợp ngón cái chạm nhẹ vào vùng nách/sườn trên (bàn tay rũ thẳng dưới khuỷu) đặt chỏm xương cánh tay ở vị trí trung tính hoàn toàn, giải phóng áp lực khỏi cơ delta và cơ thang trên.
 - **Thử thách thần kinh–cơ cho tay trượt**: Tay dưới vươn dài ở độ sâu `10–15 cm` phải giữ nguyên trạng thái phẳng lặng suốt `3 giây` dù có thêm tải trọng phía trên — luyện trực tiếp sự kiên định của *Lead Arm* khi thở.
 
 ```mermaid
 flowchart LR
-    A["Nằm nghiêng 45° (Tay dưới trượt 10–15cm)\nĐạp chân gọn từ hông"] --> B["Tay trên rút lên giữa pha Recovery\nDỪNG LẠI 3 GIÂY (3–6 nhịp chân)"]
-    B --> C["Khuỷu tay chỉ lên trời (Vây cá mập)\nNgón cái chạm nhẹ nách, cổ tay rũ mềm"]
+    A["Nằm nghiêng 45° (Tay dưới trượt 10–15cm)<br/>Đạp chân gọn từ hông"] --> B["Tay trên rút lên giữa pha Recovery<br/>DỪNG LẠI 3 GIÂY (3–6 nhịp chân)"]
+    B --> C["Khuỷu tay chỉ lên trời (Vây cá mập)<br/>Ngón cái chạm nhẹ nách, cổ tay rũ mềm"]
     C --> D{"Cân bằng có giữ vững?"}
-    D -->|"Thân thẳng, tay dưới không tụt"| E["Vươn tay trên 'xỏ kim' vào nước\n& Xoay mượt sang bên đối diện"]
-    D -->|"Lật sấp / Hông chìm"| F["Tăng góc xoay thân lên 45°\nThu Core + Đeo chân vịt ngắn hỗ trợ"]
+    D -->|"Thân thẳng, tay dưới không tụt"| E["Vươn tay trên 'xỏ kim' vào nước<br/>& Xoay mượt sang bên đối diện"]
+    D -->|"Lật sấp / Hông chìm"| F["Tăng góc xoay thân lên 45°<br/>Thu Core + Đeo chân vịt ngắn hỗ trợ"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Shark Fin Drill kết hợp **3 bài tập trong 1**:
 1. Kiểm tra cân bằng nghiêng tương tự **Side-Kick**.
 2. Kiểm tra sự thả lỏng pha rút tay tương tự **Fingertip Drag**.
 3. Khóa đường dẫn gọn sát sườn tương tự **Zipper Drill**.
 Chỉ cần làm mượt được Shark Fin Drill, pha Recovery của bạn khi bơi bình thường sẽ tự động nhẹ tênh và gọn gàng tuyệt đối.
 
-### Step-by-Step Execution & Water Cues
-
+### Hướng Dẫn Từng Bước & Cảm Giác Nước (Step-by-Step & Water Cues)
 1. **Chuẩn bị tư thế nghiêng chuẩn**: Đeo chân vịt ngắn (Short Fins) khi mới tập. Đạp tường ở tư thế nghiêng trái `45°` (tay trái vươn dài phía trước sâu `10–15 cm`, mắt nhìn thẳng đáy hồ).
 2. **Dựng "Vây cá mập"**: Đưa tay phải rút lên từ đùi cho đến khi **ngón cái chạm nhẹ vào vùng hõm nách / xương sườn trên**; khuỷu tay phải hướng thẳng lên trời, bàn tay và các ngón tay buông lỏng mềm mại chỉ xuống mặt nước.
 3. **Giữ yên 3 giây (hoặc đếm 6 nhịp chân)**: Trong 3 giây này, kiểm tra 3 điểm:
@@ -66,15 +58,13 @@ Chỉ cần làm mượt được Shark Fin Drill, pha Recovery của bạn khi 
 ![Minh họa tư thế Shark Fin Drill với khuỷu tay dựng cao và bàn tay thả lỏng sát nách](../images/17-drill-shark-fin.png)
 <!-- IMAGE_PROMPT: Clean above-and-underwater split-view sports illustration of Shark Fin Drill: swimmer rotated at 45 degrees with left lead arm gliding horizontally at 15cm depth, right elbow pointed straight up above water like a shark fin while right thumb gently touches the armpit/ribcage with completely limp wrist and dangling fingers. -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **Kết hợp thở trong tư thế Shark Fin**: Khi đang giữ Vây cá mập 3 giây, hãy thử **xoay nhẹ cằm lên lấy 1 hơi (One-Goggle Rule) rồi úp mặt nhìn đáy lại** mà tay Vây cá mập trên không không hề bị rơi xuống nước! Đây là bài tập đỉnh cao giúp tách biệt hoàn toàn chuyển động cổ khỏi vai và tay.
 - **Lắng nghe khớp vai**: Nếu bạn có tiền sử đau vai hoặc độ linh hoạt vai hạn chế, **không ép khuỷu dựng thẳng đứng 90°** — chỉ cần xoay thân đủ `45°` và dựng khuỷu nghiêng thoải mái `60–70°`.
 
 ---
 
-## Drills
-
+## Bài Tập Thực Hành (Drills)
 | Biến thể Shark Fin | Mục tiêu cụ thể | Cự ly / Số hiệp | Cảm giác đúng (Cue) |
 | :--- | :--- | :--- | :--- |
 | **Shark Fin + Short Fins (Giữ 6 nhịp chân)** | Xây nền cân bằng nghiêng & thả lỏng cổ tay | `4 × 25m` (nghỉ 15s) | Thân nổi phẳng lì, bàn tay trên không lắc nhẹ mềm như sợi mì |
@@ -83,8 +73,7 @@ Chỉ cần làm mượt được Shark Fin Drill, pha Recovery của bạn khi 
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Chính diện ngang mặt nước (Waterline Front View) và Ngang (Side View).
 - **Keypoints cần trích xuất:** `lead_wrist`, `recovery_elbow`, `recovery_wrist`, `shoulder_line`, `hip_line`.
 - **Ngưỡng phát hiện lỗi tự động:**
@@ -93,8 +82,7 @@ Chỉ cần làm mượt được Shark Fin Drill, pha Recovery của bạn khi 
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Nằm bụng phẳng cố bẻ khuỷu lên trời** | Đau cấn mặt trước/ngoài khớp vai | Thiếu góc xoay thân `45°` | Xoay cả hông và vai lên `45°` trước khi nhấc khuỷu tay |
@@ -104,8 +92,7 @@ Chỉ cần làm mượt được Shark Fin Drill, pha Recovery của bạn khi 
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi có thể giữ tư thế Shark Fin ổn định suốt `6 nhịp chân` ở cả bên trái và bên phải mà không bị lật sấp.
 - [ ] Bàn tay và cổ tay ở trên không của tôi hoàn toàn thả lỏng (có thể lắc nhẹ tự do).
 - [ ] Tay trượt dưới nước của tôi giữ nguyên độ sâu `10–15 cm` trong suốt 3 giây giữ Vây.
@@ -114,8 +101,7 @@ Chỉ cần làm mượt được Shark Fin Drill, pha Recovery của bạn khi 
 
 ---
 
-## KPI
-
+## Chỉ Số Đo Lường (KPI)
 | Chỉ số (Metric) | Người mới | Trung cấp | Nâng cao (`< 1:30/100m`) |
 | :--- | :---: | :---: | :---: |
 | **Thời gian giữ Shark Fin ổn định (không fins)** | `< 1 giây` | `2–3 giây` | `3–5 giây` cân bằng tuyệt đối 2 bên |
@@ -124,8 +110,7 @@ Chỉ cần làm mượt được Shark Fin Drill, pha Recovery của bạn khi 
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Tôi nên tập Shark Fin có chân vịt hay không chân vịt?**
 Hãy bắt đầu với **chân vịt ngắn (Short Fins)** trong 2 tuần đầu để có đủ vận tốc nền giữ hông nổi và tập trung 100% vào độ thả lỏng tay + góc xoay `45°`. Sau khi đã thuần thục, tháo chân vịt ra tập chân trần để thử thách Core ở mức cao nhất!
 
@@ -137,8 +122,7 @@ Có! Hãy thay bằng **Zipper Drill** hoặc **Fingertip Drag** với góc khu�
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - **Shark Fin Drill** là bài kiểm tra đỉnh cao cho **cân bằng nghiêng `45°`**, **sự ổn định của tay trượt** và **trạng thái thả lỏng tuyệt đối ở pha Recovery**.
 - Quy tắc vàng: **Xoay thân `45°` trước → Khuỷu chỉ lên trời, ngón cái chạm nhẹ nách → Cổ tay rũ mềm 3 giây → Xỏ kim êm ái đổi bên**.
 
@@ -150,8 +134,7 @@ Có! Hãy thay bằng **Zipper Drill** hoặc **Fingertip Drag** với góc khu�
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Newsome, P., & Young, A. (2012). *Swim Smooth*. Wiley.
 2. Laughlin, T. (2004). *Total Immersion*. Fireside.
 3. USA Swimming — *Balance & High-Elbow Recovery Drills*.

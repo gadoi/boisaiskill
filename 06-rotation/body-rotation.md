@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `06-rotation/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 Bơi sải không phải là môn thể thao di chuyển trên bụng phẳng — đó là một **điệu xoay nhịp nhàng quanh trục dọc** từ đỉnh đầu xuống gót chân. Xoay thân đúng góc **`30–45°`** đồng bộ giữa vai và hông mang lại 4 lợi ích khổng lồ cùng lúc: **tăng tầm vươn (DPS), kích hoạt cơ xô (Lat), giải phóng khớp vai khi rút tay và tạo cửa sổ thở tự nhiên không cần ngẩng đầu**.
 
 - **Mục tiêu cốt lõi:** Xoay vai và hông đồng trục `30–45°` sang hai bên một cách đối xứng, đồng bộ tuyệt đối với nhịp tay và chân đối bên.
@@ -12,8 +11,7 @@ Bơi sải không phải là môn thể thao di chuyển trên bụng phẳng �
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Mọi chuyển động xoay trong bơi sải đều quay quanh **trục dọc (Longitudinal Axis)** đi xuyên qua giữa đỉnh đầu, dọc cột sống và thoát ra ở giữa hai mắt cá chân.
 
 Xoay thân đúng kỹ thuật trả lời cho 4 bài toán đồng thời:
@@ -24,17 +22,14 @@ Xoay thân đúng kỹ thuật trả lời cho 4 bài toán đồng thời:
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 - **Giảm diện tích tiếp xúc mặt nước (Giảm Wave Drag)**: Bề rộng ngang hai vai người trưởng thành khoảng `42–48 cm`, trong khi chiều dày ngực–lưng chỉ khoảng `22–26 cm`. Khi thân xoay nghiêng `40–45°` trong pha trượt, hình dáng cắt nước mảnh hơn đáng kể so với nằm sấp phẳng, giúp giảm lực cản sóng và tăng tốc độ lướt.
 - **Động năng xoay (*Rotational Kinetic Energy*)**:
   $$E_{\text{rot}} = \frac{1}{2} I_{\text{long}} \omega^2$$
   Trong đó $I_{\text{long}}$ là mô-men quán tính quanh trục dọc (rất nhỏ vì cơ thể thon dài dọc trục!). Nhờ $I_{\text{long}}$ nhỏ, chỉ cần một lực xoay gọn từ hông và cơ chéo bụng đã tạo ra tốc độ góc $\omega$ rất nhanh, truyền thẳng xung lượng vào pha kéo tay.
 
-### Biomechanics
-
+### Cơ Sinh Học (Biomechanics)
 Phân biệt **2 kiểu xoay theo cự ly** (từ nghiên cứu của Psycharakis & Sanders, 2010):
 - **Xoay đồng bộ sâu (`40–45°` — Hip-Driven)**: Vai và hông xoay gần cùng biên độ. Tối ưu cho bơi đường dài (`400m–1500m`, Open Water, Triathlon) giúp tay cực nhẹ và tối đa DPS.
 - **Xoay tách pha nhẹ (`Vai 40–45°` / `Hông 25–35°` — Hybrid/Sprint)**: Vai xoay sâu hơn hông khoảng `10–15°`, tạo độ xoắn đàn hồi nhẹ ở cơ chéo bụng (*X-Factor* tương tự cú swing golf) để phát công suất nổ cao ở cự ly `50m–100m`.
@@ -42,23 +37,20 @@ Phân biệt **2 kiểu xoay theo cự ly** (từ nghiên cứu của Psycharaki
 
 ```mermaid
 flowchart LR
-    A["Tay Phải vào nước & vươn dài"] --> B["Vai & Hông Phải xoay XUỐNG 35–45°\n(Đồng bộ chân Trái đập nhẹ)"]
-    B --> C["Vai Trái nổi cao khỏi mặt nước\n(Rút tay Trái thả lỏng dễ dàng)"]
+    A["Tay Phải vào nước & vươn dài"] --> B["Vai & Hông Phải xoay XUỐNG 35–45°<br/>(Đồng bộ chân Trái đập nhẹ)"]
+    B --> C["Vai Trái nổi cao khỏi mặt nước<br/>(Rút tay Trái thả lỏng dễ dàng)"]
     C --> D["Tay Phải dựng EVF & Bắt nước"]
-    D --> E["Hông Trái xoay XUỐNG kéo theo\nPha Pull–Push mạnh của Tay Phải"]
-    E --> F["Chu kỳ đối xứng 2 bên\n(Trục đầu cố định)"]
+    D --> E["Hông Trái xoay XUỐNG kéo theo<br/>Pha Pull–Push mạnh của Tay Phải"]
+    E --> F["Chu kỳ đối xứng 2 bên<br/>(Trục đầu cố định)"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Xoay trục dọc biến bơi sải từ môn **"đẩy tạ bằng hai tay"** thành môn **"lăn trọng lượng cơ thể tiến về trước"**. Khi tay phải trượt xuống góc `40°`, trọng lực và lực xoay của toàn bộ thân người chuyển hóa thành lực nén giúp tay trái hoàn tất pha Push gọn gàng và tay phải vào pha Catch ở vị trí sâu, chắc nước nhất.
 
-### Step-by-Step Execution & Water Cues
-
+### Hướng Dẫn Từng Bước & Cảm Giác Nước (Step-by-Step & Water Cues)
 1. **Tưởng tượng một "cây xiên" xuyên thẳng từ đỉnh đầu xuống giữa hai bàn chân**: Mọi động tác xoay chỉ quay quanh đúng cây xiên cố định đó, không trượt ngang sang trái hay phải.
 2. **Đưa rốn hướng về hai bên thành bể**: Thay vì chỉ nghĩ tới xoay vai, hãy cảm nhận **rốn của bạn luân phiên chiếu xuống góc 40° bên phải rồi 40° bên trái**.
 3. **Đồng bộ chéo Tay–Chân**:
@@ -69,15 +61,13 @@ Xoay trục dọc biến bơi sải từ môn **"đẩy tạ bằng hai tay"** t
 ![Sơ đồ góc xoay trục dọc 30–45 độ nhìn từ phía trước dưới nước](../images/06-rotation-axis-angle.png)
 <!-- IMAGE_PROMPT: Technical front underwater cross-section diagram of a freestyle swimmer showing longitudinal axis rotation at 40 degrees (green optimal zone 30-45 deg), with head remaining completely neutral and stationary on the center axis while shoulders and hips roll in sync, contrasted with a red warning zone >60 deg over-rotation. -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **Kiểm soát "Đỉnh xoay" (*Peak Roll Timing*)**: Đỉnh góc xoay (`40–45°`) phải đạt được vào cuối pha trượt (*Glide*) của tay trước — đúng thời điểm tay đó chuẩn bị dựng EVF. Sau đó thân bắt đầu xoay ngược trở về `0°` để tiếp lực cho pha Pull. Nếu bạn xoay muộn (khi đã kéo gần xong), bạn đang lãng phí toàn bộ lực hông!
 - **Dùng gương hoặc quay góc chính diện**: Lỗi mất đối xứng xoay (ví dụ bên phải xoay `50°`, bên trái chỉ `15°`) rất khó tự cảm nhận; chỉ cần 10 giây quay góc trực diện sẽ phơi bày chính xác 100%.
 
 ---
 
-## Drills
-
+## Bài Tập Thực Hành (Drills)
 | Tên Drill | Mục tiêu xoay thân | Cự ly / Số hiệp | Cảm giác đúng (Cue) |
 | :--- | :--- | :--- | :--- |
 | **6-Kick Switch** | Khóa tư thế nghiêng 40–45° và tập cú bật xoay dứt khoát từ hông | `6 × 25m` (nghỉ 15s) | Đầu bất động nhìn đáy, sau 6 nhịp chân xoay "tách" một nhịp gọn sang bên kia |
@@ -89,8 +79,7 @@ Xoay trục dọc biến bơi sải từ môn **"đẩy tạ bằng hai tay"** t
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Chính diện dưới nước (Underwater Front View) để đo góc nghiêng đường nối hai vai ($\theta_{\text{shoulder}}$) và đường nối hai hông ($\theta_{\text{hip}}$).
 - **Keypoints cần trích xuất:** `left_shoulder`, `right_shoulder`, `left_hip`, `right_hip`, `nose`, `forehead`.
 - **Ngưỡng phát hiện lỗi tự động:**
@@ -99,8 +88,7 @@ Xoay trục dọc biến bơi sải từ môn **"đẩy tạ bằng hai tay"** t
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Mất đối xứng (Chỉ xoay bên thở)** | Bơi nghiêng lệch sang 1 bên, một tay kéo mạnh hơn hẳn tay kia | Thói quen chỉ thở 1 bên nhiều năm khiến bên nghịch bị cứng | Tập thở song phương (mỗi 3 sải) trong khởi động + tập Lead-Arm Balance Roll |
@@ -110,8 +98,7 @@ Xoay trục dọc biến bơi sải từ môn **"đẩy tạ bằng hai tay"** t
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi xoay thân đều sang cả hai bên trái và phải ở góc `30–45°`, kể cả ở những sải không thở.
 - [ ] Đầu tôi giữ cố định hoàn toàn giữa hai vai ở các sải không lấy hơi.
 - [ ] Đỉnh góc xoay đạt đúng vào cuối pha trượt trước khi tôi bắt đầu kéo EVF.
@@ -120,8 +107,7 @@ Xoay trục dọc biến bơi sải từ môn **"đẩy tạ bằng hai tay"** t
 
 ---
 
-## KPI
-
+## Chỉ Số Đo Lường (KPI)
 | Chỉ số (Metric) | Người mới | Trung cấp | Nâng cao (`< 1:30/100m`) |
 | :--- | :---: | :---: | :---: |
 | **Góc xoay vai đỉnh ($\theta_{\text{shoulder}}$)** | `< 20°` hoặc `> 60°` | `28–38°` | `35–45°` |
@@ -131,8 +117,7 @@ Xoay trục dọc biến bơi sải từ môn **"đẩy tạ bằng hai tay"** t
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Nên xoay vai trước hay xoay hông trước?**
 Với bơi đường dài và phong trào muốn **tay nhẹ, tiết kiệm sức**, hãy ưu tiên cảm giác **xoay đồng trục (hông dẫn động hoặc xoay cùng lúc với vai)**. Khi bạn tiến lên tốc độ cao (`< 1:25/100m`), vai có thể xoay nhanh và sâu hơn hông một chút (`~10°`) để tạo lực đàn hồi ở cơ chéo bụng.
 
@@ -144,8 +129,7 @@ Không, nếu bạn **xoay đồng trục vai và hông** với Core siết nh�
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - **Xoay trục dọc `30–45°`** quanh trục cố định `đỉnh đầu → gót chân` là động cơ biến sức mạnh thân thành tốc độ tay nhẹ.
 - Luôn đảm bảo **đối xứng hai bên**, **đỉnh xoay trùng cuối pha trượt**, và **đầu bất động** ở các sải không thở.
 - Kết hợp 6-Kick Switch, 3-Kick Switch và Torpedo Roll để tự động hóa nhịp xoay vào trí nhớ cơ bắp.
@@ -158,8 +142,7 @@ Không, nếu bạn **xoay đồng trục vai và hông** với Core siết nh�
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Psycharakis, S. G., & Sanders, R. H. (2010). *Body roll in swimming: A review*. Journal of Sports Sciences, 28(3), 229–236.
 2. Yanai, T. (2004). *Buoyancy is the primary source of generating bodyroll in front-crawl swimming*. Journal of Biomechanics, 37(5), 605–612.
 3. Newsome, P., & Young, A. (2012). *Swim Smooth*. Wiley.

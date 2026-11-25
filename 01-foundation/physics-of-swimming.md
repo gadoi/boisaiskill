@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `01-foundation/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~12 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 Nước có mật độ xấp xỉ **800 lần không khí** ($\rho \approx 1000\text{ kg/m}^3$ so với $1.225\text{ kg/m}^3$). Chỉ một sự thay đổi nhỏ về tư thế hoặc đường kéo tay cũng tạo ra chênh lệch khổng lồ về lực cản và năng lượng tiêu hao. Chương này thiết lập nền tảng vật lý cốt lõi giải thích vì sao triết lý **giảm lực cản trước khi tăng lực đẩy** là con đường ngắn nhất để đạt tốc độ cao (`< 1:30/100m`) mà tay vẫn nhẹ.
 
 - **Mục tiêu cốt lõi:** Hiểu quan hệ toán học giữa lực đẩy, lực cản, vận tốc ($F_d \propto v^2$) và công suất tiêu hao ($P \propto v^3$).
@@ -12,8 +11,7 @@ Nước có mật độ xấp xỉ **800 lần không khí** ($\rho \approx 1000
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Trong mọi chuyển động bơi sải ở vận tốc trung bình không đổi ($v = \text{const}$), cơ thể người bơi tuân theo **Định luật II Newton**:
 
 $$\sum F = F_{\text{propulsion}} - F_{\text{drag}} = m \cdot a$$
@@ -34,10 +32,8 @@ $$F_{\text{propulsion}} = \frac{\Delta p}{\Delta t} = \dot{m}_w \cdot \Delta v_w
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 Lực cản tổng trong nước tuân theo phương trình thủy động lực học cơ bản:
 
 $$F_d = \frac{1}{2} \rho v^2 C_d A$$
@@ -57,8 +53,7 @@ $$P = F_d \cdot v = \frac{1}{2} \rho C_d A v^3$$
   $$\left(\frac{1.14}{0.95}\right)^3 = 1.2^3 = 1.728 \quad (+72.8\% \text{ công suất!})$$
 - Ngược lại, nếu bạn cải thiện tư thế để giảm $C_d \cdot A$ xuống **25%** (nhờ nâng hông, giữ đầu thẳng, không đá kéo), bạn chỉ cần tăng công suất thêm ~30% là đã đạt tốc độ `1:28/100m` với cảm giác tay nhẹ hơn hẳn.
 
-### Biomechanics
-
+### Cơ Sinh Học (Biomechanics)
 Trong nước, hiệu suất đẩy (*Propelling Efficiency — $\eta_p$*) được định nghĩa là tỷ số giữa công có ích đẩy cơ thể tiến tới và tổng công cơ học bỏ ra:
 
 $$\eta_p = \frac{v_{\text{body}}}{v_{\text{body}} + v_{\text{slip}}}$$
@@ -68,25 +63,22 @@ Khi bạn kéo tay quá nhanh với bàn tay hở hoặc khuỷu tay sụp (*Dro
 ```mermaid
 flowchart TD
     A["Mục tiêu: Tăng tốc độ bơi (v)"] --> B{"Chọn chiến lược?"}
-    B -->|"Cố tăng lực tay\n(Giữ nguyên tư thế xấu)"| C["Công suất tăng theo v³\n(+73% năng lượng cho +20% tốc độ)"]
-    C --> D["Trượt nước (v_slip cao)\nMỏi vai & Hụt hơi sớm"]
-    B -->|"Tối ưu Vật lý\n(Giảm Cd·A + Tăng η_p)"| E["Thu nhỏ mặt cắt cản A\n(Hông nổi, đầu nhìn xuống)"]
-    E --> F["Neo khối nước lớn (EVF)\nTruyền lực từ Core & Hông"]
-    F --> G["Tốc độ cao (< 1:30/100m)\nTay nhẹ & Bền bỉ"]
+    B -->|"Cố tăng lực tay<br/>(Giữ nguyên tư thế xấu)"| C["Công suất tăng theo v³<br/>(+73% năng lượng cho +20% tốc độ)"]
+    C --> D["Trượt nước (v_slip cao)<br/>Mỏi vai & Hụt hơi sớm"]
+    B -->|"Tối ưu Vật lý<br/>(Giảm Cd·A + Tăng η_p)"| E["Thu nhỏ mặt cắt cản A<br/>(Hông nổi, đầu nhìn xuống)"]
+    E --> F["Neo khối nước lớn (EVF)<br/>Truyền lực từ Core & Hông"]
+    F --> G["Tốc độ cao (< 1:30/100m)<br/>Tay nhẹ & Bền bỉ"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Áp dụng nguyên lý $P \propto C_d A v^3$ và $\eta_p$ giải thích 2 hiện tượng quen thuộc ở hồ bơi:
 1. Tại sao một VĐV thanh mảnh bơi rất nhẹ nhàng lại dễ dàng vượt qua người có cơ bắp lớn nhưng bơi hông chìm: vì hệ số $C_d A$ của họ nhỏ hơn 30–40%.
 2. Tại sao bơi tăng tốc mượt mà ở nửa sau pha kéo (*Acceleration through the stroke*) lại tạo xung lượng tốt hơn giật cục ngay khi tay vừa chạm nước: vì giật mạnh ngay đầu pha kéo làm tăng đột ngột vận tốc trượt $v_{\text{slip}}$ trước khi kịp ôm khối nước tĩnh.
 
-### Step-by-Step Execution & Water Cues
-
+### Hướng Dẫn Từng Bước & Cảm Giác Nước (Step-by-Step & Water Cues)
 1. **Ưu tiên số 1 — Thu nhỏ diện tích cản $A$**: Trước khi nghĩ tới kéo tay, luôn giữ đỉnh đầu thẳng trục, mắt nhìn xuống đáy, hông nổi sát mặt nước.
 2. **Ưu tiên số 2 — Giữ vận tốc ổn định (Giảm dao động $\Delta v$)**: Vì lực cản tăng theo $v^2$, bơi giật cục (lúc quá nhanh, lúc dừng hẳn) tiêu hao năng lượng cao hơn bơi đều cùng tốc độ trung bình. Duy trì **Front-Quadrant Swimming** để giữ tốc độ lướt liên tục.
 3. **Ưu tiên số 3 — Đẩy khối nước lớn, chậm và chắc**: Cảm giác đặt toàn bộ cẳng tay và lòng bàn tay lên khối nước đặc, rồi dùng xoay hông kéo thân người vượt qua điểm neo đó.
@@ -94,15 +86,13 @@ flowchart TD
 ![Biểu đồ lực đẩy, lực cản và đường cong công suất lập phương trong bơi sải](../images/01-physics-power-curve.png)
 <!-- IMAGE_PROMPT: Technical MIT-style hydrodynamic diagram showing a freestyle swimmer in side profile underwater, with vector arrows for Drag (Fd = 0.5*rho*v^2*Cd*A), Propulsion (Fp), Buoyancy, and Gravity, paired with an inset graph of Power vs Velocity showing the cubic curve difference between streamlined vs dropped-hip posture. -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **Quy tắc 80/20 về tốc độ**: Ở trình độ `1:45–2:15/100m`, 80% thời gian cải thiện tốc độ đến từ **giảm lực cản**; chỉ khi bạn đã bơi dưới `1:30/100m`, tăng công suất lực đẩy và ngưỡng VO2max mới chiếm tỷ trọng ngang bằng.
 - **Tránh "bẫy tốc độ giả" khi quạt nhanh**: Nếu tăng nhịp tay (SPM) thêm 10% nhưng tốc độ không tăng tương ứng, tức là bạn đang làm tăng $v_{\text{slip}}$ (trượt nước) chứ không tăng lực đẩy thực.
 
 ---
 
-## Drills
-
+## Bài Tập Thực Hành (Drills)
 | Tên Drill | Mục tiêu vật lý | Cự ly / Số hiệp | Cảm giác đúng (Cue) |
 | :--- | :--- | :--- | :--- |
 | **Push & Glide Streamline** | Đo trực tiếp hệ số cản $C_d A$ qua quãng đường trượt | `6 × 15m` (nghỉ 15s) | Đạp tường một lực vừa phải, không đạp chân, trượt qua mốc 7–10m êm ru |
@@ -115,8 +105,7 @@ flowchart TD
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang dưới nước (Underwater Side View, 60–120 fps) để đo góc nghiêng thân và độ biến thiên vận tốc trong chu kỳ (*Intra-cyclic Velocity Variation — IVV*).
 - **Keypoints cần trích xuất:** Đỉnh đầu (`nose/ear`), Vai (`shoulder`), Hông (`hip`), Gối (`knee`), Cổ chân (`ankle`), Cổ tay (`wrist`).
 - **Ngưỡng phát hiện lỗi tự động:**
@@ -125,8 +114,7 @@ flowchart TD
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Quạt tay điên cuồng để tăng tốc** | Nhịp tay rất cao (`> 85 SPM`), nhiều bọt trắng, hụt hơi sau 50m | Cố thắng lực cản $v^2$ bằng lực tay trong khi hông chìm | Giảm nhịp tay xuống, tập Push & Glide và nâng hông trước khi tăng tốc |
@@ -136,8 +124,7 @@ flowchart TD
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi hiểu rõ vì sao tăng 20% tốc độ đòi hỏi tới ~73% công suất nếu không giảm lực cản.
 - [ ] Khi đạp tường ở tư thế Streamline (không đập chân), tôi trượt được tối thiểu 7m.
 - [ ] Khi tăng tốc trong một bài `4 × 50m`, tôi giữ được số sải tay không tăng quá 1–2 sải/25m.
@@ -146,8 +133,7 @@ flowchart TD
 
 ---
 
-## KPI
-
+## Chỉ Số Đo Lường (KPI)
 | Chỉ số (Metric) | Người mới | Trung cấp | Nâng cao (`< 1:30/100m`) |
 | :--- | :---: | :---: | :---: |
 | **Quãng trượt Streamline (không đập chân)** | `4–6 m` | `6–8 m` | `8–11+ m` |
@@ -157,8 +143,7 @@ flowchart TD
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Có đúng là người cơ bắp to hơn sẽ luôn bơi nhanh hơn không?**
 Không. Trong nước, khối cơ lớn làm tăng diện tích mặt cắt cản $A$ và giảm độ nổi tự nhiên. Nếu kỹ thuật giảm lực cản kém, lợi thế cơ bắp bị triệt tiêu hoàn toàn bởi phương trình $P \propto C_d A v^3$.
 
@@ -170,8 +155,7 @@ Hãy lắng nghe và cảm nhận: tay đi qua nước **chậm lại nhẹ ở 
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - Nước đặc gấp ~800 lần không khí; lực cản tăng theo $v^2$ và công suất tiêu hao tăng theo $v^3$.
 - **Giảm lực cản ($C_d \cdot A$)** luôn là đòn bẩy hiệu quả nhất để đạt tốc độ cao mà tay vẫn nhẹ.
 - Tăng hiệu suất đẩy ($\eta_p$) bằng cách ôm khối nước lớn bằng cả cẳng tay và đẩy ổn định, hạn chế trượt nước ($v_{\text{slip}}$).
@@ -184,8 +168,7 @@ Hãy lắng nghe và cảm nhận: tay đi qua nước **chậm lại nhẹ ở 
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Maglischo, E. W. (2003). *Swimming Fastest*. Human Kinetics.
 2. Toussaint, H. M., & Truijens, M. (2005). *Biomechanical aspects of peak performance in human swimming*. Animal Biology, 55(1), 17–40.
 3. Vogel, S. (1994). *Life in Moving Fluids: The Physical Biology of Flow*. Princeton University Press.

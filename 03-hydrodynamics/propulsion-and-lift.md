@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `03-hydrodynamics/` | **Trình độ:** Trung cấp → Nâng cao | **Thời gian đọc:** ~12 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 Sau khi đã giảm tối đa lực cản, câu hỏi tiếp theo của bơi tốc độ là: **Bàn tay và cẳng tay thực sự tạo ra lực đẩy tiến về trước bằng cơ chế vật lý nào?** Bơi hiện đại không còn tranh cãi cực đoan giữa "kéo thẳng" hay "kéo chữ S" — mà kết hợp thông minh cả **Lực đẩy phản lực (Drag Propulsion)**, **Lực nâng thủy động (Lift Propulsion)** và **Cơ chế tạo xoáy (Vortex Shedding)** để giữ tay nhẹ nhưng tạo xung lượng tối đa.
 
 - **Mục tiêu cốt lõi:** Hiểu cơ chế tạo lực của bàn tay + cẳng tay dưới nước, vai trò của góc tấn (*Angle of Attack*) và lý do cần **tăng tốc mượt từ Catch đến Push**.
@@ -12,8 +11,7 @@ Sau khi đã giảm tối đa lực cản, câu hỏi tiếp theo của bơi t�
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Trong thủy động lực học bơi hiện đại, lực đẩy tổng ($F_{\text{propulsion}}$) được tạo nên bởi **3 cơ chế bổ trợ nhau**:
 
 1. **Lực đẩy dựa trên lực cản (Drag-Based Propulsion — Định luật III Newton)**:
@@ -27,10 +25,8 @@ Trong thủy động lực học bơi hiện đại, lực đẩy tổng ($F_{\t
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 Phương trình lực đẩy kết hợp của mái chèo (bàn tay + cẳng tay):
 
 $$F_{\text{hand+forearm}} = \frac{1}{2} \rho v_{\text{hand}}^2 A_{\text{paddle}} \sqrt{C_D(\alpha)^2 + C_L(\alpha)^2}$$
@@ -44,8 +40,7 @@ Các nghiên cứu CFD (*Computational Fluid Dynamics* — Lorente et al., Duke 
 - **Mở khe hở nhẹ giữa các ngón tay khoảng `5–10°` (2–4 mm)** thay vì ép chặt cứng các ngón tay giúp **tăng lực đẩy lên tới `8–10%`**!
 - Lý do: Lớp biên nước dính (*Boundary Layer*) hình thành quanh mỗi ngón tay đóng vai trò như một "màng vô hình" lấp kín khe hở, làm tăng diện tích hiệu dụng $A_{\text{paddle}}$ mà lại giúp cơ bàn tay và cẳng tay **thả lỏng tự nhiên hơn**.
 
-### Biomechanics
-
+### Cơ Sinh Học (Biomechanics)
 Để tối ưu hóa lực đẩy mà không làm mỏi cơ sớm, đường cong vận tốc bàn tay dưới nước phải tuân theo nguyên tắc **Tăng tốc lũy tiến (*Back-to-Front Acceleration*)**:
 - **Đầu pha Catch (0–30%)**: Chậm, chắc, thiết lập góc EVF để bám vào nước tĩnh (*Still Water*).
 - **Pha Pull (30–70%)**: Tăng tốc đều nhờ xoay hông và co rút cơ lưng rộng (Lat).
@@ -53,23 +48,20 @@ Các nghiên cứu CFD (*Computational Fluid Dynamics* — Lorente et al., Duke 
 
 ```mermaid
 flowchart LR
-    A["Catch (0–30%)\nTốc độ chậm & chắc\nGóc tấn α ≈ 40–50°"] --> B["Mid-Pull (30–70%)\nTăng tốc đều bằng Cơ Xô\nGóc EVF vuông góc (α ≈ 80–90°)"]
-    B --> C["Push / Finish (70–100%)\nTốc độ bàn tay MAX\nTạo Vortex tách gọn ngang đùi"]
-    C --> D["Tổng hợp Drag + Lift + Vortex\nXung lượng đẩy tối đa, tay nhẹ"]
+    A["Catch (0–30%)<br/>Tốc độ chậm & chắc<br/>Góc tấn α ≈ 40–50°"] --> B["Mid-Pull (30–70%)<br/>Tăng tốc đều bằng Cơ Xô<br/>Góc EVF vuông góc (α ≈ 80–90°)"]
+    B --> C["Push / Finish (70–100%)<br/>Tốc độ bàn tay MAX<br/>Tạo Vortex tách gọn ngang đùi"]
+    C --> D["Tổng hợp Drag + Lift + Vortex<br/>Xung lượng đẩy tối đa, tay nhẹ"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Hiểu đúng về **tăng tốc lũy tiến** và **khe hở ngón tay tự nhiên** thay đổi hoàn toàn cảm giác bơi:
 - Bạn không còn phải gồng cứng bàn tay như "xẻng sắt" — bàn tay thư giãn nhẹ với khe ngón 2–4 mm vừa tạo lực đẩy lớn hơn, vừa cho phép các thụ thể cảm giác áp suất trên da lòng bàn tay hoạt động nhạy bén hơn.
 - Tăng tốc mượt từ chậm đến nhanh ở cuối pha đẩy giúp cơ thể luôn giữ được cảm giác bám chắc vào khối nước đặc, không bị "hụt tay" (trượt nước) ở giữa pha kéo.
 
-### Step-by-Step Execution & Water Cues
-
+### Hướng Dẫn Từng Bước & Cảm Giác Nước (Step-by-Step & Water Cues)
 1. **Thả lỏng bàn tay ở tư thế tự nhiên**: Mở nhẹ các ngón tay cách nhau khoảng `2–4 mm` (độ rộng vừa bằng độ dày một chiếc thẻ ATM), cổ tay giữ thẳng trung tính (không bẻ gập quá mức ra sau hay vào trong).
 2. **Dùng cả cẳng tay làm mái chèo**: Diện tích bàn tay chỉ khoảng `140–170 cm²`, nhưng khi dựng cẳng tay EVF đúng, diện tích mái chèo tăng gấp **~2.5 lần** (`350–420 cm²`).
 3. **Nhịp kéo "Chậm → Vừa → Nhanh"**:
@@ -81,15 +73,13 @@ Hiểu đúng về **tăng tốc lũy tiến** và **khe hở ngón tay tự nhi
 ![Phân bố véc-tơ lực đẩy, lực nâng Bernoulli và khe hở ngón tay tối ưu trong pha kéo](../images/03-hydrodynamics-propulsion-lift.png)
 <!-- IMAGE_PROMPT: Technical fluid dynamics diagram showing three panels: (1) Hand & forearm EVF paddle area with velocity gradient arrows from slow catch to fast push; (2) Bernoulli lift & drag resultant vector at 45-degree angle of attack; (3) Close-up CFD visualization of relaxed hand with 3mm finger spacing showing boundary-layer bridging increasing effective paddle surface. -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **Đừng đẩy tay quá dài lên trên mặt nước ở cuối pha Push**: Nếu tiếp tục ấn bàn tay hướng lên trên khi đã qua hông, bạn sẽ tạo ra lực đẩy hướng **xuống đáy** (làm chìm hông). Kết thúc lực đẩy ngay khi ngón cái lướt ngang túi quần/đùi, rồi lập tức chuyển sang thả lỏng Recovery.
 - **Luyện cảm giác "nước đặc" bằng Sculling**: Các VĐV Olympic dành 10–15% thời lượng khởi động cho Sculling ở cả 3 vị trí (trước đầu, giữa ngực, ngang hông) để tinh chỉnh góc tấn $\alpha$ của bàn tay đến từng độ.
 
 ---
 
-## Drills
-
+## Bài Tập Thực Hành (Drills)
 | Tên Drill | Mục tiêu tạo lực đẩy | Cự ly / Số hiệp | Cảm giác đúng (Cue) |
 | :--- | :--- | :--- | :--- |
 | **3-Position Sculling** | Tối ưu hóa góc tấn $\alpha$ và cảm nhận lực nâng Bernoulli | `3 × 25m` (Front, Mid, Rear Scull) | Cơ thể tự trôi tiến về trước ổn định dù không hề quạt tay |
@@ -104,8 +94,7 @@ Hiểu đúng về **tăng tốc lũy tiến** và **khe hở ngón tay tự nhi
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang dưới nước (Underwater Side View, 120 fps) để vẽ quỹ đạo bàn tay (*Hand Path Trajectory*) và đồ thị vận tốc bàn tay theo thời gian $v_{\text{hand}}(t)$.
 - **Keypoints cần trích xuất:** `shoulder`, `elbow`, `wrist`, `index_finger_tip`.
 - **Ngưỡng phát hiện lỗi tự động:**
@@ -114,8 +103,7 @@ Hiểu đúng về **tăng tốc lũy tiến** và **khe hở ngón tay tự nhi
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Giật mạnh đầu pha kéo, hụt lực cuối pha** | Bọt khí quấn quanh tay ngay khi bắt nước, tốc độ không bứt | Dùng sức đột ngột trước khi kịp dựng cẳng tay ôm nước tĩnh | Tập Accelerating Pull: chậm–chắc ở Catch, tăng tốc mạnh ở Push |
@@ -125,8 +113,7 @@ Hiểu đúng về **tăng tốc lũy tiến** và **khe hở ngón tay tự nhi
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi giữ bàn tay thả lỏng tự nhiên với khe ngón nhỏ (~2–4 mm) thay vì gồng cứng.
 - [ ] Tôi cảm nhận rõ áp lực nước tì lên cả **mặt trong cẳng tay**, không chỉ riêng lòng bàn tay.
 - [ ] Nhịp kéo của tôi tăng tốc mượt từ Catch → Mid-Pull → Push, không bị giật cục ở đầu pha.
@@ -135,8 +122,7 @@ Hiểu đúng về **tăng tốc lũy tiến** và **khe hở ngón tay tự nhi
 
 ---
 
-## KPI
-
+## Chỉ Số Đo Lường (KPI)
 | Chỉ số (Metric) | Người mới | Trung cấp | Nâng cao (`< 1:30/100m`) |
 | :--- | :---: | :---: | :---: |
 | **Tỷ lệ vận tốc tay ($v_{\text{push}} / v_{\text{catch}}$)** | `< 1.0` (nhanh đầu, chậm cuối) | `1.2–1.5` | `1.6–2.2` (tăng tốc mượt) |
@@ -146,8 +132,7 @@ Hiểu đúng về **tăng tốc lũy tiến** và **khe hở ngón tay tự nhi
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Nên kéo tay theo đường thẳng (chữ I) hay đường cong (chữ S)?**
 Khoa học bơi hiện đại cho thấy cả hai đều hội tụ ở một nguyên lý chung: **nhìn từ dưới lên, bàn tay luôn có độ uốn nhẹ tự nhiên quanh trục vai–hông** do cơ thể xoay trục `30–45°`. Đừng cố vẽ chữ S rộng sang ngang (gây lắc hông và giảm hiệu suất đẩy trực tiếp), hãy tập trung giữ cẳng tay dựng thẳng EVF đẩy nước về sau.
 
@@ -159,8 +144,7 @@ Khoa học bơi hiện đại cho thấy cả hai đều hội tụ ở một ng
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - Lực đẩy bơi sải hiện đại kết hợp **Drag Propulsion (~70%)**, **Bernoulli Lift (~20%)** và **Vortex Shedding (~10%)**.
 - Dựng cẳng tay sớm (EVF) tăng diện tích mái chèo gấp `2.5 lần`; thả lỏng bàn tay với khe ngón `2–4 mm` tăng thêm `8–10%` lực đẩy hiệu dụng.
 - Luôn tuân thủ quy luật **tăng tốc lũy tiến** (*Chậm ở Catch → Vừa ở Mid-Pull → Nhanh ở Push*) và hoàn tất pha đẩy ngang đùi.
@@ -173,8 +157,7 @@ Khoa học bơi hiện đại cho thấy cả hai đều hội tụ ở một ng
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Lorente, S., Cetkin, E., Bello-Ochende, T., Meyer, J. P., & Bejan, A. (2012). *The constructal-law physics of why swimmers must spread their fingers and toes*. Journal of Theoretical Biology, 308, 141–146.
 2. Sanders, R. H. (1999). *Hydrodynamic characteristics of a swimmer's hand*. Journal of Applied Biomechanics, 15(1), 3–26.
 3. Gourgoulis, V., et al. (2014). *Effect of hand orientation on propulsion during front crawl swimming*. Journal of Biomechanics.

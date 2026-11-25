@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `22-training-plan/` | **Giai đoạn:** Đẩy Ngưỡng Lactate & Khóa Tempo Ngọt | **Dryland:** Chuyển từ Sức mạnh sang Công suất (Power)
 
-## Overview
-
+## Tổng Quan (Overview)
 Bước sang nửa sau của hành trình 24 tuần, **Block 4 (Tuần 13–16)** là giai đoạn **chuyển hóa nền hiếu khí (Block 3) thành tốc độ ngưỡng thực sự**. Bạn sẽ sử dụng chính xác **Điểm Ngọt SPM** vừa tìm được từ Ramp Test để tập các bài lặp ngưỡng **CSS (`100m–400m`) với thời gian nghỉ cực ngắn (`10–15 giây`)**, xóa bỏ hoàn toàn *Dead Spot*, chuyển sang nhịp liên hoàn **Opposition (`IdC ≈ 0%`)** và kết thúc bằng **CSS Test #3 (Tuần 16)**.
 
 - **Mục tiêu cốt lõi:** Duy trì **DPS cao** ở đúng **Điểm Ngọt Tempo (`68–76 SPM`)**, nâng mật độ bài tập Zone 3 (CSS) lên `30–35%` khối lượng tuần và đẩy Pace CSS áp sát mốc `1:30–1:35/100m`.
@@ -12,21 +11,18 @@ Bước sang nửa sau của hành trình 24 tuần, **Block 4 (Tuần 13–16)*
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Để nâng trần tốc độ bền vững (CSS), hệ tim mạch và cơ bắp cần được đặt trong trạng thái **"Cân bằng Lactate Tối Đa" (*Maximal Lactate Steady State — MLSS*)**:
 - Các bài tập như **`12–15 × 100m @ CSS (r:10–15s)`** hay **`5 × 200m @ CSS (r:15–20s)`** giữ nồng độ lactate máu ổn định quanh `3.5–4.5 mmol/L` trong `20–30 phút` — đây là vùng kích thích sinh lý mạnh nhất để đẩy ngưỡng tốc độ `< 1:30/100m` đi lên từng tuần!
 - Kết hợp **Tempo Trainer** khóa đúng điểm ngọt SPM giúp ngăn chặn não bộ "trượt chậm lại" ở 30% cuối bài tập.
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 Ở ngưỡng vận tốc tiến gần `1:30/100m` ($v \approx 1.11\text{ m/s}$), lực cản sóng (*Wave Drag*) bắt đầu tăng nhanh. Việc rút ngắn pha trượt từ `0.25s` xuống `0.10–0.15s` (**Opposition `IdC ≈ 0%`**) giúp duy trì vận tốc liên tục không sụt giảm (*Low IVV*), giảm đáng kể năng lượng tiêu hao cho mỗi lần gia tốc lại sau từng sải!
 
-### Biomechanics — Phân Bổ Tải Block 4 (Nhịp 3:1)
+### Cơ Sinh Học (Biomechanics) — Phân Bổ Tải Block 4 (Nhịp 3:1)
 
 | Tuần | Đặc điểm tải | Lịch 3 buổi (`S1–S3`) | Lịch 4 buổi (`+S4`) | Lịch 5 buổi (`+S5`) | Lịch 6 buổi (`+S6`) |
 | :---: | :--- | :---: | :---: | :---: | :---: |
@@ -37,20 +33,18 @@ Bước sang nửa sau của hành trình 24 tuần, **Block 4 (Tuần 13–16)*
 
 ```mermaid
 flowchart LR
-    A["Tuần 13\nTempo-Locked 100s @ CSS\n(IdC ≈ 0%, nghỉ ngắn 10–15s)"] --> B["Tuần 14\nCSS 200s + Broken 400s\n(Giữ nguyên DPS ở tốc độ cao)"]
-    B --> C["Tuần 15 (Đỉnh Threshold)\n15 × 100m @ CSS (r:10s)\n(Tối đa hóa thích nghi MLSS)"]
-    C --> D["Tuần 16 (Deload)\nCSS Test #3 + Video Giữa Kỳ\n(Áp sát ngưỡng 1:30–1:35/100m)"]
+    A["Tuần 13<br/>Tempo-Locked 100s @ CSS<br/>(IdC ≈ 0%, nghỉ ngắn 10–15s)"] --> B["Tuần 14<br/>CSS 200s + Broken 400s<br/>(Giữ nguyên DPS ở tốc độ cao)"]
+    B --> C["Tuần 15 (Đỉnh Threshold)<br/>15 × 100m @ CSS (r:10s)<br/>(Tối đa hóa thích nghi MLSS)"]
+    C --> D["Tuần 16 (Deload)<br/>CSS Test #3 + Video Giữa Kỳ<br/>(Áp sát ngưỡng 1:30–1:35/100m)"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Block 4 kết hợp hoàn hảo giữa **khoa học sinh lý (CSS Threshold)** và **khoa học cơ học (Tempo-Locked DPS)**: bạn không chỉ bơi nhanh hơn vì "gồng khỏe hơn", mà vì hệ cơ–thần kinh đã quen vận hành ở nhịp `Opposition (IdC ≈ 0%)` với hiệu suất kéo EVF cao nhất!
 
-### Step-by-Step Execution — Chi Tiết Giáo Án 6 Buổi/Tuần (Tuần 13–16)
+### Hướng Dẫn Từng Bước (Step-by-Step) — Chi Tiết Giáo Án 6 Buổi/Tuần (Tuần 13–16)
 
 #### Buổi S1 — Lõi 1: Kỹ Thuật Tốc Độ Cao & Tempo-Locked DPS (`~2.000–2.400m`)
 - **Warm-up (400m):** `200m` Z1 + `4 × 50m` (`25m 3/4 Catch-Up + 25m Swim`, `r:15s`).
@@ -97,12 +91,12 @@ Block 4 kết hợp hoàn hảo giữa **khoa học sinh lý (CSS Threshold)** v
 ![Biểu đồ cấu trúc bài tập Threshold MLSS và Broken 400s trong Block 4](../images/22-block4-css-threshold.png)
 <!-- IMAGE_PROMPT: Clean sports physiology progression diagram for Block 4 (Weeks 13-16) showing MLSS threshold workouts (12x100m -> 7x200m -> 15x100m @ CSS r:10s), Tempo Trainer lock at Sweet Spot SPM, and CSS Test #3 milestone. -->
 
-### Advanced Tips (Dryland & Mobility Đi Kèm Block 4)
+### Mẹo Nâng Cao (Advanced Tips — Dryland & Mobility Đi Kèm Block 4)
 - **Dryland (`2 buổi/tuần × 35p`)**: Bắt đầu chuyển sang **Giai đoạn 3 (Công suất Bùng nổ — Power)** vào Tuần 15–16: giảm tạ còn ~65–70% nhưng kéo Pull-Up/Row/Band thật nhanh và sắc, thêm **Medball Rotational Throw** & **Overhead Slam**!
 
 ---
 
-## Drills (Trọng Tâm Block 4)
+## Bài Tập Thực Hành (Drills — Trọng Tâm Block 4)
 
 | Tên Drill | Tần suất/Tuần | Mục tiêu Block 4 |
 | :--- | :---: | :--- |
@@ -112,16 +106,14 @@ Block 4 kết hợp hoàn hảo giữa **khoa học sinh lý (CSS Threshold)** v
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **So sánh Video Giữa Kỳ (Tuần 16 vs Tuần 01):**
   - Kiểm tra **IdC** ở pace CSS đã tiến về `[-3%, +2%]` (Opposition) chưa.
   - Kiểm tra **Stroke Index ($\text{SI} = v \times \text{DPS}$)** đã tăng tối thiểu `+15–25%` so với Tuần 1 chưa.
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Bơi hiệp 1–3 nhanh hơn CSS `3–4s`** | Sụp đổ hoàn toàn ở hiệp 10–15 trong bài `15 × 100m` | Quá hưng phấn đầu bài (*Red Mist*) | Dùng Tempo Trainer hoặc đồng hồ tường khóa đúng từng giây ngay từ 50m đầu |
@@ -130,8 +122,7 @@ Block 4 kết hợp hoàn hảo giữa **khoa học sinh lý (CSS Threshold)** v
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi hoàn thành được bài `12–15 × 100m @ CSS` với thời gian nghỉ ngắn `10–15 giây` mà pace không bị tụt ở 3 hiệp cuối.
 - [ ] Tôi duy trì được nhịp **Opposition (`IdC ≈ 0%`)** và góc EVF chắc ở đúng Điểm Ngọt SPM.
 - [ ] Tôi hoàn thành **CSS Test #3 (Tuần 16)** và quay video giữa kỳ đối chiếu tiến bộ với Tuần 1.
@@ -139,7 +130,7 @@ Block 4 kết hợp hoàn hảo giữa **khoa học sinh lý (CSS Threshold)** v
 
 ---
 
-## KPI (Hết Tuần 16)
+## Chỉ Số Đo Lường (KPI — Hết Tuần 16)
 
 | Chỉ số (Metric) | Đạt chuẩn Block 4 | Xuất sắc |
 | :--- | :---: | :---: |
@@ -149,8 +140,7 @@ Block 4 kết hợp hoàn hảo giữa **khoa học sinh lý (CSS Threshold)** v
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Trong bài `15 × 100m @ CSS (r:10s)`, tôi mới bơi hết 10 hiệp đã thấy đuối quá thì sao?**
 Với lịch 3 buổi/tuần hoặc người mới bước lên Block 4, bạn hoàn toàn có thể dừng ở **`10–12 × 100m @ CSS (r:15s)`** — điều quan trọng là **100% số hiệp đều đạt chuẩn kỹ thuật EVF và đều tốc độ**, không bơi thêm hiệp rác khi dáng đã vỡ!
 
@@ -159,8 +149,7 @@ Vì khi tốc độ của bạn đã tăng thêm `10–15 giây/100m`, những l
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - **Block 4 (Tuần 13–16)** là giai đoạn đột phá ngưỡng tốc độ bền vững thông qua **MLSS Threshold (`12–15 × 100m`, `6–7 × 200m`, `Broken 400m @ CSS`)** kết hợp **Tempo Trainer**.
 - Kết thúc bằng **Deload + CSS Test #3 + Video Giữa Kỳ** để cập nhật pace mới trước khi bước vào Block 5 tốc độ đỉnh.
 
@@ -171,8 +160,7 @@ Vì khi tốc độ của bạn đã tăng thêm `10–15 giây/100m`, những l
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Olbrecht, J. (2000). *The Science of Winning*. F&G Partners.
 2. Newsome, P., & Young, A. (2012). *Swim Smooth*. Wiley.
 3. Wakayoshi, K., et al. (1992). *Critical swim speed and lactate threshold*. European Journal of Applied Physiology.

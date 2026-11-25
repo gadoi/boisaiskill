@@ -1,4 +1,4 @@
-site_name: Freestyle Swimming Mastery
+site_name: Làm Chủ Bơi Sải Hiện Đại (Freestyle Swimming Mastery)
 site_description: Bộ sách chuyên khảo & Cơ sở tri thức Bơi Sải Hiện Đại — Tốc độ < 1:30/100m, Tay nhẹ, Lực từ thân
 site_url: https://gadoi.github.io/boisaiskill/
 repo_url: https://github.com/gadoi/boisaiskill
@@ -11,7 +11,8 @@ exclude_docs: |
   .git/
   .github/
   .obsidian/
-  site/
+  _site/
+  _mkdocs_src/
   mkdocs.yml
   requirements-docs.txt
   .gitignore
@@ -63,94 +64,94 @@ markdown_extensions:
       generic: true
 
 extra_javascript:
+  - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 nav:
   - Trang Chủ:
-      - Giới Thiệu: README.md
-      - Obsidian Home: Home.md
-      - Tổng Hợp Nhanh (skill.md): skill.md
-      - Mục Lục Tổng: SUMMARY.md
-      - Thư Viện Hình Minh Họa: images/README.md
+      - Giới Thiệu (README): README.md
+      - Trang Chủ Obsidian (Home): Home.md
+      - Tóm Tắt Thực Chiến (skill.md): skill.md
+      - Mục Lục Tổng (SUMMARY): SUMMARY.md
+      - Thư Viện Hình Minh Họa (Images): images/README.md
   - I. Nền Tảng Khoa Học:
-      - 01. Vật Lý Bơi & Công Suất v³: 01-foundation/physics-of-swimming.md
-      - 01. Trọng Tâm (COG) & Tâm Nổi (COB): 01-foundation/center-of-gravity-and-buoyancy.md
+      - 01. Vật Lý Bơi & Công Suất v³ (Physics): 01-foundation/physics-of-swimming.md
+      - 01. Trọng Tâm & Tâm Nổi (COG & COB): 01-foundation/center-of-gravity-and-buoyancy.md
       - 02. Chuỗi Truyền Lực (Kinetic Chain): 02-biomechanics/kinetic-chain.md
-      - 02. Cơ Sinh Học Vai & Cơ Xô (Lat): 02-biomechanics/shoulder-and-lat-mechanics.md
-      - 03. Giảm Lực Cản Thủy Động: 03-hydrodynamics/drag-reduction.md
-      - 03. Lực Đẩy, Lực Nâng & Xoáy Nước: 03-hydrodynamics/propulsion-and-lift.md
+      - 02. Cơ Sinh Học Vai & Cơ Xô (Shoulder & Lat): 02-biomechanics/shoulder-and-lat-mechanics.md
+      - 03. Giảm Lực Cản Thủy Động (Drag Reduction): 03-hydrodynamics/drag-reduction.md
+      - 03. Lực Đẩy, Lực Nâng & Xoáy Nước (Propulsion): 03-hydrodynamics/propulsion-and-lift.md
   - II. Kỹ Thuật Cốt Lõi:
-      - 04. Tư Thế Thân Ngang & Trục Đầu-Hông: 04-body-position/body-position-and-alignment.md
-      - 04. Kỹ Thuật Streamline: 04-body-position/streamline.md
-      - 04. Cân Bằng Nổi & Pha Trượt (Glide): 04-body-position/balance-and-glide.md
-      - 05. Kích Hoạt Core: 05-core/core-engagement.md
-      - 06. Xoay Trục Dọc 30-45°: 06-rotation/body-rotation.md
-      - 07. Kỹ Thuật Thở & Nhịp Thở: 07-breathing/breathing-mechanics.md
-      - 08. 2-Beat Kick: 08-kicking/two-beat-kick.md
-      - 08. 4-Beat Kick: 08-kicking/four-beat-kick.md
-      - 08. 6-Beat Kick: 08-kicking/six-beat-kick.md
-      - 08. Độ Dẻo Cổ Chân: 08-kicking/ankle-mobility.md
-      - 08. Dolphin Kick & Đồng Bộ Chân: 08-kicking/dolphin-and-kick-timing.md
-      - 09. Vào Nước "Xỏ Kim" & Vươn Tay: 09-catch/hand-entry-and-extension.md
-      - 09. High Elbow Catch (EVF): 09-catch/early-vertical-forearm.md
-      - 10. Pha Kéo (Pull) & Pha Đẩy (Push): 10-pull/pull-and-push-phase.md
+      - 04. Tư Thế Thân Ngang (Body Position): 04-body-position/body-position-and-alignment.md
+      - 04. Tư Thế Thuôn Dài (Streamline): 04-body-position/streamline.md
+      - 04. Cân Bằng Nổi & Pha Trượt (Balance & Glide): 04-body-position/balance-and-glide.md
+      - 05. Kích Hoạt Cơ Lõi (Core Engagement): 05-core/core-engagement.md
+      - 06. Xoay Trục Dọc 30-45° (Body Rotation): 06-rotation/body-rotation.md
+      - 07. Kỹ Thuật Thở & Nhịp Thở (Breathing): 07-breathing/breathing-mechanics.md
+      - 08. Chân 2 Nhịp (2-Beat Kick): 08-kicking/two-beat-kick.md
+      - 08. Chân 4 Nhịp (4-Beat Kick): 08-kicking/four-beat-kick.md
+      - 08. Chân 6 Nhịp (6-Beat Kick): 08-kicking/six-beat-kick.md
+      - 08. Độ Dẻo Cổ Chân (Ankle Mobility): 08-kicking/ankle-mobility.md
+      - 08. Chân Bướm Dưới Nước & Nhịp Chân (Dolphin): 08-kicking/dolphin-and-kick-timing.md
+      - 09. Vào Nước "Xỏ Kim" & Vươn Tay (Hand Entry): 09-catch/hand-entry-and-extension.md
+      - 09. Dựng Cẳng Tay Sớm (EVF Catch): 09-catch/early-vertical-forearm.md
+      - 10. Pha Kéo & Pha Đẩy (Pull & Push): 10-pull/pull-and-push-phase.md
       - 11. Pha Rút Tay Thả Lỏng (Recovery): 11-recovery/relaxed-recovery.md
   - III. Hiệu Suất & Thi Đấu:
-      - 12. Front-Quadrant & Nhịp Điệu (IdC): 12-rhythm/rhythm-and-timing.md
-      - 13. Distance Per Stroke (DPS): 13-dps/distance-per-stroke.md
-      - 14. Stroke Count & Tempo (SPM): 14-stroke-count/stroke-count-and-tempo.md
-      - 14. SWOLF, CSS & Hệ Năng Lượng: 14-stroke-count/swolf-and-energy-systems.md
-      - 15. Kỹ Thuật Nước Mở (Open Water): 15-open-water/open-water-skills.md
-      - 16. Sprint, Starts & Flip Turns: 16-sprint/sprint-starts-and-turns.md
+      - 12. Nhịp Điệu & Góc Phần Tư Trước (Rhythm & IdC): 12-rhythm/rhythm-and-timing.md
+      - 13. Quãng Đường Mỗi Sải (DPS): 13-dps/distance-per-stroke.md
+      - 14. Số Sải Tay & Tần Suất (Stroke Count & SPM): 14-stroke-count/stroke-count-and-tempo.md
+      - 14. Chỉ Số SWOLF, CSS & Hệ Năng Lượng: 14-stroke-count/swolf-and-energy-systems.md
+      - 15. Kỹ Thuật Bơi Nước Mở (Open Water): 15-open-water/open-water-skills.md
+      - 16. Nước Rút, Xuất Phát & Lộn Vòng (Sprint & Turns): 16-sprint/sprint-starts-and-turns.md
       - VĐV Olympic - Caeleb Dressel: athletes/caleb-dressel.md
       - VĐV Olympic - David Popovici: athletes/david-popovici.md
       - VĐV Olympic - Katie Ledecky: athletes/katie-ledecky.md
       - VĐV Olympic - Ian Thorpe: athletes/ian-thorpe.md
       - VĐV Olympic - Sun Yang: athletes/sun-yang.md
-  - IV. Drills & Dryland:
+  - IV. Bài Tập & Thể Lực Cạn:
       - Hệ Thống TI, SwimSmooth & Olympic: 17-drills/training-systems.md
-      - Catch-Up Drill: 17-drills/catch-up.md
-      - Fingertip Drag Drill: 17-drills/fingertip-drag.md
-      - Single-Arm Freestyle Drill: 17-drills/single-arm.md
-      - Sculling (Front, Mid, Rear): 17-drills/sculling.md
-      - Shark Fin Drill: 17-drills/shark-fin.md
-      - 6-Kick Switch & Side Kick: 17-drills/six-kick-switch.md
-      - Tarzan, Zipper & Dog Paddle: 17-drills/tarzan-zipper-dog-paddle.md
-      - Dryland - Core Training: 18-strength/core-training.md
-      - Dryland - Cơ Xô & Kéo Nước: 18-strength/lat-and-pull-strength.md
-      - Dryland - Dây Kháng Lực & Medball: 18-strength/resistance-band-and-medball.md
-      - Dryland - Lịch Tập Phối Hợp: 18-strength/dryland-programs.md
-      - Mobility Vai, T-Spine & Cổ Chân: 19-mobility/shoulder-thoracic-ankle-mobility.md
+      - Bài Tập Đuổi Tay (Catch-Up Drill): 17-drills/catch-up.md
+      - Bài Tập Lê Ngón Tay (Fingertip Drag): 17-drills/fingertip-drag.md
+      - Bài Tập Bơi Một Tay (Single-Arm): 17-drills/single-arm.md
+      - Bài Tập Vẫy Nước 3 Vị Trí (Sculling): 17-drills/sculling.md
+      - Bài Tập Vây Cá Mập (Shark Fin): 17-drills/shark-fin.md
+      - Bài Tập 6 Nhịp Đổi Bên (6-Kick Switch): 17-drills/six-kick-switch.md
+      - Bộ 3 Đặc Trị (Tarzan, Zipper & Dog Paddle): 17-drills/tarzan-zipper-dog-paddle.md
+      - Tập Cạn - Sức Mạnh Cơ Lõi (Core Training): 18-strength/core-training.md
+      - Tập Cạn - Cơ Xô & Kéo Nước (Lat Strength): 18-strength/lat-and-pull-strength.md
+      - Tập Cạn - Dây Kháng Lực & Bóng Tạ (Band & Medball): 18-strength/resistance-band-and-medball.md
+      - Tập Cạn - Lịch Tập Phối Hợp (Dryland Programs): 18-strength/dryland-programs.md
+      - Linh Hoạt Vai, Lưng Ngực & Cổ Chân (Mobility): 19-mobility/shoulder-thoracic-ankle-mobility.md
   - V. Giáo Án 24 Tuần:
-      - Tổng Quan & Test CSS: 22-training-plan/overview-and-css-testing.md
-      - Block 1 (Tuần 01-04): 22-training-plan/weeks-01-04.md
-      - Block 2 (Tuần 05-08): 22-training-plan/weeks-05-08.md
-      - Block 3 (Tuần 09-12): 22-training-plan/weeks-09-12.md
-      - Block 4 (Tuần 13-16): 22-training-plan/weeks-13-16.md
-      - Block 5 (Tuần 17-20): 22-training-plan/weeks-17-20.md
-      - Block 6 (Tuần 21-24 - Taper): 22-training-plan/weeks-21-24.md
-  - VI. AI, Checklists & Phụ Lục:
-      - AI Pose & Joint Angle: 20-ai-analysis/pose-and-joint-angle.md
-      - AI Stroke, Kick & Breathing: 20-ai-analysis/stroke-kick-breathing-detection.md
-      - Quy Trình Quay Video 4 Góc: 21-video-analysis/filming-and-annotation-workflow.md
-      - Dataset Schema AI: datasets/dataset-schema.md
-      - Danh Mục Video Tham Khảo: videos/reference-video-catalog.md
-      - Tự Đánh Giá Tại Hồ (100đ): 23-checklists/self-evaluation.md
-      - Chấm Điểm HLV: 23-checklists/coach-evaluation.md
-      - Kiểm Lỗi Qua Video: 23-checklists/video-evaluation.md
-      - Bảng Chuẩn Benchmarks: benchmarks/performance-benchmarks.md
-      - Ghi Chú Thực Chiến HLV: coach-notes/field-notes.md
-      - Bảng Thuật Ngữ (Glossary): 24-appendix/glossary.md
-      - Tra Cứu Drill Theo Lỗi: 24-appendix/drills-index.md
-      - Tài Liệu & Tổ Chức Chuẩn: 24-appendix/references-and-organizations.md
-      - Tóm Tắt Nghiên Cứu Khoa Học: papers/research-summaries.md
-      - Thư Viện Sơ Đồ Mermaid: mermaid/diagrams-library.md
+      - Tổng Quan & Kiểm Tra CSS (Overview): 22-training-plan/overview-and-css-testing.md
+      - Khối 1 - Tuần 01-04 (Tư Thế & Cân Bằng): 22-training-plan/weeks-01-04.md
+      - Khối 2 - Tuần 05-08 (Xoay Hông & EVF): 22-training-plan/weeks-05-08.md
+      - Khối 3 - Tuần 09-12 (Nền Hiếu Khí & Chân): 22-training-plan/weeks-09-12.md
+      - Khối 4 - Tuần 13-16 (Ngưỡng CSS & DPS): 22-training-plan/weeks-13-16.md
+      - Khối 5 - Tuần 17-20 (Tốc Độ & VO2max): 22-training-plan/weeks-17-20.md
+      - Khối 6 - Tuần 21-24 (Giảm Tải Taper & < 1:30): 22-training-plan/weeks-21-24.md
+  - VI. AI, Bảng Kiểm & Phụ Lục:
+      - Nhận Diện Khung Xương & Góc Khớp (AI Pose): 20-ai-analysis/pose-and-joint-angle.md
+      - Nhận Diện Sải Tay, Chân & Thở (AI Events): 20-ai-analysis/stroke-kick-breathing-detection.md
+      - Quy Trình Quay Video 4 Góc (Video Workflow): 21-video-analysis/filming-and-annotation-workflow.md
+      - Chuẩn Dữ Liệu Huấn Luyện AI (Dataset Schema): datasets/dataset-schema.md
+      - Danh Mục Video Tham Khảo (Video Catalog): videos/reference-video-catalog.md
+      - Bảng Tự Đánh Giá Tại Hồ 100đ (Self Evaluation): 23-checklists/self-evaluation.md
+      - Bảng Chấm Điểm HLV (Coach Evaluation): 23-checklists/coach-evaluation.md
+      - Bảng Kiểm Lỗi Qua Video (Video Evaluation): 23-checklists/video-evaluation.md
+      - Bảng Chuẩn Hiệu Suất (Benchmarks): benchmarks/performance-benchmarks.md
+      - Ghi Chú Thực Chiến HLV (Coach Field Notes): coach-notes/field-notes.md
+      - Bảng Thuật Ngữ Song Ngữ (Glossary): 24-appendix/glossary.md
+      - Tra Cứu Bài Tập Theo Lỗi (Drills Index): 24-appendix/drills-index.md
+      - Tài Liệu & Tổ Chức Chuẩn (References): 24-appendix/references-and-organizations.md
+      - Tóm Tắt Nghiên Cứu Khoa Học (Research Papers): papers/research-summaries.md
+      - Thư Viện Sơ Đồ Luồng (Mermaid Library): mermaid/diagrams-library.md
   - Quy Chuẩn AI Agent:
-      - PROJECT.md: PROJECT.md
-      - STYLE.md: STYLE.md
-      - OUTPUT.md: OUTPUT.md
-      - DIRECTORY.md: DIRECTORY.md
-      - TASKS.md: TASKS.md
-      - AGENT_RULES.md: AGENT_RULES.md
-      - QUALITY.md: QUALITY.md
-
+      - Tuyên Ngôn Dự Án (PROJECT): PROJECT.md
+      - Chuẩn Văn Phong (STYLE): STYLE.md
+      - Chuẩn Đầu Ra (OUTPUT): OUTPUT.md
+      - Kiến Trúc Thư Mục (DIRECTORY): DIRECTORY.md
+      - Lộ Trình 12 Giai Đoạn (TASKS): TASKS.md
+      - Quy Tắc AI Agent (AGENT_RULES): AGENT_RULES.md
+      - Cổng Kiểm Duyệt 14 Tiêu Chí (QUALITY): QUALITY.md

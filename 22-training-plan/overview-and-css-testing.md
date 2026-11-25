@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `22-training-plan/` | **Mục tiêu:** Tiến tới `< 1:30/100m` (Tay nhẹ – Lực từ thân) | **Thời gian đọc:** ~12 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 Giáo án 24 tuần (6 tháng) này là **lộ trình thực chiến hóa toàn bộ kiến thức khoa học của `swim-book`** thành từng buổi bơi cụ thể theo tuần. Thay vì bơi "càng nhiều càng tốt", chương trình sử dụng kiến trúc **Phân kỳ Khối 6 × 4 tuần (3 tuần tăng tải + 1 tuần giảm tải & kiểm tra)**, kết hợp **Kiến trúc Lịch Tập Mô-đun (3, 4, 5 hoặc 6 buổi/tuần)** để mọi người bơi — từ dân văn phòng bận rộn, Triathlete cho tới VĐV Masters — đều có thể theo sát và chinh phục cột mốc **`< 1:30/100m`** một cách an toàn, bền vững.
 
 - **Mục tiêu cốt lõi:** Xác định chính xác **Pace CSS** ban đầu, chọn đúng tần suất **3 / 4 / 5 / 6 buổi/tuần** phù hợp quỹ thời gian và nắm vững cách đọc ký hiệu bài tập.
@@ -12,8 +11,7 @@ Giáo án 24 tuần (6 tháng) này là **lộ trình thực chiến hóa toàn 
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 ### 1. Kiến Trúc 6 Block × 4 Tuần (24 Tuần)
 
 Mỗi Block dài **4 tuần** theo nhịp sinh học **3:1** (*3 tuần tiến bộ tải + 1 tuần Deload giảm 25% khối lượng để cơ thể siêu bù trừ và test lại chỉ số*):
@@ -40,16 +38,14 @@ Mỗi tuần trong cả 6 Block được thiết kế gồm **3 Buổi Lõi Bắ
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 Tại sao cần tới **24 tuần** để cải thiện bền vững từ `1:50–2:00/100m` xuống `< 1:30/100m`?
 - **Tuần 01–08 (Tối ưu Thần kinh–Cơ & Thủy động lực học)**: Giảm diện tích cản $A$ và xây dựng phản xạ EVF giúp bạn rút ngay **`10–18 giây/100m`** (đây là giai đoạn tiến bộ nhanh nhất!).
 - **Tuần 09–16 (Thích nghi Ti thể & Mao mạch Hiếu khí)**: Cơ thể cần tối thiểu 8–12 tuần tập luyện đúng vùng Zone 2–3 để tăng mật độ ty thể trong sợi cơ lưng rộng (Lat) và đẩy ngưỡng Lactate (CSS) tăng lên rõ rệt.
 - **Tuần 17–24 (Thích nghi VO2max & Siêu bù trừ Taper)**: Kéo trần tốc độ lên cao hơn mục tiêu `1:30/100m` khoảng `3–5 giây`, sau đó giảm tải (Taper) để hệ thần kinh và cơ bắp bùng nổ đúng ngày kiểm tra.
 
-### Biomechanics & Quy Ước Đọc Giáo Án
+### Cơ Sinh Học & Hệ Năng Lượng (Biomechanics & Quy Ước Đọc Giáo Án
 
 Mọi buổi tập trong 6 Block đều ghi theo ký hiệu chuẩn quốc tế:
 - `4 × 100m @ CSS (r:15s)` = Bơi 4 lần cự ly 100m ở tốc độ bằng Pace CSS, nghỉ đúng 15 giây sau mỗi 100m.
@@ -60,22 +56,19 @@ Mọi buổi tập trong 6 Block đều ghi theo ký hiệu chuẩn quốc tế:
 
 ```mermaid
 flowchart LR
-    A["Tuần 1: CSS Test #1\n& Quay Video Nền"] --> B["Block 1–2 (Tuần 1–8)\nGiảm Cản + EVF + Xoay Hông\n(Rút 10–18s/100m)"]
-    B --> C["Block 3–4 (Tuần 9–16)\nNền Hiếu Khí + Ngưỡng CSS\n(Rút thêm 5–10s/100m)"]
-    C --> D["Block 5 (Tuần 17–20)\nVO2max + Sprint + Flip Turn\n(Kéo trần tốc độ)"]
-    D --> E["Block 6 (Tuần 21–24)\nTaper Siêu Bù Trừ\n→ PHÁ MỐC < 1:30/100m"]
+    A["Tuần 1: CSS Test #1<br/>& Quay Video Nền"] --> B["Block 1–2 (Tuần 1–8)<br/>Giảm Cản + EVF + Xoay Hông<br/>(Rút 10–18s/100m)"]
+    B --> C["Block 3–4 (Tuần 9–16)<br/>Nền Hiếu Khí + Ngưỡng CSS<br/>(Rút thêm 5–10s/100m)"]
+    C --> D["Block 5 (Tuần 17–20)<br/>VO2max + Sprint + Flip Turn<br/>(Kéo trần tốc độ)"]
+    D --> E["Block 6 (Tuần 21–24)<br/>Taper Siêu Bù Trừ<br/>→ PHÁ MỐC < 1:30/100m"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Hệ thống **3 Buổi Lõi + 3 Buổi Mở Rộng** giúp bạn không bao giờ bị "vỡ giáo án" khi bận đột xuất: nếu một tuần bạn đang theo lịch 5 buổi nhưng có việc công tác, bạn chỉ cần hoàn thành đủ **`S1 + S2 + S3`** là vẫn giữ nguyên `85%` giá trị sinh lý và kỹ thuật của tuần đó!
 
-### Step-by-Step Execution & Water Cues
-
+### Hướng Dẫn Từng Bước & Cảm Giác Nước (Step-by-Step & Water Cues)
 1. **Bước 1 — Chuẩn bị 4 dụng cụ tối thiểu**: Kính bơi kín nước + Mũ silicon + **Center Snorkel** + **Short Silicone Fins** + **Pull Buoy** *(Khuyến nghị thêm: Finis Tempo Trainer Pro & Dây kháng lực Swim Cords)*.
 2. **Bước 2 — Thực hiện CSS Test #1 ngay ở Buổi 2 của Tuần 1**:
    - Khởi động `400m` nhẹ nhàng.
@@ -89,15 +82,14 @@ Hệ thống **3 Buổi Lõi + 3 Buổi Mở Rộng** giúp bạn không bao gi�
 ![Lộ trình phân kỳ 24 tuần theo 6 Block và 4 cấp độ tần suất tập luyện](../images/22-training-plan-roadmap.png)
 <!-- IMAGE_PROMPT: Clean 24-week periodization Gantt roadmap graphic showing 6 four-week blocks (3:1 load-to-deload wave bars), CSS Test milestones at Weeks 1, 8, 16, and 24, paired with the modular session matrix (Core S1-S3 + Add-on S4-S6) and Dryland phase alignment targeting <1:30/100m. -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **Điều kiện thực tế để đạt `< 1:30/100m` trong 24 tuần**:
   - Nếu bạn xuất phát ở mức **`1:45–2:00/100m`**: Khả năng đạt `< 1:30/100m` sau 24 tuần với lịch **3–4 buổi/tuần** là **rất cao (`> 85%`)**.
   - Nếu bạn xuất phát ở mức **`2:10–2:30/100m`** (hoặc trên 50 tuổi mới tập): Hãy xem 24 tuần đầu là hành trình tiến tới `1:40–1:45/100m` cực kỳ vững chắc, sau đó lặp lại từ Block 3–6 để phá `< 1:30/100m` an toàn không chấn thương!
 
 ---
 
-## Drills (Bài Kiểm Tra Đầu Vào Tuần 1)
+## Bài Tập Thực Hành (Drills — Bài Kiểm Tra Đầu Vào Tuần 1)
 
 | Bài Test Đầu Vào | Cách Thực Hiện | Chỉ Số Cần Ghi Lại |
 | :--- | :--- | :--- |
@@ -108,15 +100,13 @@ Hệ thống **3 Buổi Lõi + 3 Buổi Mở Rộng** giúp bạn không bao gi�
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Quản trị dữ liệu 24 tuần:** Nhập dữ liệu `CSS`, `SWOLF`, `DPS` và `SPM` sau mỗi Block 4 tuần vào bảng theo dõi (hoặc app đồng hồ bơi) để vẽ đường cong tiến bộ.
 - **Cảnh báo tự động:** Nếu `Pace CSS` không cải thiện sau 2 Block liên tiếp nhưng khối lượng tăng, hệ thống kiểm tra ngay **Video Analysis** (thường do kẹt ở lỗi kỹ thuật EVF hoặc hông chìm chứ không phải do thiếu thể lực!).
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Tăng khối lượng quá nhanh (> 15%/tuần)** | Đau khớp vai, mệt mỏi kéo dài, mất hứng thú bơi | Nóng vội chọn lịch 5–6 buổi ngay từ đầu | Chọn lịch thấp hơn 1 bậc trong 4 tuần đầu, chỉ tăng tải tối đa `10%/tuần` |
@@ -125,8 +115,7 @@ Hệ thống **3 Buổi Lõi + 3 Buổi Mở Rộng** giúp bạn không bao gi�
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi đã hoàn thành **CSS Test #1** và ghi lại chính xác Pace 5 vùng tập luyện của mình.
 - [ ] Tôi đã chọn được lịch tập phù hợp thực tế cuộc sống (`3, 4, 5 hay 6 buổi/tuần`).
 - [ ] Tôi đã chuẩn bị đầy đủ dụng cụ tối thiểu (Snorkel, Short Fins, Pull Buoy, dây kháng lực).
@@ -134,7 +123,7 @@ Hệ thống **3 Buổi Lõi + 3 Buổi Mở Rộng** giúp bạn không bao gi�
 
 ---
 
-## KPI (Lộ Trình Giảm Pace Dự Kiến Qua 24 Tuần — Ví Dụ Xuất Phát `1:52/100m`)
+## Chỉ Số Đo Lường (KPI — Lộ Trình Giảm Pace Dự Kiến Qua 24 Tuần — Ví Dụ Xuất Phát `1:52/100m`)
 
 | Mốc thời gian | Pace CSS mục tiêu | SWOLF (bể 25m) | Thành tích 100m hết sức dự kiến |
 | :--- | :---: | :---: | :---: |
@@ -145,8 +134,7 @@ Hệ thống **3 Buổi Lõi + 3 Buổi Mở Rộng** giúp bạn không bao gi�
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Nếu tôi bị ốm hoặc đi công tác nghỉ mất 1 tuần thì quay lại thế nào?**
 Nếu nghỉ `< 7 ngày`, hãy lặp lại tuần trước đó với khối lượng giảm `15%` rồi tiếp tục bình thường. **Tuyệt đối không cố bơi bù gấp đôi** khối lượng của tuần đã lỡ!
 
@@ -155,8 +143,7 @@ Giữ nguyên tổng cự ly buổi tập; với các bài `25m Drill`, bạn đ
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - Giáo án 24 tuần chia thành **6 Block × 4 tuần (nhịp 3:1)** với kiến trúc mô-đun **3 buổi lõi (`S1–S3`) + 3 buổi mở rộng (`S4–S6`)**.
 - Bắt đầu bằng **CSS Test #1** tại Tuần 1, ưu tiên kỹ thuật giảm cản trước rồi mới đẩy ngưỡng CSS và VO2max.
 
@@ -167,8 +154,7 @@ Giữ nguyên tổng cự ly buổi tập; với các bài `25m Drill`, bạn đ
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Newsome, P., & Young, A. (2012). *Swim Smooth: Training Plans & CSS Methodology*. Wiley.
 2. Olbrecht, J. (2000). *The Science of Winning*. F&G Partners.
 3. Maglischo, E. W. (2003). *Swimming Fastest*. Human Kinetics.

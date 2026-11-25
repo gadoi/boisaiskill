@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `10-pull/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~12 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 Nếu **Catch (EVF)** là khoảnh khắc bạn cắm chắc chiếc mái chèo xuống dòng nước, thì **Pull (Pha kéo)** và **Push (Pha đẩy kết thúc)** chính là giai đoạn **giải phóng toàn bộ công suất động cơ thân–cơ xô** để phóng cơ thể lao vút về phía trước. Điều làm nên đẳng cấp của người bơi `< 1:30/100m` là **tăng tốc mượt mà xuyên suốt từ dưới ngực ra sau đùi** — tuyệt đối không bỏ phí 30% quãng đẩy cuối cùng ở ngang hông.
 
 - **Mục tiêu cốt lõi:** Kéo thân người vượt qua điểm neo EVF bằng cơ xô (Lat) + xoay hông, sau đó tăng tốc đẩy nước dứt khoát qua ngang hông tới mép đùi trước khi rút tay.
@@ -12,8 +11,7 @@ Nếu **Catch (EVF)** là khoảnh khắc bạn cắm chắc chiếc mái chèo 
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Hành trình tạo lực dưới nước sau khi dựng EVF gồm **2 pha nối tiếp không ngừng nghỉ**:
 
 1. **Pha Kéo giữa (*Mid-Pull / Insweep*)**:
@@ -27,18 +25,15 @@ Hành trình tạo lực dưới nước sau khi dựng EVF gồm **2 pha nối 
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 Tại sao **tăng tốc về cuối pha Push** lại bắt buộc về mặt vật lý?
 - Theo nguyên lý động lượng trong [Lực Đẩy & Lực Nâng](../03-hydrodynamics/propulsion-and-lift.md), lực đẩy sinh ra tỷ lệ với bình phương hiệu vận tốc giữa bàn tay và dòng nước xung quanh:
   $$F_{\text{push}} \propto (v_{\text{hand}} - v_{\text{water}})^2$$
 - Đến pha Push, khối nước xung quanh tay đã bắt đầu di chuyển ngược về sau cùng tay bạn ($v_{\text{water}} > 0$). Nếu bạn giữ nguyên tốc độ kéo tay hoặc giảm tốc độ ở cuối pha, hiệu $(v_{\text{hand}} - v_{\text{water}}) \to 0$ và lực đẩy biến mất hoàn toàn!
 - Do đó, bàn tay **bắt buộc phải tăng tốc đạt vận tốc cực đại ở 30% cuối cùng** (giai đoạn đẩy ngang hông) để tiếp tục truyền xung lượng và tách vòng xoáy (*Vortex Shedding*) đẩy thân người vọt tới.
 
-### Biomechanics
-
+### Cơ Sinh Học (Biomechanics)
 Sự phối hợp chuyển giao nhóm cơ hoàn hảo dọc pha Pull–Push:
 - **Đầu Mid-Pull**: Góc khuỷu giữ quanh `95–115°` (cánh tay đòn ngắn nhất, tối ưu mô-men của cơ xô và cơ ngực lớn).
 - **Chuyển sang Push**: Cánh tay trên áp sát về phía sườn, khớp khuỷu bắt đầu mở duỗi nhanh từ `~105° → 155–165°` nhờ sức mạnh bùng nổ của **cơ tam đầu (Triceps)**.
@@ -46,23 +41,20 @@ Sự phối hợp chuyển giao nhóm cơ hoàn hảo dọc pha Pull–Push:
 
 ```mermaid
 flowchart LR
-    A["Đỉnh EVF (Trước vai)\nCẳng tay thẳng đứng"] --> B["Mid-Pull (Dưới vai → Ngực)\nCơ Xô + Cơ Ngực + Xoay Hông\nGóc khuỷu 95–115°"]
-    B --> C["Push / Finish (Rốn → Mép đùi)\nCơ Tam Đầu (Triceps) tăng tốc MAX\nGóc khuỷu mở 110° → 160°"]
-    C --> D["Release sạch ngang đùi\nLòng bàn tay hướng vào đùi\nChuyển ngay sang Recovery thả lỏng"]
+    A["Đỉnh EVF (Trước vai)<br/>Cẳng tay thẳng đứng"] --> B["Mid-Pull (Dưới vai → Ngực)<br/>Cơ Xô + Cơ Ngực + Xoay Hông<br/>Góc khuỷu 95–115°"]
+    B --> C["Push / Finish (Rốn → Mép đùi)<br/>Cơ Tam Đầu (Triceps) tăng tốc MAX<br/>Góc khuỷu mở 110° → 160°"]
+    C --> D["Release sạch ngang đùi<br/>Lòng bàn tay hướng vào đùi<br/>Chuyển ngay sang Recovery thả lỏng"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Rất nhiều người bơi phong trào bỏ phí đúng **30% mạnh nhất của sải tay** vì vội rút tay lên khỏi nước ngay ngang rốn. Khi bạn hoàn tất trọn vẹn pha Push tới mép đùi với gia tốc tăng dần:
 - Mỗi sải tay đẩy bạn tiến xa thêm **`15–25 cm`** (tăng thẳng DPS mà không tốn thêm nhịp tay).
 - Động lượng lớn tạo ra ở cuối pha Push giúp pha trượt (*Glide*) của tay đối diện ở phía trước trở nên dài, êm và nhẹ hơn hẳn.
 
-### Step-by-Step Execution & Water Cues
-
+### Hướng Dẫn Từng Bước & Cảm Giác Nước (Step-by-Step & Water Cues)
 1. **Kéo "Thân vượt qua Tay"**: Giữ cảm giác neo nước chắc ở pha Pull; thay vì kéo khuỷu tay ép chặt vào bụng, giữ một khoảng thoáng tự nhiên bằng ~1 nắm tay giữa khuỷu và sườn để cơ xô phát lực tối đa.
 2. **Tín hiệu "Quẹt túi quần" (*Thumb-to-Thigh Brush*)**: Đẩy mạnh bàn tay dọc sát hông sao cho **đầu ngón cái lướt nhẹ ngang mép ngoài đùi (vị trí túi quần)** ở mọi sải tay.
 3. **Nhịp âm thanh trong đầu**: *"Ôm (chậm)... Kéo (vừa)... ĐẨY! (nhanh)"* — điểm nhấn năng lượng lớn nhất nằm ngay tại chữ *"ĐẨY!"* khi bàn tay tăng tốc vượt qua hông.
@@ -71,8 +63,7 @@ Rất nhiều người bơi phong trào bỏ phí đúng **30% mạnh nhất c�
 ![Sơ đồ hành trình pha Pull và pha Push tăng tốc tới mép đùi](../images/10-pull-push-acceleration.png)
 <!-- IMAGE_PROMPT: Technical underwater side profile of a freestyle swimmer illustrating the Pull-to-Push underwater phase with color-coded hand velocity trail: blue (slow EVF catch), yellow (medium mid-pull driven by lats), orange-red (maximum acceleration push driven by triceps finishing at upper thigh with thumb-to-thigh cue and clean pinkie-first release). -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **Đừng đẩy nước hướng lên trời ở cuối pha Push**: Nếu bạn hất lòng bàn tay hướng lên mặt nước khi kết thúc, phản lực theo định luật III Newton sẽ **ép hông bạn chìm xuống đáy**. Luôn hướng lòng bàn tay thẳng về phía tường phía sau cho đến sát mép đùi rồi xoay cạnh bàn tay rút lên.
 - **Tối ưu điểm dừng cho Đường dài vs Sprint**:
   - Đường dài (`1500m` / Triathlon): Kết thúc gọn ở ngang hông/đùi trên (`góc khuỷu ~155°`), ưu tiên chuyển nhanh sang thả lỏng Recovery để giữ nhịp tim thấp.
@@ -80,8 +71,7 @@ Rất nhiều người bơi phong trào bỏ phí đúng **30% mạnh nhất c�
 
 ---
 
-## Drills
-
+## Bài Tập Thực Hành (Drills)
 | Tên Drill | Mục tiêu Pull & Push | Cự ly / Số hiệp | Cảm giác đúng (Cue) |
 | :--- | :--- | :--- | :--- |
 | **Thumb-to-Thigh Drill** | Xóa bỏ triệt để lỗi cắt cụt pha đẩy (Short Finish) | `4 × 50m` (nghỉ 15s) | Mỗi sải tay đều chạm nhẹ ngón cái vào mép đùi trước khi khuỷu tay nhấc lên |
@@ -93,8 +83,7 @@ Rất nhiều người bơi phong trào bỏ phí đúng **30% mạnh nhất c�
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang dưới nước (Underwater Side View, 120 fps) và Dưới lên (Bottom-Up View).
 - **Keypoints cần trích xuất:** `shoulder`, `elbow`, `wrist`, `hip`, `mid_thigh`.
 - **Ngưỡng phát hiện lỗi tự động:**
@@ -103,8 +92,7 @@ Rất nhiều người bơi phong trào bỏ phí đúng **30% mạnh nhất c�
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Cắt cụt pha đẩy (Short Finish)** | Tay nhấc lên khỏi nước ngay ngang rốn/eo, DPS ngắn | Vội vã đưa tay lên thở hoặc muốn quạt nhịp thật nhanh | Tập Thumb-to-Thigh Drill, ép chạm nhẹ ngón cái vào mép đùi mỗi sải |
@@ -114,8 +102,7 @@ Rất nhiều người bơi phong trào bỏ phí đúng **30% mạnh nhất c�
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi luôn đẩy hết hành trình để ngón cái lướt qua ngang hông/mép đùi ở mọi sải tay.
 - [ ] Tốc độ bàn tay của tôi tăng tốc mượt mà từ dưới vai ra đến đùi (nhanh nhất ở pha Push).
 - [ ] Khi rút tay khỏi nước, tôi xoay nhẹ lòng bàn tay vào trong đùi nên không bị múc nước hất lên trời.
@@ -124,8 +111,7 @@ Rất nhiều người bơi phong trào bỏ phí đúng **30% mạnh nhất c�
 
 ---
 
-## KPI
-
+## Chỉ Số Đo Lường (KPI)
 | Chỉ số (Metric) | Người mới | Trung cấp | Nâng cao (`< 1:30/100m`) |
 | :--- | :---: | :---: | :--- |
 | **Vị trí kết thúc pha Push** | Ngang ngực/rốn | Ngang khớp hông | Ngang mép đùi trên (túi quần) |
@@ -135,8 +121,7 @@ Rất nhiều người bơi phong trào bỏ phí đúng **30% mạnh nhất c�
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Có nên để ngón tay cái chạm hẳn vào đùi trong lúc bơi bình thường không?**
 Trong lúc tập Drill (*Thumb-to-Thigh*), hãy chạm nhẹ để tạo phản xạ không gian. Khi bơi bình thường ở tốc độ cao, bàn tay lướt cách mép đùi khoảng `2–5 cm` là đẹp nhất để không gây cản trở nhịp rút tay.
 
@@ -148,8 +133,7 @@ Tay phải đang ở **cuối pha Push** (đẩy ngang hông phải) và chuẩn
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - **Pull (Cơ xô + Xoay hông)** và **Push (Cơ tam đầu tăng tốc tối đa)** là giai đoạn chuyển hóa điểm neo EVF thành tốc độ thực tế.
 - Tuân thủ quy luật **tăng tốc lũy tiến** (*Chậm → Vừa → Nhanh*) và hoàn tất hành trình ngang mép đùi (*Thumb-to-Thigh*) để không bỏ phí 30% lực đẩy cuối cùng.
 - Kết thúc pha Push bằng cách xoay lòng bàn tay hướng vào đùi để cắt nước sạch, mở đầu cho pha Recovery thả lỏng hoàn toàn.
@@ -162,8 +146,7 @@ Tay phải đang ở **cuối pha Push** (đẩy ngang hông phải) và chuẩn
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Maglischo, E. W. (2003). *Swimming Fastest*. Human Kinetics.
 2. Rouard, A. H., & Billat, R. P. (1990). *Influences of sex and level of performance on freestyle stroke: an electromyography and kinematic study*. International Journal of Sports Medicine.
 3. Newsome, P., & Young, A. (2012). *Swim Smooth*. Wiley.

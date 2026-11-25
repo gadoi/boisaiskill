@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `benchmarks/` | **Phạm vi:** Bể 25m (SCM) & Bể 50m (LCM) | **Đơn vị:** Phút:Giây / 100m
 
-## Overview
-
+## Tổng Quan (Overview)
 Để đặt mục tiêu tập luyện khoa học và đánh giá đúng vị trí hiện tại của bản thân, bạn cần một **hệ thống bảng chuẩn định lượng (Benchmarks)** phân chia theo **trình độ, giới tính, nhóm tuổi (Masters) và chiều cao cơ thể**. Tài liệu này tổng hợp đầy đủ các chuẩn tham chiếu thực tế cho **Pace 100m, Pace CSS, SWOLF, Stroke Count, DPS, Tempo (SPM) và Dryland**.
 
 ---
@@ -61,15 +60,14 @@ Sinh lý tim mạch và sức mạnh cơ bắp thay đổi tự nhiên theo đ�
 
 ```mermaid
 flowchart LR
-    A["Đo 4 Chỉ Số Đầu Vào\n(CSS, SWOLF, SC/25m, 25m Kick)"] --> B["Đối Chiếu Bảng Benchmarks\nTheo Chiều Cao & Tuổi"]
-    B --> C["Xác Định Điểm Yếu Nhất\n(Cản / EVF / Chân / Thể Lực)"]
-    C --> D["Chọn Đúng Block Giáo Án\n& Theo Dõi Mỗi 4–6 Tuần"]
+    A["Đo 4 Chỉ Số Đầu Vào<br/>(CSS, SWOLF, SC/25m, 25m Kick)"] --> B["Đối Chiếu Bảng Benchmarks<br/>Theo Chiều Cao & Tuổi"]
+    B --> C["Xác Định Điểm Yếu Nhất<br/>(Cản / EVF / Chân / Thể Lực)"]
+    C --> D["Chọn Đúng Block Giáo Án<br/>& Theo Dõi Mỗi 4–6 Tuần"]
 ```
 
 ---
 
-## Summary & References
-
+## Tóm Tắt & Tài Liệu Tham Khảo (Summary & References)
 - Luôn so sánh **Stroke Count, DPS và SWOLF** theo đúng **chiều cao cơ thể và chiều dài bể**, không so sánh máy móc với người có thể hình khác biệt.
 - **Liên kết chéo:** [SWOLF & CSS](../14-stroke-count/swolf-and-energy-systems.md) · [Tổng Quan Giáo Án 24 Tuần](../22-training-plan/overview-and-css-testing.md) · [Glossary](../24-appendix/glossary.md)
 - **Nguồn tham khảo:** World Aquatics Masters Standards, USA Swimming Motivational Times, SwimSmooth Benchmarks.

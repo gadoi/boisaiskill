@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `08-kicking/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 Cơ đùi trước và cơ mông là những nhóm cơ tiêu thụ oxy lớn nhất cơ thể con người, nhưng trong bơi sải đường dài, **85–90% lực đẩy thực tế lại đến từ phần thân trên và cánh tay**. **2-Beat Kick** (chỉ 2 cú đạp chân gọn nhẹ cho mỗi chu kỳ 2 sải tay) là giải pháp tối ưu năng lượng số 1 cho cự ly từ `400m` trở lên, Open Water và Triathlon — giúp giữ nhịp tim cực thấp, bảo toàn sức chân cho đạp/chạy, đồng thời **khóa chuẩn nhịp xoay hông `35–45°`**.
 
 - **Mục tiêu cốt lõi:** Đồng bộ chính xác **1 cú đạp chân nhẹ cho mỗi 1 sải tay** theo nguyên tắc phối hợp chéo (tay phải vào nước ↔ chân trái đập xuống).
@@ -12,8 +11,7 @@ Cơ đùi trước và cơ mông là những nhóm cơ tiêu thụ oxy lớn nh�
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Trong hệ thống phân loại nhịp chân bơi sải, số "beat" được tính bằng **tổng số cú đạp xuống (downbeat) của cả hai chân trong 1 chu kỳ tay đầy đủ (1 sải trái + 1 sải phải)**:
 - **2-Beat Kick** = **1 cú đập chân cho mỗi 1 sải tay**.
 - Chức năng cốt lõi của 2-beat kick **không phải là tạo lực đẩy chính**, mà là **3 nhiệm vụ sinh cơ học tinh tế**:
@@ -23,15 +21,12 @@ Trong hệ thống phân loại nhịp chân bơi sải, số "beat" được t�
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 - **Chi phí oxy (*Oxygen Cost of Kicking*)**: Nghiên cứu sinh lý học bơi cho thấy khi bơi cùng một tốc độ dưới ngưỡng (`1:35–1:50/100m`), việc đạp chân 6 nhịp liên tục tiêu thụ thêm **`25–35%` lượng oxy ($\dot{V}O_2$)** nhưng chỉ đóng góp thêm `< 10%` vận tốc!
 - **Hiệu ứng giảm lực cản nhiễu loạn**: Ở 2-beat kick, hai chân phần lớn thời gian nằm khép gọn trong dòng chảy thuôn sau hông (*Drafting Behind the Hips*), biên độ dao động dọc nhỏ (`20–30 cm`), giảm tối đa vùng xoáy đuôi (*Wake Drag*).
 
-### Biomechanics
-
+### Cơ Sinh Học (Biomechanics)
 Sự đồng bộ của **2-Beat Kick** gắn liền với **dải cơ chéo sau (*Posterior Oblique Sling*)** đã phân tích tại [Chuỗi Truyền Lực](../02-biomechanics/kinetic-chain.md):
 - **Khi Tay Phải vươn vào nước (Entry/Glide) & Tay Trái kết thúc pha Push**: **Chân Trái** tung một cú đạp xuống gọn từ hông (đùi dẫn động, gối mềm, cổ chân thả lỏng) → đẩy hông trái xoay lên, hông phải xoay xuống `40°`.
 - **Khi Tay Trái vươn vào nước & Tay Phải kết thúc pha Push**: **Chân Phải** tung cú đạp xuống tương ứng → đẩy hông phải xoay lên, hông trái xoay xuống `40°`.
@@ -39,23 +34,20 @@ Sự đồng bộ của **2-Beat Kick** gắn liền với **dải cơ chéo sau
 
 ```mermaid
 flowchart LR
-    A["Tay Phải Entry & Glide\n(Tay Trái kết thúc Push)"] --> B["Chân Trái ĐẠP 1 NHỊP GỌN\n(Từ hông, cổ chân mềm)"]
-    B --> C["Hông Phải xoay xuống 40°\nKhóa trục thẳng, không lắc ngang"]
-    C --> D["Tay Trái Entry & Glide\n(Tay Phải kết thúc Push)"]
-    D --> E["Chân Phải ĐẠP 1 NHỊP GỌN\n(Chân Trái thả lỏng xuôi nước)"]
-    E --> F["Tiết kiệm 25–35% Oxy\nBền bỉ 1500m – 3.8km"]
+    A["Tay Phải Entry & Glide<br/>(Tay Trái kết thúc Push)"] --> B["Chân Trái ĐẠP 1 NHỊP GỌN<br/>(Từ hông, cổ chân mềm)"]
+    B --> C["Hông Phải xoay xuống 40°<br/>Khóa trục thẳng, không lắc ngang"]
+    C --> D["Tay Trái Entry & Glide<br/>(Tay Phải kết thúc Push)"]
+    D --> E["Chân Phải ĐẠP 1 NHỊP GỌN<br/>(Chân Trái thả lỏng xuôi nước)"]
+    E --> F["Tiết kiệm 25–35% Oxy<br/>Bền bỉ 1500m – 3.8km"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Các huyền thoại đường dài như **Katie Ledecky** (nhiều chặng trong 1500m), **Grant Hackett**, **Sun Yang** (đầu chặng 1500m) hay hầu hết VĐV Ironman hàng đầu đều sử dụng 2-beat kick (hoặc biến thể 2-beat lai) để bơi ở tốc độ **`1:10–1:25/100m`** liên tục trong 20–50 phút! Điều này chứng minh: **nếu tư thế thân ngang tốt và EVF chắc, bạn hoàn toàn có thể bơi dưới `1:30/100m` chỉ với 2-beat kick nhẹ nhàng**.
 
-### Step-by-Step Execution & Water Cues
-
+### Hướng Dẫn Từng Bước & Cảm Giác Nước (Step-by-Step & Water Cues)
 1. **Điều kiện tiên quyết — Thân phải tự nổi**: 2-beat kick **chỉ hoạt động hiệu quả** khi bạn đã giữ được trục đầu–hông phẳng (`< 5°`, xem [COG & COB](../01-foundation/center-of-gravity-and-buoyancy.md)). Nếu đầu vẫn ngẩng cao, 2-beat kick sẽ không đủ lực nâng đôi chân bị chìm.
 2. **Tín hiệu "Chân đối bên chạm nhịp" (*Opposite Hand-Foot Tap*)**: Nhẩm trong đầu: *"Tay phải vào — Đạp trái! Tay trái vào — Đạp phải!"*.
 3. **Đạp từ hông, không gập gối**: Cảm giác như bạn đang dùng mu bàn chân gõ nhẹ vào một quả bóng nhỏ nằm ngay dưới nước, biên độ chỉ khoảng `20–30 cm`.
@@ -64,15 +56,13 @@ Các huyền thoại đường dài như **Katie Ledecky** (nhiều chặng tron
 ![Sơ đồ phối hợp chéo 2-Beat Kick giữa tay vào nước và chân đối bên](../images/08-two-beat-kick-timing.png)
 <!-- IMAGE_PROMPT: Technical underwater side-oblique diagram of a freestyle swimmer performing a 2-Beat Kick: showing right hand entering/extending forward in sync with a crisp downward flick of the left foot from the hip (green sync arc), while the right leg trails relaxed and streamlined with minimal surface bubbles. -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **2-Beat Kick biến thể "Bất đối xứng" (Gallop / Hybrid 2-Beat)**: Nhiều người bơi có nhịp tự nhiên hơi lệch ở bên thở (ví dụ: 1 cú đạp mạnh hơn một chút khi xoay thở). Điều này hoàn toàn bình thường miễn là hai chân không bị tách rộng thành *Scissor Kick*.
 - **Khi nào nên chuyển từ 2-Beat sang 4-Beat hoặc 6-Beat?**: Khi bạn cần vượt đối thủ, bơi ngược sóng/dòng chảy mạnh ở Open Water, hoặc ở `100m` nước rút cuối cùng của bài thi.
 
 ---
 
-## Drills
-
+## Bài Tập Thực Hành (Drills)
 | Tên Drill | Mục tiêu 2-Beat Kick | Cự ly / Số hiệp | Cảm giác đúng (Cue) |
 | :--- | :--- | :--- | :--- |
 | **2-Beat Timing Drill (Tốc độ chậm)** | Đồng bộ chính xác tay phải vào ↔ chân trái đạp | `6 × 25m` (nghỉ 15s) | Mỗi sải tay chỉ nghe đúng 1 nhịp "bụp" rất khẽ của chân đối diện |
@@ -84,8 +74,7 @@ Các huyền thoại đường dài như **Katie Ledecky** (nhiều chặng tron
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang dưới nước (Underwater Side View, 60–120 fps) xuyên suốt 2–3 chu kỳ tay liên tục.
 - **Keypoints cần trích xuất:** `left_wrist`, `right_wrist`, `left_ankle`, `right_ankle`, `hip`.
 - **Ngưỡng phát hiện lỗi tự động:**
@@ -94,8 +83,7 @@ Các huyền thoại đường dài như **Katie Ledecky** (nhiều chặng tron
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Chìm chân khi giảm xuống 2-beat** | Đùi và bàn chân rơi sâu xuống đáy chỉ sau 10m | Đầu còn ngẩng, Core lỏng hoặc mất Front-Quadrant | Củng cố [COG & COB](../01-foundation/center-of-gravity-and-buoyancy.md) & Press the T trước khi tập 2-beat |
@@ -105,8 +93,7 @@ Các huyền thoại đường dài như **Katie Ledecky** (nhiều chặng tron
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi có thể bơi liên tục `400m+` bằng 2-beat kick mà hông và gót chân vẫn nổi ngang mặt nước.
 - [ ] Tôi cảm nhận rõ sự đồng bộ chéo: tay phải vào nước ↔ chân trái đạp 1 nhịp gọn (và ngược lại).
 - [ ] Mặt nước phía sau chân tôi rất êm, ít bọt trắng và gần như không phát ra tiếng đập nước lớn.
@@ -115,8 +102,7 @@ Các huyền thoại đường dài như **Katie Ledecky** (nhiều chặng tron
 
 ---
 
-## KPI
-
+## Chỉ Số Đo Lường (KPI)
 | Chỉ số (Metric) | Người mới | Trung cấp | Nâng cao (`< 1:30/100m`) |
 | :--- | :---: | :---: | :---: |
 | **Tỷ lệ Nhịp Chân / Chu Kỳ Tay** | Không ổn định | ~2 nhịp (còn lạc khi thở) | Chuẩn xác `2.0` suốt 100% cự ly |
@@ -126,8 +112,7 @@ Các huyền thoại đường dài như **Katie Ledecky** (nhiều chặng tron
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Bơi 2-beat kick có thể đạt tốc độ dưới `1:30/100m` không?**
 Hoàn toàn có thể! Ở tốc độ `1:25–1:30/100m`, lực đẩy đến 85–90% từ tư thế giảm cản + xoay hông + EVF chắc. Rất nhiều Triathlete và VĐV Masters bơi `1:20/100m` liên tục 1500m chỉ bằng 2-beat kick để giữ đôi chân hoàn toàn tươi mới.
 
@@ -139,8 +124,7 @@ Người mới nên bắt đầu với **nhịp chân nhẹ liên tục (Flutter
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - **2-Beat Kick** (1 cú đạp chân đối bên cho mỗi 1 sải tay) là công cụ tiết kiệm năng lượng đỉnh cao (`-25–35%` tiêu thụ oxy) cho bơi đường dài, Triathlon và Open Water.
 - Vai trò chính của nó là **kích hoạt xoay hông `35–45°` và chống lắc ngang**, không phải tạo lực đẩy chính.
 - Yêu cầu nền tảng: tư thế thân ngang phẳng (`< 5°`), đạp gọn từ hông (`20–30 cm`) và cổ chân thả lỏng.
@@ -153,8 +137,7 @@ Người mới nên bắt đầu với **nhịp chân nhẹ liên tục (Flutter
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Newsome, P., & Young, A. (2012). *Swim Smooth: The Complete Coaching System for Swimmers and Triathletes*. Wiley.
 2. Maglischo, E. W. (2003). *Swimming Fastest*. Human Kinetics.
 3. Adrian, M. J., Singh, M., & Karpovich, P. V. (1966). *Energy cost of leg kick, arm stroke, and whole crawl stroke*. Journal of Applied Physiology.

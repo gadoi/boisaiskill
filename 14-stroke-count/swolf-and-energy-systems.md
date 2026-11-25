@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `14-stroke-count/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~12 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 Để tiến từ người bơi phong trào lên cột mốc **`< 1:30/100m`** một cách khoa học và không bị tập quá tải (Overtraining), bạn cần **hai thước đo vàng** để quản trị buổi tập hàng tuần: **SWOLF** (đo hiệu suất kỹ thuật) và **CSS — Critical Swim Speed** (đo tốc độ ngưỡng hiếu khí để thiết lập chính xác từng vùng tập luyện). Chương này giải mã toàn bộ hệ thống chỉ số và sinh lý năng lượng giúp bạn tập ít hơn nhưng tiến bộ nhanh gấp đôi.
 
 - **Mục tiêu cốt lõi:** Biết cách tính và tối ưu **SWOLF**, tự thực hiện **bài test CSS (400m + 200m)** và phân bổ khối lượng tập luyện theo đúng **5 vùng năng lượng (Training Zones)**.
@@ -12,8 +11,7 @@
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 ### 1. Chỉ số SWOLF (*Swim + Golf*)
 SWOLF kết hợp đồng thời **Tốc độ** và **Hiệu suất sải tay** vào một con số duy nhất trên 1 chiều bể (`25m` hoặc `50m`):
 
@@ -38,15 +36,13 @@ $$\text{Pace CSS (giây/100m)} = \frac{T_{400} - T_{200}}{2}$$
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 Khi bạn tăng tốc độ bơi qua ngưỡng CSS, chi phí năng lượng tăng vọt không chỉ vì $P \propto v^3$ mà còn do **sự chuyển dịch sinh lý từ hiếu khí sang kỵ khí**:
 - Dưới ngưỡng CSS: Cơ thể oxy hóa chất béo và glycogen sạch sẽ, nồng độ lactate máu ổn định (`< 4 mmol/L`), bạn duy trì được kỹ thuật EVF và Streamline bền bỉ.
 - Trên ngưỡng CSS quá nhiều ở cự ly dài: Lactate tích tụ nhanh gây toan hóa cơ (*Acidosis*), làm sụp đổ hệ thần kinh–cơ → khuỷu tay sụp, hông chìm, diện tích cản $A$ tăng vọt tạo vòng xoáy đuối sức cực nhanh!
 
-### Biomechanics & Energy Systems (5 Vùng Tập Luyện Chuẩn Theo CSS)
+### Cơ Sinh Học & Hệ Năng Lượng (Biomechanics & Energy Systems (5 Vùng Tập Luyện Chuẩn Theo CSS)
 
 | Vùng (Zone) | Tên hệ năng lượng | Pace so với CSS | Thời gian nghỉ (100m) | Mục tiêu sinh lý & kỹ thuật |
 | :--- | :--- | :---: | :---: | :--- |
@@ -58,27 +54,24 @@ Khi bạn tăng tốc độ bơi qua ngưỡng CSS, chi phí năng lượng tăn
 
 ```mermaid
 flowchart TD
-    A["Thực hiện Bài Test CSS\n(400m max + 200m max)"] --> B["Tính Pace CSS\n= (T400 - T200) / 2"]
+    A["Thực hiện Bài Test CSS<br/>(400m max + 200m max)"] --> B["Tính Pace CSS<br/>= (T400 - T200) / 2"]
     B --> C["Phân bổ 80/20 hàng tuần"]
-    C --> D["Zone 1–2 (50–60%)\nKỹ thuật, Drill, Nền hiếu khí\n(Tối ưu SWOLF)"]
-    C --> E["Zone 3 — CSS (25–30%)\nBài tập lõi nâng tốc độ bền\n(Ví dụ: 10 × 100m @ CSS, nghỉ 10s)"]
-    C --> F["Zone 4–5 (10–15%)\nVO2max & Sprint sắc bén\n(Kéo trần tốc độ lên)"]
-    D & E & F --> G["Test lại CSS mỗi 4–6 tuần\nTiến đều tới mốc < 1:30/100m"]
+    C --> D["Zone 1–2 (50–60%)<br/>Kỹ thuật, Drill, Nền hiếu khí<br/>(Tối ưu SWOLF)"]
+    C --> E["Zone 3 — CSS (25–30%)<br/>Bài tập lõi nâng tốc độ bền<br/>(Ví dụ: 10 × 100m @ CSS, nghỉ 10s)"]
+    C --> F["Zone 4–5 (10–15%)<br/>VO2max & Sprint sắc bén<br/>(Kéo trần tốc độ lên)"]
+    D & E & F --> G["Test lại CSS mỗi 4–6 tuần<br/>Tiến đều tới mốc < 1:30/100m"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Hầu hết người bơi phong trào tập luyện suốt nhiều năm vẫn dậm chân tại chỗ ở mốc `2:00/100m` vì họ **chỉ bơi liên tục `1.000–1.500m` không nghỉ ở một tốc độ đều đều**.
 Chuyển sang tập theo **Interval dựa trên CSS** (ví dụ `10 × 100m @ CSS` nghỉ ngắn `10–15 giây`) mang lại hiệu quả vượt trội vì:
 - Quãng nghỉ ngắn `10–15 giây` giúp bạn **cài đặt lại tư thế Streamline, giữ chuẩn EVF và duy trì tốc độ cao hơn** so với bơi liền mạch 1.000m.
 - Kích thích sinh lý vào đúng ngưỡng *Lactate Threshold* — đòn bẩy mạnh nhất giúp kéo pace `100m` xuống từng `2–3 giây` sau mỗi chu kỳ 4–6 tuần!
 
-### Step-by-Step Execution & Water Cues
-
+### Hướng Dẫn Từng Bước & Cảm Giác Nước (Step-by-Step & Water Cues)
 1. **Cách thực hiện Bài Test CSS chuẩn xác (Mỗi 4–6 tuần)**:
    - Khởi động kỹ `400–600m` (kèm vài đoạn 25m tăng tốc nhẹ).
    - **Bài 1 — 400m Time Trial**: Bơi đều sức hết khả năng (không bung hết sức 100m đầu rồi đuối ở 200m cuối!). Ghi lại chính xác `T400`.
@@ -93,15 +86,13 @@ Chuyển sang tập theo **Interval dựa trên CSS** (ví dụ `10 × 100m @ CS
 ![Biểu đồ 5 vùng năng lượng bơi lội tính theo ngưỡng CSS và đường cong tích tụ Lactate](../images/14-css-energy-zones.png)
 <!-- IMAGE_PROMPT: Clean sports physiology chart showing Blood Lactate (mmol/L) vs Swim Pace (min/100m) across 5 color-coded Training Zones (Z1 Recovery, Z2 Aerobic, Z3 CSS Threshold inflection point highlighted at 4 mmol/L, Z4 VO2max, Z5 Sprint), with sample interval prescriptions for each zone. -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **Đo chỉ số "Hiệu suất SWOLF ở ngưỡng CSS"**: Khi bạn giảm được SWOLF từ `42` xuống `36` ở cùng một nhịp tim, nghĩa là kỹ thuật của bạn đã bước lên một đẳng cấp mới.
 - **Chu kỳ hồi phục (3 tuần tăng tải + 1 tuần giảm tải)**: Cứ sau 3 tuần tập đúng vùng CSS, dành tuần thứ 4 giảm `25–30%` khối lượng để cơ thể siêu bù trừ (*Supercompensation*) — sau đó thực hiện bài test CSS mới, bạn sẽ thấy kết quả bứt phá rõ rệt!
 
 ---
 
-## Drills
-
+## Bài Tập Thực Hành (Drills)
 | Tên Bài Tập | Mục tiêu SWOLF & CSS | Cấu trúc bài tập | Cảm giác đúng (Cue) |
 | :--- | :--- | :--- | :--- |
 | **CSS Test Protocol** | Xác định chính xác Pace CSS & 5 vùng tập cá nhân | `400m TT` + nghỉ 10p + `200m TT` | Phân phối sức đều (*Even Split*), 100m cuối bằng hoặc nhanh hơn 100m đầu |
@@ -113,8 +104,7 @@ Chuyển sang tập theo **Interval dựa trên CSS** (ví dụ `10 × 100m @ CS
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Góc quay / Cảm biến khuyến nghị:** Đồng hồ bơi (Garmin Swim / Forerunner / Fenix, Apple Watch) hoặc kính bơi thông minh (FORM Smart Swim) xuất file `.FIT` / `.TCX`.
 - **Chỉ số cần trích xuất:** `lap_time`, `stroke_count`, `swolf`, `heart_rate_bpm`, `pace_100m` qua từng hiệp tập.
 - **Ngưỡng phát hiện lỗi tự động:**
@@ -123,8 +113,7 @@ Chuyển sang tập theo **Interval dựa trên CSS** (ví dụ `10 × 100m @ CS
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Chỉ bơi "Junk Miles" một tốc độ đều** | Bơi 2km/buổi suốt 6 tháng nhưng pace không đổi | Không tạo đủ kích thích lên ngưỡng CSS (Z3) và VO2max (Z4) | Chia rõ cấu trúc buổi tập theo Interval chuẩn 5 vùng năng lượng |
@@ -134,8 +123,7 @@ Chuyển sang tập theo **Interval dựa trên CSS** (ví dụ `10 × 100m @ CS
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi biết chính xác chỉ số **SWOLF (bể 25m hoặc 50m)** hiện tại của mình ở vùng tập Zone 2 và Zone 3.
 - [ ] Tôi đã thực hiện bài test `400m + 200m` và tính ra được **Pace CSS** cá nhân.
 - [ ] Tôi phân biệt rõ khi nào cần tập Zone 1–2 (kỹ thuật/nền tảng), Zone 3 (ngưỡng CSS) và Zone 4–5 (tốc độ).
@@ -144,8 +132,7 @@ Chuyển sang tập theo **Interval dựa trên CSS** (ví dụ `10 × 100m @ CS
 
 ---
 
-## KPI
-
+## Chỉ Số Đo Lường (KPI)
 | Chỉ số (Metric) | Người mới | Trung cấp | Nâng cao (`< 1:30/100m`) |
 | :--- | :---: | :---: | :---: |
 | **SWOLF (Bể 25m, chiều cao ~1.70m)** | `48–58` | `39–46` | `32–38` |
@@ -155,8 +142,7 @@ Chuyển sang tập theo **Interval dựa trên CSS** (ví dụ `10 × 100m @ CS
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Người mới chưa bơi liên tục được 400m thì tính CSS bằng cách nào?**
 Bạn có thể dùng biến thể **Mini CSS Test: `200m` và `100m`** (nghỉ 8 phút ở giữa), công thức: $\text{Pace CSS} = T_{200} - T_{100}$. Khi đã bơi thoải mái liên tục `400m`, hãy chuyển sang bài test chuẩn `400m + 200m` để có độ chính xác cao nhất.
 
@@ -169,8 +155,7 @@ Không. SWOLF chỉ có ý nghĩa trong **bể bơi có chiều dài cố địn
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - **SWOLF** (`Giây + Số sải`) là thước đo tổng hợp tuyệt vời nhất để cân bằng giữa tốc độ và hiệu suất kỹ thuật.
 - **CSS** (`(T400 - T200) / 2`) là kim chỉ nam thiết lập chính xác **5 vùng năng lượng**, giúp loại bỏ hoàn toàn kiểu tập *Junk Miles*.
 - Kết hợp 50–60% Zone 1–2 (kỹ thuật & nền tảng), 25–30% Zone 3 (ngưỡng CSS) và 10–15% Zone 4–5 (VO2max & Sprint) là công thức khoa học nhanh nhất tiến tới `< 1:30/100m`.
@@ -183,8 +168,7 @@ Không. SWOLF chỉ có ý nghĩa trong **bể bơi có chiều dài cố địn
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Wakayoshi, K., Ikuta, K., Yoshida, T., Udo, M., Moritani, T., Mutoh, Y., & Miyashita, M. (1992). *Determination and validity of critical velocity as an index of swimming performance in the competitive swimmer*. European Journal of Applied Physiology.
 2. Newsome, P., & Young, A. (2012). *Swim Smooth: The Complete Coaching System for Swimmers and Triathletes*. Wiley.
 3. Olbrecht, J. (2000). *The Science of Winning: Planning, Periodizing and Optimizing Swim Training*. F&G Partners.

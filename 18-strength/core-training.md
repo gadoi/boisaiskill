@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `18-strength/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 Một chương trình tập Core kiểu thể hình (gập bụng hàng trăm cái mỗi ngày) gần như **không mang lại lợi ích trực tiếp cho bơi sải** — thậm chí còn làm gù cột sống ngực và kéo căng cơ gấp hông gây võng lưng dưới nước. Trong bơi sải tốc độ (`< 1:30/100m`), Core cần **3 năng lực chức năng chuyên biệt**: **Chống duỗi (Anti-Extension)** để giữ Streamline phẳng, **Chống xoay lắc (Anti-Rotation)** để triệt tiêu *Fishtailing*, và **Phát lực xoay (Rotational Power)** để truyền mô-men từ hông lên tay.
 
 - **Mục tiêu cốt lõi:** Xây dựng hệ thống bài tập cạn (Dryland) phát triển toàn diện hình trụ Core 360° (TVA, Obliques, Erector Spinae, Glutes) bám sát chính xác cơ sinh học trong nước.
@@ -12,8 +11,7 @@ Một chương trình tập Core kiểu thể hình (gập bụng hàng trăm c�
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Để chuyển hóa sức mạnh từ phòng tập xuống hồ bơi (*Dryland-to-Water Transfer*), mọi bài tập Core cho VĐV bơi sải đều phải phân loại vào **4 trụ cột chức năng**:
 
 | Trụ cột Core | Chức năng trong nước | Nhóm cơ chủ đạo | Bài tập đại diện |
@@ -25,37 +23,31 @@ Một chương trình tập Core kiểu thể hình (gập bụng hàng trăm c�
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 Nghiên cứu thực nghiệm của Weston et al. (2015) trên nhóm VĐV bơi trẻ cấp quốc gia cho thấy: chỉ sau **12 tuần bổ sung chương trình Core chức năng (3 buổi × 25 phút/tuần)** tập trung vào Anti-Extension và Anti-Rotation, nhóm thực nghiệm cải thiện thành tích **50m bơi sải nhanh hơn 2.0% (~0.5 giây)** và giảm rõ rệt độ dao động hông dưới nước so với nhóm chỉ bơi đơn thuần!
 
-### Biomechanics
-
+### Cơ Sinh Học (Biomechanics)
 Tại sao **Hollow Body Hold** (tư thế thân cong lõm kiểu thể dục dụng cụ) là bài tập Anti-Extension quan trọng nhất cho bơi sải?
 - Trong Hollow Body Hold, hai tay vươn thẳng qua đầu (mô phỏng Streamline), hai chân duỗi thẳng cách sàn `15–20 cm`, thắt lưng ép phẳng 100% xuống sàn.
 - Cấu hình đòn bẩy dài này tạo ra mô-men uốn cực lớn lên thắt lưng — buộc cơ bụng ngang (TVA) và cơ bụng thẳng phải siết đồng bộ cùng cơ mông ở đúng tư thế nằm ngang giống hệt khi bạn đạp tường và bơi mặt nước!
 
 ```mermaid
 flowchart TD
-    A["Hệ Thống Core 4 Trụ Cột\n(2–3 buổi/tuần × 15–20 phút)"] --> B["Anti-Extension\n(Dead Bug, Hollow Body)"]
-    A --> C["Anti-Rotation\n(Bird Dog, Pallof Press)"]
-    A --> D["Rotational Power\n(Side Plank Rotation, Woodchop)"]
-    A --> E["Posterior Chain\n(Glute Bridge, Reverse Hyper)"]
-    B & C & D & E --> F["Chuyển giao xuống hồ:\nThân thẳng Streamline + Xoay hông 40°\n+ 0% Fishtailing"]
+    A["Hệ Thống Core 4 Trụ Cột<br/>(2–3 buổi/tuần × 15–20 phút)"] --> B["Anti-Extension<br/>(Dead Bug, Hollow Body)"]
+    A --> C["Anti-Rotation<br/>(Bird Dog, Pallof Press)"]
+    A --> D["Rotational Power<br/>(Side Plank Rotation, Woodchop)"]
+    A --> E["Posterior Chain<br/>(Glute Bridge, Reverse Hyper)"]
+    B & C & D & E --> F["Chuyển giao xuống hồ:<br/>Thân thẳng Streamline + Xoay hông 40°<br/>+ 0% Fishtailing"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Bạn không cần đến phòng gym đắt tiền hay tập 60 phút mỗi buổi để sở hữu Core đạt chuẩn bơi `< 1:30/100m`. Chỉ với **1 tấm thảm + 1 sợi dây kháng lực**, tập đúng **15–20 phút chất lượng cao (`2–3 buổi/tuần`)** theo quy tắc *chất lượng từng nhịp lặp > số lượng*, bạn sẽ cảm nhận rõ sự chắc chắn của trục thân dưới nước chỉ sau 3 tuần.
 
-### Step-by-Step Execution & Water Cues
-
+### Hướng Dẫn Từng Bước & Cảm Giác Nước (Step-by-Step & Water Cues)
 1. **Dead Bug (Khởi động thần kinh–cơ số 1)**:
    - Nằm ngửa, ép chặt thắt lưng không để khe hở lọt bàn tay.
    - Duỗi chậm tay phải qua đầu + chân trái cách sàn `5 cm` trong `3 giây` (thở ra chậm) → thu về → đổi bên.
@@ -70,14 +62,13 @@ Bạn không cần đến phòng gym đắt tiền hay tập 60 phút mỗi bu�
 ![Minh họa 4 bài tập Core cốt lõi cho bơi sải: Dead Bug, Hollow Body Streamline, Side Plank Rotation và Pallof Press](../images/18-core-training-4pillars.png)
 <!-- IMAGE_PROMPT: Clean 4-panel dryland exercise anatomy sheet for swimmers: (1) Dead Bug with flat lumbar spine; (2) Hollow Body Streamline Hold with biceps behind ears; (3) Side Plank Rotation highlighting oblique slings; (4) Standing Band Pallof Press resisting lateral rotation, with green alignment lines and engaged core muscles highlighted. -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **Quy tắc "Không võng lưng" (Zero Lumbar Arch Rule)**: Ngay giây phút thắt lưng bạn bắt đầu nhấc khỏi sàn trong bài Dead Bug hay Hollow Body, **hãy dừng hiệp đó ngay lập tức** — cố giữ thêm chỉ làm tăng tải lên khớp cột sống và tập sai nhóm cơ gấp hông!
 - **Tập "Streamline Flutter Kick" trên cạn**: Từ tư thế Hollow Body Hold, thực hiện các cú đạp chân sải nhỏ, nhanh (`20–30 giây`) trong khi lưng dưới vẫn dán chặt xuống thảm — mô phỏng trực tiếp bài tập 6-Beat Kick không võng lưng.
 
 ---
 
-## Drills (Bài Tập Dryland Chuẩn Hóa)
+## Bài Tập Thực Hành (Drills — Bài Tập Dryland Chuẩn Hóa)
 
 | Bài Tập | Trụ cột | Số hiệp × Lần / Thời gian | Lỗi cần tránh |
 | :--- | :--- | :--- | :--- |
@@ -89,8 +80,7 @@ Bạn không cần đến phòng gym đắt tiền hay tập 60 phút mỗi bu�
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị (Dryland Self-Check):** Góc ngang mặt sàn (Floor-Level Side View) cho Hollow Body / Dead Bug / Plank.
 - **Keypoints cần trích xuất:** `ear`, `shoulder`, `hip`, `knee`, `ankle`, khoảng hở thắt lưng (`lumbar_gap`).
 - **Ngưỡng phát hiện lỗi tự động:**
@@ -99,8 +89,7 @@ Bạn không cần đến phòng gym đắt tiền hay tập 60 phút mỗi bu�
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Chỉ tập gập bụng (Sit-ups / Crunches)** | Đau cổ, gù lưng trên, xuống hồ vẫn lắc hông | Thiếu bài chống duỗi và chống xoay | Thay 100% bằng 4 trụ cột: Dead Bug, Hollow Body, Side Plank, Pallof Press |
@@ -110,8 +99,7 @@ Bạn không cần đến phòng gym đắt tiền hay tập 60 phút mỗi bu�
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi có thể giữ tư thế **Hollow Body Streamline Hold** với thắt lưng áp phẳng hoàn toàn xuống sàn trong tối thiểu `30 giây`.
 - [ ] Tôi thực hiện được `3 × 12` **Dead Bug** chậm rãi, phối hợp chéo tay–chân mà không hở lưng dưới.
 - [ ] Tôi giữ được **Side Plank** thẳng trục `45–60 giây` mỗi bên đồng đều giữa trái và phải.
@@ -120,8 +108,7 @@ Bạn không cần đến phòng gym đắt tiền hay tập 60 phút mỗi bu�
 
 ---
 
-## KPI
-
+## Chỉ Số Đo Lường (KPI)
 | Chỉ số (Metric) | Người mới | Trung cấp | Nâng cao (`< 1:30/100m`) |
 | :--- | :---: | :---: | :---: |
 | **Hollow Body Streamline Hold (chuẩn phẳng lưng)** | `15–20 giây` | `30–45 giây` | `60+ giây` |
@@ -130,8 +117,7 @@ Bạn không cần đến phòng gym đắt tiền hay tập 60 phút mỗi bu�
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Nên tập Core trước hay sau khi bơi?**
 - **Trước khi bơi (5 phút)**: Chỉ tập *kích hoạt thần kinh–cơ* nhẹ (ví dụ `1 hiệp × 8 lần Dead Bug + 1 hiệp × 8 lần Bird Dog`) để đánh thức Core mà không gây mỏi.
 - **Sau khi bơi hoặc ngày không bơi (15–20 phút)**: Tập trọn vẹn `3–4 hiệp` phát triển sức mạnh và sức bền Core.
@@ -144,8 +130,7 @@ Bạn sẽ cảm nhận rõ khả năng kiểm soát hông tốt hơn ngay sau *
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - Core cho bơi sải là **Core chức năng 4 trụ cột**: *Anti-Extension, Anti-Rotation, Rotational Power* và *Posterior Chain* — không phải gập bụng truyền thống.
 - Bộ 5 bài tập vàng: **Dead Bug, Hollow Body Streamline Hold, Side Plank Rotation, Pallof Press** và **Single-Leg Glute Bridge**.
 - Luôn tuân thủ nguyên tắc **"Zero Lumbar Arch"** (không võng lưng) và thở đều trong suốt bài tập.
@@ -158,8 +143,7 @@ Bạn sẽ cảm nhận rõ khả năng kiểm soát hông tốt hơn ngay sau *
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Weston, M., Hibbs, A. E., Thompson, K. G., & Spears, I. R. (2015). *Isolated core training improves sprint performance in national-level junior swimmers*. IJSPP, 10(2), 204–210.
 2. McGill, S. M. (2015). *Ultimate Back Fitness and Performance*. Backfitpro.
 3. McLeod, I. (2010). *Swimming Anatomy*. Human Kinetics.

@@ -16,15 +16,27 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Configure Git Identity
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+
       - name: Install MkDocs Material
         run: pip install -r requirements-docs.txt
-      - name: Build and Deploy to gh-pages
-        run: mkdocs gh-deploy --force
+
+      - name: Prepare Clean Docs Directory & Build Site
+        run: |
+          mkdir -p _mkdocs_src
+          rsync -av --exclude='.git' --exclude='.github' --exclude='.obsidian' --exclude='_mkdocs_src' --exclude='_site' --exclude='mkdocs.yml' --exclude='requirements-docs.txt' --exclude='.gitignore' --exclude='FILE_TEMPLATE.md' ./ _mkdocs_src/
+          sed -i 's|^docs_dir: \.$|docs_dir: _mkdocs_src|' mkdocs.yml
+          sed -i 's|^site_dir: \.\./_site$|site_dir: _site|' mkdocs.yml
+          mkdocs build
+
+      - name: Deploy to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          publish_branch: gh-pages
+          force_orphan: true

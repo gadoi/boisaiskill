@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `09-catch/` | **Trình độ:** Trung cấp → Nâng cao | **Thời gian đọc:** ~13 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 Nếu phải chọn **một kỹ thuật duy nhất** tạo nên ranh giới giữa người bơi phong trào (`1:50–2:10/100m`) và người bơi tốc độ cao tay nhẹ (`< 1:30/100m`), đó chính là **High Elbow Catch — Early Vertical Forearm (EVF)**. EVF không phải là động tác dùng sức kéo, mà là kỹ thuật **dựng thẳng cẳng tay sớm như một bức tường chắn nước** ngay phía trước vai, biến cả bàn tay + cẳng tay thành mái chèo khổng lồ và kích hoạt trọn vẹn động cơ **cơ lưng rộng (Lat)**.
 
 - **Mục tiêu cốt lõi:** Giữ khuỷu tay ở vị trí cao gần mặt nước, xoay trong cánh tay trên có kiểm soát để dựng cẳng tay + bàn tay gần thẳng đứng (`góc khuỷu 100–120°`) trước khi bắt đầu kéo mạnh.
@@ -12,8 +11,7 @@ Nếu phải chọn **một kỹ thuật duy nhất** tạo nên ranh giới gi�
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Để hiểu vì sao **EVF** là chuẩn mực tuyệt đối của bơi sải hiện đại, hãy phân tích hình học của véc-tơ lực:
 - Khi cánh tay vừa duỗi thẳng phía trước (`10–15 cm` dưới mặt nước), nếu bạn bắt đầu kéo ngay với cánh tay thẳng (*Straight-Arm*), ở `45°` đầu tiên, lòng bàn tay hướng gần như **thẳng xuống đáy hồ**.
   - Theo phân tích véc-tơ: $F_{\text{down}} = F \cos(30°) \approx 87\%$ lực bị lãng phí vào việc **nhấc đầu/vai lên khỏi nước** (tạo sóng Bobbing), chỉ có $F_{\text{back}} = F \sin(30°) \approx 50\%$ đẩy bạn tiến về trước!
@@ -23,10 +21,8 @@ Nếu phải chọn **một kỹ thuật duy nhất** tạo nên ranh giới gi�
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 So sánh hiệu suất tạo lực đẩy tiến tới ($F_x$) giữa **Dropped Elbow** và **EVF** ở cùng một mức lực cơ bắp:
 
 $$F_x = \frac{1}{2} \rho v_{\text{paddle}}^2 C_D A_{\text{eff}} \cos\beta$$
@@ -36,8 +32,7 @@ Trong đó $\beta$ là góc lệch của mặt phẳng cẳng tay so với phư�
 - **EVF chuẩn** ($\beta \approx 0–15°$, cả bàn tay + cẳng tay dựng đứng): $\cos\beta \approx 0.97–1.00$, $A_{\text{eff}} \approx 380\text{ cm}^2$.
 - **Kết quả vật lý:** EVF tạo ra **lực đẩy tiến hiệu dụng lớn hơn gấp 2.5–3 lần** tại cùng một tốc độ kéo tay — đó chính là lý do bạn thấy **tay cực nhẹ nhưng tốc độ lại tăng vọt**!
 
-### Biomechanics
-
+### Cơ Sinh Học (Biomechanics)
 Cơ chế giải phẫu để dựng EVF đúng mà **không gây chấn thương vai**:
 1. **Gập nhẹ cổ tay (*Wrist Flexion 10–15°*)**: Đầu ngón tay chúc nhẹ xuống đáy hồ đầu tiên để "mở khóa" cảm giác bám nước.
 2. **Xoay trong khớp vai có kiểm soát (*Controlled Internal Rotation*) + Gập khuỷu (`100–120°`)**: Khuỷu tay giữ cao và hướng nhẹ ra phía thành bể bên cạnh (tưởng tượng đang ôm quanh một chiếc thùng phuy lớn), bàn tay và cẳng tay hạ thẳng xuống bên dưới khuỷu.
@@ -45,23 +40,20 @@ Cơ chế giải phẫu để dựng EVF đúng mà **không gây chấn thươn
 
 ```mermaid
 flowchart TD
-    A["Kết thúc Glide (10–15 cm dưới nước)\nCánh tay duỗi thẳng trước vai"] --> B["Bước 1: Chúc nhẹ đầu ngón tay\n(Cổ tay gập nhẹ 10–15°)"]
-    B --> C["Bước 2: Giữ KHUỶU CAO cố định\nXoay nhẹ vai trong + Gập khuỷu 100–120°"]
-    C --> D["Bước 3: Cẳng tay & Bàn tay dựng THẲNG ĐỨNG\n(Mặt trong hướng thẳng về phía chân)"]
-    D --> E["Diện tích mái chèo ×2.5\n95%+ lực hướng thẳng về sau"]
-    E --> F["Kích hoạt Hông + Cơ Xô (Lat)\nKéo thân người lao vút qua điểm neo"]
+    A["Kết thúc Glide (10–15 cm dưới nước)<br/>Cánh tay duỗi thẳng trước vai"] --> B["Bước 1: Chúc nhẹ đầu ngón tay<br/>(Cổ tay gập nhẹ 10–15°)"]
+    B --> C["Bước 2: Giữ KHUỶU CAO cố định<br/>Xoay nhẹ vai trong + Gập khuỷu 100–120°"]
+    C --> D["Bước 3: Cẳng tay & Bàn tay dựng THẲNG ĐỨNG<br/>(Mặt trong hướng thẳng về phía chân)"]
+    D --> E["Diện tích mái chèo ×2.5<br/>95%+ lực hướng thẳng về sau"]
+    E --> F["Kích hoạt Hông + Cơ Xô (Lat)<br/>Kéo thân người lao vút qua điểm neo"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 EVF biến nước từ một chất lỏng "trơn tuột" thành một điểm tựa rắn chắc. Thay vì cố kéo tay ra sau thật nhanh (gây trượt nước), bạn **khóa bàn tay và cẳng tay tại một tọa độ cố định trong không gian bể bơi** rồi dùng sức mạnh của hông, core và cơ xô **kéo thân mình vượt qua tọa độ đó** — y hệt động tác leo thang ngang hoặc trèo lên thành bể bơi!
 
-### Step-by-Step Execution & Water Cues
-
+### Hướng Dẫn Từng Bước & Cảm Giác Nước (Step-by-Step & Water Cues)
 1. **Cảm giác "Vươn qua thùng gỗ" (*Reach Over a Barrel*)**: Tưởng tượng có một chiếc thùng gỗ lớn nổi ngay dưới nách bạn; khi bắt đầu Catch, bạn giữ khuỷu tay đặt trên đỉnh thùng và gập cẳng tay ôm dọc theo mặt ngoài thùng hướng xuống đáy hồ.
 2. **Cảm giác "Bám thành bể trèo lên"**: Hãy thử đứng sát thành bể, đặt hai bàn tay lên mép gạch và dùng lực cơ xô đẩy người trèo lên bờ — hãy quan sát góc khuỷu tay và cẳng tay bạn lúc đó: **đó chính là góc EVF tự nhiên 100%!**
 3. **Chậm để ôm nước, rồi mới kéo**: Đừng vội kéo ngược khuỷu tay về phía hông ngay! Dành `0.15 giây` đầu tiên chỉ để **hạ đầu ngón tay và dựng thẳng cẳng tay** trong khi khuỷu tay vẫn ở phía trước vai.
@@ -70,15 +62,13 @@ EVF biến nước từ một chất lỏng "trơn tuột" thành một điểm 
 ![Minh họa 3 bước dựng cẳng tay sớm EVF so với lỗi sụp khuỷu Dropped Elbow](../images/09-evf-high-elbow-catch.png)
 <!-- IMAGE_PROMPT: Technical 3-frame underwater side-and-front biomechanical sequence showing Early Vertical Forearm (EVF): Frame 1 Glide at 15cm depth; Frame 2 Wrist hinge & high elbow staying near surface while forearm drops to vertical (110 deg elbow angle) like reaching over a barrel; Frame 3 Vertical forearm-hand paddle pushing water straight back; paired with a red inset showing Dropped Elbow error. -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **EVF không đòi hỏi tay phải gập 90° cứng nhắc**: Tùy độ dài cánh tay và độ linh hoạt vai, góc khuỷu tối ưu dao động từ **`100°` đến `125°`**. Điều quan trọng nhất không phải con số tuyệt đối, mà là **cẳng tay dựng càng sớm càng tốt và khuỷu luôn cao hơn cổ tay**.
 - **Kết hợp với ống thở Snorkel**: Rất khó học EVF nếu bạn phải liên tục ngoảnh đầu thở. Hãy tập `200–300m` EVF mỗi buổi với **Center Snorkel** để mắt bạn có thể liếc nhìn trực tiếp cẳng tay mình đang dựng vuông góc ngay trước mặt!
 
 ---
 
-## Drills
-
+## Bài Tập Thực Hành (Drills)
 | Tên Drill | Mục tiêu EVF | Cự ly / Số hiệp | Cảm giác đúng (Cue) |
 | :--- | :--- | :--- | :--- |
 | **Front Sculling (Khuỷu cao)** | Xây cảm giác nước đặc trên cẳng tay & giữ khuỷu bất động | `4 × 25m` (Snorkel + Pull Buoy) | Khuỷu như gác lên thanh xà ngang, chỉ cẳng tay & bàn tay lắc kéo thân đi |
@@ -91,8 +81,7 @@ EVF biến nước từ một chất lỏng "trơn tuột" thành một điểm 
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang dưới nước (Underwater Side View) và Chính diện dưới nước (Underwater Front View).
 - **Keypoints cần trích xuất:** `shoulder`, `elbow`, `wrist`, `middle_finger_tip`.
 - **Ngưỡng phát hiện lỗi tự động:**
@@ -101,8 +90,7 @@ EVF biến nước từ một chất lỏng "trơn tuột" thành một điểm 
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Sụp khuỷu (Dropped Elbow)** | Khuỷu tay tụt xuống và lùi về sau trước bàn tay, cảm giác trượt nước hụt hẫng | Kéo khuỷu về phía hông quá vội khi cẳng tay chưa kịp dựng thẳng | Tập Front Sculling + Dog Paddle + dây kháng lực EVF trên cạn trước khi bơi |
@@ -112,8 +100,7 @@ EVF biến nước từ một chất lỏng "trơn tuột" thành một điểm 
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi hiểu rõ vì sao EVF tăng diện tích mái chèo gấp `2.5 lần` và hướng 95% lực đẩy về phía sau.
 - [ ] Khi tập với Snorkel, tôi có thể tự quan sát thấy cẳng tay mình dựng gần thẳng đứng trước khi tay đi qua dưới vai.
 - [ ] Tôi cảm nhận rõ áp lực nước tì nặng lên **cả cẳng tay lẫn lòng bàn tay**, và lực kéo phát ra từ cơ xô (Lat).
@@ -122,8 +109,7 @@ EVF biến nước từ một chất lỏng "trơn tuột" thành một điểm 
 
 ---
 
-## KPI
-
+## Chỉ Số Đo Lường (KPI)
 | Chỉ số (Metric) | Người mới | Trung cấp | Nâng cao (`< 1:30/100m`) |
 | :--- | :---: | :---: | :---: |
 | **Góc khuỷu tại giữa pha Catch (EVF)** | `150–175°` | `125–140°` | `100–120°` |
@@ -133,8 +119,7 @@ EVF biến nước từ một chất lỏng "trơn tuột" thành một điểm 
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Mất bao lâu để hình thành phản xạ tự động dựng cẳng tay EVF?**
 Thông thường cần **4–8 tuần tập có chủ đích** (kết hợp dây kháng lực EVF trên cạn 5 phút trước mỗi buổi bơi + 200m Sculling/Dog Paddle với Snorkel). EVF là kỹ năng thần kinh–cơ (*neuromuscular*), nên tần suất lặp lại chuẩn form quan trọng hơn cố bơi thật nhiều mét sai form.
 
@@ -146,8 +131,7 @@ Rất hữu ích cho giai đoạn làm quen (Tuần 1–6) để cảm nhận ch
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - **Early Vertical Forearm (EVF)** là kỹ thuật tạo lực quan trọng nhất của bơi sải hiện đại: giữ khuỷu cao, dựng cẳng tay thẳng đứng (`góc khuỷu 100–120°`) để tăng gấp **2.5 lần** diện tích mái chèo và hướng gần 100% lực về sau.
 - Nguyên tắc vàng: **Ôm nước chậm–chắc trước, rồi mới dùng hông và cơ xô (Lat) kéo thân người vượt qua điểm neo**.
 - Bộ 3 bài tập vàng làm chủ EVF: **Dây kháng lực EVF trên cạn + Front Sculling + Dog Paddle với Snorkel**.
@@ -160,8 +144,7 @@ Rất hữu ích cho giai đoạn làm quen (Tuần 1–6) để cảm nhận ch
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Maglischo, E. W. (2003). *Swimming Fastest*. Human Kinetics.
 2. Newsome, P., & Young, A. (2012). *Swim Smooth*. Wiley.
 3. Payton, C., & Bartlett, R. (2008). *Biomechanical Evaluation of Movement in Sport and Exercise*. Routledge.

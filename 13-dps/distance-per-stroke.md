@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `13-dps/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 Vận tốc bơi của bất kỳ ai trên hành tinh này đều bị chi phối bởi một phương trình tối giản và tuyệt đối: **$\text{Vận tốc} = \text{DPS} \times \text{Tần suất sải tay}$**. Trong khi đa số người bơi phong trào chỉ biết cố gắng tăng tần suất quạt tay (khiến nhịp tim vọt lên đỉnh và tay mỏi rã), bí mật của các VĐV bơi nhanh mà **tay vẫn nhẹ tênh** là tối ưu hóa **Distance Per Stroke (DPS)** — đi được quãng đường xa nhất sau mỗi một sải tay với nỗ lực ít nhất.
 
 - **Mục tiêu cốt lõi:** Nâng DPS từ mức trung bình (`1.0–1.2 m/sải`) lên mức hiệu suất cao (`1.45–1.85 m/sải` tùy chiều cao) **mà không đánh đổi bằng lỗi trượt chết (*Over-Gliding*)**.
@@ -12,8 +11,7 @@ Vận tốc bơi của bất kỳ ai trên hành tinh này đều bị chi phố
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 **Distance Per Stroke (DPS)** được định nghĩa là quãng đường (tính bằng mét) mà cơ thể tiến được sau **1 lần sải tay đơn** (1 tay trái hoặc 1 tay phải) — lưu ý: một số tài liệu tính theo **Stroke Length (SL)** cho 1 chu kỳ 2 tay ($\text{SL} = 2 \times \text{DPS}$). Trong bộ sách này, ta thống nhất chuẩn thực chiến tại hồ bơi:
 
 $$\text{DPS (m/sải)} = \frac{\text{Quãng đường bơi mặt nước (m)}}{\text{Số sải tay (Stroke Count)}}$$
@@ -30,10 +28,8 @@ Hãy xem sức mạnh toán học của **DPS**:
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 Từ phương trình cân bằng động lượng, **DPS tỷ lệ thuận với Xung lượng đẩy ($J_{\text{prop}}$) và tỷ lệ nghịch với Lực cản thủy động ($C_d \cdot A$)**:
 
 $$\text{DPS} \propto \frac{\eta_p \cdot F_{\text{catch-pull-push}}}{C_d \cdot A}$$
@@ -44,8 +40,7 @@ $$\text{DPS} \propto \frac{\eta_p \cdot F_{\text{catch-pull-push}}}{C_d \cdot A}
 3. **Kéo dài hành trình tạo lực**: Vươn dài 25% cuối dưới nước + hoàn tất trọn vẹn pha **Push** ngang mép đùi (*Thumb-to-Thigh*).
 4. **Huy động lực từ thân**: Xoay hông–vai đồng trục `35–45°` truyền mô-men từ Core và cơ xô (Lat).
 
-### Biomechanics
-
+### Cơ Sinh Học (Biomechanics)
 **Ngưỡng DPS tối ưu theo chiều cao cơ thể (*Height-Normalized DPS*)**:
 Người cao `1.90 m` tự nhiên có sải tay dài hơn người cao `1.62 m`. Do đó, tiêu chuẩn khoa học chính xác để đánh giá DPS là **tỷ lệ DPS trên chiều cao cơ thể ($H$)** — hoặc **SL/H** (*Stroke Length / Height*):
 - **Mức Cơ bản**: $\text{DPS} \approx 0.55–0.65 \times H$ (người cao 1.70m đi được `0.95–1.10 m/sải`).
@@ -55,23 +50,20 @@ Người cao `1.90 m` tự nhiên có sải tay dài hơn người cao `1.62 m`.
 
 ```mermaid
 flowchart TD
-    A["Mục tiêu: Tăng DPS Thật\n(Không giảm tốc độ)"] --> B["Trụ cột 1: Giảm Lực Cản\n(Hông nổi, không Scissor Kick)"]
-    A --> C["Trụ cột 2: Tăng Bám Nước\n(EVF 100–120°, không trượt tay)"]
-    A --> D["Trụ cột 3: Đủ Hành Trình\n(Vươn dưới nước + Push tới đùi)"]
-    A --> E["Trụ cột 4: Xoay Hông 35–45°\n(Truyền lực từ Core & Cơ Xô)"]
-    B & C & D & E --> F["DPS đạt 0.82–0.98 × Chiều cao\nTốc độ cao, nhịp tay nhẹ nhàng"]
+    A["Mục tiêu: Tăng DPS Thật<br/>(Không giảm tốc độ)"] --> B["Trụ cột 1: Giảm Lực Cản<br/>(Hông nổi, không Scissor Kick)"]
+    A --> C["Trụ cột 2: Tăng Bám Nước<br/>(EVF 100–120°, không trượt tay)"]
+    A --> D["Trụ cột 3: Đủ Hành Trình<br/>(Vươn dưới nước + Push tới đùi)"]
+    A --> E["Trụ cột 4: Xoay Hông 35–45°<br/>(Truyền lực từ Core & Cơ Xô)"]
+    B & C & D & E --> F["DPS đạt 0.82–0.98 × Chiều cao<br/>Tốc độ cao, nhịp tay nhẹ nhàng"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Khi bạn tập trung phát triển **DPS thật** trước khi đẩy nhịp tay (SPM), bạn đang xây dựng một chiếc xe có **khí động học xuất sắc và mô-men xoắn cực lớn**. Sau khi đã có DPS dài ổn định ở tốc độ thoải mái (`1:35–1:40/100m`), bạn chỉ cần tăng nhẹ nhịp tay thêm `5–8 SPM` là lập tức phá mốc `< 1:30/100m` một cách nhẹ nhàng và bền bỉ!
 
-### Step-by-Step Execution & Water Cues
-
+### Hướng Dẫn Từng Bước & Cảm Giác Nước (Step-by-Step & Water Cues)
 1. **Đo chuẩn DPS của riêng bạn trong 2 phút**: Bơi 50m tốc độ thoải mái ở bể 25m, đếm tổng số sải tay ở chiều bể thứ 2 (để loại bỏ quán tính nhảy xuất phát). Trừ đi khoảng `5 m` đạp tường Streamline, lấy `20 m / Số sải` = **DPS thực tế của bạn**.
 2. **Tối ưu "Đầu vào" & "Đầu ra" của sải tay**:
    - *Đầu vào*: Xỏ kim êm ái + vươn dài dưới nước `10–15 cm` kết hợp xoay vai `40°`.
@@ -82,15 +74,13 @@ Khi bạn tập trung phát triển **DPS thật** trước khi đẩy nhịp ta
 ![Biểu đồ quan hệ giữa DPS, SPM và các đường đẳng tốc độ (Iso-Velocity Curves)](../images/13-dps-velocity-matrix.png)
 <!-- IMAGE_PROMPT: Clean MIT-style engineering contour graph with Stroke Rate (SPM, 50 to 90) on the X-axis and Distance Per Stroke (DPS, 0.9 to 1.9 m/stroke) on the Y-axis, plotting curved iso-velocity lines for 2:00/100m, 1:45/100m, 1:30/100m (highlighted in bold green), and 1:15/100m, illustrating the efficient "Sweet Spot" zone vs High-Churn burnout zone and Over-Gliding dead-spot zone. -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **Nguyên tắc "Bánh răng DPS" trong bài tập Pyramid**: Tập `4 × 50m` với yêu cầu giữ **cùng một số sải tay cố định** (ví dụ `16 sải/25m`) nhưng **tăng tốc độ nhanh dần `1 giây` mỗi 50m** (`48s → 47s → 46s → 45s`). Bài tập này buộc não bạn phải tăng lực tì nước EVF và độ sắc của pha Push thay vì quạt loạn nhịp!
 - **Bơi DPS ngắn lại một chút khi gặp sóng/dòng chảy Open Water**: Trong nước mở có sóng đánh trực diện, giữ pha trượt dài sẽ làm sóng đánh tụt tốc độ. Khi đó hãy chủ động rút ngắn DPS khoảng `8–10%` và tăng SPM thêm `5–8 nhịp` để xuyên qua sóng hiệu quả hơn.
 
 ---
 
-## Drills
-
+## Bài Tập Thực Hành (Drills)
 | Tên Drill | Mục tiêu DPS | Cự ly / Số hiệp | Cảm giác đúng (Cue) |
 | :--- | :--- | :--- | :--- |
 | **Stroke-Count Descend (Giảm sải giữ tốc)** | Tìm ra cảm giác ôm nước đặc và hoàn tất pha Push | `4 × 25m` (ví dụ: 18 → 17 → 16 → 15 sải) | Mỗi 25m giảm 1 sải nhưng thời gian vẫn giữ nguyên không chậm đi |
@@ -106,8 +96,7 @@ Khi bạn tập trung phát triển **DPS thật** trước khi đẩy nhịp ta
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Trên cao dọc chiều bể (Overhead Pool-Length Camera) hoặc đồng hồ bơi thông minh có gia tốc kế 3 trục (Garmin / Apple Watch / FORM Goggles).
 - **Keypoints cần trích xuất:** Tọa độ `hip_center` dọc theo trục bể ($x$) tại 2 thời điểm liên tiếp của `right_wrist_entry` và `left_wrist_entry`.
 - **Ngưỡng phát hiện lỗi tự động:**
@@ -116,8 +105,7 @@ Khi bạn tập trung phát triển **DPS thật** trước khi đẩy nhịp ta
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Chạy theo DPS giả (Over-Gliding)** | Chỉ 12 sải/25m nhưng bơi mất 27 giây | Dừng trượt quá lâu để "ăn gian" số sải | Luôn đo DPS đi kèm **thời gian (SWOLF)**; không được chậm đi khi giảm sải |
@@ -127,8 +115,7 @@ Khi bạn tập trung phát triển **DPS thật** trước khi đẩy nhịp ta
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi biết chính xác chỉ số **DPS thực tế** và tỷ lệ **DPS / Chiều cao** của bản thân.
 - [ ] Tôi phân biệt rõ ràng giữa **DPS thật** (tăng nhờ giảm cản + EVF + Push) và **DPS giả** (do dừng trượt quá lâu).
 - [ ] Tôi có thể giữ nguyên số sải tay (sai số `≤ 1 sải/25m`) khi tăng tốc độ lên ngưỡng CSS.
@@ -137,8 +124,7 @@ Khi bạn tập trung phát triển **DPS thật** trước khi đẩy nhịp ta
 
 ---
 
-## KPI
-
+## Chỉ Số Đo Lường (KPI)
 | Chỉ số (Metric) | Người mới | Trung cấp | Nâng cao (`< 1:30/100m`) |
 | :--- | :---: | :---: | :---: |
 | **Tỷ lệ DPS / Chiều cao ($H$)** | `0.55–0.65` | `0.70–0.80` | `0.82–0.98+` |
@@ -148,8 +134,7 @@ Khi bạn tập trung phát triển **DPS thật** trước khi đẩy nhịp ta
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Tôi cao 1.60m, liệu tôi có thể đạt cùng số sải tay (13–14 sải/25m) như người cao 1.85m không?**
 Không cần thiết và không nên ép! Người cao `1.60m` có chiều dài cánh tay và thân tàu ngắn hơn, nên chiến lược tối ưu của bạn để đạt `< 1:30/100m` là tối ưu tỷ lệ `DPS ≈ 0.85–0.92 × H` (`~1.38–1.48 m/sải`, tương đương `15–17 sải/25m`) kết hợp với một **nhịp tay (SPM) linh hoạt hơn** (`72–80 SPM`) — giống hệt cách các VĐV bơi tầm vóc nhỏ như Janet Evans hay Laure Manaudou thống trị đường đua!
 
@@ -161,8 +146,7 @@ Vì bạn vừa kích hoạt thêm 30% biên độ làm việc của cơ xô và
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - Phương trình tốc độ: **$v = \text{DPS} \times \frac{\text{SPM}}{60}$** — tăng **DPS thật** giúp bạn bơi nhanh hơn với số nhịp quạt tay ít hơn và nhịp tim thấp hơn.
 - Đánh giá DPS công bằng theo chiều cao cơ thể: mục tiêu nâng cao là **`0.82–0.98 × H`**.
 - Tránh bẫy **Fake DPS** (Over-Gliding); luôn kiểm chứng DPS bằng bài tập *Hold-Count Speed Build* và chỉ số *SWOLF*.
@@ -175,8 +159,7 @@ Vì bạn vừa kích hoạt thêm 30% biên độ làm việc của cơ xô và
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Craig, A. B., & Pendergast, D. R. (1979). *Relationships of stroke rate, distance per stroke, and velocity in competitive swimming*. Medicine and Science in Sports, 11(3), 278–283.
 2. Maglischo, E. W. (2003). *Swimming Fastest*. Human Kinetics.
 3. Newsome, P., & Young, A. (2012). *Swim Smooth*. Wiley.

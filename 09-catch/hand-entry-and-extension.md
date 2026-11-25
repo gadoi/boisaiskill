@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `09-catch/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 Pha vào nước (*Hand Entry*) và vươn tay (*Extension*) thiết lập **nền móng hình học** cho toàn bộ pha kéo dưới nước phía sau. Nếu tay vào nước quá sớm (đập bẹp mặt nước), quá rộng, hoặc vắt chéo qua trục giữa cơ thể (*Crossover*), bạn sẽ kéo theo bọt khí, làm lắc hông và tự khóa mất góc dựng cẳng tay EVF ngay từ giây đầu tiên. Ngược lại, vào nước kiểu **"xỏ kim"** êm ái trước vai mở ra một hành trình vươn dài mượt mà, tay nhẹ và nước yên.
 
 - **Mục tiêu cốt lõi:** Xuyên đầu ngón tay xuống nước gọn gàng ở đường thẳng trước vai (**11 giờ & 1 giờ**), rồi vươn duỗi thẳng dưới mặt nước `10–15 cm`.
@@ -12,8 +11,7 @@ Pha vào nước (*Hand Entry*) và vươn tay (*Extension*) thiết lập **n�
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Pha Entry & Extension bao gồm **2 tiểu pha liên hoàn**:
 1. **Điểm chạm & Xuyên nước (*Entry Point*)**: Đầu ngón tay (ngón giữa và ngón trỏ) chạm mặt nước ở vị trí **trước đỉnh đầu khoảng 15–25 cm** (tương đương ~75% tầm với của cánh tay) và thẳng trục với khớp vai cùng bên — **không phải** duỗi hết cỡ 100% trên mặt nước rồi mới đặt xuống.
 2. **Vươn duỗi dưới nước (*Underwater Extension*)**: 25% tầm với cuối cùng được thực hiện **ở dưới mặt nước** (độ sâu `10–15 cm`) cùng lúc với nhịp xoay vai–hông xuống `35–45°`.
@@ -24,40 +22,34 @@ Tại sao 25% cuối phải vươn *dưới nước* thay vì *trên không*?
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 - **Triệt tiêu bọt khí bám (*Air Entrainment*)**: Khi bàn tay đập bẹp xuống nước, một lớp túi khí bao quanh lòng bàn tay và cẳng tay. Vì mật độ không khí nhỏ hơn nước 800 lần, kéo một cánh tay bọc đầy bọt khí làm **giảm 15–25% lực bám nước** ngay đầu pha Catch!
 - **Góc xuyên nước tối ưu (`30–45°`)**: Đầu ngón tay xuyên mặt nước ở góc nghiêng `30–45°` rồi lập tức san phẳng thành phương ngang `0°` ở độ sâu `10–15 cm` giúp dòng chảy tách mượt (dòng tầng *Laminar Flow*) không tạo sóng mũi phụ.
 
-### Biomechanics
-
+### Cơ Sinh Học (Biomechanics)
 - **Tư thế bàn tay vào nước an toàn cho khớp vai**: Lòng bàn tay hơi úp phẳng xuống đáy hồ (đầu ngón giữa/ngón trỏ chạm nước trước — *Flat-Hand Entry*), cổ tay thẳng trung tính.
 - **Tuyệt đối tránh *Thumb-First Entry*** (ngón cái cắm xuống trước): Tư thế xoay trong cực đại này ép gân cơ trên gai (*Supraspinatus*) cọ xát mạnh vào mỏm cùng vai ngay lúc cánh tay giơ cao nhất — tác nhân chính gây viêm khớp vai ở người bơi phong trào (xem [Cơ Sinh Học Khớp Vai & Cơ Xô](../02-biomechanics/shoulder-and-lat-mechanics.md)).
 - **Vươn bằng lồng ngực (*Thoracic Reach*)**: Tầm với tối đa không đến từ việc nhún vai sát tai mà từ sự xoay đồng trục của khung sườn `35–45°`.
 
 ```mermaid
 flowchart LR
-    A["Kết thúc Recovery\n(Cánh tay thả lỏng, khuỷu cao)"] --> B["Entry tại 75% tầm với\n(Trước vai 11h / 1h, góc xuyên 35°)"]
-    B --> C["Đầu ngón giữa chạm nước trước\n(Không vắt chéo, không ngón cái trước)"]
-    C --> D["Extension 25% cuối DƯỚI NƯỚC\n(Độ sâu 10–15 cm, cùng nhịp xoay hông)"]
-    D --> E["Nước sạch không bọt khí\nSẵn sàng dựng EVF Catch"]
+    A["Kết thúc Recovery<br/>(Cánh tay thả lỏng, khuỷu cao)"] --> B["Entry tại 75% tầm với<br/>(Trước vai 11h / 1h, góc xuyên 35°)"]
+    B --> C["Đầu ngón giữa chạm nước trước<br/>(Không vắt chéo, không ngón cái trước)"]
+    C --> D["Extension 25% cuối DƯỚI NƯỚC<br/>(Độ sâu 10–15 cm, cùng nhịp xoay hông)"]
+    D --> E["Nước sạch không bọt khí<br/>Sẵn sàng dựng EVF Catch"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Khi bàn tay "xỏ kim" vào đúng điểm `11 giờ` (tay trái) và `1 giờ` (tay phải) rồi vươn duỗi 25% cuối dưới nước:
 - Lực rơi trọng trường của cánh tay hồi về được chuyển hóa mượt mà thành **động lượng tiến về phía trước** thay vì đập vuông góc xuống đáy hồ.
 - Không có bọt khí bám vào cẳng tay, giúp khoảnh khắc chuyển sang pha Catch tiếp theo có cảm giác nước "đặc và chắc" ngay lập tức.
 - Khớp vai luôn nằm trong mặt phẳng xương bả vai an toàn, triệt tiêu hoàn toàn nguy cơ đau vai mãn tính.
 
-### Step-by-Step Execution & Water Cues
-
+### Hướng Dẫn Từng Bước & Cảm Giác Nước (Step-by-Step & Water Cues)
 1. **Hình dung 2 đường ray song song (11 giờ & 1 giờ)**: Tay trái chỉ vào nước trên đường ray thẳng trước vai trái; tay phải trên đường ray thẳng trước vai phải. Nếu thấy tay mình che khuất mắt nhìn xuống vạch đen đáy hồ nghĩa là bạn đã vắt chéo (*Crossover*).
 2. **Kỹ thuật "Xỏ ống tay áo" (*Mail-Slot Entry*)**: Tưởng tượng có một khe thư nhỏ nằm nghiêng phía trước đầu — đưa đầu ngón tay, rồi cổ tay, rồi cẳng tay lần lượt trượt gọn qua đúng khe thư đó.
 3. **Đặt nhẹ → Vươn dài dưới nước**: Không ném tay về trước! Đặt đầu ngón tay vào nước ở khoảng ngang đỉnh đầu/trước đầu 20 cm, sau đó chủ động duỗi dài thẳng về phía tường đích dưới mặt nước `10–15 cm`.
@@ -66,8 +58,7 @@ Khi bàn tay "xỏ kim" vào đúng điểm `11 giờ` (tay trái) và `1 giờ`
 ![Minh họa góc nhìn trên cao hai đường ray 11 giờ - 1 giờ và góc xuyên xỏ kim 35 độ](../images/09-hand-entry-mail-slot.png)
 <!-- IMAGE_PROMPT: Dual-panel sports technique diagram: Left (Overhead View) showing two parallel green railroad tracks aligned with shoulder width (11 o'clock and 1 o'clock) vs red midline crossover zone; Right (Side View) showing fingers entering at 75% reach at a 35-degree angle like threading a needle, then extending smoothly horizontally at 10-15cm depth without splash bubbles. -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **Điều chỉnh điểm vào nước theo tốc độ**:
   - Bơi đường dài / Triathlon: Vào nước êm ái, góc xuyên `35–40°`, vươn dài tối đa dưới nước để tối ưu DPS.
   - Bơi Sprint (50m–100m — Straight-Arm Recovery): Tay vào nước xa hơn một chút (~85–90% tầm với) với tốc độ cao hơn nhưng **vẫn giữ thẳng trục trước vai** (không vắt chéo) để chuyển tức thì sang Catch.
@@ -75,8 +66,7 @@ Khi bàn tay "xỏ kim" vào đúng điểm `11 giờ` (tay trái) và `1 giờ`
 
 ---
 
-## Drills
-
+## Bài Tập Thực Hành (Drills)
 | Tên Drill | Mục tiêu Entry & Extension | Cự ly / Số hiệp | Cảm giác đúng (Cue) |
 | :--- | :--- | :--- | :--- |
 | **Fingertip Drag → Mail-Slot** | Tập vào nước êm, khuỷu cao, không đập tay | `4 × 25m` (nghỉ 15s) | Đầu ngón tay lướt nhẹ mặt nước rồi chui tọt qua một khe nhỏ không gây bọt |
@@ -88,8 +78,7 @@ Khi bàn tay "xỏ kim" vào đúng điểm `11 giờ` (tay trái) và `1 giờ`
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Trên cao (Overhead View) và Trước mặt ngang mặt nước (Front Waterline View).
 - **Keypoints cần trích xuất:** `nose`, `left_shoulder`, `right_shoulder`, `entry_wrist`, `entry_elbow`, đường trục giữa (`midline_x`).
 - **Ngưỡng phát hiện lỗi tự động:**
@@ -98,8 +87,7 @@ Khi bàn tay "xỏ kim" vào đúng điểm `11 giờ` (tay trái) và `1 giờ`
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Vắt chéo trục giữa (Crossover)** | Tay vào nước trước mũi/trán, hông lắc ngang, đau vai | Xoay đầu thở quá mức kéo theo vai trước vặn vào trong | Tập Wide-Track Swim (10:30 & 1:30), giữ vạch đen đáy hồ nằm giữa 2 bàn tay |
@@ -109,8 +97,7 @@ Khi bàn tay "xỏ kim" vào đúng điểm `11 giờ` (tay trái) và `1 giờ`
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi nhìn thấy vạch đen đáy hồ luôn nằm giữa hai bàn tay khi vào nước (không vắt chéo).
 - [ ] Đầu ngón tay tôi luôn chạm nước trước cổ tay và khuỷu tay (vào nước kiểu "xỏ kim").
 - [ ] Âm thanh khi tay tôi chạm mặt nước rất êm, gần như không có tiếng vỗ nước.
@@ -119,8 +106,7 @@ Khi bàn tay "xỏ kim" vào đúng điểm `11 giờ` (tay trái) và `1 giờ`
 
 ---
 
-## KPI
-
+## Chỉ Số Đo Lường (KPI)
 | Chỉ số (Metric) | Người mới | Trung cấp | Nâng cao (`< 1:30/100m`) |
 | :--- | :---: | :---: | :---: |
 | **Độ lệch điểm vào nước so với trục vai** | Vắt chéo `> 10 cm` qua trục giữa | Lệch nhẹ bên thở | `± 5 cm` quanh trục vai (0% Crossover) |
@@ -130,8 +116,7 @@ Khi bàn tay "xỏ kim" vào đúng điểm `11 giờ` (tay trái) và `1 giờ`
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Nên để khuỷu tay chạm nước trước hay ngón tay chạm nước trước?**
 Luôn luôn là **đầu ngón tay chạm nước trước**, sau đó đến cổ tay, cẳng tay và cuối cùng là khuỷu tay ("xỏ kim"). Nếu khuỷu tay chạm nước trước (lỗi *Dropped Elbow Entry*), cánh tay sẽ đập bẹp mặt nước tạo phanh hãm cực lớn.
 
@@ -143,8 +128,7 @@ Thông thường từ **15–25 cm phía trước đỉnh đầu** (ngang khoả
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - Vào nước chuẩn là **kỹ thuật "xỏ kim"** (đầu ngón tay giữa/trỏ chạm trước, góc `30–45°`) trên hai đường ray **11 giờ và 1 giờ**, tuyệt đối không vắt chéo và không cắm ngón cái trước.
 - Thực hiện **25% tầm vươn cuối ở dưới nước (`10–15 cm`)** đồng bộ với nhịp xoay thân `35–45°` để không tạo bọt khí bám vào cẳng tay.
 - Một pha Entry & Extension sạch sẽ tạo tiền đề hoàn hảo cho pha **Early Vertical Forearm (EVF)** mạnh mẽ và nhẹ tay.
@@ -157,8 +141,7 @@ Thông thường từ **15–25 cm phía trước đỉnh đầu** (ngang khoả
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Newsome, P., & Young, A. (2012). *Swim Smooth*. Wiley.
 2. Maglischo, E. W. (2003). *Swimming Fastest*. Human Kinetics.
 3. USA Swimming — *Hand Entry & Shoulder Injury Prevention Guidelines*.

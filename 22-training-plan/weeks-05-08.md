@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `22-training-plan/` | **Giai đoạn:** Kích Hoạt Động Cơ Thân & Cơ Xô | **Dryland:** Chuyển sang Sức mạnh Cơ Xô & Core
 
-## Overview
-
+## Tổng Quan (Overview)
 Sau khi đã thiết lập được khung thân phẳng và hơi thở êm ở Block 1, **Block 2 (Tuần 05–08)** tập trung vào bước nhảy vọt kỹ thuật lớn nhất của bơi sải: **kết nối xoay hông `35–45°` với kỹ thuật dựng cẳng tay sớm (EVF `100–120°`) và hoàn tất pha đẩy ngang đùi (*Thumb-to-Thigh*)**. Đây là 4 tuần bạn sẽ chứng kiến **Stroke Count giảm mạnh `2–4 sải/25m`** trong khi cảm giác tay ngày càng nhẹ và chắc nước!
 
 - **Mục tiêu cốt lõi:** Tự động hóa góc khuỷu EVF, xóa bỏ lỗi sụp khuỷu và vắt chéo trục giữa, kết thúc Block bằng **CSS Test #2** (kỳ vọng cải thiện `4–8 giây/100m`).
@@ -12,21 +11,18 @@ Sau khi đã thiết lập được khung thân phẳng và hơi thở êm ở B
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Block 2 chuyển hóa cơ thể từ trạng thái **"biết lướt êm"** sang trạng thái **"tạo lực đẩy hiệu suất cao ($\eta_p \ge 0.55$)"**:
 - Kết hợp **6-Kick Switch / 3-Kick Switch** (cài đặt chuỗi truyền lực từ hông) + **Dog Paddle / Fist Swim / Sculling** (cô lập dựng cẳng tay EVF) + **Thumb-to-Thigh** (khóa trọn 30% lực đẩy cuối).
 - Đồng thời bắt đầu đưa các bài tập **ngưỡng CSS ngắn (`50m–100m`)** vào buổi `S2` để tập giữ nguyên góc EVF dưới áp lực tốc độ trung bình–cao.
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 Khi bạn tăng diện tích mái chèo hiệu dụng từ chỉ bàn tay (`160 cm²`) lên toàn bộ bàn tay + cẳng tay dựng EVF (`380 cm²`), lực đẩy trên mỗi sải tăng gấp đôi ở cùng một nhịp kéo — trực tiếp đẩy **DPS** tăng thêm `+15–25 cm/sải` và cắt giảm **Stroke Count** ngay lập tức mà không làm chậm tốc độ!
 
-### Biomechanics — Phân Bổ Tải Block 2 (Nhịp 3:1)
+### Cơ Sinh Học (Biomechanics) — Phân Bổ Tải Block 2 (Nhịp 3:1)
 
 | Tuần | Đặc điểm tải | Lịch 3 buổi (`S1–S3`) | Lịch 4 buổi (`+S4`) | Lịch 5 buổi (`+S5`) | Lịch 6 buổi (`+S6`) |
 | :---: | :--- | :---: | :---: | :---: | :---: |
@@ -37,20 +33,18 @@ Khi bạn tăng diện tích mái chèo hiệu dụng từ chỉ bàn tay (`160 
 
 ```mermaid
 flowchart LR
-    A["Tuần 05\n6-Kick Switch + Dog Paddle\n(Khóa Hông 40° & EVF)"] --> B["Tuần 06\nFist Swim + Thumb-to-Thigh\n(Tăng DPS, giảm 2–3 sải/25m)"]
-    B --> C["Tuần 07\nHold-Count Speed Build\n(Giữ EVF ở pace CSS)"]
-    C --> D["Tuần 08 (Deload)\nCSS Test #2 & SWOLF Check\n(Mục tiêu giảm 4–8s/100m)"]
+    A["Tuần 05<br/>6-Kick Switch + Dog Paddle<br/>(Khóa Hông 40° & EVF)"] --> B["Tuần 06<br/>Fist Swim + Thumb-to-Thigh<br/>(Tăng DPS, giảm 2–3 sải/25m)"]
+    B --> C["Tuần 07<br/>Hold-Count Speed Build<br/>(Giữ EVF ở pace CSS)"]
+    C --> D["Tuần 08 (Deload)<br/>CSS Test #2 & SWOLF Check<br/>(Mục tiêu giảm 4–8s/100m)"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Cấu trúc bài tập trong Block 2 luôn đặt **Drill EVF ngay trước Main Set** (kèm khởi động `5 phút` kéo dây kháng lực EVF trên bờ hồ), tạo hiệu ứng mồi thần kinh (*Neural Priming*) khiến não bộ lập tức kích hoạt cơ xô (Lat) ngay khi nhảy xuống nước!
 
-### Step-by-Step Execution — Chi Tiết Giáo Án 6 Buổi/Tuần (Tuần 05–08)
+### Hướng Dẫn Từng Bước (Step-by-Step) — Chi Tiết Giáo Án 6 Buổi/Tuần (Tuần 05–08)
 
 #### Buổi S1 — Lõi 1: Kỹ Thuật EVF & Xoay Hông (`~1.800–2.200m`)
 - **Warm-up (300m):** `200m` Z1 + `4 × 25m` 3-Position Sculling (Snk + PB).
@@ -99,13 +93,13 @@ Cấu trúc bài tập trong Block 2 luôn đặt **Drill EVF ngay trước Main
 ![Sơ đồ kết nối giữa Drill EVF, kéo dây kháng lực và giảm Stroke Count trong Block 2](../images/22-block2-evf-dps.png)
 <!-- IMAGE_PROMPT: Clean training progression diagram for Block 2 (Weeks 5-8) connecting Pre-Pool Resistance Band EVF -> 6-Kick Switch & Dog Paddle -> Hold-Count Speed Build -> CSS Test #2, showing Stroke Count dropping by 2-4 strokes/25m while pace improves by 4-8s/100m. -->
 
-### Advanced Tips (Dryland & Mobility Đi Kèm Block 2)
+### Mẹo Nâng Cao (Advanced Tips — Dryland & Mobility Đi Kèm Block 2)
 - **Dryland (`2–3 buổi/tuần × 35p`)**: Bắt đầu chuyển sang **Giai đoạn 2 (Sức mạnh Cơ Xô)** — Pull-Up / Lat Pulldown, Straight-Arm Pulldown, Single-Arm Row, Face Pull và Side Plank Rotation.
 - **Pre-Pool**: Bắt buộc `1 × 15` Band EVF Pull chuẩn góc `110°` trước khi nhảy xuống nước!
 
 ---
 
-## Drills (Trọng Tâm Block 2)
+## Bài Tập Thực Hành (Drills — Trọng Tâm Block 2)
 
 | Tên Drill | Tần suất/Tuần | Mục tiêu sửa lỗi Block 2 |
 | :--- | :---: | :--- |
@@ -115,14 +109,12 @@ Cấu trúc bài tập trong Block 2 luôn đặt **Drill EVF ngay trước Main
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Đối chiếu Video Tuần 08 vs Tuần 01:** Kiểm tra góc khuỷu tại giữa pha Catch (`∠shoulder–elbow–wrist`) đã thu hẹp về `105–130°` chưa; kiểm tra vị trí rời nước `release_wrist_x` đã đi qua khớp hông chưa.
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Giảm Stroke Count bằng cách lướt chết (Over-Gliding)** | Giảm được 3 sải nhưng thời gian 50m lại chậm hơn 4 giây | Chạy theo con số sải mà quên thời gian | Luôn đo **SWOLF** và tập **Hold-Count Speed Build** |
@@ -131,8 +123,7 @@ Cấu trúc bài tập trong Block 2 luôn đặt **Drill EVF ngay trước Main
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi cảm nhận rõ cơ lưng rộng (Lat) làm việc chính trong pha kéo và vai hoàn toàn không đau.
 - [ ] Stroke Count trung bình / 25m của tôi đã giảm ít nhất `2 sải` so với Tuần 1 ở cùng hoặc nhanh hơn tốc độ cũ.
 - [ ] Tôi hoàn thành **CSS Test #2 (Tuần 8)** với tốc độ cải thiện rõ rệt (`-4 đến -8 giây/100m`).
@@ -140,7 +131,7 @@ Cấu trúc bài tập trong Block 2 luôn đặt **Drill EVF ngay trước Main
 
 ---
 
-## KPI (Hết Tuần 08)
+## Chỉ Số Đo Lường (KPI — Hết Tuần 08)
 
 | Chỉ số (Metric) | Đạt chuẩn Block 2 | Xuất sắc |
 | :--- | :---: | :---: |
@@ -150,8 +141,7 @@ Cấu trúc bài tập trong Block 2 luôn đặt **Drill EVF ngay trước Main
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Nên dùng Hand Paddles (bàn quạt) loại nào trong Block 2?**
 Chỉ nên dùng **Finger Paddles** (quạt nhỏ chỉ che đầu ngón tay) hoặc **Agility Paddles** (quạt không dây buộc cổ tay — sẽ tự rơi ra nếu bạn sụp khuỷu hoặc vào nước sai góc!). Tránh hoàn toàn quạt cỡ lớn cho tới Block 4–5.
 
@@ -160,8 +150,7 @@ Chỉ nên dùng **Finger Paddles** (quạt nhỏ chỉ che đầu ngón tay) ho
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - **Block 2 (Tuần 05–08)** lắp đặt động cơ chính: **Xoay hông `40°` + Dựng cẳng tay EVF + Đẩy hết pha Push tới đùi**.
 - Kết thúc Tuần 8 bằng **Deload + CSS Test #2** để ghi nhận bước nhảy vọt đầu tiên về tốc độ và SWOLF.
 
@@ -172,8 +161,7 @@ Chỉ nên dùng **Finger Paddles** (quạt nhỏ chỉ che đầu ngón tay) ho
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Newsome, P., & Young, A. (2012). *Swim Smooth*. Wiley.
 2. Maglischo, E. W. (2003). *Swimming Fastest*. Human Kinetics.
 3. Olbrecht, J. (2000). *The Science of Winning*. F&G Partners.

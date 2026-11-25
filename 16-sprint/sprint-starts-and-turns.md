@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `16-sprint/` | **Trình độ:** Trung cấp → Nâng cao | **Thời gian đọc:** ~12 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 Trong bơi bể (`25m` và `50m`), tốc độ bơi mặt nước chỉ là một phần của bức tranh. Một cú **xuất phát (*Track Start*)** chuẩn xác giúp bạn dẫn trước `0.5–1.0 giây` ngay ở `15m` đầu tiên; và thành thạo **Lộn vòng chạm tường (*Flip Turn / Tumble Turn*)** giúp bạn tiết kiệm **`0.5–1.0 giây` ở mỗi thành bể** — tức là rút ngay **`2–3 giây` trên `100m` bể 25m** và **`20–30 giây` trên `1.500m`** mà không hề phải quạt tay mạnh hơn! Chương này hệ thống hóa toàn bộ kỹ thuật **Starts, Flip Turns, Pool Pacing và Chiến thuật Sprint** để bứt phá mốc `< 1:30/100m`.
 
 - **Mục tiêu cốt lõi:** Làm chủ kỹ thuật **Flip Turn** không mất đà, tối ưu pha **Start & Breakout**, và áp dụng chiến thuật phân phối tốc độ **Even / Negative Split** cho từng cự ly (`50m, 100m, 400m, 1.500m`).
@@ -12,8 +11,7 @@ Trong bơi bể (`25m` và `50m`), tốc độ bơi mặt nước chỉ là mộ
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 ### 1. Giải Phẫu 4 Giai Đoạn Của Một Cú Flip Turn Chuẩn (`< 1.0 giây` tại tường)
 1. **Tiếp cận (*Approach*)**: Giữ nguyên tốc độ tối đa khi qua vạch chữ T (cách tường `2 m`), **không lấy hơi ở sải cuối cùng** trước tường!
 2. **Cuộn lộn (*Somersault*)**: Khi tay cuối hoàn tất pha đẩy ngang đùi (cả 2 tay đều nằm dọc hông, lòng bàn tay hướng xuống đáy), gập cằm sát ngực, ấn hai lòng bàn tay xoay người cuộn tròn thật chặt (*Tight Ball*) bằng cơ bụng và một cú đập Dolphin nhỏ — **thở ra nhẹ bằng mũi** để nước không tràn vào xoang mũi!
@@ -26,10 +24,8 @@ Trong bơi bể (`25m` và `50m`), tốc độ bơi mặt nước chỉ là mộ
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 - **Bảo toàn Mô-men Động Lượng trong Flip Turn**:
   $$\omega = \frac{L}{I}$$
   Khi bạn cuộn thân thật chặt thành quả bóng nhỏ (*gối ép sát ngực, gót sát mông*), mô-men quán tính $I$ giảm mạnh → tốc độ góc cuộn $\omega$ tăng vọt gấp đôi! Nếu bạn duỗi chân thẳng lều khều khi lộn, thời gian tại tường kéo dài từ `0.8s` lên `1.8s`, làm mất trắng toàn bộ quán tính tiếp cận!
@@ -37,7 +33,7 @@ Trong bơi bể (`25m` và `50m`), tốc độ bơi mặt nước chỉ là mộ
   - Open Turn bắt buộc bạn phải **dừng vận tốc về `0`**, ngẩng đầu lấy hơi rồi mới chìm xuống đạp lại → mất trung bình `0.7–1.2 giây/vòng`.
   - Flip Turn chuyển hóa trực tiếp quán tính tiến tới thành động năng xoay và thế năng nén cơ đùi tại tường → nhanh hơn rõ rệt và giữ nhịp tim ổn định hơn sau khi đã quen nhịp thở.
 
-### Biomechanics — Chiến Thuật Phân Phối Tốc Độ (*Pool Pacing*)
+### Cơ Sinh Học (Biomechanics) — Chiến Thuật Phân Phối Tốc Độ (*Pool Pacing*)
 
 | Cự ly | Chiến thuật Split tối ưu | Nhịp chân & Thở | Điểm lưu ý sống còn |
 | :--- | :--- | :--- | :--- |
@@ -48,24 +44,21 @@ Trong bơi bể (`25m` và `50m`), tốc độ bơi mặt nước chỉ là mộ
 
 ```mermaid
 flowchart LR
-    A["Qua vạch chữ T (2m trước tường)\nGiữ tốc độ, KHÔNG thở sải cuối"] --> B["Hai tay dọc hông + Cằm sát ngực\nCuộn chặt 'Tight Ball' + Thở mũi nhẹ"]
-    B --> C["Đặt bàn chân lên tường (gối 90°)\nKhóa Streamline SẴN ở tư thế ngửa/nghiêng"]
-    C --> D["Đạp bật sâu 0.6 m + Xoay về sấp\n2–3 cú Dolphin Kick"]
-    D --> E["Breakout không thở vượt vạch 5–7m\nTiết kiệm 0.7–1.0 giây/tường"]
+    A["Qua vạch chữ T (2m trước tường)<br/>Giữ tốc độ, KHÔNG thở sải cuối"] --> B["Hai tay dọc hông + Cằm sát ngực<br/>Cuộn chặt 'Tight Ball' + Thở mũi nhẹ"]
+    B --> C["Đặt bàn chân lên tường (gối 90°)<br/>Khóa Streamline SẴN ở tư thế ngửa/nghiêng"]
+    C --> D["Đạp bật sâu 0.6 m + Xoay về sấp<br/>2–3 cú Dolphin Kick"]
+    D --> E["Breakout không thở vượt vạch 5–7m<br/>Tiết kiệm 0.7–1.0 giây/tường"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Làm chủ **Flip Turn** và **Pacing 100m** là con đường ngắn nhất để bạn phá vỡ bức tường tâm lý **`1:30/100m`**:
 - Giả sử bạn đang bơi `1:33/100m` bể `25m` bằng Open Turn (quay đầu chạm tay) và thở lộn xộn ở 25m đầu.
 - Chỉ riêng việc chuyển sang **Flip Turn chuẩn** (3 vòng × `-0.8s` = **`-2.4 giây`**) + **Streamline Breakout qua vạch 6m** (`-1.5 giây`) + **phân phối sức 50m đầu `43.5s` / 50m sau `45.5s`** = **`1:29.0/100m`** ngay lập tức mà không cần tăng thêm 1% sức mạnh!
 
-### Step-by-Step Execution & Water Cues
-
+### Hướng Dẫn Từng Bước & Cảm Giác Nước (Step-by-Step & Water Cues)
 #### 4 Bước Tập Flip Turn Cho Người Mới Bắt Đầu (Chỉ Mất 2 Tuần)
 1. **Bước 1 — Lộn vòng giữa bể (*Mid-Pool Somersault*)**: Bơi 3 sải giữa bể nông, đưa 2 tay về đùi, gập cằm, cuộn tròn 1 vòng lộn nhào trong nước (thở nhẹ qua mũi chống sặc) rồi đứng lên. Lặp `10 lần` cho hết chóng mặt.
 2. **Bước 2 — Lộn vòng chạm chân tường (Đứng yên không đạp)**: Bơi tiến tới vạch chữ T, thực hiện 1 sải cuối rồi lộn cuộn đặt hai bàn chân lên tường ở tư thế nằm ngửa — dừng lại kiểm tra khoảng cách gối (`~90°`, không quá sát cũng không quá xa).
@@ -75,15 +68,13 @@ Làm chủ **Flip Turn** và **Pacing 100m** là con đường ngắn nhất đ�
 ![Minh họa 4 pha chuẩn của cú Flip Turn chạm tường và kỹ thuật Track Start](../images/16-sprint-flip-turn-start.png)
 <!-- IMAGE_PROMPT: Technical 4-stage underwater sequence diagram of a Freestyle Flip Turn: (1) Approach over the T-mark with no last-stroke breath; (2) Tight somersault ball with hands at hips and gentle nasal exhale; (3) Planted feet on wall at 90-deg knees while supine/45-deg with arms already locked in Streamline; (4) Push-off at 0.6m depth rotating to prone with 2-3 dolphin kicks into non-breathing breakout. -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **Quy tắc "Chạm đích không ngẩng đầu" (*No-Breath Sprint Finish*)**: Trong `5–10m` cuối cùng của cự ly `50m` hoặc `100m`, **tuyệt đối không xoay đầu thở** và không ngẩng lên nhìn thành bể — cúi đầu, giữ nhịp 6-beat tối đa và vươn dài một tay chạm mạnh vào bảng đích!
 - **Canh khoảng cách tường bằng vạch chữ T**: Mỗi bể bơi tiêu chuẩn đều có vạch chữ T cách tường đúng `2.0 m`. Tùy chiều cao, hãy đếm xem sau khi đầu bạn vừa vượt qua ngang vạch chữ T thì cần thêm **1 hay 2 sải tay** là vừa đẹp để bắt đầu cuộn lộn (không phải rướn hay co người).
 
 ---
 
-## Drills
-
+## Bài Tập Thực Hành (Drills)
 | Tên Drill | Mục tiêu Starts, Turns & Sprint | Cự ly / Số hiệp | Cảm giác đúng (Cue) |
 | :--- | :--- | :--- | :--- |
 | **Flip Turn Progression (Bước 1–4)** | Lắp ghép từng mảnh Flip Turn không sặc nước, không mất đà | `10 phút` cuối buổi khởi động | Cuộn gọn nhanh như quả bóng, đạp tường trong tư thế Streamline khóa sẵn |
@@ -92,8 +83,7 @@ Làm chủ **Flip Turn** và **Pacing 100m** là con đường ngắn nhất đ�
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang dưới nước (Underwater Side View) đặt tại khu vực `0–10 m` tính từ thành bể để đo **Thời gian 5m-In / 5m-Out (*10m Turn Time*)**.
 - **Keypoints cần trích xuất:** `nose`, `hip`, `knee`, `ankle`, `wrist`, tọa độ thành bể (`wall_x`).
 - **Ngưỡng phát hiện lỗi tự động:**
@@ -102,8 +92,7 @@ Làm chủ **Flip Turn** và **Pacing 100m** là con đường ngắn nhất đ�
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Bị nước sộc vào mũi khi lộn vòng** | Sặc nước, sợ không dám tập Flip Turn | Nín thở hoặc hít ngược khi đang chổng đầu xuống đáy | **Thở ra nhẹ bằng mũi** (tạo bong bóng liên tục) trong suốt `0.8 giây` cuộn lộn |
@@ -113,8 +102,7 @@ Làm chủ **Flip Turn** và **Pacing 100m** là con đường ngắn nhất đ�
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi thực hiện được **Flip Turn** liên tục ở tất cả các thành bể mà không bị nước vào mũi.
 - [ ] Tôi không xoay đầu lấy hơi trong `2m` cuối trước tường và ở sải Breakout đầu tiên sau tường.
 - [ ] Hai tay tôi đã khóa chặt Streamline sau tai **trước khi** hai bàn chân đạp bật khỏi tường.
@@ -123,8 +111,7 @@ Làm chủ **Flip Turn** và **Pacing 100m** là con đường ngắn nhất đ�
 
 ---
 
-## KPI
-
+## Chỉ Số Đo Lường (KPI)
 | Chỉ số (Metric) | Người mới | Trung cấp | Nâng cao (`< 1:30/100m`) |
 | :--- | :---: | :---: | :--- |
 | **Thời gian Turn (`5m-In` → `5m-Out`)** | `> 9.0 giây` (Open Turn) | `7.5–8.5 giây` | `5.8–7.0 giây` (Flip Turn sắc) |
@@ -133,8 +120,7 @@ Làm chủ **Flip Turn** và **Pacing 100m** là con đường ngắn nhất đ�
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Bị chóng mặt khi tập Flip Turn thì xử lý thế nào?**
 Rất bình thường trong 1–2 tuần đầu do hệ tiền đình chưa quen xoay nhanh trong nước! Hãy chỉ tập `4–6` lần lộn mỗi buổi, **mở mắt nhìn rõ vạch đáy và tường trong lúc lộn**, không nhắm tịt mắt, và tăng dần số lần qua từng tuần — sau 2 tuần cảm giác chóng mặt sẽ biến mất hoàn toàn.
 
@@ -146,8 +132,7 @@ Trong thi đấu chính thức bạn được nhảy bục (**Track Start**, nha
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - **Flip Turn chuẩn** + **Breakout sâu `0.6 m`** mang lại **`2–3 giây/100m` miễn phí** trong bể 25m mà không tốn thêm lực tay.
 - 4 khóa vàng của Flip Turn: **Không thở sải cuối + Cuộn chặt thở mũi + Khóa Streamline trước khi đạp + Xoay về sấp SAU khi rời tường**.
 - Luôn tuân thủ kỷ luật **Even / Negative Split** để chinh phục cột mốc `< 1:30/100m` một cách thuyết phục và bền vững.
@@ -160,8 +145,7 @@ Trong thi đấu chính thức bạn được nhảy bục (**Track Start**, nha
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Lyttle, A., & Benjanuvatra, N. (2005). *Start right? A biomechanical review of dive start performance*. Coaching Science Abstracts.
 2. Blanksby, B., Gathercole, D., & Marshall, R. (1996). *Force plate and video analysis of the tumble turn by age-group swimmers*. Journal of Swimming Research.
 3. USA Swimming — *Starts, Flip Turns & Race Pacing Technical Manual*.

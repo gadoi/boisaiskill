@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `15-open-water/` | **Trình độ:** Trung cấp → Nâng cao | **Thời gian đọc:** ~12 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 Nhiều người bơi đạt `1:28/100m` rất đẹp trong bể bơi nhưng khi ra biển hoặc hồ lớn (Triathlon / Open Water `1.9–5 km`) lại tụt xuống `1:50/100m` và kiệt sức nhanh chóng. Nguyên nhân: ngoài trời **không có vạch đen đáy hồ, không có thành bể để đạp tường nghỉ, có sóng đánh tạt ngang, dòng chảy và hàng trăm VĐV bơi sát nhau**. Chương này trang bị 4 vũ khí thực chiến biến tốc độ bể bơi thành tốc độ nước mở: **Sighting (Ngắm mục tiêu không chìm hông)**, **Drafting (Núp dòng tiết kiệm 20% sức)**, **Điều chỉnh nhịp tay xuyên sóng** và **Vòng phao (*Buoy Turns*)**.
 
 - **Mục tiêu cốt lõi:** Bơi thẳng tắp tới phao với sai lệch `< 3%` quãng đường, tiết kiệm `15–25%` năng lượng nhờ Drafting và giữ nhịp thở bình tĩnh trong sóng lớn.
@@ -12,8 +11,7 @@ Nhiều người bơi đạt `1:28/100m` rất đẹp trong bể bơi nhưng khi
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Để chinh phục Open Water, cần thích nghi **4 thông số kỹ thuật** so với bơi bể:
 
 | Thông số | Bơi Bể (Pool) | Bơi Nước Mở (Open Water) | Lý do thủy động lực học |
@@ -25,10 +23,8 @@ Nhiều người bơi đạt `1:28/100m` rất đẹp trong bể bơi nhưng khi
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 #### 1. Vật lý của Drafting (Núp Dòng Nước Mở)
 Nghiên cứu kinh điển của Chatard & Wilson (2003) đo trực tiếp mức tiêu thụ oxy ($\dot{V}O_2$) và nồng độ lactate khi Drafting trong bơi sải:
 - **Núp ngay sau bàn chân (*Foot Drafting* — cách mũi chân người trước `0–50 cm`)**: Giảm lực cản thụ động **`18–26%`**, giảm tiêu thụ oxy **`11–18%`** và giảm nhịp tim `~10–15 bpm`!
@@ -37,8 +33,7 @@ Nghiên cứu kinh điển của Chatard & Wilson (2003) đo trực tiếp mức
 #### 2. Chi phí của Sighting sai kỹ thuật
 Nếu mỗi lần ngắm phao bạn ngẩng cằm lên quá cao và hít hơi luôn về phía trước (như bơi ếch), hông sẽ chìm sâu `25–30 cm`, làm mất ngay `0.3–0.5 m/s` vận tốc — lặp lại 150 lần trên chặng `1.900m` sẽ tốn thêm tương đương **`2–3 phút`**!
 
-### Biomechanics
-
+### Cơ Sinh Học (Biomechanics)
 **Kỹ thuật "Alligator Eyes Sighting" (Tách biệt Ngắm & Thở):**
 1. **KHÔNG BAO GIỜ vừa ngắm phía trước vừa hít hơi cùng lúc!** (Vì miệng nằm thấp hơn mắt `6–8 cm` — muốn đưa miệng lên khỏi mặt nước phía trước để hít, bạn buộc phải nhấc đầu cao gấp đôi làm sập hông!).
 2. **Quy trình 2 nhịp siêu mượt**:
@@ -47,24 +42,21 @@ Nếu mỗi lần ngắm phao bạn ngẩng cằm lên quá cao và hít hơi lu
 
 ```mermaid
 flowchart LR
-    A["Bơi 6–10 sải đầu úp\n(Tempo +4–6 SPM cắt sóng)"] --> B["Nhịp Sighting (0.3 giây)\nChỉ nâng MẮT vừa qua mặt nước\n(Miệng vẫn chìm — Alligator Eyes)"]
-    B --> C["Chụp nhanh mốc phao / tòa nhà lớn\n(Không nán lại tìm chi tiết nhỏ)"]
-    C --> D["Xoay NGANG sang bên HÍT HƠI\n(Tách biệt Ngắm & Thở — Không chìm hông)"]
-    D --> E["Úp mặt về đáy hồ tiếp tục 6–10 sải\n(Hoặc bám chặt chân Drafting)"]
+    A["Bơi 6–10 sải đầu úp<br/>(Tempo +4–6 SPM cắt sóng)"] --> B["Nhịp Sighting (0.3 giây)<br/>Chỉ nâng MẮT vừa qua mặt nước<br/>(Miệng vẫn chìm — Alligator Eyes)"]
+    B --> C["Chụp nhanh mốc phao / tòa nhà lớn<br/>(Không nán lại tìm chi tiết nhỏ)"]
+    C --> D["Xoay NGANG sang bên HÍT HƠI<br/>(Tách biệt Ngắm & Thở — Không chìm hông)"]
+    D --> E["Úp mặt về đáy hồ tiếp tục 6–10 sải<br/>(Hoặc bám chặt chân Drafting)"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Thành thạo **Alligator Eyes Sighting** + **Drafting** + **Thở hai bên (Bilateral / 2:2)** mang lại lợi thế khổng lồ:
 - Khi sóng đánh từ bên phải tới, bạn lập tức chuyển sang **thở bên trái** (lưng quay về phía sóng) để không bao giờ bị sặc nước biển!
 - Nhờ tìm được người bơi có tốc độ nhanh hơn mình `2–3 giây/100m` để **Foot/Hip Drafting**, bạn có thể đạt thành tích Open Water nhanh hơn cả bơi một mình mà bước lên bờ (chuyển sang đạp xe Triathlon) vẫn cực kỳ tỉnh táo.
 
-### Step-by-Step Execution & Water Cues
-
+### Hướng Dẫn Từng Bước & Cảm Giác Nước (Step-by-Step & Water Cues)
 1. **Cách tập Sighting ngay trong bể bơi**: Dán 1 chai nước màu sáng (hoặc nón bơi) lên thành bể. Bơi `6 sải` → nâng nhẹ mắt kiểu *Alligator Eyes* nhìn đúng 0.3 giây vào chai nước → xoay ngang thở → úp mặt tiếp `6 sải`.
 2. **Mẹo chọn "Mốc lớn phía sau phao"**: Phao trên biển rất nhỏ và hay bị sóng che khuất. Trước khi xuất phát, hãy đứng trên bờ căn thẳng hàng từ phao hướng tới **một tòa nhà cao, ngọn cây lớn hay cột đèn trên bờ** — khi bơi bạn chỉ cần liếc 0.2 giây thấy mốc lớn đó là biết ngay mình đang đi thẳng!
 3. **Kỹ thuật Vòng Phao Gọn (*Corkscrew / Buoy Turn*)**: Khi tiến sát phao cần rẽ trái 90°, thực hiện 1 sải tay trái ôm chặt quanh phao kết hợp xoay ngửa nhẹ 1 nhịp (hoặc quạt tay phải rộng hơn 1 sải) để quay hướng tức thì không bị dạt rộng ra ngoài.
@@ -73,14 +65,13 @@ Thành thạo **Alligator Eyes Sighting** + **Drafting** + **Thở hai bên (Bil
 ![Minh họa kỹ thuật Alligator Eyes Sighting và vùng áp suất thấp khi Foot/Hip Drafting](../images/15-open-water-sighting-drafting.png)
 <!-- IMAGE_PROMPT: Dual-panel open water swimming technical diagram: Top panel shows "Alligator Eyes Sighting" waterline profile with only eyes clearing the surface while mouth stays submerged, followed by a sideways breath; Bottom panel shows Overhead View of Foot Drafting (0-50cm behind toes, -20% drag) and Hip Drafting (riding the bow wave wake, -12% drag). -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **Kiểm tra độ lệch thẳng tự nhiên của bạn (*Blind Straight-Line Test*)**: Trong bể bơi (hoặc biển lặng), nhắm mắt bơi thử `15–20 sải` rồi mở mắt xem bạn bị trôi lệch sang trái hay sang phải. Biết hướng lệch tự nhiên giúp bạn chỉnh lại độ đối xứng tay và biết nên ngắm phao thưa hay dày hơn!
 - **Bơi với bộ đồ Wetsuit**: Wetsuit tăng mạnh lực nổi ở vùng hông và đùi (tương tự Pull Buoy toàn thân), giúp bạn giữ **2-Beat Kick cực tiết kiệm sức** nhưng lại tăng nhẹ sức cản ở vai — hãy đảm bảo kéo ống tay áo Wetsuit lên thật sát nách trước khi bơi để vai thoải mái tối đa.
 
 ---
 
-## Drills (Tập Open Water Ngay Trong Bể Bơi)
+## Bài Tập Thực Hành (Drills — Tập Open Water Ngay Trong Bể Bơi)
 
 | Tên Drill | Mục tiêu Open Water | Cự ly / Số hiệp | Cảm giác đúng (Cue) |
 | :--- | :--- | :--- | :--- |
@@ -90,8 +81,7 @@ Thành thạo **Alligator Eyes Sighting** + **Drafting** + **Thở hai bên (Bil
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Thiết bị / Góc quay khuyến nghị:** Đồng hồ GPS Open Water (vẽ quỹ đạo thực tế trên bản đồ vệ tinh) + Video góc ngang mặt nước cho kỹ thuật Sighting.
 - **Chỉ số cần trích xuất:** Tỷ lệ **Độ thẳng đường bơi (*Route Efficiency = Quãng đường thực tế GPS / Quãng đường thẳng*)**, thời lượng nâng đầu Sighting (`t_sight`), độ sụt hông khi Sighting.
 - **Ngưỡng phát hiện lỗi tự động:**
@@ -100,8 +90,7 @@ Thành thạo **Alligator Eyes Sighting** + **Drafting** + **Thở hai bên (Bil
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Vừa ngắm phía trước vừa hít hơi** | Hông chìm sâu, tốc độ tụt thê thảm sau mỗi lần ngắm | Không tách biệt được thao tác nhìn và thao tác thở | Thực hành quy tắc **Alligator Eyes (Ngắm trước) → Xoay ngang thở** |
@@ -111,8 +100,7 @@ Thành thạo **Alligator Eyes Sighting** + **Drafting** + **Thở hai bên (Bil
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi thành thạo kỹ thuật **Alligator Eyes Sighting** (ngắm `0.3s` phía trước → xoay ngang hít hơi) mà không làm chìm hông.
 - [ ] Tôi có thể thở thoải mái ở cả hai bên trái và phải để chủ động né hướng sóng đánh.
 - [ ] Tôi biết cách điều chỉnh **tăng nhẹ +4–6 SPM** và rút ngắn pha trượt khi gặp sóng hoặc dòng chảy ngược.
@@ -121,8 +109,7 @@ Thành thạo **Alligator Eyes Sighting** + **Drafting** + **Thở hai bên (Bil
 
 ---
 
-## KPI
-
+## Chỉ Số Đo Lường (KPI)
 | Chỉ số (Metric) | Người mới Open Water | Trung cấp | Nâng cao (`< 1:30/100m`) |
 | :--- | :---: | :---: | :---: |
 | **Độ lệch quỹ đạo GPS (*Route Efficiency*)** | `> 1.10` (+10% quãng đường) | `1.04–1.08` | `≤ 1.03` (gần như thẳng tắp) |
@@ -131,8 +118,7 @@ Thành thạo **Alligator Eyes Sighting** + **Drafting** + **Thở hai bên (Bil
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Nên ngắm phao sau bao nhiêu sải tay là tối ưu nhất?**
 - Nước lặng, đã có người dẫn đường để Drafting: mỗi **`10–15 sải`**.
 - Biển có sóng/dòng chảy ngang, bơi độc lập: mỗi **`6–8 sải`**.
@@ -146,8 +132,7 @@ Hãy luôn **khởi động 5–10 phút dưới nước trước giờ xuất p
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - 4 kỹ năng cốt lõi chinh phục Open Water: **Alligator Eyes Sighting (Tách Ngắm & Thở) + Foot/Hip Drafting (-15–25% sức) + Tăng nhẹ SPM cắt sóng + Thở được cả hai bên né sóng**.
 - Tập luyện toàn bộ kỹ năng Open Water ngay trong bể bơi (`Sighting`, `Pool Drafting Train`, `Buoy Turns`) ít nhất 4–6 tuần trước ngày thi đấu.
 
@@ -159,8 +144,7 @@ Hãy luôn **khởi động 5–10 phút dưới nước trước giờ xuất p
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Chatard, J. C., & Wilson, B. (2003). *Drafting distance in swimming*. Medicine & Science in Sports & Exercise, 35(7), 1176–1181.
 2. Newsome, P., & Young, A. (2012). *Swim Smooth: The Complete Coaching System for Swimmers and Triathletes*. Wiley.
 3. World Aquatics — *Open Water Technical & Safety Manual*.

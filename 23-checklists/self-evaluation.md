@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `23-checklists/` | **Tần suất sử dụng:** Mỗi 2–4 tuần | **Thời gian thực hiện:** ~5 phút sau buổi bơi
 
-## Overview
-
+## Tổng Quan (Overview)
 Tài liệu này là **bảng kiểm tự chấm điểm thực chiến (Thang 100 điểm)** dành cho người bơi tự rèn luyện tại hồ mà không có HLV đứng bên cạnh. Bằng cách trả lời trung thực 20 tiêu chí cảm thụ bản thể (*Proprioception*) và chỉ số định lượng chia theo 5 nhóm, bạn sẽ xác định ngay lập tức **nút thắt lớn nhất đang kìm hãm tốc độ của mình** và mở đúng chương sửa lỗi tương ứng.
 
 - **Mục tiêu cốt lõi:** Tự chấm điểm định kỳ sau mỗi Block 4 tuần để theo dõi sự tiến bộ từ mức Cơ bản (`< 50 điểm`) lên mức Nâng cao `< 1:30/100m` (`≥ 85 điểm`).
@@ -11,13 +10,13 @@ Tài liệu này là **bảng kiểm tự chấm điểm thực chiến (Thang 1
 
 ---
 
-## Theory & Cách Chấm Điểm
+## Lý Thuyết (Theory) & Cách Chấm Điểm
 
 ```mermaid
 flowchart LR
-    A["Tự Chấm 20 Tiêu Chí\n(Tổng 100 điểm)"] --> B["Nhóm Điểm Thấp Nhất\n= Nút Thắt Số 1"]
-    B --> C["Tra Bảng Ánh Xạ\n→ Chọn ĐÚNG 1–2 Drill"]
-    C --> D["Tập Liên Tục 3–4 Tuần\n→ Tự Chấm Lại"]
+    A["Tự Chấm 20 Tiêu Chí<br/>(Tổng 100 điểm)"] --> B["Nhóm Điểm Thấp Nhất<br/>= Nút Thắt Số 1"]
+    B --> C["Tra Bảng Ánh Xạ<br/>→ Chọn ĐÚNG 1–2 Drill"]
+    C --> D["Tập Liên Tục 3–4 Tuần<br/>→ Tự Chấm Lại"]
 ```
 
 ---
@@ -67,8 +66,7 @@ flowchart LR
 
 ---
 
-## Summary & References
-
+## Tóm Tắt & Tài Liệu Tham Khảo (Summary & References)
 - Thực hiện lại bảng tự đánh giá này sau mỗi **4 tuần** để đảm bảo bạn luôn tập đúng nút thắt quan trọng nhất.
 - **Liên kết chéo:** [Coach Evaluation](coach-evaluation.md) · [Video Evaluation](video-evaluation.md) · [Bảng Chuẩn Benchmarks](../benchmarks/performance-benchmarks.md) · [Glossary](../24-appendix/glossary.md)
 

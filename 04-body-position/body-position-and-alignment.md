@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `04-body-position/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 Mọi kỹ thuật tay và chân trong bơi sải đều chỉ phát huy tối đa tác dụng khi được xây trên một **khung thân ngang, thẳng trục và ổn định**. Nếu đầu ngẩng cao 10 cm, hông lập tức rơi xuống 20–30 cm, biến cơ thể từ một chiếc thuyền kayak thuôn dài thành một chiếc sà lan chắn nước. Chương này hướng dẫn cách thiết lập tư thế thân ngang chuẩn mực để bơi nhanh hơn mà tay nhẹ hơn.
 
 - **Mục tiêu cốt lõi:** Duy trì trục thẳng `Đỉnh đầu → Cột sống cổ → Cột sống ngực → Xương chậu → Gót chân` song song mặt nước (`< 5°`).
@@ -12,8 +11,7 @@ Mọi kỹ thuật tay và chân trong bơi sải đều chỉ phát huy tối �
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Trong hình học thủy động lực học, cơ thể người bơi được mô hình hóa như một **trục trụ dài (Longitudinal Axis)** xoay quanh đường nối từ đỉnh đầu tới giữa hai mắt cá chân.
 
 Tư thế thân lý tưởng đạt được khi thỏa mãn đồng thời 3 điều kiện:
@@ -23,10 +21,8 @@ Tư thế thân lý tưởng đạt được khi thỏa mãn đồng thời 3 đ
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 Diện tích mặt cắt ngang cản nước ($A$) phụ thuộc trực tiếp vào góc nghiêng thân ($\theta$):
 
 $$A(\theta) \approx A_0 \cos\theta + L \cdot w \cdot \sin\theta$$
@@ -36,32 +32,28 @@ $$A(\theta) \approx A_0 \cos\theta + L \cdot w \cdot \sin\theta$$
   - Ở góc thân chìm **$\theta = 15°$** (chỉ do ngẩng đầu nhìn trước): $A \approx 0.241\text{ m}^2$ (**tăng hơn gấp đôi lực cản hình học Form Drag!**).
 - Theo phương trình công suất [Vật lý bơi](../01-foundation/physics-of-swimming.md), tăng gấp đôi $A$ đồng nghĩa bạn phải tiêu hao **gấp đôi năng lượng** để giữ cùng một tốc độ.
 
-### Biomechanics
-
+### Cơ Sinh Học (Biomechanics)
 - **Tư thế đầu & cột sống cổ (*Neutral Cervical Spine*)**: Đầu nặng `4.5–5.5 kg`. Khi ngẩng đầu nhìn thẳng về trước, cơ dựng sống cổ (*Cervical Extensors*) co cứng, kéo cong cột sống thắt lưng theo phản xạ chuỗi động học (*Lordosis*), làm giãn cơ bụng và đánh rơi hông.
 - **Khóa xương chậu trung tính (*Neutral Pelvis*)**: Xoay nhẹ xương chậu ra sau (*Slight Posterior Pelvic Tilt*) bằng cơ bụng dưới và cơ mông nhẹ giúp làm phẳng đường cong thắt lưng, biến cột sống thành một thanh dẫn lực liên tục.
 
 ```mermaid
 flowchart TD
     A["Vị trí đầu & ánh mắt"] --> B{"Góc nhìn?"}
-    B -->|"Nhìn đáy hồ (0–15°)\nCổ trung tính"| C["Cột sống ngực & thắt lưng thẳng"]
-    C --> D["Xương chậu trung tính\nHông & gót chân tự nổi"]
-    D --> E["Diện tích cản A tối thiểu\nTốc độ cao, tay nhẹ"]
-    B -->|"Ngẩng đầu (> 30°)\nNhìn tường đích"| F["Gập cổ → Võng lưng dưới"]
-    F --> G["Hông & chân chìm 15–20°\nTăng gấp đôi Form Drag"]
-    G --> H["Phải gồng tay & đập chân mạnh\nHụt hơi sớm"]
+    B -->|"Nhìn đáy hồ (0–15°)<br/>Cổ trung tính"| C["Cột sống ngực & thắt lưng thẳng"]
+    C --> D["Xương chậu trung tính<br/>Hông & gót chân tự nổi"]
+    D --> E["Diện tích cản A tối thiểu<br/>Tốc độ cao, tay nhẹ"]
+    B -->|"Ngẩng đầu (> 30°)<br/>Nhìn tường đích"| F["Gập cổ → Võng lưng dưới"]
+    F --> G["Hông & chân chìm 15–20°<br/>Tăng gấp đôi Form Drag"]
+    G --> H["Phải gồng tay & đập chân mạnh<br/>Hụt hơi sớm"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Khi trục đầu–hông nằm phẳng `< 5°`, nước tách đều qua đỉnh đầu (*Crown of the Head*), tạo ra sóng mũi (*Bow Wave*) mượt mà giúp bạn xoay thở dễ dàng mà không cần nhấc đầu. Cơ thể trở thành một "khung cứng thuôn dài", cho phép mỗi lực đẩy từ tay và hông chuyển hóa trực tiếp thành quãng đường tiến tới (DPS).
 
-### Step-by-Step Execution & Water Cues
-
+### Hướng Dẫn Từng Bước & Cảm Giác Nước (Step-by-Step & Water Cues)
 1. **Định vị đường nước trên đầu**: Mặt nước phải cắt ngang qua **đỉnh trán / đường chân tóc** (giữa trán đến đỉnh đầu), không bao giờ nằm dưới lông mày hay ở mũi.
 2. **Định hướng ánh mắt**: Nhìn thẳng xuống gạch đáy hồ ngay bên dưới cằm (hoặc chếch nhẹ tối đa `10–15°` về phía trước ở tốc độ cao).
 3. **Kéo dài cột sống (*Tall Posture*)**: Tưởng tượng có một sợi dây vô hình kéo nhẹ đỉnh đầu về phía tường đích và một sợi dây khác kéo hai mũi bàn chân về phía tường ngược lại.
@@ -70,15 +62,13 @@ Khi trục đầu–hông nằm phẳng `< 5°`, nước tách đều qua đỉn
 ![Minh họa đường nước cắt qua đỉnh đầu và trục thẳng đầu–vai–hông–gót chân](../images/04-body-position-alignment.png)
 <!-- IMAGE_PROMPT: Technical underwater side profile of an elite freestyle swimmer showing a straight laser reference line passing through ear, shoulder, hip, knee, and ankle at < 5 degrees to the water surface, with waterline crossing the crown of the head and subtle bow wave pocket beside the cheek. -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **Bơi tốc độ cao (`< 1:25/100m`) vs Đường dài (`1:35–1:50/100m`)**: Ở tốc độ rất cao (Sprint), lực nâng thủy động tự nhiên đẩy phần vai và ngực cao hơn một chút (*Hydroplaning*), nên VĐV Sprint có thể nhìn chếch về trước `15–20°` mà hông vẫn nổi. Với người bơi dưới ngưỡng đó, nhìn thẳng đáy hồ `0–10°` luôn an toàn và hiệu quả hơn.
 - **Dùng ống thở trung tâm (Center Snorkel)**: Tập 200–400m đầu buổi với Snorkel để tách hoàn toàn yếu tố xoay thở ra khỏi việc cảm nhận trục đầu–hông chuẩn.
 
 ---
 
-## Drills
-
+## Bài Tập Thực Hành (Drills)
 | Tên Drill | Mục tiêu tư thế | Cự ly / Số hiệp | Cảm giác đúng (Cue) |
 | :--- | :--- | :--- | :--- |
 | **Snorkel Alignment Swim** | Khóa cố định trục đầu–cột sống–hông không bị nhiễu bởi hơi thở | `4 × 50m` (nghỉ 15s) | Đầu hoàn toàn bất động như gắn trên trục quay, gót chân lướt sát mặt nước |
@@ -90,8 +80,7 @@ Khi trục đầu–hông nằm phẳng `< 5°`, nước tách đều qua đỉn
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang dưới nước (Underwater Side View) và Trên cao (Overhead View).
 - **Keypoints cần trích xuất:** `ear`, `shoulder`, `hip`, `knee`, `ankle`, đường mặt nước (`waterline_y`).
 - **Ngưỡng phát hiện lỗi tự động:**
@@ -100,8 +89,7 @@ Khi trục đầu–hông nằm phẳng `< 5°`, nước tách đều qua đỉn
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Nhìn về phía trước tường** | Đau gáy, sóng đánh vào trán, chân chìm sâu | Sợ đụng tường hoặc thói quen bơi ếch/bơi đầu nổi | Nhìn thẳng đáy hồ, đếm nhịp từ vạch chữ T cách tường 2m |
@@ -111,8 +99,7 @@ Khi trục đầu–hông nằm phẳng `< 5°`, nước tách đều qua đỉn
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Mặt nước luôn chạm vào vùng đỉnh trán / chân tóc khi tôi đang bơi bình thường.
 - [ ] Đầu tôi giữ cố định hoàn toàn (không lắc trái–phải) giữa các nhịp thở.
 - [ ] Tôi có cảm giác phần gót chân và bắp chân sát mặt nước mà không cần đập chân mạnh.
@@ -121,8 +108,7 @@ Khi trục đầu–hông nằm phẳng `< 5°`, nước tách đều qua đỉn
 
 ---
 
-## KPI
-
+## Chỉ Số Đo Lường (KPI)
 | Chỉ số (Metric) | Người mới | Trung cấp | Nâng cao (`< 1:30/100m`) |
 | :--- | :---: | :---: | :---: |
 | **Góc thẳng trục Đầu–Vai–Hông** | `< 160°` | `165–172°` | `174–180°` |
@@ -132,8 +118,7 @@ Khi trục đầu–hông nằm phẳng `< 5°`, nước tách đều qua đỉn
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Khi bơi ngoài trời / Open Water cần nhìn phao thì giữ đầu thế nào?**
 Trong Open Water, bạn vẫn giữ tư thế nhìn đáy 90% thời gian, chỉ nâng nhẹ mắt vừa qua mặt nước ("mắt cá sấu" — *Sighting*) trong `0.5 giây` mỗi 6–10 sải rồi hạ ngay về trục chuẩn. Xem chi tiết tại [Open Water Skills](../15-open-water/open-water-skills.md).
 
@@ -145,8 +130,7 @@ Có, bằng cách ưu tiên tập mở cột sống ngực (*Thoracic Extension*
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - Tư thế thân ngang (`< 5°`) là nền móng số 1 cắt giảm tới **50% Form Drag** mà không cần thêm lực tay.
 - Ba điểm neo tư thế: **Mặt nước ngang đỉnh trán + Mắt nhìn đáy hồ + Xương chậu trung tính**.
 - Đầu đóng vai trò "bánh lái cố định" — giữ đầu bất động giữa các nhịp thở giúp toàn bộ chuỗi xoay hông–vai vận hành trơn tru.
@@ -159,8 +143,7 @@ Có, bằng cách ưu tiên tập mở cột sống ngực (*Thoracic Extension*
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Newsome, P., & Young, A. (2012). *Swim Smooth: The Complete Coaching System for Swimmers and Triathletes*. Wiley.
 2. Maglischo, E. W. (2003). *Swimming Fastest*. Human Kinetics.
 3. USA Swimming Coaching Education — *Freestyle Body Position & Alignment Standards*.

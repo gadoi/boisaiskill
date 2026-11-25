@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `datasets/` | **Trình độ:** Trung cấp → Nâng cao | **Thời gian đọc:** ~10 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 Để huấn luyện hoặc đánh giá bất kỳ mô hình AI phân tích bơi sải nào (Pose Estimation, Stroke Phase Segmentation, Error Classification), **cấu trúc dữ liệu chuẩn hóa (*Dataset Schema*)** là yếu tố sống còn. Tài liệu này định nghĩa chuẩn JSON/COCO mở rộng dành riêng cho bộ dữ liệu video bơi sải (`SwimPose-VN / Freestyle-Dataset`), đảm bảo tính nhất quán giữa người quay, HLV gắn nhãn và kỹ sư AI.
 
 - **Mục tiêu cốt lõi:** Chuẩn hóa cấu trúc thư mục video, định dạng file metadata JSON, 19 điểm khớp mở rộng (*COCO-17 + 2 Toe/Finger Tips*), nhãn pha động tác và nhãn lỗi kỹ thuật.
@@ -12,8 +11,7 @@
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Một mẫu dữ liệu chuẩn (*Sample Unit*) cho bài toán AI phân tích bơi sải gồm **3 thành phần đồng bộ**:
 1. **Raw Video Clip**: Đoạn video `10–30 giây` (`1080p @ 60–120fps Linear FOV`) của 1 chiều bể `25m` hoặc `50m`.
 2. **Metadata & Calibration JSON**: Thông tin VĐV (chiều cao $H$ để chuẩn hóa DPS), chiều dài bể, góc camera, tỷ lệ quy đổi `pixels_per_meter` và `waterline_y`.
@@ -21,38 +19,34 @@ Một mẫu dữ liệu chuẩn (*Sample Unit*) cho bài toán AI phân tích b�
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 - **Chuẩn hóa bất biến tỷ lệ (*Scale-Invariant Normalization*)**: Mọi tọa độ khớp thô `(x, y)` phải được chuẩn hóa theo **chiều dài thân trên (`shoulder → hip`)** hoặc **chiều cao cơ thể $H$** để mô hình AI không bị sai lệch giữa người cao `1.60 m` và `1.90 m`, hoặc giữa khoảng cách camera `2.5 m` và `4.0 m`.
 - **Trạng thái hiển thị điểm khớp (`visibility`)**:
   - `0`: Không có trong khung hình (*Out of Frame*).
   - `1`: Bị che khuất bởi bọt khí hoặc thân người (*Occluded — ước lượng*).
   - `2`: Hiển thị rõ nét 100% (*Visible*).
 
-### Biomechanics — Bộ 19 Keypoints Mở Rộng (COCO-17 + 2 Điểm Đỉnh Thủy Động)
+### Cơ Sinh Học (Biomechanics) — Bộ 19 Keypoints Mở Rộng (COCO-17 + 2 Điểm Đỉnh Thủy Động)
 
 So với chuẩn COCO-17 thông thường, bơi sải **bắt buộc bổ sung 2 điểm mút** (hoặc 4 điểm trái–phải): `left/right_middle_finger_tip` (để đo góc cổ tay & điểm vào nước) và `left/right_toe_tip` (để đo chính xác góc duỗi cổ chân *Plantar Flexion*!).
 
 ```mermaid
 flowchart LR
-    A["Raw Video (.mp4)\n1080p @ 60–120fps Linear"] --> B["Metadata JSON\n(Pool 25/50m, Angle, Height H)"]
-    B --> C["Keypoints JSON\n(19–21 điểm/frame, x, y, vis)"]
-    C --> D["Events JSON\n(Entry, Pull, Push, Breath, Kick)"]
-    D --> E["Error Labels JSON\n(Dropped Elbow, Crossover, Hip Drop...)"]
-    E --> F["Training / Eval Pipeline\n(YOLOv8-Pose, RTMPose, TCN)"]
+    A["Raw Video (.mp4)<br/>1080p @ 60–120fps Linear"] --> B["Metadata JSON<br/>(Pool 25/50m, Angle, Height H)"]
+    B --> C["Keypoints JSON<br/>(19–21 điểm/frame, x, y, vis)"]
+    C --> D["Events JSON<br/>(Entry, Pull, Push, Breath, Kick)"]
+    D --> E["Error Labels JSON<br/>(Dropped Elbow, Crossover, Hip Drop...)"]
+    E --> F["Training / Eval Pipeline<br/>(YOLOv8-Pose, RTMPose, TCN)"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Cấu trúc JSON gọn nhẹ, tách rõ `metadata`, `frames` và `events` giúp bạn dễ dàng nhập xuất trực tiếp với **CVAT**, **Label Studio**, **Kinovea XML** và các framework **PyTorch / MMPose / Ultralytics**.
 
-### Step-by-Step Execution — Chuẩn JSON Mẫu (`sample_annotation.json`)
+### Hướng Dẫn Từng Bước (Step-by-Step) — Chuẩn JSON Mẫu (`sample_annotation.json`)
 
 ```json
 {
@@ -98,13 +92,12 @@ Cấu trúc JSON gọn nhẹ, tách rõ `metadata`, `frames` và `events` giúp 
 ![Sơ đồ luồng dữ liệu từ hồ bơi vào kho Dataset AI chuẩn hóa](../images/20-dataset-pipeline.png)
 <!-- IMAGE_PROMPT: Clean software architecture & sports data diagram showing pool video clips entering a structured folder tree (raw_videos/, annotations_json/, calibrated_keypoints/) with a visual callout of the 21-keypoint underwater swimmer skeleton and JSON event schema. -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **Chia tập dữ liệu theo ID Người Bơi (*Subject-Disjoint Split*)**: Khi chia `Train / Val / Test (70/15/15)`, **tuyệt đối không để video của cùng 1 người bơi xuất hiện ở cả tập Train lẫn tập Test** (tránh *Data Leakage* làm độ chính xác ảo).
 
 ---
 
-## Drills (Quy Trình Thu Thập Dữ Liệu Sạch Tại Hồ)
+## Bài Tập Thực Hành (Drills — Quy Trình Thu Thập Dữ Liệu Sạch Tại Hồ)
 
 | Bước thu thập | Yêu cầu chuẩn | Số lượng tối thiểu cho 1 bộ mini-dataset |
 | :--- | :--- | :--- |
@@ -113,14 +106,12 @@ Cấu trúc JSON gọn nhẹ, tách rõ `metadata`, `frames` và `events` giúp 
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Định dạng lưu trữ khuyến nghị:** Lưu danh sách khung hình nặng dưới dạng `.parquet` hoặc `.npz` (NumPy compressed) khi tập dữ liệu vượt `100.000` khung hình để tăng tốc độ đọc gấp `10×` so với JSON thuần.
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Thiếu trường `swimmer_height_cm` & `pixels_per_meter`** | Không tính được DPS và vận tốc thực (m/s) | Quên đo mốc chuẩn khi thu thập video | Bắt buộc điền đầy đủ block `metadata` trước khi lưu kho |
@@ -128,16 +119,14 @@ Cấu trúc JSON gọn nhẹ, tách rõ `metadata`, `frames` và `events` giúp 
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi hiểu rõ cấu trúc 3 tầng của một mẫu dữ liệu bơi AI (`Video + Metadata + Annotations`).
 - [ ] Tôi nắm được danh sách 8 mã lỗi chuẩn hóa (`ERR_HEAD_UP` → `ERR_OVER_GLIDE`) và ánh xạ trực tiếp sang tài liệu sửa lỗi.
 - [ ] Tôi biết quy tắc chia tập dữ liệu theo ID người bơi (*Subject-Disjoint Split*) để tránh rò rỉ dữ liệu.
 
 ---
 
-## KPI
-
+## Chỉ Số Đo Lường (KPI)
 | Chỉ số chất lượng Dataset | Ngưỡng đạt chuẩn |
 | :--- | :---: |
 | **Độ đồng thuận gán nhãn giữa 2 HLV (*Inter-Rater Kappa*)** | `≥ 0.85` |
@@ -146,8 +135,7 @@ Cấu trúc JSON gọn nhẹ, tách rõ `metadata`, `frames` và `events` giúp 
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Có bộ dữ liệu bơi lội mã nguồn mở nào có thể dùng thử nghiệm ngay không?**
 Bạn có thể tham khảo **SwimmerNET / FineGym / SportsMOT** hoặc bộ dữ liệu nghiên cứu của **Zecha & Lienhart (University of Augsburg)** về *Underwater Swimmer Pose Estimation* để pre-train mô hình trước khi fine-tune bằng video tự quay theo schema này.
 
@@ -156,8 +144,7 @@ Không! Chỉ cần gán nhãn các khung hình chốt (*Keyframes*, khoảng m�
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - **Dataset Schema** chuẩn hóa toàn bộ vòng đời dữ liệu bơi AI từ `Raw Video` → `Metadata hiệu chuẩn` → `19–21 Keypoints` → `Events & 8 Mã lỗi chuẩn`.
 - Là nền tảng kết nối trực tiếp kho tri thức kỹ thuật `swim-book` với các hệ thống Computer Vision hiện đại.
 
@@ -168,8 +155,7 @@ Không! Chỉ cần gán nhãn các khung hình chốt (*Keyframes*, khoảng m�
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Lin, T. Y., et al. (2014). *Microsoft COCO: Common Objects in Context*. ECCV.
 2. Zecha, D., Einfalt, M., Eggert, C., & Lienhart, R. (2018). *Kinematic Pose Rectification for Performance Analysis and Retrieval in Sports*. IEEE CVPR Workshops.
 3. CVAT Open-Source Annotation Platform Documentation.

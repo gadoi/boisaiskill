@@ -2,8 +2,7 @@
 
 > **Thuộc phần:** `14-stroke-count/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
 
-## Overview
-
+## Tổng Quan (Overview)
 Nếu **DPS** là độ dài mỗi bước chạy, thì **Tempo (Stroke Rate — SPM)** là guồng chân và **Stroke Count** là tổng số sải bạn cần để hoàn thành 1 chiều bể `25m` hoặc `50m`. Rất nhiều người bơi phong trào mắc kẹt ở hai thái cực sai lầm: hoặc **quạt quá nhanh nhưng sải cực ngắn** (`SPM > 85`, `24 sải/25m`), hoặc **giảm Stroke Count quá mức bằng cách lờ đờ trượt** (`SPM < 50`, `13 sải/25m` nhưng bơi mất 26 giây). Chương này hướng dẫn bạn tìm ra **điểm ngọt tối ưu giữa Stroke Count thấp và Tempo đủ sắc** để chinh phục `< 1:30/100m`.
 
 - **Mục tiêu cốt lõi:** Giảm **Stroke Count** xuống vùng hiệu suất tối ưu theo chiều cao (thường `14–18 sải/25m`), đồng thời làm chủ công cụ **Tempo (SPM)** từ `60 → 80+ SPM` mà không làm vỡ kỹ thuật EVF.
@@ -12,8 +11,7 @@ Nếu **DPS** là độ dài mỗi bước chạy, thì **Tempo (Stroke Rate —
 
 ---
 
-## Theory
-
+## Lý Thuyết (Theory)
 Mối liên hệ thực tế giữa **Stroke Count (SC)**, **Tempo (SPM)** và **Thời gian 25m ($t_{25}$)**:
 - Trong một chiều bể `25m` (giả sử bạn trượt Streamline từ tường được `5 m` trong `3.0 giây`, còn `20 m` bơi mặt nước):
   $$t_{\text{swim}} = \frac{\text{SC}}{\text{SPM}} \times 60 \implies t_{25} \approx 3.0 + \frac{60 \cdot \text{SC}}{\text{SPM}}$$
@@ -31,16 +29,13 @@ Mối liên hệ thực tế giữa **Stroke Count (SC)**, **Tempo (SPM)** và *
 
 ---
 
-## Science
-
-### Physics & Hydrodynamics
-
+## Cơ Sở Khoa Học (Science)
+### Vật Lý & Thủy Động Lực Học (Physics & Hydrodynamics)
 Tại sao tồn tại một **"Tần suất tới hạn" (*Critical Stroke Rate*)** mà nếu bạn vượt qua nó, bạn lại bơi chậm đi?
 - Ở tần suất tối ưu (`SPM_opt`), thời gian dành cho pha Catch đủ dài để thiết lập góc EVF chắc chắn, nên **DPS giữ nguyên** khi SPM tăng → $v$ tăng tuyến tính.
 - Khi bạn ép SPM vượt quá ngưỡng kiểm soát thần kinh–cơ của mình (`SPM > SPM_opt`), bạn không còn đủ thời gian dựng cẳng tay EVF và hoàn tất pha Push → **DPS sụp đổ nhanh hơn mức tăng của SPM** → vận tốc $v = \text{DPS} \times \text{SPM}/60$ thực tế **giảm xuống** trong khi nhịp tim tăng vọt!
 
-### Biomechanics
-
+### Cơ Sinh Học (Biomechanics)
 **Phương pháp "Ramp Test" (Tìm Điểm Ngọt SPM cá nhân của SwimSmooth):**
 Bơi liên tiếp `8 × 50m` với **Tempo Trainer** (nghỉ 20s mỗi 50m), bắt đầu từ nhịp chậm thoải mái (ví dụ `1.15 giây/sải` ≈ `52 SPM`) và tăng nhanh dần `0.05 giây/sải` sau mỗi 50m (`1.10 → 1.05 → 1.00 → 0.95 → 0.90 → 0.85 → 0.80`).
 - Ghi lại **Thời gian 50m** và **Cảm nhận nỗ lực (RPE 1–10)** ở từng mức.
@@ -48,25 +43,22 @@ Bơi liên tiếp `8 × 50m` với **Tempo Trainer** (nghỉ 20s mỗi 50m), b�
 
 ```mermaid
 flowchart TD
-    A["Thực hiện Ramp Test 8 × 50m\n(Tăng dần Tempo SPM mỗi 50m)"] --> B{"Khi tăng +3 SPM:\nThời gian 50m thế nào?"}
-    B -->|"Nhanh hơn ≥ 0.8 giây\n& Tay vẫn bám nước chắc"| C["Vùng Hiệu Suất Tăng Trưởng\n(Chưa chạm trần SPM)"]
+    A["Thực hiện Ramp Test 8 × 50m<br/>(Tăng dần Tempo SPM mỗi 50m)"] --> B{"Khi tăng +3 SPM:<br/>Thời gian 50m thế nào?"}
+    B -->|"Nhanh hơn ≥ 0.8 giây<br/>& Tay vẫn bám nước chắc"| C["Vùng Hiệu Suất Tăng Trưởng<br/>(Chưa chạm trần SPM)"]
     C --> D["Tiếp tục tăng nhịp ở 50m tiếp"]
-    B -->|"Nhanh hơn < 0.3 giây hoặc Chậm đi\n& Stroke Count nhảy vọt"| E["Đã vượt Điểm Ngọt SPM!\n(Trượt nước / Vỡ EVF)"]
-    E --> F["Lùi lại 1 nấc (0.05s/sải)\n= Tempo Mục Tiêu cho Giáo Án CSS"]
+    B -->|"Nhanh hơn < 0.3 giây hoặc Chậm đi<br/>& Stroke Count nhảy vọt"| E["Đã vượt Điểm Ngọt SPM!<br/>(Trượt nước / Vỡ EVF)"]
+    E --> F["Lùi lại 1 nấc (0.05s/sải)<br/>= Tempo Mục Tiêu cho Giáo Án CSS"]
 ```
 
 ---
 
-## Practical
-
-### Why It Works
-
+## Thực Hành (Practical)
+### Tại Sao Kỹ Thuật Này Hiệu Quả (Why It Works)
 Biết chính xác **Stroke Count mục tiêu** và **Tempo ngọt (SPM)** giúp bạn loại bỏ hoàn toàn sự mơ hồ khi tập luyện:
 - Nếu Stroke Count của bạn đang cao (`> 21 sải/25m` ở chiều cao 1.70m): Bạn biết ngay mình cần ưu tiên **giảm lực cản, sửa EVF và đẩy hết pha Push** trước.
 - Nếu Stroke Count của bạn đã rất thấp (`14–16 sải/25m`) nhưng pace vẫn chậm (`1:45/100m`): Bạn biết ngay vấn đề là **Tempo quá chậm (`< 55 SPM`)** gây Dead Spot — chỉ cần tập tăng nhẹ nhịp tay lên `65–72 SPM` bằng Tempo Trainer là tốc độ lập tức nhảy vọt `10–15 giây/100m`!
 
-### Step-by-Step Execution & Water Cues
-
+### Hướng Dẫn Từng Bước & Cảm Giác Nước (Step-by-Step & Water Cues)
 1. **Quy tắc Đếm Sải Đúng**: Đếm mỗi lần **1 bàn tay chạm nước** là 1 sải (`1, 2, 3, 4...`). Luôn bắt đầu đếm từ sải đầu tiên sau khi Breakout khỏi tường cho tới khi chạm tường đối diện.
 2. **Cách Giảm Stroke Count đúng chuẩn**:
    - Đạp tường Streamline + 2–3 Dolphin Kick vượt qua vạch `5m` (giảm ngay 2–3 sải "miễn phí").
@@ -79,8 +71,7 @@ Biết chính xác **Stroke Count mục tiêu** và **Tempo ngọt (SPM)** giúp
 ![Biểu đồ Ramp Test tìm điểm ngọt giữa Tempo (SPM), Stroke Count và Thời gian 50m](../images/14-stroke-count-tempo-ramp.png)
 <!-- IMAGE_PROMPT: Clean sports analytics dual-axis line graph illustrating a SwimSmooth Ramp Test (8 x 50m): X-axis shows Tempo increasing from 52 to 85 SPM; Left Y-axis shows 50m Time dropping then plateauing/rising after the green "Sweet Spot" (68-74 SPM); Right Y-axis shows Stroke Count staying flat through the Sweet Spot before spiking sharply in the red "Slipping/Burnout Zone". -->
 
-### Advanced Tips
-
+### Mẹo Nâng Cao (Advanced Tips)
 - **Quy đổi giữa giây/sải (Tempo Trainer Mode 1) và SPM**:
   $$\text{SPM} = \frac{60}{\text{Giây/sải}}$$
   - `1.00 s/sải` = `60 SPM` (Khởi động / Đường dài thong thả)
@@ -92,8 +83,7 @@ Biết chính xác **Stroke Count mục tiêu** và **Tempo ngọt (SPM)** giúp
 
 ---
 
-## Drills
-
+## Bài Tập Thực Hành (Drills)
 | Tên Drill | Mục tiêu Stroke Count & Tempo | Cự ly / Số hiệp | Cảm giác đúng (Cue) |
 | :--- | :--- | :--- | :--- |
 | **Ramp Test (Tìm Điểm Ngọt SPM)** | Xác định chính xác trần SPM kỹ thuật cá nhân | `8 × 50m` (nghỉ 20s, tăng 0.05s/sải) | Tìm ra nhịp nhanh nhất mà cảm giác tì nước EVF vẫn chắc đặc |
@@ -105,8 +95,7 @@ Biết chính xác **Stroke Count mục tiêu** và **Tempo ngọt (SPM)** giúp
 
 ---
 
-## AI Analysis
-
+## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Trên cao (Overhead View) hoặc dữ liệu cảm biến IMU đeo cổ tay/kính bơi.
 - **Keypoints cần trích xuất:** Chuỗi thời điểm chạm nước `t_entry[i]` của cổ tay trái/phải.
 - **Ngưỡng phát hiện lỗi tự động:**
@@ -115,8 +104,7 @@ Biết chính xác **Stroke Count mục tiêu** và **Tempo ngọt (SPM)** giúp
 
 ---
 
-## Common Errors
-
+## Lỗi Thường Gặp & Cách Sửa (Common Errors)
 | Lỗi thường gặp | Triệu chứng nhận biết | Nguyên nhân gốc | Cách sửa (Correction) |
 | :--- | :--- | :--- | :--- |
 | **Quá ám ảnh giảm Stroke Count** | Bơi 12–13 sải/25m nhưng cực kỳ chậm (`> 2:00/100m`) | Lướt chờ quá lâu (`SPM < 50`) làm mất toàn bộ đà tiến | Dùng Tempo Trainer nâng dần SPM lên `65–72` giữ nguyên độ dài EVF |
@@ -126,8 +114,7 @@ Biết chính xác **Stroke Count mục tiêu** và **Tempo ngọt (SPM)** giúp
 
 ---
 
-## Self Assessment
-
+## Tự Đánh Giá Tại Hồ (Self Assessment)
 - [ ] Tôi biết chính xác **Stroke Count trung bình / 25m** của mình ở tốc độ thoải mái và tốc độ CSS.
 - [ ] Tôi đã từng thực hiện bài **Ramp Test** (hoặc đếm SPM bằng đồng hồ) để biết điểm ngọt Tempo cá nhân.
 - [ ] Tôi biết cách tăng Tempo bằng cách rút gọn pha trượt và Recovery thay vì cắt cụt pha Push.
@@ -136,8 +123,7 @@ Biết chính xác **Stroke Count mục tiêu** và **Tempo ngọt (SPM)** giúp
 
 ---
 
-## KPI
-
+## Chỉ Số Đo Lường (KPI)
 | Chỉ số (Metric) | Người mới | Trung cấp | Nâng cao (`< 1:30/100m`) |
 | :--- | :---: | :---: | :---: |
 | **Stroke Count / 25m (chiều cao ~1.70m)** | `22–28 sải` | `18–21 sải` | `14–17 sải` |
@@ -147,8 +133,7 @@ Biết chính xác **Stroke Count mục tiêu** và **Tempo ngọt (SPM)** giúp
 
 ---
 
-## FAQ
-
+## Câu Hỏi Thường Gặp (FAQ)
 **1. Nên đặt mục tiêu bao nhiêu sải tay trên 25m là đẹp nhất?**
 Công thức tham khảo nhanh theo chiều cao (bể 25m, trượt tường 5m, ở tốc độ CSS):
 - Cao `1.60–1.68 m`: `16–19 sải/25m`
@@ -163,8 +148,7 @@ Bạn có thể dùng đồng hồ bơi (Garmin/Apple Watch có sẵn trường 
 
 ---
 
-## Summary
-
+## Tóm Tắt (Summary)
 - Tốc độ thực chiến là bài toán tối ưu hóa đồng thời **Stroke Count thấp (nhờ DPS thật)** và **Tempo (SPM) nằm đúng Điểm Ngọt cá nhân (`66–76 SPM`)**.
 - Thực hiện **Ramp Test** định kỳ mỗi 6–8 tuần để cập nhật trần SPM khi kỹ thuật EVF và thể lực tiến bộ.
 - Tăng Tempo bằng cách **rút gọn pha Glide và làm gọn Recovery**, tuyệt đối không cắt cụt pha Push.
@@ -177,8 +161,7 @@ Bạn có thể dùng đồng hồ bơi (Garmin/Apple Watch có sẵn trường 
 
 ---
 
-## References
-
+## Tài Liệu Tham Khảo (References)
 1. Newsome, P., & Young, A. (2012). *Swim Smooth: The Complete Coaching System for Swimmers and Triathletes*. Wiley.
 2. Costill, D. L., Kovaleski, J., Porter, D., Kirwan, J., Fielding, R., & King, D. (1985). *Energy expenditure during front crawl swimming: predicting success in middle-distance events* (Stroke Index). International Journal of Sports Medicine.
 3. Craig, A. B., et al. (1985). *Velocity, stroke rate, and distance per stroke during elite swimming competition*. Medicine & Science in Sports & Exercise.
