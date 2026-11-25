@@ -5,7 +5,7 @@ repo_url: https://github.com/gadoi/boisaiskill
 repo_name: gadoi/boisaiskill
 
 docs_dir: .
-site_dir: site
+site_dir: ../_site
 
 exclude_docs: |
   .git/
@@ -153,3 +153,4 @@ nav:
       - TASKS.md: TASKS.md
       - AGENT_RULES.md: AGENT_RULES.md
       - QUALITY.md: QUALITY.md
+
