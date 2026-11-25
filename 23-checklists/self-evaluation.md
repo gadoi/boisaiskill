@@ -1,3 +1,8 @@
+---
+title: "Bảng Tự Đánh Giá Kỹ Thuật Tại Hồ (Self Evaluation Checklist)"
+aliases: ["Bảng Tự Đánh Giá Kỹ Thuật Tại Hồ", "self-evaluation"]
+---
+
 # Bảng Tự Đánh Giá Kỹ Thuật Tại Hồ (*Self Evaluation Checklist*)
 
 > **Thuộc phần:** `23-checklists/` | **Tần suất sử dụng:** Mỗi 2–4 tuần | **Thời gian thực hiện:** ~5 phút sau buổi bơi

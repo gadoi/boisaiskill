@@ -1,3 +1,8 @@
+---
+title: "SWOLF, Critical Swim Speed (CSS) & Hệ Năng Lượng"
+aliases: ["SWOLF, Critical Swim Speed", "swolf-and-energy-systems"]
+---
+
 # SWOLF, Critical Swim Speed (CSS) & Hệ Năng Lượng
 
 > **Thuộc phần:** `14-stroke-count/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~12 phút

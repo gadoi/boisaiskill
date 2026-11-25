@@ -1,3 +1,8 @@
+---
+title: "Block 1 (Tuần 01–04): Tư Thế, Cân Bằng & Cảm Giác Nước"
+aliases: ["Block 1", "weeks-01-04"]
+---
+
 # Block 1 (Tuần 01–04): Tư Thế, Cân Bằng & Cảm Giác Nước
 
 > **Thuộc phần:** `22-training-plan/` | **Giai đoạn:** Xây Móng Thủy Động Lực Học | **Dryland:** Giai đoạn 1 (Mobility + Core nền)
@@ -50,46 +55,46 @@ Các buổi tập được chia rõ **3 Buổi Lõi (`S1, S2, S3`)** và **3 Bu�
 *(Tăng thêm `+10–15%` số hiệp ở Main Set vào Tuần 2–3, và giảm `-25%` số hiệp vào Tuần 4 Deload).*
 
 #### Buổi S1 — Lõi 1: Tư Thế, Cân Bằng & Thở (`~1.500–1.800m`)
-- **Warm-up (300m):** `200m` bơi nhẹ Z1 (nhìn đáy hồ, thở bọt đều) + `4 × 25m` Push & Glide Streamline (đo khoảng cách trượt).
-- **Drill Set (400m — dùng Short Fins):**
+- **Khởi động (Warm-up) (300m):** `200m` bơi nhẹ Z1 (nhìn đáy hồ, thở bọt đều) + `4 × 25m` Push & Glide Streamline (đo khoảng cách trượt).
+- **Bài tập kỹ thuật (Drill Set) (400m — dùng Short Fins):**
   - `4 × 25m` Press the T (Torpedo Kick, ấn nhẹ ngực nâng hông, `r:15s`)
   - `4 × 25m` Side-Glide One-Goggle Breathing (`r:15s`, giữ 1 mắt kính chạm nước)
   - `4 × 50m` (`25m Wide Catch-Up + 25m Swim` giữ nguyên hông nổi, `r:20s`)
-- **Main Set (600–900m — Z2 `CSS + 6s`):**
+- **Bài chính (Main Set) (600–900m — Z2 `CSS + 6s`):**
   - `6–9 × 100m` (nghỉ `20s`), tập trung tuyệt đối vào **thở ra liên tục dưới nước** và **đầu nhìn đáy** (luân phiên 100m thở 1:3 / 100m thở 2:2 đổi bên).
-- **Cool-down (200m):** `100m` ngửa thả lỏng + `100m` bơi sải cực êm không tiếng động.
+- **Thả lỏng (Cool-down) (200m):** `100m` ngửa thả lỏng + `100m` bơi sải cực êm không tiếng động.
 
 #### Buổi S2 — Lõi 2: Test CSS (Tuần 1) / Cảm Giác Nước & Pace Nền (`~1.500–1.900m`)
 - **Lưu ý Tuần 01:** Thực hiện **CSS Test #1** (`400m Warm-up` → `400m TT` → nghỉ 10p thả lỏng `200m` → `200m TT` → `200m Cool-down`).
 - **Tuần 02–04:**
-  - **Warm-up (300m):** `300m` nhẹ nhàng (thay đổi 50m sải / 25m ngửa).
-  - **Pre-Set Sculling (300m — PB + Snk):** `3 × 100m` (`25m Front Scull + 25m Mid Scull + 25m Rear Scull + 25m Swim`, `r:20s`).
-  - **Main Set (700–1.000m — Z2/Z3 nhẹ):** `7–10 × 100m @ CSS + 3s` (`r:20s`), đếm Stroke Count chiều 25m cuối mỗi hiệp, giữ không tăng sải.
-  - **Cool-down (200m):** Bơi thả lỏng Z1.
+  - **Khởi động (Warm-up) (300m):** `300m` nhẹ nhàng (thay đổi 50m sải / 25m ngửa).
+  - **Bài đệm kỹ thuật (Pre-Set) Sculling (300m — PB + Snk):** `3 × 100m` (`25m Front Scull + 25m Mid Scull + 25m Rear Scull + 25m Swim`, `r:20s`).
+  - **Bài chính (Main Set) (700–1.000m — Z2/Z3 nhẹ):** `7–10 × 100m @ CSS + 3s` (`r:20s`), đếm Stroke Count chiều 25m cuối mỗi hiệp, giữ không tăng sải.
+  - **Thả lỏng (Cool-down) (200m):** Bơi thả lỏng Z1.
 
 #### Buổi S3 — Lõi 3: Bền Bỉ Thư Giãn & Đếm Sải (`~1.600–2.000m`)
-- **Warm-up (300m):** `200m` Z1 + `4 × 25m` Silent Swimming (`r:15s`).
-- **Drill Set (300m):** `6 × 50m` (`25m Fingertip Drag + 25m Swim`, `r:15s`) — xả mỏi vai, vào nước "xỏ kim".
-- **Main Set (800–1.200m — Z2 `CSS + 6–8s`):**
+- **Khởi động (Warm-up) (300m):** `200m` Z1 + `4 × 25m` Silent Swimming (`r:15s`).
+- **Bài tập kỹ thuật (Drill Set) (300m):** `6 × 50m` (`25m Fingertip Drag + 25m Swim`, `r:15s`) — xả mỏi vai, vào nước "xỏ kim".
+- **Bài chính (Main Set) (800–1.200m — Z2 `CSS + 6–8s`):**
   - `4–6 × 200m` (`r:25s`), bơi đều 2-Beat Kick êm ái, giữ SWOLF ổn định suốt 200m (hiệp chẵn dùng Pull Buoy để cảm nhận hông nổi chuẩn).
-- **Cool-down (200m):** Thả lỏng Z1.
+- **Thả lỏng (Cool-down) (200m):** Thả lỏng Z1.
 
 #### Buổi S4 — Mở Rộng (Cho Lịch 4–6 buổi): Chân Gọn, Streamline & Nhịp Nhanh Ngắn (`~1.600–1.900m`)
-- **Warm-up (300m):** `300m` Z1 (Streamline vượt vạch 5m ở mọi thành bể).
-- **Kick & Core Set (400m):** `4 × 25m` Streamline Snorkel Kick (`r:20s`) + `4 × 25m` Short-Fin Dolphin Kick (`r:20s`) + `4 × 50m` (`25m Side Kick + 25m Swim`).
-- **Main Set (700–1.000m):** `14–20 × 50m` (`r:15s`) xen kẽ: 1 hiệp `@ CSS` chuẩn dáng + 1 hiệp `@ Z2` đếm SWOLF giảm 1 điểm.
-- **Cool-down (200m):** Z1 thả lỏng.
+- **Khởi động (Warm-up) (300m):** `300m` Z1 (Streamline vượt vạch 5m ở mọi thành bể).
+- **Bài tập chân & cơ lõi (Kick & Core Set) (400m):** `4 × 25m` Streamline Snorkel Kick (`r:20s`) + `4 × 25m` Short-Fin Dolphin Kick (`r:20s`) + `4 × 50m` (`25m Side Kick + 25m Swim`).
+- **Bài chính (Main Set) (700–1.000m):** `14–20 × 50m` (`r:15s`) xen kẽ: 1 hiệp `@ CSS` chuẩn dáng + 1 hiệp `@ Z2` đếm SWOLF giảm 1 điểm.
+- **Thả lỏng (Cool-down) (200m):** Z1 thả lỏng.
 
 #### Buổi S5 — Mở Rộng (Cho Lịch 5–6 buổi): Hồi Phục Kỹ Thuật & Độ Đối Xứng (`~1.500–1.800m`)
-- **Warm-up (300m):** Z1 cực nhẹ.
-- **Symmetry Set (600m):** `6 × 100m` (`25m Single-Arm Trái + 25m Single-Arm Phải + 50m Swim` thở 1:3, `r:20s`).
-- **Aerobic Easy (400–700m):** Bơi liên tục Z1–Z2 cực êm với Pull Buoy + Snorkel, tập trung vào đường ray 11h/1h.
-- **Cool-down (200m):** Ngửa + Sải nhẹ.
+- **Khởi động (Warm-up) (300m):** Z1 cực nhẹ.
+- **Bài tập đối xứng (Symmetry Set) (600m):** `6 × 100m` (`25m Single-Arm Trái + 25m Single-Arm Phải + 50m Swim` thở 1:3, `r:20s`).
+- **Hiếu khí nhẹ (Aerobic Easy) (400–700m):** Bơi liên tục Z1–Z2 cực êm với Pull Buoy + Snorkel, tập trung vào đường ray 11h/1h.
+- **Thả lỏng (Cool-down) (200m):** Ngửa + Sải nhẹ.
 
 #### Buổi S6 — Mở Rộng (Cho Lịch 6 buổi): Đường Dài Hiếu Khí Nền (`~1.800–2.200m`)
-- **Warm-up (400m):** `200m` Z1 + `4 × 50m` (25m Scull + 25m Swim).
-- **Main Set (1.200–1.600m — Z2):** `3–4 × 400m @ CSS + 8s` (`r:30s`), bơi 2-beat kick, giữ nhịp thở đều đặn và cảm giác tay nhẹ tênh.
-- **Cool-down (200m):** Z1.
+- **Khởi động (Warm-up) (400m):** `200m` Z1 + `4 × 50m` (25m Scull + 25m Swim).
+- **Bài chính (Main Set) (1.200–1.600m — Z2):** `3–4 × 400m @ CSS + 8s` (`r:30s`), bơi 2-beat kick, giữ nhịp thở đều đặn và cảm giác tay nhẹ tênh.
+- **Thả lỏng (Cool-down) (200m):** Z1.
 
 ![Biểu đồ phân bổ khối lượng 4 tuần Block 1 theo nhịp 3:1](../images/22-block1-volume-wave.png)
 <!-- IMAGE_PROMPT: Clean bar chart showing Block 1 (Weeks 1-4) weekly swim volume progression across 3, 4, 5, and 6 session plans with the Week 4 Deload drop clearly highlighted, paired with key focus badges: Head-Down Alignment, Streamline 5m+, One-Goggle Breathing, and Sculling. -->

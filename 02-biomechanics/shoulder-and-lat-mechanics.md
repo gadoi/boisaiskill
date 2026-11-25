@@ -1,3 +1,8 @@
+---
+title: "Cơ Sinh Học Khớp Vai & Cơ Xô (Latissimus Dorsi)"
+aliases: ["Cơ Sinh Học Khớp Vai & Cơ Xô", "shoulder-and-lat-mechanics"]
+---
+
 # Cơ Sinh Học Khớp Vai & Cơ Xô (*Latissimus Dorsi*)
 
 > **Thuộc phần:** `02-biomechanics/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~12 phút
@@ -84,7 +89,7 @@ Khi bạn vào nước đúng đường thẳng trước vai (không vắt chéo
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Trước mặt dưới nước (Underwater Front View) & Ngang dưới nước (Underwater Side View).
-- **Keypoints cần trích xuất:** `shoulder`, `elbow`, `wrist`, `hip`, đường trục giữa thân (`midline`).
+- **Điểm khớp cần trích xuất (Keypoints):** `shoulder`, `elbow`, `wrist`, `hip`, đường trục giữa thân (`midline`).
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** Bàn tay vào nước giữ khoảng cách ngoài `midline` `≥ 10–15 cm`; góc khuỷu tại điểm Catch tối ưu `100–120°`; vị trí khuỷu luôn cao hơn cổ tay (`y_elbow < y_wrist` trong hệ tọa độ ảnh).
   - **Cảnh báo lỗi:** Cổ tay vượt qua `midline` (Crossover); `y_elbow > y_wrist` trong pha Catch (Dropped Elbow — nguy cơ đau vai cao).

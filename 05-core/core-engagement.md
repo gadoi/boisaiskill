@@ -1,3 +1,8 @@
+---
+title: "Kích Hoạt Core & Liên Kết Hông–Vai (Core Engagement)"
+aliases: ["Kích Hoạt Core & Liên Kết Hông", "core-engagement"]
+---
+
 # Kích Hoạt Core & Liên Kết Hông–Vai (*Core Engagement*)
 
 > **Thuộc phần:** `05-core/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
@@ -83,7 +88,7 @@ Khi Core hoạt động liên tục như một "khớp nối cứng thông minh"
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang dưới nước (đo độ võng thắt lưng *Lumbar Lordosis Angle*) và Trên cao (đo biên độ lắc ngang của hông *Lateral Hip Sway*).
-- **Keypoints cần trích xuất:** `shoulder`, `mid_torso`, `hip`, `knee`, `ankle`.
+- **Điểm khớp cần trích xuất (Keypoints):** `shoulder`, `mid_torso`, `hip`, `knee`, `ankle`.
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** Góc `shoulder–mid_torso–hip` duy trì `172–180°`; biên độ lắc ngang của điểm `hip` so với đường trục bơi `< 8 cm`.
   - **Cảnh báo lỗi:** Góc `shoulder–mid_torso–hip < 165°` hướng võng xuống đáy (Banana Back); `hip` lắc ngang `> 15 cm` đồng pha với tay kéo.

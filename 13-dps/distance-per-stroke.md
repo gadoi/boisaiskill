@@ -1,3 +1,8 @@
+---
+title: "Tối Đa Hóa Quãng Đường Mỗi Sải (Distance Per Stroke — DPS)"
+aliases: ["Tối Đa Hóa Quãng Đường Mỗi Sải", "distance-per-stroke"]
+---
+
 # Tối Đa Hóa Quãng Đường Mỗi Sải (*Distance Per Stroke — DPS*)
 
 > **Thuộc phần:** `13-dps/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
@@ -98,7 +103,7 @@ Khi bạn tập trung phát triển **DPS thật** trước khi đẩy nhịp ta
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Trên cao dọc chiều bể (Overhead Pool-Length Camera) hoặc đồng hồ bơi thông minh có gia tốc kế 3 trục (Garmin / Apple Watch / FORM Goggles).
-- **Keypoints cần trích xuất:** Tọa độ `hip_center` dọc theo trục bể ($x$) tại 2 thời điểm liên tiếp của `right_wrist_entry` và `left_wrist_entry`.
+- **Điểm khớp cần trích xuất (Keypoints):** Tọa độ `hip_center` dọc theo trục bể ($x$) tại 2 thời điểm liên tiếp của `right_wrist_entry` và `left_wrist_entry`.
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** $\text{DPS} = x(t_{i+1}) - x(t_i) \ge 0.82 \times H$; độ suy giảm DPS từ 100m đầu đến 100m cuối trong bài `400m` (`DPS Drop-off`) `< 6%`.
   - **Cảnh báo lỗi:** `DPS < 0.65 × H` (trượt nước / cắt cụt pha đẩy); `DPS` tăng cao nhưng vận tốc `v < 0.95 m/s` (Fake DPS do Over-Gliding).

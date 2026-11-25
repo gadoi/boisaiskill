@@ -1,3 +1,8 @@
+---
+title: "Kỹ Thuật Chân 2 Nhịp (2-Beat Kick) — Vũ Khí Bơi Đường Dài & Triathlon"
+aliases: ["Kỹ Thuật Chân 2 Nhịp", "two-beat-kick"]
+---
+
 # Kỹ Thuật Chân 2 Nhịp (*2-Beat Kick*) — Vũ Khí Bơi Đường Dài & Triathlon
 
 > **Thuộc phần:** `08-kicking/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
@@ -76,7 +81,7 @@ Các huyền thoại đường dài như **Katie Ledecky** (nhiều chặng tron
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang dưới nước (Underwater Side View, 60–120 fps) xuyên suốt 2–3 chu kỳ tay liên tục.
-- **Keypoints cần trích xuất:** `left_wrist`, `right_wrist`, `left_ankle`, `right_ankle`, `hip`.
+- **Điểm khớp cần trích xuất (Keypoints):** `left_wrist`, `right_wrist`, `left_ankle`, `right_ankle`, `hip`.
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** Tỷ lệ số đỉnh dao động xuống của `ankle` trên số lần `wrist` vào nước = **`1.0`** (2 cú đạp / 1 chu kỳ 2 tay); độ lệch thời gian giữa `right_wrist_entry` và `left_ankle_downbeat` `< 80 ms`; biên độ dọc cổ chân `20–35 cm`.
   - **Cảnh báo lỗi:** Tỷ lệ dao động không đều (nhịp vỡ); góc gập gối `< 130°` (đạp xe bằng gối); chân chìm sâu hơn hông `> 25 cm`.

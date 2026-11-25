@@ -1,3 +1,8 @@
+---
+title: "Phân Tích VĐV Olympic: Sun Yang — Nghệ Thuật Chuyển Nhịp 2 → 6-Beat & Bơi Đường Dài"
+aliases: ["Phân Tích VĐV Olympic: Sun Yang", "sun-yang"]
+---
+
 # Phân Tích VĐV Olympic: Sun Yang — Nghệ Thuật Chuyển Nhịp 2 → 6-Beat & Bơi Đường Dài
 
 > **Thuộc phần:** `athletes/` | **Cự ly sở trường:** 400m, 800m & 1500m Freestyle | **Phong cách:** Long-Lever Hybrid 2→6-Beat Distance

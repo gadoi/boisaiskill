@@ -1,3 +1,8 @@
+---
+title: "Ghi Chú Thực Chiến Của Huấn Luyện Viên (Coach Field Notes)"
+aliases: ["Ghi Chú Thực Chiến Của Huấn Luyện Viên", "field-notes"]
+---
+
 # Ghi Chú Thực Chiến Của Huấn Luyện Viên (*Coach Field Notes*)
 
 > **Thuộc phần:** `coach-notes/` | **Mục đích:** Kinh nghiệm sửa lỗi nhanh tại hồ, tâm lý vận động & cá nhân hóa giáo án
@@ -45,7 +50,7 @@ Trong thực tế huấn luyện, **80% lỗi nhìn thấy ở cánh tay và bà
 - **Công thức buổi tập "Tối Ưu Hóa 35 Phút" (`1.400–1.600m`):**
   - `5p` Khởi động cạn trên bờ (Band EVF + xoay vai).
   - `300m` Warm-up + Sculling (`6p`).
-  - `1.000–1.200m` **Main Set chất lượng cao** (ví dụ `10 × 100m @ CSS r:15s`, `20p`).
+  - `1.000–1.200m` **Bài chính (Main Set) chất lượng cao** (ví dụ `10 × 100m @ CSS r:15s`, `20p`).
   - `100–200m` Cool-down (`4p`).
   - *Ghi nhớ:* **3 buổi × 35 phút đúng ngưỡng CSS hiệu quả gấp 3 lần 3 buổi × 60 phút bơi tà tà không mục tiêu!**
 

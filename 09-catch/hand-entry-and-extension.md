@@ -1,3 +1,8 @@
+---
+title: "Pha Vào Nước 'Xỏ Kim' & Vươn Tay (Hand Entry & Extension)"
+aliases: ["Pha Vào Nước 'Xỏ Kim' & Vươn Tay", "hand-entry-and-extension"]
+---
+
 # Pha Vào Nước "Xỏ Kim" & Vươn Tay (*Hand Entry & Extension*)
 
 > **Thuộc phần:** `09-catch/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
@@ -80,7 +85,7 @@ Khi bàn tay "xỏ kim" vào đúng điểm `11 giờ` (tay trái) và `1 giờ`
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Trên cao (Overhead View) và Trước mặt ngang mặt nước (Front Waterline View).
-- **Keypoints cần trích xuất:** `nose`, `left_shoulder`, `right_shoulder`, `entry_wrist`, `entry_elbow`, đường trục giữa (`midline_x`).
+- **Điểm khớp cần trích xuất (Keypoints):** `nose`, `left_shoulder`, `right_shoulder`, `entry_wrist`, `entry_elbow`, đường trục giữa (`midline_x`).
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** Tọa độ ngang điểm vào nước `entry_wrist_x` nằm trong hành lang `[shoulder_x - 5cm, shoulder_x + 10cm]` (không vượt `midline_x`); góc khuỷu lúc ngón tay chạm nước `130–155°` (còn dư độ duỗi để vươn dưới nước).
   - **Cảnh báo lỗi:** `entry_wrist_x` vượt qua `midline_x` (Crossover); góc khuỷu chạm nước `≈ 180°` kèm vùng bọt trắng lớn (Slapping / Over-reaching in Air).

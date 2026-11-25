@@ -1,3 +1,8 @@
+---
+title: "Block 4 (Tuần 13–16): Ngưỡng CSS & Tối Ưu DPS Ở Tốc Độ Cao"
+aliases: ["Block 4", "weeks-13-16"]
+---
+
 # Block 4 (Tuần 13–16): Ngưỡng CSS & Tối Ưu DPS Ở Tốc Độ Cao
 
 > **Thuộc phần:** `22-training-plan/` | **Giai đoạn:** Đẩy Ngưỡng Lactate & Khóa Tempo Ngọt | **Dryland:** Chuyển từ Sức mạnh sang Công suất (Power)
@@ -47,46 +52,46 @@ Block 4 kết hợp hoàn hảo giữa **khoa học sinh lý (CSS Threshold)** v
 ### Hướng Dẫn Từng Bước (Step-by-Step) — Chi Tiết Giáo Án 6 Buổi/Tuần (Tuần 13–16)
 
 #### Buổi S1 — Lõi 1: Kỹ Thuật Tốc Độ Cao & Tempo-Locked DPS (`~2.000–2.400m`)
-- **Warm-up (400m):** `200m` Z1 + `4 × 50m` (`25m 3/4 Catch-Up + 25m Swim`, `r:15s`).
-- **Pre-Set EVF & Tempo (400m):** `8 × 50m` (`r:15s`, cài **Tempo Trainer** đúng Điểm Ngọt SPM), giữ Stroke Count không tăng.
-- **Main Set (1.000–1.400m — Hold-Count CSS):**
+- **Khởi động (Warm-up) (400m):** `200m` Z1 + `4 × 50m` (`25m 3/4 Catch-Up + 25m Swim`, `r:15s`).
+- **Bài đệm kỹ thuật (Pre-Set) EVF & Tempo (400m):** `8 × 50m` (`r:15s`, cài **Tempo Trainer** đúng Điểm Ngọt SPM), giữ Stroke Count không tăng.
+- **Bài chính (Main Set) (1.000–1.400m — Hold-Count CSS):**
   - `5–7 × 200m` (`r:20s`): 100m đầu `@ CSS + 3s` + 100m sau tăng tốc `@ CSS - 1s` (**Negative Split**) nhưng **giữ nguyên số sải/25m**!
-- **Cool-down (200m):** Z1 thả lỏng.
+- **Thả lỏng (Cool-down) (200m):** Z1 thả lỏng.
 
 #### Buổi S2 — Lõi 2: Threshold CSS Nòng Cốt & Test CSS #3 (Tuần 16) (`~2.100–2.500m`)
 - **Lưu ý Tuần 16:** Thực hiện **CSS Test #3** (`400m TT` + nghỉ 10p + `200m TT`) + quay lại Video góc ngang & chính diện để so sánh với Tuần 1!
 - **Tuần 13–15 (Bài tập Lõi nâng cấp mỗi tuần):**
-  - **Warm-up (400m):** `200m` Z1 + `4 × 50m` (`25m Scull + 25m Build 90%`).
-  - **Main Set (1.200–1.600m — Threshold MLSS):**
+  - **Khởi động (Warm-up) (400m):** `200m` Z1 + `4 × 50m` (`25m Scull + 25m Build 90%`).
+  - **Bài chính (Main Set) (1.200–1.600m — Threshold MLSS):**
     - Tuần 13: `12 × 100m @ CSS` (`r:15s`)
     - Tuần 14: `6–7 × 200m @ CSS` (`r:20s`, thở 1:2 hoặc 2:2)
     - Tuần 15: `15 × 100m @ CSS` (`r:10s` — thử thách kỷ luật đỉnh cao!)
-  - **Breakout Speed (200m):** `8 × 25m` (8m UDK + 17m Fast 95%, `r:25s`).
-  - **Cool-down (200m):** Z1.
+  - **Tốc độ trồi mặt nước (Breakout Speed) (200m):** `8 × 25m` (8m UDK + 17m Fast 95%, `r:25s`).
+  - **Thả lỏng (Cool-down) (200m):** Z1.
 
 #### Buổi S3 — Lõi 3: Broken 400s & Sức Bền Kéo Cơ Xô (`~2.100–2.600m`)
-- **Warm-up (400m):** Z1 + `4 × 50m` (`25m Fist + 25m Open Hand`).
-- **Main Set (1.500–2.000m):**
+- **Khởi động (Warm-up) (400m):** Z1 + `4 × 50m` (`25m Fist + 25m Open Hand`).
+- **Bài chính (Main Set) (1.500–2.000m):**
   - `3–4 × Broken 400m` (`4 × 100m @ CSS - 1s`, nghỉ đúng `10s` giữa mỗi 100m; nghỉ `60s` giữa mỗi Broken 400m). Hiệp chẵn dùng **Pull Buoy + Small/Medium Paddles** để xây sức bền cơ xô ở tốc độ cao!
-- **Cool-down (200m):** Z1.
+- **Thả lỏng (Cool-down) (200m):** Z1.
 
 #### Buổi S4 — Mở Rộng (Lịch 4–6 buổi): Tốc Độ Ngắn (VO2max Touch) & 6-Beat (`~2.000–2.400m`)
-- **Warm-up (400m):** Z1 + `4 × 25m` Vertical Kick (`20s`) / Streamline Kick.
+- **Khởi động (Warm-up) (400m):** Z1 + `4 × 25m` Vertical Kick (`20s`) / Streamline Kick.
 - **Kick Speed (300m):** `6 × 50m` (`25m Fast Kick + 25m Easy`, `r:20s`).
-- **Main Set (1.000–1.300m — Z4 Introduction):**
+- **Bài chính (Main Set) (1.000–1.300m — Z4 Introduction):**
   - `2–3 vòng × (4 × 75m @ CSS - 3s, r:25s)` — 50m đầu 4-beat chuẩn EVF + 25m cuối bật 6-beat bứt tốc! (Nghỉ `60s` giữa các vòng).
-- **Cool-down (300m):** Z1.
+- **Thả lỏng (Cool-down) (300m):** Z1.
 
 #### Buổi S5 — Mở Rộng (Lịch 5–6 buổi): Hồi Phục Kỹ Thuật & Tinh Chỉnh SWOLF (`~2.000–2.200m`)
-- **Warm-up (300m):** Z1.
-- **Drill & Feel (600m):** `6 × 100m` (`25m Single-Arm + 25m Mid Scull + 50m Silent Swim`, `r:15s`).
-- **Aerobic SWOLF (900–1.100m):** `9–11 × 100m @ CSS + 6s` (`r:15s`), tập trung hạ SWOLF thấp nhất có thể, thở 1:3 cân bằng vai.
-- **Cool-down (200m):** Z1.
+- **Khởi động (Warm-up) (300m):** Z1.
+- **Bài tập & Cảm giác nước (Drill & Feel) (600m):** `6 × 100m` (`25m Single-Arm + 25m Mid Scull + 50m Silent Swim`, `r:15s`).
+- **Hiếu khí SWOLF (Aerobic SWOLF) (900–1.100m):** `9–11 × 100m @ CSS + 6s` (`r:15s`), tập trung hạ SWOLF thấp nhất có thể, thở 1:3 cân bằng vai.
+- **Thả lỏng (Cool-down) (200m):** Z1.
 
 #### Buổi S6 — Mở Rộng (Lịch 6 buổi): Đường Dài Chuyển Tốc (*Fast-Finish Endurance*) (`~2.400–2.800m`)
-- **Warm-up (400m):** Z1.
-- **Main Set (1.800–2.200m):** `3–4 × 500m` (`r:30s`), mỗi 500m bơi `300m @ CSS + 5s` (2-beat) → `150m @ CSS` (4-beat) → `50m @ CSS - 3s` (6-beat).
-- **Cool-down (200m):** Z1.
+- **Khởi động (Warm-up) (400m):** Z1.
+- **Bài chính (Main Set) (1.800–2.200m):** `3–4 × 500m` (`r:30s`), mỗi 500m bơi `300m @ CSS + 5s` (2-beat) → `150m @ CSS` (4-beat) → `50m @ CSS - 3s` (6-beat).
+- **Thả lỏng (Cool-down) (200m):** Z1.
 
 ![Biểu đồ cấu trúc bài tập Threshold MLSS và Broken 400s trong Block 4](../images/22-block4-css-threshold.png)
 <!-- IMAGE_PROMPT: Clean sports physiology progression diagram for Block 4 (Weeks 13-16) showing MLSS threshold workouts (12x100m -> 7x200m -> 15x100m @ CSS r:10s), Tempo Trainer lock at Sweet Spot SPM, and CSS Test #3 milestone. -->

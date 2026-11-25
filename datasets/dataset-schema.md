@@ -1,3 +1,8 @@
+---
+title: "Schema Dữ Liệu Video & Gán Nhãn Cho AI Phân Tích Bơi Sải (Dataset Schema)"
+aliases: ["Schema Dữ Liệu Video & Gán Nhãn Cho AI Phân Tích Bơi Sải", "dataset-schema"]
+---
+
 # Schema Dữ Liệu Video & Gán Nhãn Cho AI Phân Tích Bơi Sải (*Dataset Schema*)
 
 > **Thuộc phần:** `datasets/` | **Trình độ:** Trung cấp → Nâng cao | **Thời gian đọc:** ~10 phút

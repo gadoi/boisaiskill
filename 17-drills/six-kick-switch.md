@@ -1,3 +1,8 @@
+---
+title: "6-Kick Switch & Side Kick Drill — Khóa Trục Xoay Hông & Truyền Lực Từ Thân"
+aliases: ["6-Kick Switch & Side Kick Drill", "six-kick-switch"]
+---
+
 # 6-Kick Switch & Side Kick Drill — Khóa Trục Xoay Hông & Truyền Lực Từ Thân
 
 > **Thuộc phần:** `17-drills/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
@@ -82,7 +87,7 @@ flowchart LR
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Chính diện dưới nước (Underwater Front View) và Ngang dưới nước (Side View).
-- **Keypoints cần trích xuất:** `shoulder_line`, `hip_line`, `nose`, `lead_wrist`, `ankle`.
+- **Điểm khớp cần trích xuất (Keypoints):** `shoulder_line`, `hip_line`, `nose`, `lead_wrist`, `ankle`.
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** Góc nghiêng thân giữ ổn định `40–50°` suốt 6 nhịp chân; đầu giữ góc xoay `< 5°` (ngoài khung hình thở); độ trễ giữa xoay hông và pha kéo tay `< 60 ms`.
   - **Cảnh báo lỗi:** Góc nghiêng `> 70°` (lật ngửa); tay kéo trước rồi hông mới lờ đờ xoay theo sau; chân đá cắt kéo rộng khi thực hiện cú Switch.

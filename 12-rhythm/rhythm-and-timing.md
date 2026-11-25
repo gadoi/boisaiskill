@@ -1,3 +1,8 @@
+---
+title: "Front-Quadrant Swimming & Nhịp Điệu Sải Tay (Rhythm & Timing)"
+aliases: ["Front-Quadrant Swimming & Nhịp Điệu Sải Tay", "rhythm-and-timing"]
+---
+
 # Front-Quadrant Swimming & Nhịp Điệu Sải Tay (*Rhythm & Timing*)
 
 > **Thuộc phần:** `12-rhythm/` | **Trình độ:** Trung cấp → Nâng cao | **Thời gian đọc:** ~12 phút
@@ -85,7 +90,7 @@ Rất nhiều người bơi tập bài **Catch-Up Drill** quá kỹ rồi mang l
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang dưới nước (Underwater Side View, 120 fps) để xác định chính xác khung hình bắt đầu Pull (`t_pull_start`) và kết thúc Push (`t_push_end`) của cả 2 tay.
-- **Keypoints cần trích xuất:** `left_wrist`, `right_wrist`, `left_shoulder`, `right_shoulder`, `hip`.
+- **Điểm khớp cần trích xuất (Keypoints):** `left_wrist`, `right_wrist`, `left_shoulder`, `right_shoulder`, `hip`.
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** Tỷ lệ thời gian Front-Quadrant `≥ 75%`; chỉ số `IdC` nằm trong `[-10%, -2%]` ở tốc độ đường dài và `[-2%, +3%]` ở tốc độ `< 1:30/100m`; độ lệch chu kỳ giữa sải trái và sải phải `< 8%`.
   - **Cảnh báo lỗi:** `IdC < -18%` (Over-Gliding / Dead Spot); tỷ lệ Front-Quadrant `< 55%` (Windmill Arms).

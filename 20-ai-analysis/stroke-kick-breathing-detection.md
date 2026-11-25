@@ -1,3 +1,8 @@
+---
+title: "Tự Động Nhận Diện Stroke, Kick & Breathing (Event Detection AI)"
+aliases: ["Tự Động Nhận Diện Stroke, Kick & Breathing", "stroke-kick-breathing-detection"]
+---
+
 # Tự Động Nhận Diện Stroke, Kick & Breathing (*Event Detection AI*)
 
 > **Thuộc phần:** `20-ai-analysis/` | **Trình độ:** Trung cấp → Nâng cao | **Thời gian đọc:** ~11 phút

@@ -1,3 +1,8 @@
+---
+title: "Bảng Chấm Điểm Chuyên Môn Dành Cho Huấn Luyện Viên (Coach Evaluation)"
+aliases: ["Bảng Chấm Điểm Chuyên Môn Dành Cho Huấn Luyện Viên", "coach-evaluation"]
+---
+
 # Bảng Chấm Điểm Chuyên Môn Dành Cho Huấn Luyện Viên (*Coach Evaluation*)
 
 > **Thuộc phần:** `23-checklists/` | **Đối tượng:** Huấn luyện viên (Coach) & Đánh giá chuyên sâu | **Thời lượng đánh giá:** ~20 phút/học viên

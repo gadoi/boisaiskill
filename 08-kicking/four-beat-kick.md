@@ -1,3 +1,8 @@
+---
+title: "Kỹ Thuật Chân 4 Nhịp (4-Beat Kick) — Cầu Nối Tốc Độ & Chuyển Nhịp"
+aliases: ["Kỹ Thuật Chân 4 Nhịp", "four-beat-kick"]
+---
+
 # Kỹ Thuật Chân 4 Nhịp (*4-Beat Kick*) — Cầu Nối Tốc Độ & Chuyển Nhịp
 
 > **Thuộc phần:** `08-kicking/` | **Trình độ:** Trung cấp → Nâng cao | **Thời gian đọc:** ~10 phút
@@ -84,7 +89,7 @@ Bạn **không cần ép não đếm "1-2-3-4"**! 4-beat kick là nhịp điệu
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang dưới nước (Underwater Side View, 120 fps) ghi hình tối thiểu 4 chu kỳ tay liên tiếp để phân tích chu kỳ lặp lại.
-- **Keypoints cần trích xuất:** `left_ankle`, `right_ankle`, `left_wrist`, `right_wrist`, `hip`.
+- **Điểm khớp cần trích xuất (Keypoints):** `left_ankle`, `right_ankle`, `left_wrist`, `right_wrist`, `hip`.
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** Tỷ lệ số cú đạp trên mỗi chu kỳ tay = `4.0 ± 0.2`; biên độ cổ chân ổn định `20–35 cm`; độ sụt độ cao hông tại khung hình thở `< 5 cm`.
   - **Cảnh báo lỗi:** Một nhịp đạp đột ngột mở rộng `> 50 cm` (lỗi đá kéo xen kẽ giả dạng 4-beat); góc gập gối `< 135°` ở nhịp tăng tốc.

@@ -1,3 +1,8 @@
+---
+title: "Vật Lý Bơi Sải & Phương Trình Công Suất ($P \propto v^3$)"
+aliases: ["Vật Lý Bơi Sải & Phương Trình Công Suất", "physics-of-swimming"]
+---
+
 # Vật Lý Bơi Sải & Phương Trình Công Suất ($P \propto v^3$)
 
 > **Thuộc phần:** `01-foundation/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~12 phút
@@ -107,7 +112,7 @@ flowchart TD
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang dưới nước (Underwater Side View, 60–120 fps) để đo góc nghiêng thân và độ biến thiên vận tốc trong chu kỳ (*Intra-cyclic Velocity Variation — IVV*).
-- **Keypoints cần trích xuất:** Đỉnh đầu (`nose/ear`), Vai (`shoulder`), Hông (`hip`), Gối (`knee`), Cổ chân (`ankle`), Cổ tay (`wrist`).
+- **Điểm khớp cần trích xuất (Keypoints):** Đỉnh đầu (`nose/ear`), Vai (`shoulder`), Hông (`hip`), Gối (`knee`), Cổ chân (`ankle`), Cổ tay (`wrist`).
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** Góc nghiêng trục vai–hông so với phương ngang `< 5°`; độ biến thiên vận tốc trong chu kỳ `IVV < 15%`.
   - **Cảnh báo lỗi:** Góc nghiêng trục thân `> 10°` (diện tích cản $A$ tăng mạnh); bàn tay di chuyển nhanh về sau so với thân nhưng vận tốc hông không tăng (dấu hiệu $v_{\text{slip}}$ cao).

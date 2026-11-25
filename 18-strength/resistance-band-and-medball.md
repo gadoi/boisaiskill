@@ -1,3 +1,8 @@
+---
+title: "Bài Tập Dây Kháng Lực (Resistance Band) & Bóng Tạ (Medicine Ball)"
+aliases: ["Bài Tập Dây Kháng Lực", "resistance-band-and-medball"]
+---
+
 # Bài Tập Dây Kháng Lực (*Resistance Band*) & Bóng Tạ (*Medicine Ball*)
 
 > **Thuộc phần:** `18-strength/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
@@ -88,7 +93,7 @@ Rất nhiều người bơi bận rộn chỉ có thể xuống hồ `2–3 bu�
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang (Side View) cho bài kéo dây kháng lực EVF để đo chính xác góc khuỷu và độ phẳng lưng.
-- **Keypoints cần trích xuất:** `shoulder`, `elbow`, `wrist`, `hip`, `knee`.
+- **Điểm khớp cần trích xuất (Keypoints):** `shoulder`, `elbow`, `wrist`, `hip`, `knee`.
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** Cẳng tay dựng góc `80–100°` so với phương ngang trước khi `elbow` lùi qua `shoulder`; cột sống giữ thẳng trung tính (`∠ear–shoulder–hip ≥ 170°`).
   - **Cảnh báo lỗi:** `elbow` kéo lùi ra sau lưng trước khi cẳng tay dựng đứng (mô phỏng sai lỗi Dropped Elbow ngay trên cạn!).

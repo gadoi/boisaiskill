@@ -1,3 +1,8 @@
+---
+title: "Trọng Tâm (COG) & Tâm Nổi (COB) — Bí Mật Giúp Hông Tự Nổi"
+aliases: ["Trọng Tâm", "center-of-gravity-and-buoyancy"]
+---
+
 # Trọng Tâm (COG) & Tâm Nổi (COB) — Bí Mật Giúp Hông Tự Nổi
 
 > **Thuộc phần:** `01-foundation/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
@@ -82,7 +87,7 @@ Khi $d_{\text{COB-COG}} \to 0$, bạn **không cần tốn 30–40% lượng oxy
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang dưới nước (Underwater Side View) xuyên suốt 10–15m giữa bể (tránh vùng đạp tường).
-- **Keypoints cần trích xuất:** Tai (`ear`), Vai (`shoulder`), Hông (`hip`), Gối (`knee`), Cổ chân (`ankle`).
+- **Điểm khớp cần trích xuất (Keypoints):** Tai (`ear`), Vai (`shoulder`), Hông (`hip`), Gối (`knee`), Cổ chân (`ankle`).
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** Độ sâu tâm hông cách mặt nước `15–25 cm`; góc tạo bởi đường thẳng `vai → cổ chân` so với mặt nước `< 5°`.
   - **Cảnh báo lỗi:** Độ sâu cổ chân lớn hơn độ sâu vai `> 30 cm` (chỉ báo chìm chân rõ rệt); góc đầu ngẩng `> 20°` so với trục cột sống ngực.

@@ -1,3 +1,8 @@
+---
+title: "Thư Viện Sơ Đồ Mermaid Chuẩn Hóa (mermaid/diagrams-library.md)"
+aliases: ["Thư Viện Sơ Đồ Mermaid Chuẩn Hóa", "diagrams-library"]
+---
+
 # Thư Viện Sơ Đồ Mermaid Chuẩn Hóa (`mermaid/diagrams-library.md`)
 
 > **Thuộc phần:** `mermaid/` | **Mục đích:** Kho tập trung các sơ đồ luồng chuyển động, chuỗi truyền lực, cây quyết định sửa lỗi và kiến trúc giáo án có thể tái sử dụng trực tiếp trên GitHub, Obsidian, GitBook, MkDocs và Hugo.

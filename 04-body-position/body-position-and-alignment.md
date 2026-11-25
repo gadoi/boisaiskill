@@ -1,3 +1,8 @@
+---
+title: "Tư Thế Thân Ngang & Trục Đầu–Hông (Body Position & Alignment)"
+aliases: ["Tư Thế Thân Ngang & Trục Đầu", "body-position-and-alignment"]
+---
+
 # Tư Thế Thân Ngang & Trục Đầu–Hông (*Body Position & Alignment*)
 
 > **Thuộc phần:** `04-body-position/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
@@ -82,7 +87,7 @@ Khi trục đầu–hông nằm phẳng `< 5°`, nước tách đều qua đỉn
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang dưới nước (Underwater Side View) và Trên cao (Overhead View).
-- **Keypoints cần trích xuất:** `ear`, `shoulder`, `hip`, `knee`, `ankle`, đường mặt nước (`waterline_y`).
+- **Điểm khớp cần trích xuất (Keypoints):** `ear`, `shoulder`, `hip`, `knee`, `ankle`, đường mặt nước (`waterline_y`).
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** Góc đầu–vai–hông `172–180°`; góc vai–hông–cổ chân `170–180°`; độ lệch trục ngang đầu so với hông từ góc trên cao `< 5 cm`.
   - **Cảnh báo lỗi:** Góc cổ gập ra sau `> 25°`; độ sâu `hip_y` thấp hơn `shoulder_y` quá `15 cm`.

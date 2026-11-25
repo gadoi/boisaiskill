@@ -1,3 +1,8 @@
+---
+title: "Phát Triển Cơ Xô (Latissimus Dorsi) & Sức Mạnh Kéo Nước"
+aliases: ["Phát Triển Cơ Xô", "lat-and-pull-strength"]
+---
+
 # Phát Triển Cơ Xô (*Latissimus Dorsi*) & Sức Mạnh Kéo Nước
 
 > **Thuộc phần:** `18-strength/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
@@ -85,7 +90,7 @@ Rất nhiều người bơi tập chăm chỉ 4–5 buổi/tuần dưới nướ
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Góc sau lưng (Rear View) cho Pull-Up / Row để kiểm tra độ đối xứng chuyển động hai xương bả vai (*Scapular Symmetry*).
-- **Keypoints cần trích xuất:** `left_shoulder`, `right_shoulder`, `left_elbow`, `right_elbow`, `spine_mid`.
+- **Điểm khớp cần trích xuất (Keypoints):** `left_shoulder`, `right_shoulder`, `left_elbow`, `right_elbow`, `spine_mid`.
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** Hai vai giữ ngang bằng nhau suốt hành trình kéo (`|y_L - y_R| < 3 cm`); khuỷu tay di chuyển gọn trong mặt phẳng `30–45°` so với thân.
   - **Cảnh báo lỗi:** Nhún vai sát tai (cơ thang trên lấn át cơ xô); ưỡn võng lưng dưới khi kéo Straight-Arm Pulldown.

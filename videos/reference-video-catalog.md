@@ -1,3 +1,8 @@
+---
+title: "Danh Mục Video Tham Khảo & Khung Phân Tích Mẫu (Reference Video Catalog)"
+aliases: ["Danh Mục Video Tham Khảo & Khung Phân Tích Mẫu", "reference-video-catalog"]
+---
+
 # Danh Mục Video Tham Khảo & Khung Phân Tích Mẫu (*Reference Video Catalog*)
 
 > **Thuộc phần:** `videos/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~10 phút

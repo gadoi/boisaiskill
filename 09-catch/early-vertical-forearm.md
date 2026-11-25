@@ -1,3 +1,8 @@
+---
+title: "High Elbow Catch — Dựng Cẳng Tay Sớm (Early Vertical Forearm — EVF)"
+aliases: ["High Elbow Catch", "early-vertical-forearm"]
+---
+
 # High Elbow Catch — Dựng Cẳng Tay Sớm (*Early Vertical Forearm — EVF*)
 
 > **Thuộc phần:** `09-catch/` | **Trình độ:** Trung cấp → Nâng cao | **Thời gian đọc:** ~13 phút
@@ -83,7 +88,7 @@ EVF biến nước từ một chất lỏng "trơn tuột" thành một điểm 
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang dưới nước (Underwater Side View) và Chính diện dưới nước (Underwater Front View).
-- **Keypoints cần trích xuất:** `shoulder`, `elbow`, `wrist`, `middle_finger_tip`.
+- **Điểm khớp cần trích xuất (Keypoints):** `shoulder`, `elbow`, `wrist`, `middle_finger_tip`.
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** Tại thời điểm bàn tay đi ngang qua mặt phẳng vai (`wrist_x ≈ shoulder_x`), góc khuỷu `∠shoulder–elbow–wrist` nằm trong **`100–125°`**; góc nghiêng cẳng tay so với phương thẳng đứng $\beta \le 20°$; `elbow_y` cao hơn `wrist_y` tối thiểu `20–30 cm`.
   - **Cảnh báo lỗi:** `elbow_x` tụt về phía sau `wrist_x` trong nửa đầu pha Catch (**Dropped Elbow**); góc khuỷu `> 155°` khi tay đi qua dưới vai (**Straight-Arm Pull**).

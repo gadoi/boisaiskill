@@ -1,3 +1,8 @@
+---
+title: "Phân Tích VĐV Olympic: Caeleb Dressel — Đỉnh Cao Sprint, Start & Công Suất Bùng Nổ"
+aliases: ["Phân Tích VĐV Olympic: Caeleb Dressel", "caleb-dressel"]
+---
+
 # Phân Tích VĐV Olympic: Caeleb Dressel — Đỉnh Cao Sprint, Start & Công Suất Bùng Nổ
 
 > **Thuộc phần:** `athletes/` | **Cự ly sở trường:** 50m & 100m Freestyle | **Phong cách:** Explosive Shoulder-Driven Sprint

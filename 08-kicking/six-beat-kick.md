@@ -1,3 +1,8 @@
+---
+title: "Kỹ Thuật Chân 6 Nhịp (6-Beat Kick) — Động Cơ Tốc Độ Cao & Nước Rút"
+aliases: ["Kỹ Thuật Chân 6 Nhịp", "six-beat-kick"]
+---
+
 # Kỹ Thuật Chân 6 Nhịp (*6-Beat Kick*) — Động Cơ Tốc Độ Cao & Nước Rút
 
 > **Thuộc phần:** `08-kicking/` | **Trình độ:** Trung cấp → Nâng cao | **Thời gian đọc:** ~11 phút
@@ -73,7 +78,7 @@ Nếu bạn từng thắc mắc tại sao ở `50m` cuối cùng của một bà
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang dưới nước (Underwater Side View, 120 fps) và Phía sau dưới nước (Rear View).
-- **Keypoints cần trích xuất:** `hip`, `knee`, `ankle`, `toe_tip`, `left_wrist`, `right_wrist`.
+- **Điểm khớp cần trích xuất (Keypoints):** `hip`, `knee`, `ankle`, `toe_tip`, `left_wrist`, `right_wrist`.
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** Tỷ lệ cú đạp / chu kỳ tay = `6.0`; tần suất đạp ở tốc độ cao `3.5–5.0 Hz` (`210–300 nhịp/phút`); biên độ dọc cổ chân `25–38 cm`; góc gập gối tối thiểu `≥ 145°`.
   - **Cảnh báo lỗi:** Góc gập gối `< 130°` (đạp xe — tăng Form Drag mạnh); mũi bàn chân nhô khỏi mặt nước `> 10 cm` (đạp vào không khí); biên độ ngang hai bàn chân `> 30 cm`.

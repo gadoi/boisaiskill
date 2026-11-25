@@ -1,3 +1,8 @@
+---
+title: "Kỹ Thuật Streamline — Tư Thế Thuôn Dài Tối Thiểu Lực Cản"
+aliases: ["Kỹ Thuật Streamline", "streamline"]
+---
+
 # Kỹ Thuật Streamline — Tư Thế Thuôn Dài Tối Thiểu Lực Cản
 
 > **Thuộc phần:** `04-body-position/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
@@ -78,7 +83,7 @@ Cấu trúc "mũi nhọn hai bàn tay chồng lên nhau" đóng vai trò như **
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang dưới nước (Underwater Side View) tại đoạn `0–10 m` tính từ thành bể.
-- **Keypoints cần trích xuất:** `wrist`, `elbow`, `ear`, `shoulder`, `hip`, `ankle`.
+- **Điểm khớp cần trích xuất (Keypoints):** `wrist`, `elbow`, `ear`, `shoulder`, `hip`, `ankle`.
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** Đường nối `wrist → shoulder → hip → ankle` thẳng gần tuyệt đối (`175–180°`); độ sâu tâm thân `0.5–0.8 m`; khoảng cách hai cổ tay `< 5 cm`.
   - **Cảnh báo lỗi:** Khoảng cách hai khuỷu/cổ tay `> 15 cm` (mở tay chữ V); độ sâu `< 0.3 m` (quá nông, bị Wave Drag); đầu nhô cao hơn đường nối `wrist–shoulder`.

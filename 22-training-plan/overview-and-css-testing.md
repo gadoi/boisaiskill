@@ -1,3 +1,8 @@
+---
+title: "Tổng Quan Giáo Án 24 Tuần, Test CSS & Chọn Lịch 3 / 4 / 5 / 6 Buổi"
+aliases: ["Tổng Quan Giáo Án 24 Tuần, Test CSS & Chọn Lịch 3 / 4 / 5 / 6 Buổi", "overview-and-css-testing"]
+---
+
 # Tổng Quan Giáo Án 24 Tuần, Test CSS & Chọn Lịch 3 / 4 / 5 / 6 Buổi
 
 > **Thuộc phần:** `22-training-plan/` | **Mục tiêu:** Tiến tới `< 1:30/100m` (Tay nhẹ – Lực từ thân) | **Thời gian đọc:** ~12 phút

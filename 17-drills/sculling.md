@@ -1,3 +1,8 @@
+---
+title: "Sculling Drill (Front, Mid, Rear) — Luyện Cảm Giác Nước & Tì Nước EVF"
+aliases: ["Sculling Drill", "sculling"]
+---
+
 # Sculling Drill (Front, Mid, Rear) — Luyện Cảm Giác Nước & Tì Nước EVF
 
 > **Thuộc phần:** `17-drills/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
@@ -75,7 +80,7 @@ Rất nhiều người bơi tập hàng năm trời nhưng vẫn cảm thấy ta
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Chính diện dưới nước (Underwater Front View) và Ngang dưới nước (Side View).
-- **Keypoints cần trích xuất:** `shoulder`, `elbow`, `wrist`, `finger_tips`, tốc độ tịnh tiến của `hip_center`.
+- **Điểm khớp cần trích xuất (Keypoints):** `shoulder`, `elbow`, `wrist`, `finger_tips`, tốc độ tịnh tiến của `hip_center`.
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** Vận tốc tiến $v_{\text{scull}} \ge 0.65\text{ m/s}$ (không đập chân); độ dịch chuyển dọc của `elbow` trong Mid Scull `< 8 cm` (khuỷu giữ cao cố định); góc tấn bàn tay $\alpha \in [30°, 50°]$.
   - **Cảnh báo lỗi:** `hip_center` đứng yên hoặc trôi lùi (góc tấn sai); `elbow` tụt xuống ngang mức `wrist` (sụp khuỷu ngay cả khi Sculling).

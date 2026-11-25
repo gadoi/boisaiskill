@@ -1,3 +1,8 @@
+---
+title: "So Sánh Hệ Thống Huấn Luyện: Total Immersion, SwimSmooth & Olympic"
+aliases: ["So Sánh Hệ Thống Huấn Luyện: Total Immersion, SwimSmooth & Olympic", "training-systems"]
+---
+
 # So Sánh Hệ Thống Huấn Luyện: Total Immersion, SwimSmooth & Olympic
 
 > **Thuộc phần:** `17-drills/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~12 phút

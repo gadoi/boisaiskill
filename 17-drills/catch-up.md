@@ -1,3 +1,8 @@
+---
+title: "Catch-Up Drill — Rèn Thân Dài, Front-Quadrant & Xoay Hông"
+aliases: ["Catch-Up Drill", "catch-up"]
+---
+
 # Catch-Up Drill — Rèn Thân Dài, Front-Quadrant & Xoay Hông
 
 > **Thuộc phần:** `17-drills/` | **Trình độ:** Cơ bản → Trung cấp | **Thời gian đọc:** ~10 phút
@@ -74,7 +79,7 @@ Catch-Up Drill là "liều thuốc đặc trị" cho 3 nhóm lỗi cùng lúc:
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Trên cao (Overhead View) để kiểm tra lỗi vắt chéo, và Ngang dưới nước (Side View) để kiểm tra độ sâu tay chờ.
-- **Keypoints cần trích xuất:** `left_wrist`, `right_wrist`, `left_shoulder`, `right_shoulder`, `waterline_y`.
+- **Điểm khớp cần trích xuất (Keypoints):** `left_wrist`, `right_wrist`, `left_shoulder`, `right_shoulder`, `waterline_y`.
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** Tay chờ giữ độ sâu ổn định `10–18 cm` (dao động `< 5 cm` khi xoay thở); khoảng cách ngang hai cổ tay lúc đổi tay `≥ 25 cm` (không vắt chéo).
   - **Cảnh báo lỗi:** Hai cổ tay chụm chạm nhau ngay trước mũi (Crossover); tay chờ tụt sâu `> 30 cm` khi đầu xoay lấy hơi.

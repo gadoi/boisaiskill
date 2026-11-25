@@ -1,3 +1,8 @@
+---
+title: "Block 3 (Tuần 09–12): Xây Nền Hiếu Khí (Aerobic Base) & Phối Hợp Chân 2/4-Beat"
+aliases: ["Block 3", "weeks-09-12"]
+---
+
 # Block 3 (Tuần 09–12): Xây Nền Hiếu Khí (*Aerobic Base*) & Phối Hợp Chân 2/4-Beat
 
 > **Thuộc phần:** `22-training-plan/` | **Giai đoạn:** Xây Động Cơ Bền Bỉ & Tìm Điểm Ngọt Tempo | **Dryland:** Sức mạnh Cơ Xô & Core Chống Xoay
@@ -47,48 +52,48 @@ Block 3 trang bị cho bạn **hai năng lực cốt tử**: (1) **Độ bền k
 ### Hướng Dẫn Từng Bước (Step-by-Step) — Chi Tiết Giáo Án 6 Buổi/Tuần (Tuần 09–12)
 
 #### Buổi S1 — Lõi 1: Kỹ Thuật Giữ DPS & Chuyển Số Chân (`~2.000–2.400m`)
-- **Warm-up (400m):** `200m` Z1 + `4 × 50m` (`25m Scull + 25m Swim`).
-- **Kick & Timing Set (450m):**
+- **Khởi động (Warm-up) (400m):** `200m` Z1 + `4 × 50m` (`25m Scull + 25m Swim`).
+- **Bài tập chân & nhịp điệu (Kick & Timing Set) (450m):**
   - `3 × 75m` **Kick Gear-Shift** (`25m 2-beat + 25m 4-beat + 25m 6-beat`, giữ nguyên số sải tay, `r:20s`)
   - `3 × 75m` (`25m 3/4 Catch-Up + 25m Fingertip Drag + 25m Swim`, `r:15s`)
-- **Main Set (1.000–1.400m — Aerobic Pull/Swim):**
+- **Bài chính (Main Set) (1.000–1.400m — Aerobic Pull/Swim):**
   - `5–7 × 200m` (`r:20s`): Hiệp lẻ bơi tự do `Z2` (2-beat kick, đếm sải 25m cuối); Hiệp chẵn kẹp **Pull Buoy + Finger Paddles** giữ cảm giác EVF cực chắc.
-- **Cool-down (200m):** Z1 thả lỏng.
+- **Thả lỏng (Cool-down) (200m):** Z1 thả lỏng.
 
 #### Buổi S2 — Lõi 2: Ngưỡng CSS Dài & Ramp Test (Tuần 12) (`~2.000–2.400m`)
 - **Lưu ý Tuần 12:** Thực hiện **Ramp Test SPM** (`8 × 50m`, tăng `0.05s/sải` mỗi 50m, `r:20s`) để tìm Điểm Ngọt Tempo + `400m Even Split Check`.
 - **Tuần 09–11:**
-  - **Warm-up (400m):** `300m` Z1 + `4 × 25m` Breakout 7m sau Flip Turn.
-  - **Main Set (1.200–1.600m — CSS Pyramid):**
+  - **Khởi động (Warm-up) (400m):** `300m` Z1 + `4 × 25m` Breakout 7m sau Flip Turn.
+  - **Bài chính (Main Set) (1.200–1.600m — CSS Pyramid):**
     - `100m + 200m + 300m + 300m + 200m + 100m` (Tuần 11 nâng đỉnh lên `400m`), tất cả bơi đúng **`@ CSS`** (nghỉ `15s` cho 100m, `20s` cho 200m, `25–30s` cho 300–400m). Dùng 2-beat hoặc 4-beat kick.
-  - **Speed Finish (200m):** `4 × 50m` (`r:25s`, 25m cuối bật 6-beat kick mạnh).
-  - **Cool-down (200m):** Z1.
+  - **Tăng tốc về đích (Speed Finish) (200m):** `4 × 50m` (`r:25s`, 25m cuối bật 6-beat kick mạnh).
+  - **Thả lỏng (Cool-down) (200m):** Z1.
 
 #### Buổi S3 — Lõi 3: Xây Nền Hiếu Khí Liên Tục (`~2.100–2.600m`)
-- **Warm-up (400m):** `200m` Z1 + `4 × 50m` (`25m 6-Kick Switch + 25m Swim`).
-- **Main Set (1.500–2.000m — Z2 Aerobic Endurance):**
+- **Khởi động (Warm-up) (400m):** `200m` Z1 + `4 × 50m` (`25m 6-Kick Switch + 25m Swim`).
+- **Bài chính (Main Set) (1.500–2.000m — Z2 Aerobic Endurance):**
   - Tuần 09: `4 × 400m @ CSS + 6s` (`r:30s`)
   - Tuần 10: `3 × 500m @ CSS + 6s` (`r:35s`)
   - Tuần 11: `2 × 800m` hoặc `1 × 1.500m` liên tục `@ CSS + 7s` (thở 1:2/2:2, 2-beat kick, cố gắng Negative Split nửa sau!).
   - Tuần 12 (Deload): `3 × 300m` thả lỏng kỹ thuật.
-- **Cool-down (200m):** Z1.
+- **Thả lỏng (Cool-down) (200m):** Z1.
 
 #### Buổi S4 — Mở Rộng (Lịch 4–6 buổi): Flip Turn Thực Chiến & Sức Mạnh Chân (`~2.000–2.300m`)
-- **Warm-up (400m):** Z1 + `6 × 25m` Fast-In/Fast-Out Flip Turns (`r:20s`).
-- **Kick Endurance Set (400m):** `8 × 50m` (`25m Streamline Kick + 25m 6-Beat Swim`, `r:20s`, xen kẽ 2 hiệp có Fins / 2 hiệp không Fins).
-- **Main Set (1.000–1.300m):** `10–13 × 100m` (`r:15s`), bơi **Negative Split** (50m sau nhanh hơn 50m đầu `1–2 giây`, 100% Flip Turn sắc gọn).
-- **Cool-down (200m):** Z1.
+- **Khởi động (Warm-up) (400m):** Z1 + `6 × 25m` Fast-In/Fast-Out Flip Turns (`r:20s`).
+- **Bài tập bền chân (Kick Endurance Set) (400m):** `8 × 50m` (`25m Streamline Kick + 25m 6-Beat Swim`, `r:20s`, xen kẽ 2 hiệp có Fins / 2 hiệp không Fins).
+- **Bài chính (Main Set) (1.000–1.300m):** `10–13 × 100m` (`r:15s`), bơi **Negative Split** (50m sau nhanh hơn 50m đầu `1–2 giây`, 100% Flip Turn sắc gọn).
+- **Thả lỏng (Cool-down) (200m):** Z1.
 
 #### Buổi S5 — Mở Rộng (Lịch 5–6 buổi): Hồi Phục Chủ Động & Kỹ Thuật Tinh Chỉnh (`~2.000–2.200m`)
-- **Warm-up (300m):** Z1 cực êm.
-- **Drill & Symmetry (700m):** `4 × 50m` Single-Arm + `4 × 50m` Sculling + `6 × 50m` (`25m Shark Fin + 25m Swim`).
-- **Easy Aerobic (800–1.000m):** `4–5 × 200m` Z1–Z2 cực nhẹ (tập thở 1:3 cân bằng vai, đếm SWOLF).
-- **Cool-down (200m):** Z1.
+- **Khởi động (Warm-up) (300m):** Z1 cực êm.
+- **Bài tập & Đối xứng (Drill & Symmetry) (700m):** `4 × 50m` Single-Arm + `4 × 50m` Sculling + `6 × 50m` (`25m Shark Fin + 25m Swim`).
+- **Hiếu khí nhẹ (Easy Aerobic) (800–1.000m):** `4–5 × 200m` Z1–Z2 cực nhẹ (tập thở 1:3 cân bằng vai, đếm SWOLF).
+- **Thả lỏng (Cool-down) (200m):** Z1.
 
 #### Buổi S6 — Mở Rộng (Lịch 6 buổi): Đường Dài Open Water / Endurance (`~2.400–2.800m`)
-- **Warm-up (400m):** Z1 + `4 × 50m` Alligator Eyes Sighting (nếu hướng tới Open Water/Triathlon).
-- **Main Set (1.800–2.200m):** `4–5 × 400m` (`r:25s`, 300m đầu `@ CSS + 6s` bằng 2-beat + 100m cuối `@ CSS` bật 4/6-beat — mô phỏng chiến thuật Sun Yang!).
-- **Cool-down (200m):** Z1.
+- **Khởi động (Warm-up) (400m):** Z1 + `4 × 50m` Alligator Eyes Sighting (nếu hướng tới Open Water/Triathlon).
+- **Bài chính (Main Set) (1.800–2.200m):** `4–5 × 400m` (`r:25s`, 300m đầu `@ CSS + 6s` bằng 2-beat + 100m cuối `@ CSS` bật 4/6-beat — mô phỏng chiến thuật Sun Yang!).
+- **Thả lỏng (Cool-down) (200m):** Z1.
 
 ![Biểu đồ tiến trình khối lượng hiếu khí và bài tập CSS Pyramid trong Block 3](../images/22-block3-aerobic-base.png)
 <!-- IMAGE_PROMPT: Clean sports training chart for Block 3 (Weeks 9-12) showing CSS Pyramid intervals (100-200-300-400-300-200-100m), 2-Beat/4-Beat heart rate stability zone, and Week 12 Ramp Test SPM Sweet Spot discovery. -->

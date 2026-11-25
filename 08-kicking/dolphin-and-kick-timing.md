@@ -1,3 +1,8 @@
+---
+title: "Dolphin Kick Dưới Nước & Đồng Bộ Nhịp Chân (Dolphin & Kick Timing)"
+aliases: ["Dolphin Kick Dưới Nước & Đồng Bộ Nhịp Chân", "dolphin-and-kick-timing"]
+---
+
 # Dolphin Kick Dưới Nước & Đồng Bộ Nhịp Chân (*Dolphin & Kick Timing*)
 
 > **Thuộc phần:** `08-kicking/` | **Trình độ:** Trung cấp → Nâng cao | **Thời gian đọc:** ~12 phút
@@ -84,7 +89,7 @@ Trong một cự ly `100m` bể `25m`, chỉ cần thêm **3 cú Dolphin Kick g�
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang dưới nước (Underwater Side View, 120 fps) bao quát đoạn `0–12 m` tính từ thành bể.
-- **Keypoints cần trích xuất:** `wrist`, `shoulder`, `hip`, `knee`, `ankle`, `toe_tip`.
+- **Điểm khớp cần trích xuất (Keypoints):** `wrist`, `shoulder`, `hip`, `knee`, `ankle`, `toe_tip`.
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** Biên độ dọc của `wrist` `< 5 cm`; biên độ dọc của `toe_tip` `35–50 cm`; vận tốc trung bình đoạn `2–7 m` lớn hơn vận tốc bơi mặt nước (`v_udk ≥ v_swim`); góc gập gối tối thiểu `≥ 135°`.
   - **Cảnh báo lỗi:** `wrist` dao động lên xuống `> 10 cm` (lỗi lắc tay phá Streamline); góc gập gối `< 115°` (đạp xe dưới nước); vận tốc giảm sâu ngay tại khung hình Breakout (chuyển pha muộn hoặc thở ngay sải đầu).

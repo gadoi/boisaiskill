@@ -1,3 +1,8 @@
+---
+title: "Bảng Kiểm Lỗi Từng Pha Qua Video Quay Chậm (Video Evaluation Checklist)"
+aliases: ["Bảng Kiểm Lỗi Từng Pha Qua Video Quay Chậm", "video-evaluation"]
+---
+
 # Bảng Kiểm Lỗi Từng Pha Qua Video Quay Chậm (*Video Evaluation Checklist*)
 
 > **Thuộc phần:** `23-checklists/` | **Công cụ khuyến nghị:** Kinovea / OnForm / AI Pose Pipeline | **Tốc độ xem:** `0.25x` & Khung hình đơn

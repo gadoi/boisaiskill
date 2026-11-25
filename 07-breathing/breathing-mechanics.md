@@ -1,3 +1,8 @@
+---
+title: "Kỹ Thuật Thở & Nhịp Thở Theo Tốc Độ (Breathing Mechanics)"
+aliases: ["Kỹ Thuật Thở & Nhịp Thở Theo Tốc Độ", "breathing-mechanics"]
+---
+
 # Kỹ Thuật Thở & Nhịp Thở Theo Tốc Độ (*Breathing Mechanics*)
 
 > **Thuộc phần:** `07-breathing/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~12 phút
@@ -85,7 +90,7 @@ Khi bạn xả sạch `70–80%` lượng khí cũ dưới nước trước khi 
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Trước mặt ngang mặt nước (Waterline Front View) và Ngang dưới nước (Underwater Side View).
-- **Keypoints cần trích xuất:** `left_eye`, `right_eye`, `mouth`, `waterline_y`, `lead_wrist`, `recovery_elbow`.
+- **Điểm khớp cần trích xuất (Keypoints):** `left_eye`, `right_eye`, `mouth`, `waterline_y`, `lead_wrist`, `recovery_elbow`.
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** Tại đỉnh nhịp thở, tọa độ mắt thấp hơn nằm sát hoặc dưới `waterline_y`; góc nâng đầu theo phương dọc `< 10°`; `lead_wrist` không tụt sâu quá `5 cm`; mặt úp lại trước khi `recovery_wrist` chạm mặt nước.
   - **Cảnh báo lỗi:** Cả 2 mắt cao hơn `waterline_y > 8 cm` (ngẩng đầu thở); đầu vẫn xoay ngang sau khi tay rút đã vào nước (thở muộn — *Late Breathing*).

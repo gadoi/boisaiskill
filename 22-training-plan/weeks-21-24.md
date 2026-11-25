@@ -1,3 +1,8 @@
+---
+title: "Block 6 (Tuần 21–24): Taper, Chiến Thuật & Kiểm Tra Mốc < 1:30/100m"
+aliases: ["Block 6", "weeks-21-24"]
+---
+
 # Block 6 (Tuần 21–24): Taper, Chiến Thuật & Kiểm Tra Mốc `< 1:30/100m`
 
 > **Thuộc phần:** `22-training-plan/` | **Giai đoạn:** Siêu Bù Trừ Đỉnh Phong (*Peak & Taper*) | **Dryland:** Giảm tải & Dừng tạ trước ngày Test 7 ngày
@@ -83,7 +88,7 @@ Rất nhiều người bơi tập rất chăm chỉ nhưng chưa bao giờ đư�
      - *50–75m*: Bắt đầu tăng lực đẩy EVF & chuyển lên 4/6-beat kick (`~22.5s`).
      - *75–100m*: Flip Turn cuối cùng bùng nổ, bật **6-Beat Kick hết công suất**, **KHÔNG THỞ 10m cuối**, vươn mạnh chạm đích (`~22.5–23.0s`) → **TỔNG THÀNH TÍCH: `1:28.0 – 1:29.5`!**
   4. *(Tùy chọn sau 1–2 ngày nghỉ hoặc sau 15 phút thả lỏng)*: Thực hiện **CSS Test #4 (`400m + 200m`)** để ghi nhận toàn bộ bước nhảy vọt sau 24 tuần!
-  5. **Cool-down (`300m`)**: Bơi cực chậm ăn mừng thành tích!
+  5. **Thả lỏng (Cool-down) (`300m`)**: Bơi cực chậm ăn mừng thành tích!
 
 ![Đường cong Taper 4 tuần và kịch bản phân phối tốc độ Split 4×25m cho mốc dưới 1:30/100m](../images/22-block6-taper-race-plan.png)
 <!-- IMAGE_PROMPT: Clean race-strategy & taper graphic: Left shows 4-week exponential volume drop (-20% -> -40% -> -55%) paired with rising freshness/performance supercompensation curve; Right shows a 100m Pool Pacing Blueprint (4 x 25m splits: 21.0s -> 22.0s -> 22.5s -> 22.5s = 1:28.0) with turn, breathing, and 6-beat kick callouts. -->

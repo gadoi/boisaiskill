@@ -1,3 +1,8 @@
+---
+title: "Xoay Trục Dọc 30–45° & Phối Hợp Chéo (Body Rotation)"
+aliases: ["Xoay Trục Dọc 30", "body-rotation"]
+---
+
 # Xoay Trục Dọc 30–45° & Phối Hợp Chéo (*Body Rotation*)
 
 > **Thuộc phần:** `06-rotation/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
@@ -81,7 +86,7 @@ Xoay trục dọc biến bơi sải từ môn **"đẩy tạ bằng hai tay"** t
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Chính diện dưới nước (Underwater Front View) để đo góc nghiêng đường nối hai vai ($\theta_{\text{shoulder}}$) và đường nối hai hông ($\theta_{\text{hip}}$).
-- **Keypoints cần trích xuất:** `left_shoulder`, `right_shoulder`, `left_hip`, `right_hip`, `nose`, `forehead`.
+- **Điểm khớp cần trích xuất (Keypoints):** `left_shoulder`, `right_shoulder`, `left_hip`, `right_hip`, `nose`, `forehead`.
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** $\theta_{\text{shoulder}} \in [35°, 48°]$; $\theta_{\text{hip}} \in [30°, 45°]$; chênh lệch góc xoay tối đa giữa bên trái và bên phải `< 8°`.
   - **Cảnh báo lỗi:** Chênh lệch trái–phải `> 15°` (mất đối xứng nặng); $\theta_{\text{hip}} > 60°$ (xoay lố); đầu xoay `> 10°` trong các sải không thở.

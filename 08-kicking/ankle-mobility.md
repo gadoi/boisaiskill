@@ -1,3 +1,8 @@
+---
+title: "Độ Dẻo Cổ Chân & Kỹ Thuật Đạp Ít Bọt (Ankle Mobility)"
+aliases: ["Độ Dẻo Cổ Chân & Kỹ Thuật Đạp Ít Bọt", "ankle-mobility"]
+---
+
 # Độ Dẻo Cổ Chân & Kỹ Thuật Đạp Ít Bọt (*Ankle Mobility*)
 
 > **Thuộc phần:** `08-kicking/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
@@ -82,7 +87,7 @@ Cổ chân dẻo không chỉ giúp bạn đạp nhanh hơn ở 6-beat kick — 
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang dưới nước (Underwater Side View, 120 fps) zoom sát vùng cẳng chân–bàn chân.
-- **Keypoints cần trích xuất:** `knee`, `ankle`, `heel`, `toe_tip`.
+- **Điểm khớp cần trích xuất (Keypoints):** `knee`, `ankle`, `heel`, `toe_tip`.
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** Góc `∠knee–ankle–toe_tip` tại giữa pha Downbeat đạt **`165–185°`**; diện tích bọt trắng phía sau chân thấp.
   - **Cảnh báo lỗi:** Góc `∠knee–ankle–toe_tip < 140°` (cổ chân cứng/gập mũi chân); bàn chân xoay ngoài (chữ V kiểu chân vịt ếch) thay vì xoay nhẹ vào trong.

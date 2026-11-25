@@ -1,3 +1,8 @@
+---
+title: "Single-Arm Freestyle Drill — Cô Lập EVF, Xoay Hông & Cân Bằng Hai Bên"
+aliases: ["Single-Arm Freestyle Drill", "single-arm"]
+---
+
 # Single-Arm Freestyle Drill — Cô Lập EVF, Xoay Hông & Cân Bằng Hai Bên
 
 > **Thuộc phần:** `17-drills/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
@@ -76,7 +81,7 @@ Single-Arm Freestyle giúp bạn **tự huấn luyện chính mình** ngay dư�
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Chính diện dưới nước (Underwater Front View) và Ngang dưới nước (Side View).
-- **Keypoints cần trích xuất:** `shoulder`, `elbow`, `wrist`, `hip` của bên đang bơi và bên nghỉ.
+- **Điểm khớp cần trích xuất (Keypoints):** `shoulder`, `elbow`, `wrist`, `hip` của bên đang bơi và bên nghỉ.
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** Chênh lệch thời gian và số sải giữa `25m Tay Trái` và `25m Tay Phải` `< 8%`; góc EVF đạt `100–125°` ở cả hai bên; góc xoay thân đạt `35–45°` dù chỉ bơi 1 tay.
   - **Cảnh báo lỗi:** Chênh lệch thời gian trái–phải `> 15%` (mất cân bằng kỹ thuật nặng); vai bên bơi giữ phẳng `< 15°` (kéo thuần bằng vai).

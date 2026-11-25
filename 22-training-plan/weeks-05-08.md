@@ -1,3 +1,8 @@
+---
+title: "Block 2 (Tuần 05–08): Xoay Thân 40°, EVF & Giảm Stroke Count"
+aliases: ["Block 2", "weeks-05-08"]
+---
+
 # Block 2 (Tuần 05–08): Xoay Thân 40°, EVF & Giảm Stroke Count
 
 > **Thuộc phần:** `22-training-plan/` | **Giai đoạn:** Kích Hoạt Động Cơ Thân & Cơ Xô | **Dryland:** Chuyển sang Sức mạnh Cơ Xô & Core
@@ -47,48 +52,48 @@ Cấu trúc bài tập trong Block 2 luôn đặt **Drill EVF ngay trước Main
 ### Hướng Dẫn Từng Bước (Step-by-Step) — Chi Tiết Giáo Án 6 Buổi/Tuần (Tuần 05–08)
 
 #### Buổi S1 — Lõi 1: Kỹ Thuật EVF & Xoay Hông (`~1.800–2.200m`)
-- **Warm-up (300m):** `200m` Z1 + `4 × 25m` 3-Position Sculling (Snk + PB).
-- **EVF & Rotation Set (500m):**
+- **Khởi động (Warm-up) (300m):** `200m` Z1 + `4 × 25m` 3-Position Sculling (Snk + PB).
+- **Bài tập EVF & xoay thân (EVF & Rotation Set) (500m):**
   - `4 × 50m` (`25m 6-Kick Switch + 25m 3-Kick Switch`, `r:15s`)
   - `4 × 50m` (`25m Dog Paddle EVF + 25m Swim` giữ khuỷu cao, `r:20s`, dùng Snk)
   - `2 × 50m` (`25m Fist Swim + 25m Open Hand` đếm sải, `r:20s`)
-- **Main Set (800–1.200m — Stroke-Count Lock):**
+- **Bài chính (Main Set) (800–1.200m — Stroke-Count Lock):**
   - `8–12 × 100m @ CSS + 4s` (`r:15s`), yêu cầu: giữ cố định số sải/25m (thấp hơn Tuần 1 tối thiểu `1–2 sải`) và chạm nhẹ ngón cái mép đùi ở mọi sải!
-- **Cool-down (200m):** Z1 thả lỏng.
+- **Thả lỏng (Cool-down) (200m):** Z1 thả lỏng.
 
 #### Buổi S2 — Lõi 2: Ngưỡng CSS Ngắn & Test CSS #2 (Tuần 8) (`~1.800–2.200m`)
 - **Lưu ý Tuần 08:** Thực hiện **CSS Test #2** (`400m TT` + nghỉ 10p + `200m TT`) để cập nhật lại toàn bộ Pace 5 vùng cho Block 3–4!
 - **Tuần 05–07:**
-  - **Warm-up (400m):** `200m` Z1 + `4 × 50m` (`25m Thumb-to-Thigh + 25m Swim`).
-  - **Main Set (1.000–1.400m — CSS Building):**
+  - **Khởi động (Warm-up) (400m):** `200m` Z1 + `4 × 50m` (`25m Thumb-to-Thigh + 25m Swim`).
+  - **Bài chính (Main Set) (1.000–1.400m — CSS Building):**
     - `10–14 × 100m @ CSS` (`r:15s`), tập trung giữ nguyên góc EVF ở 3 hiệp cuối khi cơ xô bắt đầu mỏi (không được sụp khuỷu!).
-  - **Speed Touch (200m):** `4 × 50m` (`25m Fast 90% + 25m Easy`, `r:25s`).
-  - **Cool-down (200m):** Z1.
+  - **Chạm tốc độ (Speed Touch) (200m):** `4 × 50m` (`25m Fast 90% + 25m Easy`, `r:25s`).
+  - **Thả lỏng (Cool-down) (200m):** Z1.
 
 #### Buổi S3 — Lõi 3: Giảm Stroke Count & Bền Bỉ DPS (`~1.900–2.300m`)
-- **Warm-up (300m):** Z1 + `4 × 25m` Fingertip Drag.
-- **Pre-Set Golf (300m):** `6 × 50m` Stroke-Count Golf (`r:25s`), hạ điểm SWOLF xuống mức thấp nhất có thể.
-- **Main Set (1.100–1.500m — Z2 DPS Endurance):**
+- **Khởi động (Warm-up) (300m):** Z1 + `4 × 25m` Fingertip Drag.
+- **Bài đệm kỹ thuật (Pre-Set) Golf (300m):** `6 × 50m` Stroke-Count Golf (`r:25s`), hạ điểm SWOLF xuống mức thấp nhất có thể.
+- **Bài chính (Main Set) (1.100–1.500m — Z2 DPS Endurance):**
   - `3–5 × 300m` (`r:25s`): 100m đầu Z2 thường + 100m giữa kẹp **Pull Buoy** (tập trung cảm nhận cơ xô & đẩy hết pha Push) + 100m cuối không phao giữ đúng số sải như 100m có phao.
-- **Cool-down (200m):** Z1.
+- **Thả lỏng (Cool-down) (200m):** Z1.
 
 #### Buổi S4 — Mở Rộng (Lịch 4–6 buổi): Hold-Count Speed & Flip Turn Nền (`~1.800–2.100m`)
-- **Warm-up (300m):** Z1 + `10 phút` tập **Flip Turn Progression** (Bước 1–3).
-- **Main Set (1.000–1.300m):**
+- **Khởi động (Warm-up) (300m):** Z1 + `10 phút` tập **Flip Turn Progression** (Bước 1–3).
+- **Bài chính (Main Set) (1.000–1.300m):**
   - `3 vòng × (4 × 50m Hold-Count Speed Build, r:20s)` — giữ cứng số sải/25m nhưng bơi nhanh dần `1 giây` từ hiệp 1 đến hiệp 4! (Nghỉ `60s` giữa mỗi vòng).
-- **Kick Set (300m):** `6 × 50m` (`25m Streamline Kick + 25m Swim`, `r:20s`).
-- **Cool-down (200m):** Z1.
+- **Bài tập chân (Kick Set) (300m):** `6 × 50m` (`25m Streamline Kick + 25m Swim`, `r:20s`).
+- **Thả lỏng (Cool-down) (200m):** Z1.
 
 #### Buổi S5 — Mở Rộng (Lịch 5–6 buổi): Đối Xứng Single-Arm & Finger Paddles (`~1.800–2.000m`)
-- **Warm-up (300m):** Z1 + `4 × 25m` Zipper Drill.
-- **Symmetry Set (600m):** `6 × 100m` (`25m Single-Arm Trái + 25m Single-Arm Phải + 50m Swim`, `r:20s`).
-- **EVF Feel Set (700–900m):** `7–9 × 100m` (dùng **Finger Paddles** cỡ nhỏ + Pull Buoy, `r:15s`) — tăng phản hồi áp lực nước lên ngón tay mà không gây quá tải khớp vai.
-- **Cool-down (200m):** Z1.
+- **Khởi động (Warm-up) (300m):** Z1 + `4 × 25m` Zipper Drill.
+- **Bài tập đối xứng (Symmetry Set) (600m):** `6 × 100m` (`25m Single-Arm Trái + 25m Single-Arm Phải + 50m Swim`, `r:20s`).
+- **Bài tập cảm giác EVF (EVF Feel Set) (700–900m):** `7–9 × 100m` (dùng **Finger Paddles** cỡ nhỏ + Pull Buoy, `r:15s`) — tăng phản hồi áp lực nước lên ngón tay mà không gây quá tải khớp vai.
+- **Thả lỏng (Cool-down) (200m):** Z1.
 
 #### Buổi S6 — Mở Rộng (Lịch 6 buổi): Hiếu Khí Đường Dài & 2-Beat Kick (`~2.000–2.400m`)
-- **Warm-up (400m):** Z1 + `4 × 50m` (25m Mid Scull + 25m Swim).
-- **Main Set (1.400–1.800m):** `2–3 × 600m @ CSS + 6–8s` (`r:35s`), bơi 2-beat kick, kiểm tra số sải ở 25m cuối mỗi 200m không tăng quá `+1 sải`.
-- **Cool-down (200m):** Z1.
+- **Khởi động (Warm-up) (400m):** Z1 + `4 × 50m` (25m Mid Scull + 25m Swim).
+- **Bài chính (Main Set) (1.400–1.800m):** `2–3 × 600m @ CSS + 6–8s` (`r:35s`), bơi 2-beat kick, kiểm tra số sải ở 25m cuối mỗi 200m không tăng quá `+1 sải`.
+- **Thả lỏng (Cool-down) (200m):** Z1.
 
 ![Sơ đồ kết nối giữa Drill EVF, kéo dây kháng lực và giảm Stroke Count trong Block 2](../images/22-block2-evf-dps.png)
 <!-- IMAGE_PROMPT: Clean training progression diagram for Block 2 (Weeks 5-8) connecting Pre-Pool Resistance Band EVF -> 6-Kick Switch & Dog Paddle -> Hold-Count Speed Build -> CSS Test #2, showing Stroke Count dropping by 2-4 strokes/25m while pace improves by 4-8s/100m. -->

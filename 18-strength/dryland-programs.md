@@ -1,3 +1,8 @@
+---
+title: "Lịch Tập Cạn (Dryland Programs) Phối Hợp Với Lịch Bơi 24 Tuần"
+aliases: ["Lịch Tập Cạn", "dryland-programs"]
+---
+
 # Lịch Tập Cạn (*Dryland Programs*) Phối Hợp Với Lịch Bơi 24 Tuần
 
 > **Thuộc phần:** `18-strength/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút

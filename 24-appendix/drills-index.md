@@ -1,3 +1,8 @@
+---
+title: "Danh Mục Tra Cứu Nhanh Toàn Bộ Drill Theo Lỗi (Drills Index)"
+aliases: ["Danh Mục Tra Cứu Nhanh Toàn Bộ Drill Theo Lỗi", "drills-index"]
+---
+
 # Danh Mục Tra Cứu Nhanh Toàn Bộ Drill Theo Lỗi (*Drills Index*)
 
 > **Thuộc phần:** `24-appendix/` | **Mục đích:** Bảng tra cứu ngược "Gặp lỗi nào → Mở ngay Drill nào" trong vòng 10 giây

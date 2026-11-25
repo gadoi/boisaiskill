@@ -1,3 +1,8 @@
+---
+title: "Cân Bằng Nổi & Pha Trượt (Balance & Glide)"
+aliases: ["Cân Bằng Nổi & Pha Trượt", "balance-and-glide"]
+---
+
 # Cân Bằng Nổi & Pha Trượt (*Balance & Glide*)
 
 > **Thuộc phần:** `04-body-position/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
@@ -80,7 +85,7 @@ Một pha trượt kiểm soát tốt ở độ sâu `10–15 cm` giúp bạn t�
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang dưới nước (Underwater Side View) để đo độ sâu trượt (`lead_wrist_depth_cm`) và thời lượng pha Glide (`t_glide_sec`).
-- **Keypoints cần trích xuất:** `lead_shoulder`, `lead_elbow`, `lead_wrist`, `waterline_y`, `recovery_elbow`.
+- **Điểm khớp cần trích xuất (Keypoints):** `lead_shoulder`, `lead_elbow`, `lead_wrist`, `waterline_y`, `recovery_elbow`.
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** `lead_wrist_depth_cm` ổn định trong khoảng `10–18 cm` suốt pha Glide; khi `recovery_elbow` đi ngang qua đầu, `lead_wrist` bắt đầu chuyển xuống dựng EVF.
   - **Cảnh báo lỗi:** `lead_wrist_depth_cm > 30 cm` ngay tại khung hình bắt đầu thở (lỗi ấn tay trượt để nâng đầu); `t_glide_sec > 0.50 s` ở pace `< 1:40/100m` (lỗi Over-gliding tạo Dead Spot).

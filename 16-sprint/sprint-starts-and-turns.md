@@ -1,3 +1,8 @@
+---
+title: "Chiến Thuật Sprint, Pool Pacing, Starts & Flip Turns"
+aliases: ["Chiến Thuật Sprint, Pool Pacing, Starts & Flip Turns", "sprint-starts-and-turns"]
+---
+
 # Chiến Thuật Sprint, Pool Pacing, Starts & Flip Turns
 
 > **Thuộc phần:** `16-sprint/` | **Trình độ:** Trung cấp → Nâng cao | **Thời gian đọc:** ~12 phút
@@ -85,7 +90,7 @@ Làm chủ **Flip Turn** và **Pacing 100m** là con đường ngắn nhất đ�
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang dưới nước (Underwater Side View) đặt tại khu vực `0–10 m` tính từ thành bể để đo **Thời gian 5m-In / 5m-Out (*10m Turn Time*)**.
-- **Keypoints cần trích xuất:** `nose`, `hip`, `knee`, `ankle`, `wrist`, tọa độ thành bể (`wall_x`).
+- **Điểm khớp cần trích xuất (Keypoints):** `nose`, `hip`, `knee`, `ankle`, `wrist`, tọa độ thành bể (`wall_x`).
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** Tổng thời gian từ lúc đỉnh đầu đi qua vạch `5m` vào tường → lộn vòng → đạp ra qua lại vạch `5m` (`5m-In / 5m-Out`) đạt **`≤ 6.5–7.5 giây`** (mục tiêu `< 1:30/100m`); góc gối đặt lên tường `85–110°`; hai tay khóa Streamline trước khung hình chân rời tường.
   - **Cảnh báo lỗi:** Xoay đầu thở trong `2m` cuối trước tường; cố xoay bụng úp sấp khi bàn chân vẫn còn dính tường (gây mất `0.4–0.6s`).

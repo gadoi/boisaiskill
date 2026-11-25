@@ -1,3 +1,8 @@
+---
+title: "Phân Tích VĐV Olympic: Katie Ledecky — Nhịp Gallop, 2-Beat Lai & Thống Trị Đường Dài"
+aliases: ["Phân Tích VĐV Olympic: Katie Ledecky", "katie-ledecky"]
+---
+
 # Phân Tích VĐV Olympic: Katie Ledecky — Nhịp Gallop, 2-Beat Lai & Thống Trị Đường Dài
 
 > **Thuộc phần:** `athletes/` | **Cự ly sở trường:** 400m, 800m & 1500m Freestyle | **Phong cách:** High-Tempo Hip-Driven Gallop

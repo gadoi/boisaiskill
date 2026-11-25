@@ -1,3 +1,8 @@
+---
+title: "Lực Đẩy, Lực Nâng (Bernoulli) & Hiệu Ứng Xoáy Nước"
+aliases: ["Lực Đẩy, Lực Nâng", "propulsion-and-lift"]
+---
+
 # Lực Đẩy, Lực Nâng (Bernoulli) & Hiệu Ứng Xoáy Nước
 
 > **Thuộc phần:** `03-hydrodynamics/` | **Trình độ:** Trung cấp → Nâng cao | **Thời gian đọc:** ~12 phút
@@ -96,7 +101,7 @@ Hiểu đúng về **tăng tốc lũy tiến** và **khe hở ngón tay tự nhi
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang dưới nước (Underwater Side View, 120 fps) để vẽ quỹ đạo bàn tay (*Hand Path Trajectory*) và đồ thị vận tốc bàn tay theo thời gian $v_{\text{hand}}(t)$.
-- **Keypoints cần trích xuất:** `shoulder`, `elbow`, `wrist`, `index_finger_tip`.
+- **Điểm khớp cần trích xuất (Keypoints):** `shoulder`, `elbow`, `wrist`, `index_finger_tip`.
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** Đồ thị $v_{\text{hand}}(t)$ tăng dần đều từ Catch đến Push ($v_{\text{push}} / v_{\text{catch}} \approx 1.6–2.2$); điểm cổ tay rút khỏi nước nằm ngang hông/đùi trên.
   - **Cảnh báo lỗi:** Đỉnh vận tốc bàn tay xảy ra ngay ở 20% đầu pha kéo (lỗi giật tay gây trượt nước); bàn tay rời nước sớm ngay dưới rốn (cắt cụt pha Push, mất 25–30% lực đẩy).

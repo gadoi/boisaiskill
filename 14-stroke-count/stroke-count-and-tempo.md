@@ -1,3 +1,8 @@
+---
+title: "Giảm Stroke Count & Tối Ưu Tempo (Stroke Count & SPM)"
+aliases: ["Giảm Stroke Count & Tối Ưu Tempo", "stroke-count-and-tempo"]
+---
+
 # Giảm Stroke Count & Tối Ưu Tempo (*Stroke Count & SPM*)
 
 > **Thuộc phần:** `14-stroke-count/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
@@ -97,7 +102,7 @@ Biết chính xác **Stroke Count mục tiêu** và **Tempo ngọt (SPM)** giúp
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Trên cao (Overhead View) hoặc dữ liệu cảm biến IMU đeo cổ tay/kính bơi.
-- **Keypoints cần trích xuất:** Chuỗi thời điểm chạm nước `t_entry[i]` của cổ tay trái/phải.
+- **Điểm khớp cần trích xuất (Keypoints):** Chuỗi thời điểm chạm nước `t_entry[i]` của cổ tay trái/phải.
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** Độ biến thiên `SPM` giữa đầu và cuối bài `400m` `< 4%`; `Stroke Count` ổn định trong biên độ `± 1 sải/25m` ở cùng tốc độ; chỉ số **Stroke Index** ($\text{SI} = v \times \text{DPS}$) tăng đều qua các tuần tập.
   - **Cảnh báo lỗi:** `SPM` tăng `> 10%` nhưng vận tốc `v` tăng `< 2%` (vượt ngưỡng trượt nước); `Stroke Count` tăng vọt `+3–4 sải/25m` sau 200m (vỡ kỹ thuật do mệt mỏi).

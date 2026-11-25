@@ -1,3 +1,8 @@
+---
+title: "Kỹ Năng Bơi Sải Nâng Cao (skill.md)"
+aliases: ["Kỹ Năng Bơi Sải Nâng Cao", "skill"]
+---
+
 # Kỹ Năng Bơi Sải Nâng Cao (`skill.md`)
 
 > **Bản tóm tắt thực chiến (Quick Reference)** — Dùng để ôn nhanh trước khi xuống hồ hoặc làm ngữ cảnh ngắn gọn cho AI Agent. Xem bản đầy đủ tại [SUMMARY.md](SUMMARY.md).

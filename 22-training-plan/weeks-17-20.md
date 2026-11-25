@@ -1,3 +1,8 @@
+---
+title: "Block 5 (Tuần 17–20): Tốc Độ Chuyên Biệt (Threshold & VO2max)"
+aliases: ["Block 5", "weeks-17-20"]
+---
+
 # Block 5 (Tuần 17–20): Tốc Độ Chuyên Biệt (*Threshold & VO2max*)
 
 > **Thuộc phần:** `22-training-plan/` | **Giai đoạn:** Kéo Trần Tốc Độ Vượt Mốc `< 1:30/100m` | **Dryland:** Công Suất Bùng Nổ (*Power Phase*)
@@ -52,47 +57,47 @@ Cấu trúc **"Race-Pace Training" (USRPT — Ultra-Short Race-Pace Training đi
 ### Hướng Dẫn Từng Bước (Step-by-Step) — Chi Tiết Giáo Án 6 Buổi/Tuần (Tuần 17–20)
 
 #### Buổi S1 — Lõi 1: Kỹ Thuật Sắc Bén & Race-Pace 50s (`~1.900–2.200m`)
-- **Warm-up (400m):** `200m` Z1 + `4 × 50m` (`25m Mid Scull + 25m Swim`).
-- **Pre-Set Breakout (200m):** `8 × 25m` (8m UDK + 17m Fast, `r:25s`).
-- **Main Set (1.000–1.300m — Race-Pace 50s):**
+- **Khởi động (Warm-up) (400m):** `200m` Z1 + `4 × 50m` (`25m Mid Scull + 25m Swim`).
+- **Bài đệm kỹ thuật (Pre-Set) Breakout (200m):** `8 × 25m` (8m UDK + 17m Fast, `r:25s`).
+- **Bài chính (Main Set) (1.000–1.300m — Race-Pace 50s):**
   - `12–16 × 50m` @ **Tốc độ mục tiêu `< 1:30/100m`** (tức `42–44s/50m`, hoặc `CSS - 3s/100m`), nghỉ `20–25s`. Dừng tăng tốc ngay nếu dáng EVF bắt đầu vỡ!
   - Xen kẽ `200m` bơi cực nhẹ Z1 giữa 2 block (ví dụ `2 × (6–8 × 50m)`).
-- **Cool-down (300m):** Z1 thả lỏng kỹ xả lactate.
+- **Thả lỏng (Cool-down) (300m):** Z1 thả lỏng kỹ xả lactate.
 
 #### Buổi S2 — Lõi 2: VO2max Nòng Cốt & Test 100m Mô Phỏng (Tuần 20) (`~1.900–2.300m`)
 - **Lưu ý Tuần 20:** Thực hiện **Test 100m Mô Phỏng** (đạp tường hoặc Track Start, phân phối 50m đầu/50m sau đúng chiến thuật) + đo `5m-In / 5m-Out Turn Time`.
 - **Tuần 17–19:**
-  - **Warm-up (400m):** `300m` Z1 + `4 × 25m` Build to 95%.
-  - **Main Set (1.000–1.400m — VO2max Zone 4):**
+  - **Khởi động (Warm-up) (400m):** `300m` Z1 + `4 × 25m` Build to 95%.
+  - **Bài chính (Main Set) (1.000–1.400m — VO2max Zone 4):**
     - Tuần 17: `8 × 100m @ CSS - 3s` (`r:30s`)
     - Tuần 18: `10 × 100m @ CSS - 4s` (`r:30s`, giữ Even/Negative Split trong từng 100m)
     - Tuần 19: `4 × Broken 100m` (`4 × 25m` @ `20–21.5s`, nghỉ `10s` giữa mỗi 25m; nghỉ `90s` giữa mỗi Broken 100m) + `4 × 100m @ CSS` (`r:15s`).
-  - **Cool-down (400m):** Bơi cực chậm Z1 (bắt buộc xả sạch axit lactic!).
+  - **Thả lỏng (Cool-down) (400m):** Bơi cực chậm Z1 (bắt buộc xả sạch axit lactic!).
 
 #### Buổi S3 — Lõi 3: Duy Trì Ngưỡng CSS & Hiệu Suất DPS (`~2.000–2.400m`)
-- **Warm-up (400m):** Z1 + `4 × 50m` (`25m 3/4 Catch-Up + 25m Swim`).
-- **Main Set (1.400–1.800m — CSS Maintenance):**
+- **Khởi động (Warm-up) (400m):** Z1 + `4 × 50m` (`25m 3/4 Catch-Up + 25m Swim`).
+- **Bài chính (Main Set) (1.400–1.800m — CSS Maintenance):**
   - `3–4 × 300m @ CSS` (`r:25s`, 200m đầu 2/4-beat nhẹ tay + 100m cuối bật 6-beat tăng tốc) + `4 × 50m` Pull Buoy + Paddles giữ EVF chắc (`r:15s`).
-- **Cool-down (200m):** Z1.
+- **Thả lỏng (Cool-down) (200m):** Z1.
 
 #### Buổi S4 — Mở Rộng (Lịch 4–6 buổi): Tốc Độ Tối Đa (Sprint Z5) & 6-Beat Power (`~1.900–2.200m`)
-- **Warm-up (400m):** Z1 + `4 × 25m` Fast-In/Fast-Out Flip Turns.
-- **Kick Power (300m):** `6 × 25m` All-Out Streamline Kick (`r:30s`) + `6 × 25m` Easy.
-- **Main Set (800–1.100m — Zone 5 Speed):**
+- **Khởi động (Warm-up) (400m):** Z1 + `4 × 25m` Fast-In/Fast-Out Flip Turns.
+- **Sức mạnh chân (Kick Power) (300m):** `6 × 25m` All-Out Streamline Kick (`r:30s`) + `6 × 25m` Easy.
+- **Bài chính (Main Set) (800–1.100m — Zone 5 Speed):**
   - `8–12 × 25m @ 98–100% Sprint` (`r:45–60s` — nghỉ thật đủ để mỗi 25m đều nhanh hết cỡ!), không thở trong 10m cuối, Flip Turn/chạm đích dứt khoát.
   - `200m` thả lỏng giữa set + `4 × 50m` Descend 1–4 (`r:35s`).
-- **Cool-down (400m):** Z1 thả lỏng kỹ.
+- **Thả lỏng (Cool-down) (400m):** Z1 thả lỏng kỹ.
 
 #### Buổi S5 — Mở Rộng (Lịch 5–6 buổi): Hồi Phục Chủ Động & Xả Mỏi Vai (`~1.800–2.100m`)
-- **Warm-up (300m):** Z1 cực êm.
-- **Recovery Drills (600m):** `4 × 50m` Fingertip Drag + `4 × 50m` Sculling + `4 × 50m` Backstroke (bơi ngửa mở ngực cân bằng khớp vai).
-- **Easy Swim (700–1.000m):** Z1–Z2 cực nhẹ (nhịp tim `< 65%` tối đa), tập trung giữ tay nhẹ và SWOLF thấp.
-- **Cool-down (200m):** Z1.
+- **Khởi động (Warm-up) (300m):** Z1 cực êm.
+- **Bài tập hồi phục (Recovery Drills) (600m):** `4 × 50m` Fingertip Drag + `4 × 50m` Sculling + `4 × 50m` Backstroke (bơi ngửa mở ngực cân bằng khớp vai).
+- **Bơi nhẹ (Easy Swim) (700–1.000m):** Z1–Z2 cực nhẹ (nhịp tim `< 65%` tối đa), tập trung giữ tay nhẹ và SWOLF thấp.
+- **Thả lỏng (Cool-down) (200m):** Z1.
 
 #### Buổi S6 — Mở Rộng (Lịch 6 buổi): Tốc Độ Đường Dài / Race Simulation (`~2.200–2.600m`)
-- **Warm-up (400m):** Z1.
-- **Main Set (1.500–1.900m):** `3 × 400m` (`r:45s`, mỗi 400m bơi `Negative Split`: 200m đầu `@ CSS + 2s` → 200m sau `@ CSS - 2s`) + `3 × 100m` Easy.
-- **Cool-down (300m):** Z1.
+- **Khởi động (Warm-up) (400m):** Z1.
+- **Bài chính (Main Set) (1.500–1.900m):** `3 × 400m` (`r:45s`, mỗi 400m bơi `Negative Split`: 200m đầu `@ CSS + 2s` → 200m sau `@ CSS - 2s`) + `3 × 100m` Easy.
+- **Thả lỏng (Cool-down) (300m):** Z1.
 
 ![Biểu đồ cấu trúc bài tập VO2max, Race-Pace 50s và Sprint Zone 5 trong Block 5](../images/22-block5-vo2max-speed.png)
 <!-- IMAGE_PROMPT: Clean sports science intensity chart for Block 5 (Weeks 17-20) showing reduced total volume paired with sharp Zone 4 (VO2max 100s) and Zone 5 (25m Sprint & Broken 100s) peaks, emphasizing full recovery cool-downs and Week 20 100m Race Simulation Test. -->
@@ -157,7 +162,7 @@ Có! Nâng trần **VO2max (Zone 4)** giống như "nâng trần nhà lên cao h
 
 ## Tóm Tắt (Summary)
 - **Block 5 (Tuần 17–20)** kéo trần tốc độ vượt ngưỡng mục tiêu qua **Race-Pace 50s**, **VO2max 100s**, **Broken 100s** và **25m Sprint Z5**.
-- Luôn đi kèm **Cool-down 300–400m**, **nghỉ đủ ở Sprint** và **Dryland Power** không mỏi cơ để sẵn sàng bước vào Block 6 Taper bùng nổ!
+- Luôn đi kèm **Thả lỏng (Cool-down) 300–400m**, **nghỉ đủ ở Sprint** và **Dryland Power** không mỏi cơ để sẵn sàng bước vào Block 6 Taper bùng nổ!
 
 **Liên kết chéo:**
 - Chương trước: [Block 4 — Tuần 13–16](weeks-13-16.md)

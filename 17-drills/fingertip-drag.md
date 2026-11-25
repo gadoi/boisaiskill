@@ -1,3 +1,8 @@
+---
+title: "Fingertip Drag Drill — Rút Tay Thả Lỏng & Vào Nước 'Xỏ Kim'"
+aliases: ["Fingertip Drag Drill", "fingertip-drag"]
+---
+
 # Fingertip Drag Drill — Rút Tay Thả Lỏng & Vào Nước "Xỏ Kim"
 
 > **Thuộc phần:** `17-drills/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~10 phút
@@ -71,7 +76,7 @@ Fingertip Drag là bài tập có **tỷ lệ chuyển giao sang bơi thật cao
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang trên mặt nước (Above-Water Side View) và Chính diện mặt nước (Front Waterline View).
-- **Keypoints cần trích xuất:** `recovery_shoulder`, `recovery_elbow`, `recovery_wrist`, `finger_tips`, `waterline_y`.
+- **Điểm khớp cần trích xuất (Keypoints):** `recovery_shoulder`, `recovery_elbow`, `recovery_wrist`, `finger_tips`, `waterline_y`.
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** `finger_tips` duy trì sát `waterline_y` (`± 2 cm`) suốt 80% hành trình Recovery; `recovery_elbow` luôn cao hơn `recovery_wrist` `≥ 15 cm`; góc xoay vai đạt `≥ 35°`.
   - **Cảnh báo lỗi:** Cổ tay ngập sâu dưới `waterline_y > 8 cm` (cắm tay kéo nước); `recovery_wrist` vung ngang cách thân `> 35 cm`.

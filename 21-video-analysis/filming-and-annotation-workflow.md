@@ -1,3 +1,8 @@
+---
+title: "Quy Trình Quay Video Đa Góc & Gắn Nhãn Lỗi (Filming & Annotation Workflow)"
+aliases: ["Quy Trình Quay Video Đa Góc & Gắn Nhãn Lỗi", "filming-and-annotation-workflow"]
+---
+
 # Quy Trình Quay Video Đa Góc & Gắn Nhãn Lỗi (*Filming & Annotation Workflow*)
 
 > **Thuộc phần:** `21-video-analysis/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút

@@ -1,3 +1,8 @@
+---
+title: "Chuỗi Truyền Lực (Kinetic Chain): Chân → Hông → Core → Vai → Tay"
+aliases: ["Chuỗi Truyền Lực", "kinetic-chain"]
+---
+
 # Chuỗi Truyền Lực (Kinetic Chain): Chân → Hông → Core → Vai → Tay
 
 > **Thuộc phần:** `02-biomechanics/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~12 phút
@@ -86,7 +91,7 @@ Cơ lưng rộng (Lat) và nhóm cơ lõi–hông có tiết diện cơ lớn g�
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Trước mặt dưới nước (Underwater Front View) để đo góc xoay vai (`θ_shoulder`) và góc xoay hông (`θ_hip`), kết hợp góc nhìn từ trên cao (Overhead View) phát hiện lắc ngang (*fishtailing*).
-- **Keypoints cần trích xuất:** `left_shoulder`, `right_shoulder`, `left_hip`, `right_hip`, `left_ankle`, `right_ankle`.
+- **Điểm khớp cần trích xuất (Keypoints):** `left_shoulder`, `right_shoulder`, `left_hip`, `right_hip`, `left_ankle`, `right_ankle`.
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** `θ_shoulder` và `θ_hip` đạt đỉnh `30–45°` lệch pha không quá `50–100 ms`; biên độ lắc ngang của hông `< 10 cm`.
   - **Cảnh báo lỗi:** `θ_hip < 15°` (bơi thân phẳng, mất truyền lực từ hông) hoặc `θ_hip > 60°` (xoay lố gây mất kiểm soát khi thở).

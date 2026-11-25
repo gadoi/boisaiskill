@@ -1,3 +1,8 @@
+---
+title: "Phân Tích VĐV Olympic: David Popovici — Đỉnh Cao Glide, DPS & Thân Nhẹ"
+aliases: ["Phân Tích VĐV Olympic: David Popovici", "david-popovici"]
+---
+
 # Phân Tích VĐV Olympic: David Popovici — Đỉnh Cao Glide, DPS & Thân Nhẹ
 
 > **Thuộc phần:** `athletes/` | **Cự ly sở trường:** 100m & 200m Freestyle | **Phong cách:** Hydrodynamic High-DPS Glide

@@ -1,3 +1,8 @@
+---
+title: "Tóm Tắt Các Công Trình Nghiên Cứu Khoa Học Về Bơi Sải (Research Summaries)"
+aliases: ["Tóm Tắt Các Công Trình Nghiên Cứu Khoa Học Về Bơi Sải", "research-summaries"]
+---
+
 # Tóm Tắt Các Công Trình Nghiên Cứu Khoa Học Về Bơi Sải (*Research Summaries*)
 
 > **Thuộc phần:** `papers/` | **Mục đích:** Kho tóm tắt chuẩn học thuật các công trình nghiên cứu cốt lõi (PubMed / Biomechanics / Sports Medicine) chứng minh cho mọi nguyên lý trong `swim-book`

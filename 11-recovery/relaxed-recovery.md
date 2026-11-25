@@ -1,3 +1,8 @@
+---
+title: "Pha Rút Tay Thả Lỏng (Relaxed Recovery)"
+aliases: ["Pha Rút Tay Thả Lỏng", "relaxed-recovery"]
+---
+
 # Pha Rút Tay Thả Lỏng (*Relaxed Recovery*)
 
 > **Thuộc phần:** `11-recovery/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
@@ -82,7 +87,7 @@ Cơ bắp chỉ có thể bơm máu giàu oxy vào nuôi tế bào khi nó đư�
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Trên mặt nước góc ngang (Above-Water Side View) và Trên cao (Overhead View).
-- **Keypoints cần trích xuất:** `recovery_shoulder`, `recovery_elbow`, `recovery_wrist`, `hip_center`.
+- **Điểm khớp cần trích xuất (Keypoints):** `recovery_shoulder`, `recovery_elbow`, `recovery_wrist`, `hip_center`.
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** `recovery_elbow` luôn cao hơn `recovery_wrist` từ lúc rời nước đến ngang đầu (`y_elbow < y_wrist`); khoảng cách vung ngang của `recovery_wrist` so với trục vai `< 30 cm` (với High-Elbow Recovery).
   - **Cảnh báo lỗi:** `recovery_wrist` vung rộng ngang `> 50 cm` ngoài vai kèm `hip_center` văng ngược chiều (Wide Swinging Recovery); góc cổ tay bẻ căng cứng suốt pha trên không.

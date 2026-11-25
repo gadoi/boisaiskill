@@ -1,3 +1,8 @@
+---
+title: "Phân Tích VĐV Olympic: Ian Thorpe — Thủy Động Học, Chân Vịt Tự Nhiên & Nhịp Điệu Hoàn Hảo"
+aliases: ["Phân Tích VĐV Olympic: Ian Thorpe", "ian-thorpe"]
+---
+
 # Phân Tích VĐV Olympic: Ian Thorpe — Thủy Động Học, Chân Vịt Tự Nhiên & Nhịp Điệu Hoàn Hảo
 
 > **Thuộc phần:** `athletes/` | **Cự ly sở trường:** 200m & 400m Freestyle | **Phong cách:** Classic Hydrodynamic Front-Quadrant & Powerful 6-Beat

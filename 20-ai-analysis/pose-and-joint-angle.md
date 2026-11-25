@@ -1,3 +1,8 @@
+---
+title: "Pose Detection & Đo Góc Khớp Dưới Nước (Pose & Joint Angle Analysis)"
+aliases: ["Pose Detection & Đo Góc Khớp Dưới Nước", "pose-and-joint-angle"]
+---
+
 # Pose Detection & Đo Góc Khớp Dưới Nước (*Pose & Joint Angle Analysis*)
 
 > **Thuộc phần:** `20-ai-analysis/` | **Trình độ:** Trung cấp → Nâng cao | **Thời gian đọc:** ~12 phút

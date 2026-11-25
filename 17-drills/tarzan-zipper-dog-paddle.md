@@ -1,3 +1,8 @@
+---
+title: "Bộ 3 Drill Đặc Trị: Tarzan (Head-Up), Zipper & Dog Paddle"
+aliases: ["Bộ 3 Drill Đặc Trị: Tarzan", "tarzan-zipper-dog-paddle"]
+---
+
 # Bộ 3 Drill Đặc Trị: Tarzan (Head-Up), Zipper & Dog Paddle
 
 > **Thuộc phần:** `17-drills/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
@@ -85,7 +90,7 @@ Cả 3 bài Drill này đều tuân theo nguyên tắc **phản hồi tự nhiê
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Chính diện (Front View) cho Tarzan & Dog Paddle; Ngang trên mặt nước (Above-Water Side View) cho Zipper.
-- **Keypoints cần trích xuất:**
+- **Điểm khớp cần trích xuất (Keypoints):**
   - *Tarzan*: `chin_y` sát `waterline_y`; `entry_wrist_x` không vượt `midline_x`.
   - *Zipper*: Khoảng cách `recovery_thumb` đến `torso_side` `< 5 cm` từ hông lên nách.
   - *Dog Paddle*: Góc khuỷu EVF `95–115°`, `elbow_y` cao hơn `wrist_y` `≥ 25 cm`.

@@ -1,3 +1,8 @@
+---
+title: "Pha Kéo (Pull) & Pha Đẩy Kết Thúc (Push / Finish)"
+aliases: ["Pha Kéo", "pull-and-push-phase"]
+---
+
 # Pha Kéo (*Pull*) & Pha Đẩy Kết Thúc (*Push / Finish*)
 
 > **Thuộc phần:** `10-pull/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~12 phút
@@ -85,7 +90,7 @@ Rất nhiều người bơi phong trào bỏ phí đúng **30% mạnh nhất c�
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang dưới nước (Underwater Side View, 120 fps) và Dưới lên (Bottom-Up View).
-- **Keypoints cần trích xuất:** `shoulder`, `elbow`, `wrist`, `hip`, `mid_thigh`.
+- **Điểm khớp cần trích xuất (Keypoints):** `shoulder`, `elbow`, `wrist`, `hip`, `mid_thigh`.
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** Bàn tay đạt vận tốc cực đại trong đoạn `hip_x → mid_thigh_x`; tọa độ điểm rời nước `release_wrist_x` nằm sau khớp hông (`hip_x`); góc khuỷu tại điểm rời nước `150–170°`.
   - **Cảnh báo lỗi:** `release_wrist_x` nằm phía trước `hip_x` (**Short Finish / Cắt cụt pha đẩy**); véc-tơ vận tốc bàn tay hướng thẳng lên trên `> 45°` trong khi lòng bàn tay vẫn úp ngửa lên mặt nước (lỗi múc nước hất lên).

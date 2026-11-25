@@ -1,3 +1,8 @@
+---
+title: "Tài Liệu Tham Khảo & Tổ Chức Chuẩn Quốc Tế (References & Organizations)"
+aliases: ["Tài Liệu Tham Khảo & Tổ Chức Chuẩn Quốc Tế", "references-and-organizations"]
+---
+
 # Tài Liệu Tham Khảo & Tổ Chức Chuẩn Quốc Tế (*References & Organizations*)
 
 > **Thuộc phần:** `24-appendix/` | **Mục đích:** Danh mục chuẩn học thuật, sách chuyên khảo và hệ thống huấn luyện uy tín làm nền tảng cho `Freestyle Swimming Mastery`

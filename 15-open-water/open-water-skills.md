@@ -1,3 +1,8 @@
+---
+title: "Kỹ Thuật Bơi Nước Mở (Open Water Skills): Sighting, Drafting & Xử Lý Sóng"
+aliases: ["Kỹ Thuật Bơi Nước Mở", "open-water-skills"]
+---
+
 # Kỹ Thuật Bơi Nước Mở (*Open Water Skills*): Sighting, Drafting & Xử Lý Sóng
 
 > **Thuộc phần:** `15-open-water/` | **Trình độ:** Trung cấp → Nâng cao | **Thời gian đọc:** ~12 phút

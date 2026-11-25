@@ -1,3 +1,8 @@
+---
+title: "Sức Mạnh Core Chuyên Biệt Cho Bơi Sải (Core Training)"
+aliases: ["Sức Mạnh Core Chuyên Biệt Cho Bơi Sải", "core-training"]
+---
+
 # Sức Mạnh Core Chuyên Biệt Cho Bơi Sải (*Core Training*)
 
 > **Thuộc phần:** `18-strength/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~11 phút
@@ -82,7 +87,7 @@ Bạn không cần đến phòng gym đắt tiền hay tập 60 phút mỗi bu�
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị (Dryland Self-Check):** Góc ngang mặt sàn (Floor-Level Side View) cho Hollow Body / Dead Bug / Plank.
-- **Keypoints cần trích xuất:** `ear`, `shoulder`, `hip`, `knee`, `ankle`, khoảng hở thắt lưng (`lumbar_gap`).
+- **Điểm khớp cần trích xuất (Keypoints):** `ear`, `shoulder`, `hip`, `knee`, `ankle`, khoảng hở thắt lưng (`lumbar_gap`).
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** Đường nối `shoulder–hip–ankle` trong Side Plank tạo góc `175–180°`; không có khe hở giữa thắt lưng và sàn trong Dead Bug/Hollow Body.
   - **Cảnh báo lỗi:** Hông sụp `> 10°` trong Side Plank; xương chậu đổ trước làm hở lưng dưới.

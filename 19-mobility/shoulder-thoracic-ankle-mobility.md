@@ -1,3 +1,8 @@
+---
+title: "Linh Hoạt Khớp Vai, Cột Sống Ngực & Cổ Chân (Mobility & Flexibility)"
+aliases: ["Linh Hoạt Khớp Vai, Cột Sống Ngực & Cổ Chân", "shoulder-thoracic-ankle-mobility"]
+---
+
 # Linh Hoạt Khớp Vai, Cột Sống Ngực & Cổ Chân (*Mobility & Flexibility*)
 
 > **Thuộc phần:** `19-mobility/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~12 phút
@@ -90,7 +95,7 @@ Cơ thể con người hiện đại ngồi trước màn hình máy tính và �
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Ngang (Side View) cho bài *Wall Streamline Test* & *Seated Heel-Sit*; Trên cao cho *Seated T-Spine Rotation*.
-- **Keypoints cần trích xuất:** `wrist`, `elbow`, `shoulder`, `hip`, `ankle`, `toe_tip`.
+- **Điểm khớp cần trích xuất (Keypoints):** `wrist`, `elbow`, `shoulder`, `hip`, `ankle`, `toe_tip`.
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** `Wall Streamline` đạt góc vai `≥ 178°` với khoảng hở thắt lưng `< 2 cm`; `T-Spine Rotation ≥ 50°` đều 2 bên; `Ankle Plantar Flexion ≥ 165°`.
   - **Cảnh báo lỗi:** Hở thắt lưng `> 5 cm` khi đưa tay lên đầu (cứng cơ xô/T-Spine — tự động gợi ý *Lat Prayer Stretch* & *Thoracic Foam Roll*).

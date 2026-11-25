@@ -1,3 +1,8 @@
+---
+title: "Shark Fin Drill — Kiểm Tra Cân Bằng Nghiêng & Khóa Khuỷu Cao Recovery"
+aliases: ["Shark Fin Drill", "shark-fin"]
+---
+
 # Shark Fin Drill — Kiểm Tra Cân Bằng Nghiêng & Khóa Khuỷu Cao Recovery
 
 > **Thuộc phần:** `17-drills/` | **Trình độ:** Trung cấp → Nâng cao | **Thời gian đọc:** ~10 phút
@@ -75,7 +80,7 @@ Chỉ cần làm mượt được Shark Fin Drill, pha Recovery của bạn khi 
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Chính diện ngang mặt nước (Waterline Front View) và Ngang (Side View).
-- **Keypoints cần trích xuất:** `lead_wrist`, `recovery_elbow`, `recovery_wrist`, `shoulder_line`, `hip_line`.
+- **Điểm khớp cần trích xuất (Keypoints):** `lead_wrist`, `recovery_elbow`, `recovery_wrist`, `shoulder_line`, `hip_line`.
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** Góc nghiêng vai–hông duy trì `40–50°` suốt `2–3 giây` giữ Vây; `recovery_elbow` nằm thẳng phía trên `shoulder–hip` (không văng ngang); `lead_wrist` tụt `< 5 cm`.
   - **Cảnh báo lỗi:** Thân lật phẳng về `< 20°` ngay khi nhấc tay; `lead_wrist` cắm sâu `> 30 cm` để giữ nổi.

@@ -1,3 +1,8 @@
+---
+title: "Giảm Lực Cản Thủy Động (Form, Friction & Wave Drag)"
+aliases: ["Giảm Lực Cản Thủy Động", "drag-reduction"]
+---
+
 # Giảm Lực Cản Thủy Động (Form, Friction & Wave Drag)
 
 > **Thuộc phần:** `03-hydrodynamics/` | **Trình độ:** Cơ bản → Nâng cao | **Thời gian đọc:** ~12 phút
@@ -98,7 +103,7 @@ flowchart TD
 
 ## Phân Tích AI & Video (AI Analysis)
 - **Góc quay khuyến nghị:** Trước mặt dưới nước (đo diện tích mặt cắt chiếu *Frontal Projected Area $A$*), Ngang dưới nước (đo góc thân & độ sâu), và Trên cao (đo biên độ sóng & độ rộng dải bọt).
-- **Keypoints cần trích xuất:** Khung bao cơ thể (*Bounding Box / Silhouette Mask*) từ góc trước mặt; tọa độ `knee`, `ankle`, `hip`, `shoulder`.
+- **Điểm khớp cần trích xuất (Keypoints):** Khung bao cơ thể (*Bounding Box / Silhouette Mask*) từ góc trước mặt; tọa độ `knee`, `ankle`, `hip`, `shoulder`.
 - **Ngưỡng phát hiện lỗi tự động:**
   - **Đạt chuẩn:** Tỷ lệ diện tích hình chiếu mặt cắt $A_{\text{swim}} / A_{\text{streamline}} \le 1.35$; khoảng cách mở hai gối khi thở `< 25 cm`.
   - **Cảnh báo lỗi:** Khoảng cách hai gối/cổ chân tăng vọt `> 40 cm` tại khung hình xoay thở (Scissor Kick); biên độ dao động dọc của đầu `> 10 cm` (Bobbing — Wave Drag cao).

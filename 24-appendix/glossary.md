@@ -1,3 +1,8 @@
+---
+title: "Glossary — Bảng Thuật Ngữ Bơi Sải Song Ngữ (Anh – Việt)"
+aliases: ["Glossary", "glossary"]
+---
+
 # Glossary — Bảng Thuật Ngữ Bơi Sải Song Ngữ (Anh – Việt)
 
 > Tài liệu chuẩn hóa thuật ngữ cho toàn bộ dự án `Freestyle Swimming Mastery` (`swim-book`). Mọi chương chuyên môn phải dùng nhất quán các định nghĩa tại đây.

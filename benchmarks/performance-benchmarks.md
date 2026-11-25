@@ -1,3 +1,8 @@
+---
+title: "Bảng Chuẩn Hiệu Suất Bơi Sải (Performance Benchmarks)"
+aliases: ["Bảng Chuẩn Hiệu Suất Bơi Sải", "performance-benchmarks"]
+---
+
 # Bảng Chuẩn Hiệu Suất Bơi Sải (*Performance Benchmarks*)
 
 > **Thuộc phần:** `benchmarks/` | **Phạm vi:** Bể 25m (SCM) & Bể 50m (LCM) | **Đơn vị:** Phút:Giây / 100m
