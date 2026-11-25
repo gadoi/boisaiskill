@@ -1,0 +1,12 @@
+{
+  "attachmentFolderPath": "images",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "showLineNumber": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "livePreview": true,
+  "alwaysUpdateLinks": true
+}

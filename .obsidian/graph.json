@@ -1,0 +1,51 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:01-foundation OR path:02-biomechanics OR path:03-hydrodynamics",
+      "color": { "a": 1, "rgb": 3447003 }
+    },
+    {
+      "query": "path:04-body-position OR path:05-core OR path:06-rotation OR path:07-breathing OR path:09-catch OR path:10-pull OR path:11-recovery",
+      "color": { "a": 1, "rgb": 1752220 }
+    },
+    {
+      "query": "path:08-kicking",
+      "color": { "a": 1, "rgb": 15105570 }
+    },
+    {
+      "query": "path:12-rhythm OR path:13-dps OR path:14-stroke-count",
+      "color": { "a": 1, "rgb": 10181046 }
+    },
+    {
+      "query": "path:17-drills",
+      "color": { "a": 1, "rgb": 3066993 }
+    },
+    {
+      "query": "path:18-strength OR path:19-mobility",
+      "color": { "a": 1, "rgb": 15158332 }
+    },
+    {
+      "query": "path:22-training-plan",
+      "color": { "a": 1, "rgb": 15844367 }
+    },
+    {
+      "query": "path:20-ai-analysis OR path:21-video-analysis OR path:datasets OR path:videos",
+      "color": { "a": 1, "rgb": 1752220 }
+    },
+    {
+      "query": "path:athletes OR path:15-open-water OR path:16-sprint",
+      "color": { "a": 1, "rgb": 15277667 }
+    }
+  ],
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.15,
+  "lineSizeMultiplier": 1
+}

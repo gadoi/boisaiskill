@@ -1,0 +1,23 @@
+# OS & Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Obsidian personal workspace state (keep vault settings & graph)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# MkDocs build output & Python venv
+site/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Large raw video files (keep only JSON/Markdown metadata)
+videos/my-progress/*.mp4
+videos/my-progress/*.mov
+*.mp4
+*.mov
+*.avi
